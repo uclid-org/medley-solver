@@ -7,9 +7,13 @@ setup(
     description  = 'Algorithm Selection for SMT Solver',
     author       = 'Nikhil Pimpalkhare',
     author_email = 'nikhil.pimpalkhare@berkeley.edu',
-    url          = 'https://github.com/dblotsky/stringfuzz',
+    url          = 'https://github.com/nikhilpim/medley-solver/',
     scripts      = [
         'bin/medley',
     ],
     packages     = find_packages(),
+    install_requires = [
+        'numpy',
+        'z3',
+    ],
 )
