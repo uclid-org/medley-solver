@@ -3,8 +3,8 @@ from collections import OrderedDict, namedtuple
 SOLVERS = OrderedDict({
     "Z3"   : "z3",
     "CVC4" : "cvc4",
-    "BOOLECTOR" : "./tools/boolector-3.2.1/build/bin/boolector",
-    "YICES": "./tools/yices-2.6.2/bin/yices-smt2"
+    "BOOLECTOR" : "~/boolector-3.2.1/build/bin/boolector",
+    "YICES": "yices-smt2"
 })
 
 SAT_RESULT     = 'sat'

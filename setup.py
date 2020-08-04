@@ -15,5 +15,6 @@ setup(
     install_requires = [
         'numpy',
         'z3',
+        'tqdm',
     ],
 )

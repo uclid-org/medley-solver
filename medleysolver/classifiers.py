@@ -6,7 +6,7 @@ class ClassifierInterface(object):
     def get_ordering(self, point, count):
         raise NotImplementedError
 
-    def update(self, solved_prob):
+    def update(self, solved_prob, rewards):
         raise NotImplementedError
 
 class Random(ClassifierInterface):
@@ -15,7 +15,7 @@ class Random(ClassifierInterface):
         random.shuffle(order)
         return order
     
-    def update(self, solved_prob):
+    def update(self, solved_prob, rewards):
         return
 
 
@@ -42,7 +42,27 @@ class NearestNeighbor(ClassifierInterface):
 
         return order
     
-    def update(self, solved_prob):
+    def update(self, solved_prob, rewards):
         #TODO: Implement pruning
         if is_solved(solved_prob.result):
             self.solved.append(solved_prob)
+
+class Exp3(ClassifierInterface):
+    def __init__(self, gamma):
+        self.gamma = gamma
+        self.w = [1 for _ in SOLVERS]
+        self.p = [0 for _ in SOLVERS]
+    
+    def get_ordering(self, point, count):
+        for i, _ in enumerate(SOLVERS):
+            self.p[i] = (1-self.gamma) * self.w[i] / sum(self.w) + self.gamma / len(SOLVERS)
+
+        ordering = np.random.choice(SOLVERS.keys(), size=len(SOLVERS), replace=False, p=self.p)
+        return list(ordering)
+    
+    def update(self, solved_prob, rewards):
+        for i, reward in enumerate(rewards):
+            if reward >= 0:
+                reward = reward / self.p[i]
+                self.w[i] = self.w[i] * np.exp(self.gamma * reward / len(SOLVERS))
+

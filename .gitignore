@@ -1,2 +1,5 @@
 /.vscode
 /tools
+/build
+/dist
+medleysolver.egg-info

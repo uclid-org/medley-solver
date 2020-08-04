@@ -17,26 +17,31 @@ def execute(problems, output, classifier, time_manager, timeout):
 
         order = classifier.get_ordering(point, c)
 
-        solver, elapsed, result = apply_ordering(prob, order, timeout, time_manager)
+        solver, elapsed, result, rewards = apply_ordering(prob, order, timeout, time_manager)
         solved_prob = Solved_Problem(prob, point, solver, elapsed, result)
 
-        classifier.update(solved_prob)
+        classifier.update(solved_prob, rewards)
 
         writer.writerow(solved_prob)
 
 
 def apply_ordering(problem, order, timeout, time_manager):
     elapsed = 0
-
+    rewards = [-1 for _ in SOLVERS] # negative rewards should be ignored. 
     for solver in order:
         if solver == order[-1]:
-            res = run_problem(solver, SOLVERS[solver], problem, timeout - elapsed)
+            time_for_solver = timeout - elapsed
         else:
-            res = run_problem(solver, SOLVERS[solver], problem, time_manager.get_timeout(solver))
+            time_for_solver = time_manager.get_timeout(solver)
         
+        res = run_problem(solver, SOLVERS[solver], problem, time_for_solver)
+
+        reward = (1 - res.elapsed / timeout) ** 4 if is_solved(res.result) else 0
+        rewards[list(SOLVERS.keys()).index(solver)] = reward
+
         elapsed += res.elapsed
         time_manager.update(solver, res.elapsed, is_solved(res.result))
         if elapsed >= timeout or is_solved(res.result):
             break
 
-    return solver, elapsed, res.result
+    return solver, elapsed, res.result, rewards
