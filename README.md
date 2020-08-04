@@ -10,9 +10,11 @@ MedleySolver is an algorithm selection tool for SMT queries. After receiving a d
 2. Add shell invocations for each solver to the SOLVERS dictionary in medleysolver/constants.py. 
 
 3. Run the following command:
+
     python3 setup.py install
 
 4. MedleySolver is ready to run! It can be run with the following line:
+
     // medley [input folder of smt queries] [output csv file]
     medley ~/folder/*.smt2 results.csv
 
