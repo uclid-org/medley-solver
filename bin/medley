@@ -1,0 +1,140 @@
+#!/usr/bin/env python3
+import numpy as np
+import argparse
+import glob
+from medleysolver.runner import execute
+from medleysolver.constants import SOLVERS
+from medleysolver.timers import Exponential, Constant
+from medleysolver.classifiers import NearestNeighbor, Random
+
+def main():
+
+    global_parser = argparse.ArgumentParser(description='Solve a batch of smt queries.')
+
+    global_parser.add_argument(
+        "input",
+        help="pass in input folder of smt queries.",
+        type=str
+    )
+    global_parser.add_argument(
+        "output",
+        help="pass in csv file for results",
+        type=str
+    )
+
+    global_parser.add_argument(
+        "--classifier",
+        "-c",
+        help="select mechanism for choosing orderings of solvers",
+        type=str,
+        default="neighbor",
+        choices=["neighbor", "random"]
+    )
+
+    global_parser.add_argument(
+        "--timeout_manager",
+        "-m",
+        help="choose how timeout is distributed amongst solvers",
+        type=str,
+        default="expo",
+        choices=["expo", "const"]
+    )
+
+    global_parser.add_argument(
+        "--set_lambda",
+        help="set initial parameter for exponential estimation.",
+        type=int,
+        default=0
+    )
+
+    global_parser.add_argument(
+        "--confidence",
+        help="set confidence for exponential estimation",
+        type=float,
+        default=0.95
+    )
+
+    global_parser.add_argument(
+        "--set_const",
+        help="set value for constant timeout manager. Default is dividing the given timeout by the number of solvers",
+        type=int,
+        default=0
+    )
+
+    global_parser.add_argument(
+        "--timeout",
+        "-t",
+        help="overall timeout per query in seconds",
+        type=int,
+        default=60
+    )
+
+    global_parser.add_argument(
+        "--seed",
+        help="random seed",
+        type=int,
+        default=0
+    )
+
+    global_parser.add_argument(
+        "--sample",
+        help="randomly sample this number from input directory",
+        type=int
+    )
+
+    global_parser.add_argument(
+        "--epsilon",
+        help="probability of random exploration",
+        type=float,
+        default="0.9"
+    )
+
+    global_parser.add_argument(
+        "--epsilon_decay",
+        help="decay rate for random exploration",
+        type=float,
+        default="0.9"
+    )
+
+    args = global_parser.parse_args()
+
+    if not args.output.endswith(".csv"):
+        global_parser.error("The output file needs to be a csv file.")
+
+    if args.seed:
+        np.random.seed(args.seed)
+    
+    problems = glob.glob(args.input, recursive=True)
+    problems = [p for p in problems if p.endswith(".smt2")]
+    
+    if args.sample:
+        problems = np.random.choice(problems, size=min(args.sample, len(problems)), replace=False)
+
+    if args.timeout_manager == "expo":
+        if not args.set_lambda:
+            args.set_lambda = 1 / (args.timeout / len(SOLVERS))
+        timeout_manager = Exponential(args.set_lambda, args.confidence)
+    elif args.timeout_manager == "const":
+        if not args.set_const:
+            args.set_const = args.timeout // len(SOLVERS)
+        timeout_manager = Constant(args.set_const)
+    else:
+        raise RuntimeError("timeout_manager not properly set")
+
+    if args.classifier == "neighbor":
+        classifier = NearestNeighbor(args.epsilon, args.epsilon_decay)
+    elif args.classifier == "random":
+        classifier = Random()
+    else:
+        raise RuntimeError("classifier not properly set")
+
+    execute(problems, args.output, classifier, timeout_manager, args.timeout)
+
+
+
+
+
+
+
+if __name__ == '__main__':
+    main()
