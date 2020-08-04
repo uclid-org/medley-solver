@@ -1,4 +1,4 @@
-import numpy as np, csv, random
+import numpy as np, csv, random, tqdm
 from collections import OrderedDict
 from medleysolver.compute_features import get_features
 from medleysolver.constants import SOLVERS, Result, Solved_Problem, SAT_RESULT, UNSAT_RESULT, is_solved
@@ -7,13 +7,13 @@ from medleysolver.dispatch import run_problem
 
 def execute(problems, output, classifier, time_manager, timeout):
     mean = 0
-    writer = csv.writer(open(output, 'wb'))
+    writer = csv.writer(open(output, 'w'))
 
-    for c, prob in enumerate(problems, 1): 
+    for c, prob in tqdm.tqdm(enumerate(problems, 1)): 
         point = np.array(get_features(prob))
         #normalizing point
         mean = (c - 1) / c * mean + 1 / c * point
-        point = point / mean
+        point = point / (mean+1e-9)
 
         order = classifier.get_ordering(point, c)
 

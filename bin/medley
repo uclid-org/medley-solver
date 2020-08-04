@@ -8,7 +8,6 @@ from medleysolver.timers import Exponential, Constant
 from medleysolver.classifiers import NearestNeighbor, Random
 
 def main():
-
     global_parser = argparse.ArgumentParser(description='Solve a batch of smt queries.')
 
     global_parser.add_argument(
@@ -104,7 +103,7 @@ def main():
     if args.seed:
         np.random.seed(args.seed)
     
-    problems = glob.glob(args.input, recursive=True)
+    problems = glob.glob(args.input + "/**.smt2", recursive=True)
     problems = [p for p in problems if p.endswith(".smt2")]
     
     if args.sample:

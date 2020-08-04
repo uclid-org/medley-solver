@@ -20,7 +20,7 @@ def run_problem(solver, invocation, problem, timeout):
     # if it times out ...
     except subprocess.TimeoutExpired:
         # kill it
-        print('TIMED OUT:', repr(command), '... killing', process.pid, file=sys.stderr)
+        # print('TIMED OUT:', repr(command), '... killing', process.pid, file=sys.stderr)
         try:
             os.killpg(os.getpgid(process.pid), signal.SIGINT)
         except:
@@ -41,7 +41,7 @@ def run_problem(solver, invocation, problem, timeout):
     result = Result(
         problem  = problem.split("/", 2)[-1],
         result   = output,
-        elapsed  = elapsed if is_solved(output) else timeout
+        elapsed  = elapsed
     )
     return result
 
