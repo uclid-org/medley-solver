@@ -1,5 +1,6 @@
-import numpy as np, random
+import numpy as np, random, dill
 from collections import OrderedDict
+from sklearn.neural_network import MLPClassifier
 from medleysolver.constants import SOLVERS, is_solved
 
 class ClassifierInterface(object):
@@ -8,6 +9,10 @@ class ClassifierInterface(object):
 
     def update(self, solved_prob, rewards):
         raise NotImplementedError
+
+    def save(self, filename):
+        with open(filename, "wb") as f:
+            dill.dump(self, f)
 
 class Random(ClassifierInterface):
     def get_ordering(self, point, count):
@@ -46,7 +51,7 @@ class NearestNeighbor(ClassifierInterface):
         #TODO: Implement pruning
         if is_solved(solved_prob.result):
             self.solved.append(solved_prob)
-
+    
 class Exp3(ClassifierInterface):
     def __init__(self, gamma):
         self.gamma = gamma
@@ -66,3 +71,18 @@ class Exp3(ClassifierInterface):
                 reward = reward / self.p[i]
                 self.w[i] = self.w[i] * np.exp(self.gamma * reward / len(SOLVERS))
 
+class MLP(ClassifierInterface):
+    def __init__(self):
+        self.clf = MLPClassifier()
+
+    def get_ordering(self, point, count):
+        choice = self.clf.predict(point)
+        order = [list(SOLVERS.keys())[int(choice)]]
+        remaining = [x for x in SOLVERS.keys() if x not in order]
+        random.shuffle(remaining)
+        order = order + remaining
+
+    def update(self, solved_prob, rewards):
+        X = np.array(solved_prob.datapoint)
+        y = np.array([list(SOLVERS.keys()).index(solved_prob.solve_method)])
+        self.clf.partial_fit(X, y)

@@ -16,5 +16,6 @@ setup(
         'numpy',
         'z3',
         'tqdm',
+        'dill'
     ],
 )
