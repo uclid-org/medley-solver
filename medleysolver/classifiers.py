@@ -2,6 +2,7 @@ import numpy as np, random, dill
 from collections import OrderedDict
 from sklearn.neural_network import MLPClassifier
 from medleysolver.constants import SOLVERS, is_solved
+from medleysolver.distributions import ThompsonDist
 
 class ClassifierInterface(object):
     def get_ordering(self, point, count):
@@ -81,8 +82,71 @@ class MLP(ClassifierInterface):
         remaining = [x for x in SOLVERS.keys() if x not in order]
         random.shuffle(remaining)
         order = order + remaining
+        return order
 
     def update(self, solved_prob, rewards):
         X = np.array(solved_prob.datapoint)
         y = np.array([list(SOLVERS.keys()).index(solved_prob.solve_method)])
         self.clf.partial_fit(X, y)
+
+class Thompson(ClassifierInterface):
+    def __init__(self):
+        self.dist = ThompsonDist(len(SOLVERS))
+    
+    def get_ordering(self, point, count):
+        choice = self.dist.get_choice()
+        order = [list(SOLVERS.keys())[int(choice)]]
+        remaining = [x for x in SOLVERS.keys() if x not in order]
+        random.shuffle(remaining)
+        order = order + remaining
+        return order
+    
+    def update(self, solved_prob, rewards):
+        for i, r in enumerate(rewards):
+            if r >= 0:
+                self.dist.update(i, r)
+
+class LinearBandit(ClassifierInterface):
+    def __init__(self, alpha=2.358):
+        self.initialized = False
+        self.alpha = alpha
+
+    def initialize(self, d):
+        self.A_0 = np.identity(d)
+        self.B_0 = np.zeros((d, 1))
+        self.As = [np.identity(d) for _ in SOLVERS]
+        self.Bs = [np.zeros((d, 1)) for _ in SOLVERS]
+        self.Cs = [np.zeros((d, d)) for _ in SOLVERS]
+
+    def get_ordering(self, point, count):
+        if not self.initialized:
+            self.initialize(len(point))
+        point = point.reshape((len(point), 1))
+        beta = np.linalg.inv(self.A_0) @ self.B_0
+        thetas = [np.linalg.inv(self.As[i]) @ (self.Bs[i] - self.Cs[i] @ beta) for i in range(len(SOLVERS))]
+        sigmas = [point.T @ np.linalg.inv(self.A_0) @ point - 2 * point.T @ \
+                np.linalg.inv(self.A_0) @ self.Cs[i].T @ np.linalg.inv(self.As[i]) @ point \
+                + point.T @ np.linalg.inv(self.As[i]) @ point + point.T @ \
+                np.linalg.inv(self.As[i]) @ self.Cs[i] @ np.linalg.inv(self.A_0) @ self.Cs[i].T @ np.linalg.inv(self.As[i]) @ point\
+                for i in range(len(SOLVERS))]
+        
+        ps = [thetas[i].T @ point + beta.T @ point + self.alpha * np.sqrt(sigmas[i]) for i in range(len(SOLVERS))]
+        choice = np.random.choice(np.flatnonzero(np.isclose(ps, max(ps)))) #running argmax while arbitrarily breaking ties
+
+        order = [list(SOLVERS.keys())[int(choice)]]
+        remaining = [x for x in SOLVERS.keys() if x not in order]
+        random.shuffle(remaining)
+        order = order + remaining
+        return order
+
+    def update(self, solved_prob, rewards):
+        point = solved_prob.datapoint.reshape((len(solved_prob.datapoint, 1)))
+        for i, r in enumerate(rewards):
+            if r >= 0:
+                self.A_0 += self.Cs[i].T @ np.linalg.inv(self.As[i]) @ self.Cs[i]
+                self.B_0 += self.Cs[i].T @ np.linalg.inv(self.As[i]) @ self.Bs[i]
+                self.As[i] = self.As[i] + point @ point.T
+                self.Bs[i] = self.Bs[i] + r * point
+                self.Cs[i] = self.Cs[i] + point @ point.T
+                self.A_0 += point @ point.T - self.Cs[i].T @ np.linalg.inv(self.As[i]) @ self.Cs[i]
+                self.B_0 += r * point - self.Cs[i].T @ np.linalg.inv(self.As[i]) @ self.Bs[i]

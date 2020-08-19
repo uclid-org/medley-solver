@@ -6,7 +6,7 @@ import dill
 from medleysolver.runner import execute
 from medleysolver.constants import SOLVERS
 from medleysolver.timers import Exponential, Constant
-from medleysolver.classifiers import NearestNeighbor, Random, MLP
+from medleysolver.classifiers import *
 
 def main():
     global_parser = argparse.ArgumentParser(description='Solve a batch of smt queries.')
@@ -28,7 +28,7 @@ def main():
         help="select mechanism for choosing orderings of solvers",
         type=str,
         default="neighbor",
-        choices=["neighbor", "random", "MLP"]
+        choices=["neighbor", "random", "MLP", "thompson", "linear"]
     )
 
     global_parser.add_argument(
@@ -141,6 +141,10 @@ def main():
         classifier = Random()
     elif args.classifier == "MLP":
         classifier = MLP()
+    elif args.classifier == "thompson":
+        classifier = Thompson()
+    elif args.classifier == "linear":
+        classifier = LinearBandit()
     else:
         raise RuntimeError("classifier not properly set")
     
