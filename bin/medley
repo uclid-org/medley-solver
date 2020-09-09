@@ -28,7 +28,15 @@ def main():
         help="select mechanism for choosing orderings of solvers",
         type=str,
         default="neighbor",
-        choices=["neighbor", "random", "MLP", "thompson", "linear"]
+        choices=["neighbor", "random", "MLP", "thompson", "linear", "preset"]
+    )
+
+    global_parser.add_argument(
+        "--preset",
+        help="give preset solver to be run on all queries",
+        type=str,
+        default="",
+        choices=list(SOLVERS.keys())
     )
 
     global_parser.add_argument(
@@ -145,6 +153,9 @@ def main():
         classifier = Thompson()
     elif args.classifier == "linear":
         classifier = LinearBandit()
+    elif args.classifier == "preset":
+        classifier = Preset(args.preset)
+        timeout_manager = Constant(args.timeout)
     else:
         raise RuntimeError("classifier not properly set")
     

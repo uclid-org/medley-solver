@@ -75,19 +75,28 @@ class Exp3(ClassifierInterface):
 class MLP(ClassifierInterface):
     def __init__(self):
         self.clf = MLPClassifier()
+        self.fitted = False
 
     def get_ordering(self, point, count):
-        choice = self.clf.predict(point)
-        order = [list(SOLVERS.keys())[int(choice)]]
+        point = np.array(point).reshape(1, -1)
+        if self.fitted:
+            choice = self.clf.predict(point)
+            order = [list(SOLVERS.keys())[int(choice)]]
+        else: 
+            order = []
         remaining = [x for x in SOLVERS.keys() if x not in order]
         random.shuffle(remaining)
         order = order + remaining
         return order
 
     def update(self, solved_prob, rewards):
-        X = np.array(solved_prob.datapoint)
+        X = np.array(solved_prob.datapoint).reshape(1, -1)
         y = np.array([list(SOLVERS.keys()).index(solved_prob.solve_method)])
-        self.clf.partial_fit(X, y)
+        if self.fitted:
+            self.clf.partial_fit(X, y)
+        else:
+            self.clf.partial_fit(X, y, classes=np.unique(list(range(len(SOLVERS)))))
+        self.fitted = True
 
 class Thompson(ClassifierInterface):
     def __init__(self):
@@ -150,3 +159,14 @@ class LinearBandit(ClassifierInterface):
                 self.Cs[i] = self.Cs[i] + point @ point.T
                 self.A_0 += point @ point.T - self.Cs[i].T @ np.linalg.inv(self.As[i]) @ self.Cs[i]
                 self.B_0 += r * point - self.Cs[i].T @ np.linalg.inv(self.As[i]) @ self.Bs[i]
+
+
+class Preset(ClassifierInterface):
+    def __init__(self, solver):
+        self.solver = solver
+    
+    def get_ordering(self, point, count):
+        return [self.solver]
+    
+    def update(self, solved_prob, rewards):
+        pass
