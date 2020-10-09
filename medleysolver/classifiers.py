@@ -63,7 +63,7 @@ class Exp3(ClassifierInterface):
         for i, _ in enumerate(SOLVERS):
             self.p[i] = (1-self.gamma) * self.w[i] / sum(self.w) + self.gamma / len(SOLVERS)
 
-        ordering = np.random.choice(SOLVERS.keys(), size=len(SOLVERS), replace=False, p=self.p)
+        ordering = np.random.choice(list(SOLVERS.keys()), size=len(SOLVERS), replace=False, p=self.p)
         return list(ordering)
     
     def update(self, solved_prob, rewards):

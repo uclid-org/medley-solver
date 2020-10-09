@@ -28,7 +28,7 @@ def main():
         help="select mechanism for choosing orderings of solvers",
         type=str,
         default="neighbor",
-        choices=["neighbor", "random", "MLP", "thompson", "linear", "preset"]
+        choices=["neighbor", "random", "MLP", "thompson", "linear", "preset", "exp3"]
     )
 
     global_parser.add_argument(
@@ -156,6 +156,8 @@ def main():
     elif args.classifier == "preset":
         classifier = Preset(args.preset)
         timeout_manager = Constant(args.timeout)
+    elif args.classifier == "exp3":
+        classifier = Exp3(0.07)
     else:
         raise RuntimeError("classifier not properly set")
     

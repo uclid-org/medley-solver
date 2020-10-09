@@ -2,9 +2,12 @@ from collections import OrderedDict, namedtuple
 
 SOLVERS = OrderedDict({
     "Z3"   : "z3",
-    "CVC4" : "cvc4",
-    "BOOLECTOR" : "~/boolector-3.2.1/build/bin/boolector",
-    "YICES": "yices-smt2"
+    "CVC4" : "~/tools/cvc4",
+    "BOOLECTOR" : "~/tools/boolector/boolector/bin/boolector",
+    "YICES": "~/bin/yices-smt2",
+    "MathSAT": "~/tools/mathsat/bin/mathsat",
+#    "Vampire": "~/tools/vampire --input_syntax smtlib2 ",
+    "Bitwuzla": "~/tools/Bitwuzla/bin/bitwuzla",
 })
 
 SAT_RESULT     = 'sat'
@@ -24,7 +27,9 @@ Solved_Problem = namedtuple('Solved_Problem', (
     'datapoint',
     'solve_method',
     'time',
-    'result'
+    'result',
+    'order',
+    'time_spent'
 ))
 
 keyword_list = [
@@ -198,3 +203,4 @@ keyword_list = [
 
 def is_solved(foo):
     return foo == SAT_RESULT or foo == UNSAT_RESULT
+

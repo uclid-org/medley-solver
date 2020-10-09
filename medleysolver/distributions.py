@@ -14,7 +14,7 @@ class ExponentialDist:
         self.lamb = self.count / self.total
 
     def add_timeout(self):
-        self.add_sample(self.lamb + self.get_cutoff())
+        self.add_sample(1/self.lamb + self.get_cutoff())
 
     def get_cutoff(self):
         return log(1 - self.confidence) / (-1 * self.lamb)
@@ -45,3 +45,5 @@ class ThompsonDist(object):
         """
         self._as[choice] += reward
         self._bs[choice] += (1 - reward)
+
+
