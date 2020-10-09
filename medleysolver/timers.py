@@ -28,3 +28,6 @@ class Exponential(TimerInterface):
     def update(self, solver, time, success):
         if success: 
             self.timers[solver].add_sample(time)
+        else:
+            self.timers[solver].add_timeout()
+

@@ -63,7 +63,7 @@ class Exp3(ClassifierInterface):
         for i, _ in enumerate(SOLVERS):
             self.p[i] = (1-self.gamma) * self.w[i] / sum(self.w) + self.gamma / len(SOLVERS)
 
-        ordering = np.random.choice(SOLVERS.keys(), size=len(SOLVERS), replace=False, p=self.p)
+        ordering = np.random.choice(list(SOLVERS.keys()), size=len(SOLVERS), replace=False, p=self.p)
         return list(ordering)
     
     def update(self, solved_prob, rewards):
@@ -149,7 +149,7 @@ class LinearBandit(ClassifierInterface):
         return order
 
     def update(self, solved_prob, rewards):
-        point = solved_prob.datapoint.reshape((len(solved_prob.datapoint, 1)))
+        point = solved_prob.datapoint.reshape((len(solved_prob.datapoint), 1))
         for i, r in enumerate(rewards):
             if r >= 0:
                 self.A_0 += self.Cs[i].T @ np.linalg.inv(self.As[i]) @ self.Cs[i]
