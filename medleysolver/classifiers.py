@@ -103,11 +103,8 @@ class Thompson(ClassifierInterface):
         self.dist = ThompsonDist(len(SOLVERS))
     
     def get_ordering(self, point, count):
-        choice = self.dist.get_choice()
-        order = [list(SOLVERS.keys())[int(choice)]]
-        remaining = [x for x in SOLVERS.keys() if x not in order]
-        random.shuffle(remaining)
-        order = order + remaining
+        t_order = self.dist.get_ordering()
+        order = [list(SOLVERS.keys())[int(choice)] for choice in t_order]
         return order
     
     def update(self, solved_prob, rewards):

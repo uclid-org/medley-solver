@@ -39,6 +39,11 @@ class ThompsonDist(object):
         i = max(range(self.n), key=lambda x: samples[x])
         return i
 
+    def get_ordering(self):
+        samples = [np.random.beta(self._as[x], self._bs[x]) for x in range(self.n)]
+        order = sorted(list(range(self.n)), key=lambda x: -1 * samples[x])
+        return order 
+
     def update(self, choice, reward):
         """
         didSolve (bool): whether or not previous choice
