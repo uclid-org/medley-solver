@@ -127,7 +127,7 @@ def main():
         np.random.seed(args.seed)
     
     problems = glob.glob(args.input + "/**.smt2", recursive=True)
-    problems = [p for p in problems if p.endswith(".smt2")]
+    problems = sorted([p for p in problems if p.endswith(".smt2")])
     
     if args.sample:
         problems = np.random.choice(problems, size=min(args.sample, len(problems)), replace=False)

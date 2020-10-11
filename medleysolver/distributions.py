@@ -36,7 +36,7 @@ class ThompsonDist(object):
 
     def get_choice(self):
         samples = [np.random.beta(self._as[x], self._bs[x]) for x in range(self.n)]
-        i = max(range(self.n), key=lambda x: samples[x])
+        i = sorted(range(self.n), key=lambda x: samples[x], reverse=True)
         return i
 
     def update(self, choice, reward):

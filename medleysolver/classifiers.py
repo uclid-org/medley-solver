@@ -103,17 +103,21 @@ class Thompson(ClassifierInterface):
         self.dist = ThompsonDist(len(SOLVERS))
     
     def get_ordering(self, point, count):
-        choice = self.dist.get_choice()
-        order = [list(SOLVERS.keys())[int(choice)]]
-        remaining = [x for x in SOLVERS.keys() if x not in order]
-        random.shuffle(remaining)
-        order = order + remaining
+        choices = self.dist.get_choice()
+        order = [list(SOLVERS.keys())[i] for i in choices]
+        # remaining = [x for x in SOLVERS.keys() if x not in order]
+        # random.shuffle(remaining)
+        # order = order + remaining
         return order
     
     def update(self, solved_prob, rewards):
         for i, r in enumerate(rewards):
-            if r >= 0:
-                self.dist.update(i, r)
+            if r > 0:
+                self.dist.update(i, 1)
+            elif r == 0:
+                self.dist.update(i, 0)
+            else:
+                pass
 
 class LinearBandit(ClassifierInterface):
     def __init__(self, alpha=2.358):
