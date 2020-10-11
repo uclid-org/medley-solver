@@ -26,26 +26,43 @@ class Random(ClassifierInterface):
 
 
 class NearestNeighbor(ClassifierInterface):
-    def __init__(self, epsilon, decay):
+    def __init__(self, epsilon, decay, kind):
         self.solved = []
         self.epsilon = epsilon
         self.decay = decay
         self.counter = 0
+        self.kind = kind
     
     def get_ordering(self, point, count):
-        if np.random.rand() >= self.epsilon * (self.decay ** count) and self.solved:
-            #first sort based on distance to inputted point
-            candidates = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))[:len(self.solved) // 10 + 1]
-            #extract most similar 10%, resort based on speed
-            fast = sorted(candidates, key=lambda entry: entry.time)
-            order = list(OrderedDict((x.solve_method, True) for x in fast).keys())
-            #randomly append solvers not found in sort
-            remaining = [x for x in SOLVERS.keys() if x not in order]
+        if self.kind == "greedy":
+            if np.random.rand() >= self.epsilon * (self.decay ** count) and self.solved:
+                #first sort based on distance to inputted point
+                candidates = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))[:len(self.solved) // 10 + 1]
+                #extract most similar 10%, resort based on speed
+                fast = sorted(candidates, key=lambda entry: entry.time)
+                order = list(OrderedDict((x.solve_method, True) for x in fast).keys())
+                #randomly append solvers not found in sort
+                remaining = [x for x in SOLVERS.keys() if x not in order]
+                random.shuffle(remaining)
+                order = order + remaining
+            else:
+                order = Random.get_ordering(self, point, count)
+        elif self.kind == "single":
+            if np.random.rand() >= self.epsilon * (self.decay ** count) and self.solved:
+                #first sort based on distance to inputted point
+                candidate = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))[0]
+                order = list(OrderedDict((x.solve_method, True) for x in [candidate]).keys())
+                remaining = [x for x in SOLVERS.keys() if x != order]
+                random.shuffle(remaining)
+                order = order + remaining
+            else:
+                order = Random.get_ordering(self, point, count)
+        else:
+            candidate = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))
+            order = list(OrderedDict((x.solve_method, True) for x in candidate).keys())
+            remaining = [x for x in SOLVERS.keys() if x != order]
             random.shuffle(remaining)
             order = order + remaining
-        else:
-            order = Random.get_ordering(self, point, count)
-
         return order
     
     def update(self, solved_prob, rewards):
@@ -99,15 +116,20 @@ class MLP(ClassifierInterface):
         self.fitted = True
 
 class Thompson(ClassifierInterface):
-    def __init__(self):
+    def __init__(self, kind):
         self.dist = ThompsonDist(len(SOLVERS))
+        self.kind = kind
     
     def get_ordering(self, point, count):
-        choices = self.dist.get_choice()
-        order = [list(SOLVERS.keys())[i] for i in choices]
-        # remaining = [x for x in SOLVERS.keys() if x not in order]
-        # random.shuffle(remaining)
-        # order = order + remaining
+        if self.kind == "single":
+            choices = self.dist.get_choice(self.kind)
+            order = [[list(SOLVERS.keys())[i] for i in choices][0]]
+            remaining = [x for x in SOLVERS.keys() if x not in order]
+            random.shuffle(remaining)
+            order = order + remaining
+        else:
+            choices = self.dist.get_choice(self.kind)
+            order = [list(SOLVERS.keys())[i] for i in choices]
         return order
     
     def update(self, solved_prob, rewards):

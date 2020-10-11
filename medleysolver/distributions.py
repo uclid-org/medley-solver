@@ -34,10 +34,15 @@ class ThompsonDist(object):
     def estimated_probas(self):
         return [self._as[i] / (self._as[i] + self._bs[i]) for i in range(self.n)]
 
-    def get_choice(self):
-        samples = [np.random.beta(self._as[x], self._bs[x]) for x in range(self.n)]
-        i = sorted(range(self.n), key=lambda x: samples[x], reverse=True)
-        return i
+    def get_choice(self, kind="full"):
+        if kind == "full":
+            samples = [np.random.beta(self._as[x], self._bs[x]) for x in range(self.n)]
+            i = sorted(range(self.n), key=lambda x: samples[x], reverse=True)
+            return i
+        else:
+            samples = [self._as[x] / (self._as[x] + self._bs[x]) for x in range(self.n)]
+            i = sorted(range(self.n), key=lambda x: samples[x], reverse=True)
+            return i
 
     def update(self, choice, reward):
         """

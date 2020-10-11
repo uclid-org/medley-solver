@@ -23,6 +23,17 @@ def main():
     )
 
     global_parser.add_argument(
+        "--kind",
+        "-k",
+        help="configurations for neighbor and thompson",
+        type=str,
+        default="full",
+        # single means only pick first solver and do random for the rest.
+        # greedy means thompson with means instead of sampling
+        choices=["full", "single", "greedy"] 
+    )
+
+    global_parser.add_argument(
         "--classifier",
         "-c",
         help="select mechanism for choosing orderings of solvers",
@@ -144,13 +155,13 @@ def main():
         raise RuntimeError("timeout_manager not properly set")
 
     if args.classifier == "neighbor":
-        classifier = NearestNeighbor(args.epsilon, args.epsilon_decay)
+        classifier = NearestNeighbor(args.epsilon, args.epsilon_decay, args.kind)
     elif args.classifier == "random":
         classifier = Random()
     elif args.classifier == "MLP":
         classifier = MLP()
     elif args.classifier == "thompson":
-        classifier = Thompson()
+        classifier = Thompson(args.kind)
     elif args.classifier == "linear":
         classifier = LinearBandit()
     elif args.classifier == "preset":
