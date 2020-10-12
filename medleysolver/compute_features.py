@@ -60,7 +60,7 @@ def get_features(file_path,logic="",track=""):
     g = z3.Goal()
     g.add(z3.parse_smt2_file(file_path))
     results = [z3.Probe(x)(g) for x in PROBES]
-    features = results
+    features = features + results
 
     cache[file_path][logic][track] = features
     return features
