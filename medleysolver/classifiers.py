@@ -3,6 +3,7 @@ from collections import OrderedDict
 from sklearn.neural_network import MLPClassifier
 from medleysolver.constants import SOLVERS, is_solved
 from medleysolver.distributions import ThompsonDist
+from more_itertools import unique_everseen
 
 class ClassifierInterface(object):
     def get_ordering(self, point, count):
@@ -52,7 +53,7 @@ class NearestNeighbor(ClassifierInterface):
                 #first sort based on distance to inputted point
                 candidate = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))[0]
                 order = list(OrderedDict((x.solve_method, True) for x in [candidate]).keys())
-                remaining = [x for x in SOLVERS.keys() if x != order]
+                remaining = [x for x in SOLVERS.keys() if x != candidate]
                 random.shuffle(remaining)
                 order = order + remaining
             else:
@@ -60,10 +61,11 @@ class NearestNeighbor(ClassifierInterface):
         else:
             candidate = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))
             order = list(OrderedDict((x.solve_method, True) for x in candidate).keys())
-            remaining = [x for x in SOLVERS.keys() if x != order]
+            remaining = [x for x in SOLVERS.keys() if x not in order]
             random.shuffle(remaining)
             order = order + remaining
-        return order
+
+        return list(unique_everseen(order))
     
     def update(self, solved_prob, rewards):
         #TODO: Implement pruning
@@ -81,7 +83,7 @@ class Exp3(ClassifierInterface):
             self.p[i] = (1-self.gamma) * self.w[i] / sum(self.w) + self.gamma / len(SOLVERS)
 
         ordering = np.random.choice(list(SOLVERS.keys()), size=len(SOLVERS), replace=False, p=self.p)
-        return list(ordering)
+        return list(unique_everseen(ordering))
     
     def update(self, solved_prob, rewards):
         for i, reward in enumerate(rewards):
@@ -104,7 +106,7 @@ class MLP(ClassifierInterface):
         remaining = [x for x in SOLVERS.keys() if x not in order]
         random.shuffle(remaining)
         order = order + remaining
-        return order
+        return list(unique_everseen(order))
 
     def update(self, solved_prob, rewards):
         X = np.array(solved_prob.datapoint).reshape(1, -1)
@@ -130,7 +132,7 @@ class Thompson(ClassifierInterface):
         else:
             choices = self.dist.get_choice(self.kind)
             order = [list(SOLVERS.keys())[i] for i in choices]
-        return order
+        return list(unique_everseen(order))
     
     def update(self, solved_prob, rewards):
         for i, r in enumerate(rewards):
@@ -172,7 +174,7 @@ class LinearBandit(ClassifierInterface):
         remaining = [x for x in SOLVERS.keys() if x not in order]
         random.shuffle(remaining)
         order = order + remaining
-        return order
+        return list(unique_everseen(order))
 
     def update(self, solved_prob, rewards):
         point = solved_prob.datapoint.reshape((len(solved_prob.datapoint), 1))

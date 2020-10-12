@@ -11,6 +11,7 @@ def run_problem(solver, invocation, problem, timeout):
         results = list(filter(lambda s: s[0] == problem, results))
         assert(len(results) == 1)
         output = results[0][4]
+        output = output2result(problem, output)
         elapsed = float(results[0][3])
 
     if elapsed >= timeout:

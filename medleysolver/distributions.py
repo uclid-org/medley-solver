@@ -16,6 +16,10 @@ class ExponentialDist:
     def add_timeout(self):
         self.add_sample(1/self.lamb + self.get_cutoff())
 
+    def add_error(self):
+        # punish for giving an error
+        self.add_sample(1)
+
     def get_cutoff(self):
         return log(1 - self.confidence) / (-1 * self.lamb)
 

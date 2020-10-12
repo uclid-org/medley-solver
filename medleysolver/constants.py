@@ -3,7 +3,7 @@ from collections import OrderedDict, namedtuple
 SOLVERS = OrderedDict({
     "Z3"   : "z3",
     "CVC4" : "~/tools/cvc4",
-    "BOOLECTOR" : "~/tools/boolector/boolector/bin/boolector",
+    # "BOOLECTOR" : "~/tools/boolector/boolector/bin/boolector",
     "YICES": "~/bin/yices-smt2",
     "MathSAT": "~/tools/mathsat/bin/mathsat",
     "Bitwuzla": "~/tools/Bitwuzla/bin/bitwuzla",
@@ -202,4 +202,8 @@ keyword_list = [
 
 def is_solved(foo):
     return foo == SAT_RESULT or foo == UNSAT_RESULT
+
+
+def is_error(foo):
+    return foo == UNKNOWN_RESULT or foo == ERROR_RESULT
 

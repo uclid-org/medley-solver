@@ -25,9 +25,13 @@ class Exponential(TimerInterface):
     def get_timeout(self, solver):
         return self.timers[solver].get_cutoff()
     
-    def update(self, solver, time, success):
+    def update(self, solver, time, success, error):
+        assert(not success or not error)
         if success: 
             self.timers[solver].add_sample(time)
         else:
-            self.timers[solver].add_timeout()
+            if error:
+                self.timers[solver].add_error()
+            else:
+                self.timers[solver].add_timeout()
 
