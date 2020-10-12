@@ -6,23 +6,31 @@ import csv
 def run_problem(solver, invocation, problem, timeout):
     instance = problem.split("/", 2)[-1]
     directory = problem[:-len(instance)]
-    with open(directory+"/"+solver+".csv") as csvfile:
-        results = list(csv.reader(csvfile))
-        results = list(filter(lambda s: s[0] == problem, results))
-        assert(len(results) == 1)
-        output = results[0][4]
-        output = output2result(problem, output)
-        elapsed = float(results[0][3])
 
-    if elapsed >= timeout:
-        output = TIMEOUT_RESULT % timeout
-        elapsed = timeout
+    try:
+        with open(directory+"/"+solver+".csv") as csvfile:
+            results = list(csv.reader(csvfile))
+            results = list(filter(lambda s: s[0] == problem, results))
+            assert(len(results) == 1)
+            output = results[0][4]
+            output = output2result(problem, output)
+            elapsed = float(results[0][3])
 
-    result = Result(
-        problem  = problem.split("/", 2)[-1],
-        result   = output,
-        elapsed  = elapsed
-    )
+        if elapsed >= timeout:
+            output = TIMEOUT_RESULT % timeout
+            elapsed = timeout
+
+        result = Result(
+            problem  = problem.split("/", 2)[-1],
+            result   = output,
+            elapsed  = elapsed
+        )
+    except:
+        result = Result(
+            problem  = problem.split("/", 2)[-1],
+            result   = ERROR_RESULT,
+            elapsed  = 0
+        )
     return result
 
 def output2result(problem, output):

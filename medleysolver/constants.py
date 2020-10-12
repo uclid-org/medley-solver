@@ -3,7 +3,7 @@ from collections import OrderedDict, namedtuple
 SOLVERS = OrderedDict({
     "Z3"   : "z3",
     "CVC4" : "~/tools/cvc4",
-    # "BOOLECTOR" : "~/tools/boolector/boolector/bin/boolector",
+    "BOOLECTOR" : "~/tools/boolector/boolector/bin/boolector",
     "YICES": "~/bin/yices-smt2",
     "MathSAT": "~/tools/mathsat/bin/mathsat",
     "Bitwuzla": "~/tools/Bitwuzla/bin/bitwuzla",

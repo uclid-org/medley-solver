@@ -7,6 +7,7 @@ class ExponentialDist:
         self.count = 0
         self.total = 0
         self.confidence = conf
+        self.naughtylist = False
 
     def add_sample(self, sample):
         self.total += sample
@@ -18,9 +19,11 @@ class ExponentialDist:
 
     def add_error(self):
         # punish for giving an error
-        self.add_sample(1)
+        self.naughtylist = True
 
     def get_cutoff(self):
+        if self.naughtylist:
+            return 0
         return log(1 - self.confidence) / (-1 * self.lamb)
 
 class ThompsonDist(object):
