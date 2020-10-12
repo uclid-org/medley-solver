@@ -31,6 +31,7 @@ class NearestNeighbor(ClassifierInterface):
         self.epsilon = epsilon
         self.decay = decay
         self.counter = 0
+        self.k = k
     
     def get_ordering(self, point, count):
         if np.random.rand() >= self.epsilon * (self.decay ** count) and self.solved:
@@ -164,3 +165,25 @@ class Preset(ClassifierInterface):
     
     def update(self, solved_prob, rewards):
         pass
+
+class KNearest(ClassifierInterface):
+    def __init__(self, k, epsilon, decay):
+        self.k = k
+        self.epsilon = epsilon
+        self.decay = decay
+        self.solved = []
+        self.counter = 0
+
+    def get_ordering(self, point, count):
+        if np.random.rand() >= self.epsilon * (self.decay ** count) and self.solved:
+            candidates = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))[:self.k]
+            methods = [x.solve_method for x in candidates]
+            order = sorted(random.shuffle(list(SOLVERS.keys())), key= lambda x: methods.count(x))
+        else:
+            order = Random.get_ordering(self, point, count)
+
+        return order
+    def update(self, solved_prob, rewards):
+        #TODO: Implement pruning
+        if is_solved(solved_prob.result):
+            self.solved.append(solved_prob)
