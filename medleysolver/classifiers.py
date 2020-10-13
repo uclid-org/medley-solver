@@ -180,7 +180,7 @@ class KNearest(ClassifierInterface):
             methods = [x.solve_method for x in candidates]
             ss = list(SOLVERS.keys())
             random.shuffle(ss)
-            order = sorted(ss, key= lambda x: methods.count(x))
+            order = sorted(ss, key= lambda x: -1 * methods.count(x))
         else:
             order = Random.get_ordering(self, point, count)
 

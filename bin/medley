@@ -151,7 +151,7 @@ def main():
     if args.timeout_manager == "expo":
         if not args.set_lambda:
             args.set_lambda = 1 / (args.timeout / len(SOLVERS))
-        timeout_manager = Exponential(args.set_lambda, args.confidence)
+        timeout_manager = Exponential(args.set_lambda, args.confidence, args.timeout)
     elif args.timeout_manager == "const":
         if not args.set_const:
             args.set_const = args.timeout // len(SOLVERS)
