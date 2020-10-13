@@ -33,10 +33,5 @@ class Exponential(TimerInterface):
             if error:
                 self.timers[solver].add_error()
             else:
-                if time < timeout/3:
-                    # give more time
-                    self.timers[solver].add_timeout()
-                else:
-                    # remove time (assuming 1 is small compared to timeout)
-                    self.timers[solver].add_sample(1)
+                self.timers[solver].add_timeout()
 

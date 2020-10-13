@@ -33,7 +33,6 @@ class NearestNeighbor(ClassifierInterface):
         self.decay = decay
         self.counter = 0
         self.kind = kind
-        self.k = k
     
     def get_ordering(self, point, count):
         if self.kind == "greedy":
@@ -169,8 +168,9 @@ class LinearBandit(ClassifierInterface):
                 for i in range(len(SOLVERS))]
         
         ps = [thetas[i].T @ point + beta.T @ point + self.alpha * np.sqrt(sigmas[i]) for i in range(len(SOLVERS))]
-
-        i_order = sorted(random.shuffle(list(range(len(ps)))), key=lambda x: -1 * ps[x])
+        ss = list(range(len(ps)))
+        random.shuffle(ss)
+        i_order = sorted(ss, key=lambda x: -1 * ps[x])
         order = [list(SOLVERS.keys())[int(choice)] for choice in i_order]
         return list(unique_everseen(order))
 
@@ -209,11 +209,14 @@ class KNearest(ClassifierInterface):
         if np.random.rand() >= self.epsilon * (self.decay ** count) and self.solved:
             candidates = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))[:self.k]
             methods = [x.solve_method for x in candidates]
-            order = sorted(random.shuffle(list(SOLVERS.keys())), key= lambda x: methods.count(x))
+            ss = list(SOLVERS.keys())
+            random.shuffle(ss)
+            order = sorted(ss, key= lambda x: methods.count(x))
         else:
             order = Random.get_ordering(self, point, count)
 
-        return order
+        return list(unique_everseen(order))
+
     def update(self, solved_prob, rewards):
         #TODO: Implement pruning
         if is_solved(solved_prob.result):

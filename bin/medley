@@ -30,7 +30,6 @@ def main():
     )
     global_parser.add_argument(
         "--kind",
-        "-k",
         help="configurations for neighbor and thompson",
         type=str,
         default="full",
