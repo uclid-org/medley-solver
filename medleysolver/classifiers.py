@@ -9,6 +9,9 @@ class ClassifierInterface(object):
     def get_ordering(self, point, count):
         raise NotImplementedError
 
+    def get_nearby_times(self, point, count):
+        return []
+
     def update(self, solved_prob, rewards):
         raise NotImplementedError
 
@@ -21,7 +24,7 @@ class Random(ClassifierInterface):
         order = list(SOLVERS.keys())
         random.shuffle(order)
         return order
-    
+
     def update(self, solved_prob, rewards):
         return
 
@@ -205,15 +208,20 @@ class KNearest(ClassifierInterface):
         self.solved = []
         self.counter = 0
 
+    def get_nearby_times(self, point, count):
+        positions = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))[:self.k]
+        positions = [(x.solve_method, x.time) for x in positions]
+        return positions
+
     def get_ordering(self, point, count):
-        if np.random.rand() >= self.epsilon * (self.decay ** count) and self.solved:
-            candidates = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))[:self.k]
-            methods = [x.solve_method for x in candidates]
-            ss = list(SOLVERS.keys())
-            random.shuffle(ss)
-            order = sorted(ss, key= lambda x: methods.count(x))
-        else:
-            order = Random.get_ordering(self, point, count)
+        # if np.random.rand() >= self.epsilon * (self.decay ** count) and self.solved:
+        candidates = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))[:self.k]
+        methods = [x.solve_method for x in candidates]
+        ss = list(SOLVERS.keys())
+        random.shuffle(ss)
+        order = sorted(ss, key= lambda x: methods.count(x), reverse=True)
+        # else:
+        #     order = Random.get_ordering(self, point, count)
 
         return list(unique_everseen(order))
 

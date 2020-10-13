@@ -18,9 +18,10 @@ def execute(problems, output, classifier, time_manager, timeout, extra_time_to_f
         point = point / (mean+1e-9)
 
         order = classifier.get_ordering(point, c)
+        times = classifier.get_nearby_times(point, c)
         end = time.time()
 
-        solver, elapsed, result, rewards, time_spent = apply_ordering(prob, order, timeout - (end - start), time_manager, extra_time_to_first)
+        solver, elapsed, result, rewards, time_spent = apply_ordering(prob, order, timeout - (end - start), time_manager, extra_time_to_first, times)
         solved_prob = Solved_Problem(prob, point, solver, elapsed + (end - start), result, order, time_spent)
 
         classifier.update(solved_prob, rewards)
@@ -28,12 +29,12 @@ def execute(problems, output, classifier, time_manager, timeout, extra_time_to_f
         writer.writerow(solved_prob)
 
 
-def apply_ordering(problem, order, timeout, time_manager, extra_time_to_first):
+def apply_ordering(problem, order, timeout, time_manager, extra_time_to_first, times):
     elapsed = 0
     rewards = [-1 for _ in SOLVERS] # negative rewards should be ignored. 
     time_spent = []
 
-    budgets = [int(time_manager.get_timeout(solver))+1 for solver in order]
+    budgets = [int(time_manager.get_timeout(solver, times))+1 for solver in order]
 
     for i in range(len(budgets)):
         budgets[i] = min(budgets[i], int(timeout - sum(budgets[:i])))
