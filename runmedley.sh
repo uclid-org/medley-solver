@@ -9,7 +9,7 @@ for seed in 0 1; do
         elif [ $learner == exp3c ]
         then
             learnconfig="exp3 --gamma 0.25"
-        elif [ $learner == exp3c ]
+        elif [ $learner == exp3d ]
         then
             learnconfig="exp3 --gamma 0.5"
         else 

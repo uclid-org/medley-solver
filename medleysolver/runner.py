@@ -21,7 +21,7 @@ def execute(problems, output, classifier, time_manager, timeout, feature_setting
         times = classifier.get_nearby_times(point, c)
         end = time.time()
 
-        solver, elapsed, result, rewards, time_spent = apply_ordering(prob, order, timeout - (end - start), time_manager, extra_time_to_first, times)
+        solver, elapsed, result, rewards, time_spent = apply_ordering(prob, order, timeout - (end - start), time_manager, extra_time_to_first, times, reward)
         solved_prob = Solved_Problem(prob, point, solver, elapsed + (end - start), result, order, time_spent)
 
         classifier.update(solved_prob, rewards)
