@@ -125,6 +125,15 @@ def main():
         default=10
     )
 
+    global_parser.add_argument(
+        "--feature_setting",
+        "-f",
+        help="choose how queries are featurized",
+        type=str,
+        choices=["bow", "probes", "both"], 
+        default="both"
+    )
+
     args = global_parser.parse_args()
 
     if not args.output.endswith(".csv"):
@@ -174,7 +183,7 @@ def main():
         with open(args.load_classifier, "rb") as f:
             classifier = dill.load(f)
     
-    execute(problems, args.output, classifier, timeout_manager, args.timeout)
+    execute(problems, args.output, classifier, timeout_manager, args.timeout, args.feature_setting)
 
     if args.save_classifier:
         classifier.save(args.save_classifier)

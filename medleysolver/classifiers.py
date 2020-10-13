@@ -31,7 +31,6 @@ class NearestNeighbor(ClassifierInterface):
         self.epsilon = epsilon
         self.decay = decay
         self.counter = 0
-        self.k = k
     
     def get_ordering(self, point, count):
         if np.random.rand() >= self.epsilon * (self.decay ** count) and self.solved:
