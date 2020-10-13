@@ -81,7 +81,7 @@ def main():
         "--seed",
         help="random seed",
         type=int,
-        default=0
+        default=hash("Go bears!") % 2**32
     )
 
     global_parser.add_argument(
@@ -145,6 +145,7 @@ def main():
     problems = glob.glob(args.input + "/**.smt2", recursive=True)
     problems = [p for p in problems if p.endswith(".smt2")]
     
+    np.random.shuffle(problems)
     if args.sample:
         problems = np.random.choice(problems, size=min(args.sample, len(problems)), replace=False)
 
