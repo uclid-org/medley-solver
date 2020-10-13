@@ -53,7 +53,7 @@ def apply_ordering(problem, order, timeout, time_manager, extra_time_to_first):
         time_for_solver = int(timeout - elapsed) + 1 if i == len(order) - 1 else budgets[i]
         res = run_problem(solver, SOLVERS[solver], problem, time_for_solver)
 
-        reward = 1 if is_solved(res.result) else 0
+        reward = 1 + ((1 - res.elapsed / timeout) ** 4) if is_solved(res.result) else 0
         rewards[list(SOLVERS.keys()).index(solver)] = reward
         time_spent.append(res.elapsed)
 
