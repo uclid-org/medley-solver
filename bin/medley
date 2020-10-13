@@ -21,7 +21,13 @@ def main():
         help="pass in csv file for results",
         type=str
     )
-
+    global_parser.add_argument(
+        "--extra",
+        "-e",
+        help="extra time to first? Add to last if not",
+        type=bool,
+        default=False,
+    )
     global_parser.add_argument(
         "--kind",
         "-k",
@@ -176,7 +182,7 @@ def main():
         with open(args.load_classifier, "rb") as f:
             classifier = dill.load(f)
     
-    execute(problems, args.output, classifier, timeout_manager, args.timeout)
+    execute(problems, args.output, classifier, timeout_manager, args.timeout, args.extra)
 
     if args.save_classifier:
         classifier.save(args.save_classifier)

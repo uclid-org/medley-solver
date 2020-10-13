@@ -6,7 +6,7 @@ from medleysolver.constants import SOLVERS, Result, Solved_Problem, SAT_RESULT, 
 from medleysolver.distributions import ExponentialDist
 from medleysolver.dispatch import run_problem
 
-def execute(problems, output, classifier, time_manager, timeout):
+def execute(problems, output, classifier, time_manager, timeout, extra_time_to_first):
     mean = 0
     writer = csv.writer(open(output, 'w'))
 
@@ -20,7 +20,7 @@ def execute(problems, output, classifier, time_manager, timeout):
         order = classifier.get_ordering(point, c)
         end = time.time()
 
-        solver, elapsed, result, rewards, time_spent = apply_ordering(prob, order, timeout - (end - start), time_manager)
+        solver, elapsed, result, rewards, time_spent = apply_ordering(prob, order, timeout - (end - start), time_manager, extra_time_to_first)
         solved_prob = Solved_Problem(prob, point, solver, elapsed + (end - start), result, order, time_spent)
 
         classifier.update(solved_prob, rewards)
@@ -28,7 +28,7 @@ def execute(problems, output, classifier, time_manager, timeout):
         writer.writerow(solved_prob)
 
 
-def apply_ordering(problem, order, timeout, time_manager):
+def apply_ordering(problem, order, timeout, time_manager, extra_time_to_first):
     elapsed = 0
     rewards = [-1 for _ in SOLVERS] # negative rewards should be ignored. 
     time_spent = []
@@ -39,7 +39,10 @@ def apply_ordering(problem, order, timeout, time_manager):
         budgets[i] = min(budgets[i], int(timeout - sum(budgets[:i])))
 
     if sum(budgets) < timeout:
-        budgets[0] = budgets[0] + (timeout - sum(budgets))
+        if extra_time_to_first:
+            budgets[0] = budgets[0] + (timeout - sum(budgets))
+        else:
+            budgets[-1] = budgets[-1] + (timeout - sum(budgets))
 
     assert(timeout == sum(budgets))
 
@@ -55,6 +58,6 @@ def apply_ordering(problem, order, timeout, time_manager):
         time_spent.append(res.elapsed)
 
         elapsed += res.elapsed
-        time_manager.update(solver, res.elapsed, is_solved(res.result), is_error(res.result))
+        time_manager.update(solver, res.elapsed, timeout, is_solved(res.result), is_error(res.result))
         if elapsed >= timeout or is_solved(res.result) or i == len(order) - 1:
             return solver, elapsed, res.result, rewards, time_spent
