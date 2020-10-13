@@ -147,7 +147,7 @@ def main():
         type=int,
         default=20
     )
-    
+
     global_parser.add_argument(
         "--feature_setting",
         "-f",
@@ -183,7 +183,7 @@ def main():
     elif args.timeout_manager == "nearest":
         if not args.set_lambda:
             args.set_lambda = 1 / (args.timeout / len(SOLVERS))
-        timeout_manager = NearestExponential(args.set_lambda, args.confidence)
+        timeout_manager = NearestExponential(args.set_lambda, args.confidence, args.timeout)
     else:
         raise RuntimeError("timeout_manager not properly set")
 

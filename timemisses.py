@@ -15,7 +15,7 @@ result = glob.glob('*.{}'.format(extension))
 
 cols = {}
 for r in result:
-    cols[r[:-len(".csv")]] = [] 
+    cols[r[:-len(".csv")]] = {}
 
 for r in result:
     solver = r[:-len(".csv")]
@@ -24,9 +24,10 @@ for r in result:
         for row in spamreader:
             r = float(row[3]) if isinstance(row[3], str) else row[3]
             r = r if r < 60 else 60
-            cols[solver].append(r)
+            r = r if row[4] != "error" else 60
+            cols[solver][row[0]] = r
 
-print("problem, solver, answer, guess")
+print("solver, answer, guess, problem")
 # Load nearest, zip times with solvers
 with open("%s/%s/%s.csv"%(path, dataset, learner)) as csvfile:
     spamreader = list(csv.reader(csvfile))
@@ -38,5 +39,5 @@ with open("%s/%s/%s.csv"%(path, dataset, learner)) as csvfile:
 
 
         for (a, b) in zipped:
-            if b > 0 and a in cols and cols[a][r] > b and cols[a][r] < 60:
-                print(",".join([str(r), str(a), str(cols[a][r]), str(b)]))
+            if b > 0 and a in cols and cols[a][row[0]] > b and cols[a][row[0]] < 60:
+                print(",".join([str(a), str(cols[a][row[0]]), str(b), str(row[0])]))

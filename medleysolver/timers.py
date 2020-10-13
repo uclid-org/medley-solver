@@ -36,13 +36,14 @@ class Exponential(TimerInterface):
                 self.timers[solver].add_timeout()
 
 class NearestExponential(TimerInterface):
-    def __init__(self, init_lambda, confidence):
+    def __init__(self, init_lambda, confidence, T):
         self.init_lambda = init_lambda
         self.confidence = confidence
+        self.T = T
     
     def get_timeout(self, solver, times):
         # want time based on times for same solver at nearby points
-        timer = ExponentialDist(self.init_lambda, self.confidence)
+        timer = ExponentialDist(self.init_lambda, self.confidence, self.T)
         for (s, t) in times:
             if s == solver:
                 timer.add_sample(t)

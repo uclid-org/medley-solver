@@ -27,20 +27,6 @@ for i in range(len(solvers)):
 totaltimes = [str(sum(time)) for time in times]
 totalcount = [str(sum(map(lambda x: 1 if x == "sat" or x == "unsat" else 0, answer))) for answer in answers]
 
-virtualbesttime = 0
-virtualbestcount = 0
-for j in range(len(times[0])):
-    choices = []
-    for i in range(len(solvers)):
-        if "sat" in answers[i][j]:
-            choices.append(times[i][j])
- 
-    if len(choices) > 0:
-        virtualbestcount += 1
-    
-    virtualbesttime += min(*(choices + [TIMEOUT, TIMEOUT]))
-    
-
-print(",".join(solvers + ["Virtual Best"]))
-print(",".join(totaltimes + [str(virtualbesttime)]))
-print(",".join(totalcount + [str(virtualbestcount)]))
+print(",".join(solvers))
+print(",".join(totaltimes))
+print(",".join(totalcount))

@@ -4,7 +4,7 @@ from medleysolver.constants import SAT_RESULT, UNSAT_RESULT, UNKNOWN_RESULT, TIM
 import csv 
 
 def run_problem(solver, invocation, problem, timeout):
-    instance = problem.split("/", 2)[-1]
+    instance = problem.split("/")[-1]
     directory = problem[:-len(instance)]
 
     try:

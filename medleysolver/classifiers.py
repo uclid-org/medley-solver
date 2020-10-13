@@ -223,6 +223,7 @@ class KNearest(ClassifierInterface):
             order = sorted(ss, key= lambda x: -1 * methods.count(x))
         else:
             order = Random.get_ordering(self, point, count)
+        return order
 
     def update(self, solved_prob, rewards):
         #TODO: Implement pruning
