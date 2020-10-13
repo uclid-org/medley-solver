@@ -45,7 +45,7 @@ def main():
         help="select mechanism for choosing orderings of solvers",
         type=str,
         default="neighbor",
-        choices=["neighbor", "random", "MLP", "thompson", "linear", "preset", "exp3"]
+        choices=["neighbor", "random", "MLP", "thompson", "linear", "preset", "exp3", "knearest"]
     )
 
     global_parser.add_argument(
@@ -135,6 +135,13 @@ def main():
         type=str
     )
 
+    global_parser.add_argument(
+        "--k",
+        help="set k value for knearest neighbor",
+        type=int,
+        default=10
+    )
+
     args = global_parser.parse_args()
 
     if not args.output.endswith(".csv"):
@@ -175,6 +182,8 @@ def main():
         timeout_manager = Constant(args.timeout)
     elif args.classifier == "exp3":
         classifier = Exp3(0.07)
+    elif args.classifier == "knearest":
+        classifier = KNearest(args.k, args.epsilon, args.epsilon_decay)
     else:
         raise RuntimeError("classifier not properly set")
     

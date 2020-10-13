@@ -33,6 +33,7 @@ class NearestNeighbor(ClassifierInterface):
         self.decay = decay
         self.counter = 0
         self.kind = kind
+        self.k = k
     
     def get_ordering(self, point, count):
         if self.kind == "greedy":
@@ -124,14 +125,14 @@ class Thompson(ClassifierInterface):
     
     def get_ordering(self, point, count):
         if self.kind == "single":
-            choices = self.dist.get_choice(self.kind)
-            order = [[list(SOLVERS.keys())[i] for i in choices][0]]
+            t_order = self.dist.get_ordering()
+            order = [[list(SOLVERS.keys())[int(choice)] for choice in t_order][0]]
             remaining = [x for x in SOLVERS.keys() if x not in order]
             random.shuffle(remaining)
             order = order + remaining
         else:
-            choices = self.dist.get_choice(self.kind)
-            order = [list(SOLVERS.keys())[i] for i in choices]
+            t_order = self.dist.get_ordering()
+            order = [list(SOLVERS.keys())[int(choice)] for choice in t_order]
         return list(unique_everseen(order))
     
     def update(self, solved_prob, rewards):
@@ -168,12 +169,9 @@ class LinearBandit(ClassifierInterface):
                 for i in range(len(SOLVERS))]
         
         ps = [thetas[i].T @ point + beta.T @ point + self.alpha * np.sqrt(sigmas[i]) for i in range(len(SOLVERS))]
-        choice = np.random.choice(np.flatnonzero(np.isclose(ps, max(ps)))) #running argmax while arbitrarily breaking ties
 
-        order = [list(SOLVERS.keys())[int(choice)]]
-        remaining = [x for x in SOLVERS.keys() if x not in order]
-        random.shuffle(remaining)
-        order = order + remaining
+        i_order = sorted(random.shuffle(list(range(len(ps)))), key=lambda x: -1 * ps[x])
+        order = [list(SOLVERS.keys())[int(choice)] for choice in i_order]
         return list(unique_everseen(order))
 
     def update(self, solved_prob, rewards):
@@ -198,3 +196,25 @@ class Preset(ClassifierInterface):
     
     def update(self, solved_prob, rewards):
         pass
+
+class KNearest(ClassifierInterface):
+    def __init__(self, k, epsilon, decay):
+        self.k = k
+        self.epsilon = epsilon
+        self.decay = decay
+        self.solved = []
+        self.counter = 0
+
+    def get_ordering(self, point, count):
+        if np.random.rand() >= self.epsilon * (self.decay ** count) and self.solved:
+            candidates = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))[:self.k]
+            methods = [x.solve_method for x in candidates]
+            order = sorted(random.shuffle(list(SOLVERS.keys())), key= lambda x: methods.count(x))
+        else:
+            order = Random.get_ordering(self, point, count)
+
+        return order
+    def update(self, solved_prob, rewards):
+        #TODO: Implement pruning
+        if is_solved(solved_prob.result):
+            self.solved.append(solved_prob)

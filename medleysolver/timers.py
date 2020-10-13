@@ -15,7 +15,7 @@ class Constant(TimerInterface):
     def get_timeout(self, solver):
         return self.const
     
-    def update(self, solver, time, success):
+    def update(self, solver, time, timeout, success, error):
         pass
 
 class Exponential(TimerInterface):
