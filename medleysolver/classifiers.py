@@ -178,7 +178,9 @@ class KNearest(ClassifierInterface):
         if np.random.rand() >= self.epsilon * (self.decay ** count) and self.solved:
             candidates = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))[:self.k]
             methods = [x.solve_method for x in candidates]
-            order = sorted(random.shuffle(list(SOLVERS.keys())), key= lambda x: methods.count(x))
+            ss = list(SOLVERS.keys())
+            random.shuffle(ss)
+            order = sorted(ss, key= lambda x: methods.count(x))
         else:
             order = Random.get_ordering(self, point, count)
 
