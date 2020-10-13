@@ -141,6 +141,13 @@ def main():
         default=10
     )
 
+    global_parser.add_argument(
+        "--time_k",
+        help="set k value for knearest neighbor",
+        type=int,
+        default=20
+    )
+
     args = global_parser.parse_args()
 
     if not args.output.endswith(".csv"):
@@ -186,7 +193,7 @@ def main():
     elif args.classifier == "exp3":
         classifier = Exp3(0.07)
     elif args.classifier == "knearest":
-        classifier = KNearest(args.k, args.epsilon, args.epsilon_decay)
+        classifier = KNearest(args.k, args.epsilon, args.epsilon_decay, args.time_k)
     else:
         raise RuntimeError("classifier not properly set")
     

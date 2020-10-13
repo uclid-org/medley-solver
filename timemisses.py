@@ -26,6 +26,7 @@ for r in result:
             r = r if r < 60 else 60
             cols[solver].append(r)
 
+print("problem, solver, answer, guess")
 # Load nearest, zip times with solvers
 with open("%s/%s/%s.csv"%(path, dataset, learner)) as csvfile:
     spamreader = list(csv.reader(csvfile))
@@ -35,6 +36,7 @@ with open("%s/%s/%s.csv"%(path, dataset, learner)) as csvfile:
         solvers = [s for s in eval(row[5])[:len(times)]]
         zipped = zip(solvers, times)
 
+
         for (a, b) in zipped:
-            if b > 0 and cols[a][r] > b and cols[a][r] < 60:
-                print(r, a, cols[a][r], b)
+            if b > 0 and a in cols and cols[a][r] > b and cols[a][r] < 60:
+                print(",".join([str(r), str(a), str(cols[a][r]), str(b)]))

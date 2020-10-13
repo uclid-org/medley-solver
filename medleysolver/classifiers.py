@@ -201,15 +201,16 @@ class Preset(ClassifierInterface):
         pass
 
 class KNearest(ClassifierInterface):
-    def __init__(self, k, epsilon, decay):
+    def __init__(self, k, epsilon, decay, time_k):
         self.k = k
+        self.time_k = time_k
         self.epsilon = epsilon
         self.decay = decay
         self.solved = []
         self.counter = 0
 
     def get_nearby_times(self, point, count):
-        positions = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))[:self.k]
+        positions = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))[:self.time_k]
         positions = [(x.solve_method, x.time) for x in positions]
         return positions
 
