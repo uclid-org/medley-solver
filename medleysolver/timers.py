@@ -19,8 +19,8 @@ class Constant(TimerInterface):
         pass
 
 class Exponential(TimerInterface):
-    def __init__(self, init_lambda, confidence):
-        self.timers = {solver:ExponentialDist(init_lambda, confidence) for solver in SOLVERS}
+    def __init__(self, init_lambda, confidence, T):
+        self.timers = {solver:ExponentialDist(init_lambda, confidence, T) for solver in SOLVERS}
     
     def get_timeout(self, solver, position):
         return self.timers[solver].get_cutoff()

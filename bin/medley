@@ -97,7 +97,7 @@ def main():
         "--seed",
         help="random seed",
         type=int,
-        default=0
+        default=hash("Go bears!") % 2**32
     )
 
     global_parser.add_argument(
@@ -147,6 +147,15 @@ def main():
         type=int,
         default=20
     )
+    
+    global_parser.add_argument(
+        "--feature_setting",
+        "-f",
+        help="choose how queries are featurized",
+        type=str,
+        choices=["bow", "probes", "both"], 
+        default="both"
+    )
 
     args = global_parser.parse_args()
 
@@ -159,13 +168,14 @@ def main():
     problems = glob.glob(args.input + "/**.smt2", recursive=True)
     problems = sorted([p for p in problems if p.endswith(".smt2")])
     
+    np.random.shuffle(problems)
     if args.sample:
         problems = np.random.choice(problems, size=min(args.sample, len(problems)), replace=False)
 
     if args.timeout_manager == "expo":
         if not args.set_lambda:
             args.set_lambda = 1 / (args.timeout / len(SOLVERS))
-        timeout_manager = Exponential(args.set_lambda, args.confidence)
+        timeout_manager = Exponential(args.set_lambda, args.confidence, args.timeout)
     elif args.timeout_manager == "const":
         if not args.set_const:
             args.set_const = args.timeout // len(SOLVERS)
@@ -201,7 +211,7 @@ def main():
         with open(args.load_classifier, "rb") as f:
             classifier = dill.load(f)
     
-    execute(problems, args.output, classifier, timeout_manager, args.timeout, args.extra)
+    execute(problems, args.output, classifier, timeout_manager, args.timeout, args.feature_setting, args.extra)
 
     if args.save_classifier:
         classifier.save(args.save_classifier)

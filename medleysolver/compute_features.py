@@ -48,19 +48,23 @@ def get_syntactic_count_features(file_path):
     return features
 
 cache = {}
-def get_features(file_path,logic="",track=""):
+def get_features(file_path, feature_setting, logic="",track=""):
     if file_path not in cache:
         cache[file_path] = {}
     if logic not in cache[file_path]:
         cache[file_path][logic] = {}
     if track not in cache[file_path][logic]:
         cache[file_path][logic][track] = {}
-
-    features = get_syntactic_count_features(file_path)
-    g = z3.Goal()
-    g.add(z3.parse_smt2_file(file_path))
-    results = [z3.Probe(x)(g) for x in PROBES]
-    features = features + results
+    if feature_setting == "bow":
+        features = get_syntactic_count_features(file_path)
+    elif feature_setting == "probes":
+        g = z3.Goal()
+        g.add(z3.parse_smt2_file(file_path))
+        features = [z3.Probe(x)(g) for x in PROBES]
+    else:
+        g = z3.Goal()
+        g.add(z3.parse_smt2_file(file_path))
+        features = get_syntactic_count_features(file_path) + [z3.Probe(x)(g) for x in PROBES]
 
     cache[file_path][logic][track] = features
     return features

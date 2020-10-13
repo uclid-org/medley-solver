@@ -22,7 +22,7 @@ class ClassifierInterface(object):
 class Random(ClassifierInterface):
     def get_ordering(self, point, count):
         order = list(SOLVERS.keys())
-        random.shuffle(order)
+        np.random.shuffle(order)
         return order
 
     def update(self, solved_prob, rewards):
@@ -65,7 +65,7 @@ class NearestNeighbor(ClassifierInterface):
             candidate = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))
             order = list(OrderedDict((x.solve_method, True) for x in candidate).keys())
             remaining = [x for x in SOLVERS.keys() if x not in order]
-            random.shuffle(remaining)
+            np.random.shuffle(remaining)
             order = order + remaining
 
         return list(unique_everseen(order))
@@ -107,7 +107,7 @@ class MLP(ClassifierInterface):
         else: 
             order = []
         remaining = [x for x in SOLVERS.keys() if x not in order]
-        random.shuffle(remaining)
+        np.random.shuffle(remaining)
         order = order + remaining
         return list(unique_everseen(order))
 
@@ -172,7 +172,7 @@ class LinearBandit(ClassifierInterface):
         
         ps = [thetas[i].T @ point + beta.T @ point + self.alpha * np.sqrt(sigmas[i]) for i in range(len(SOLVERS))]
         ss = list(range(len(ps)))
-        random.shuffle(ss)
+        np.random.shuffle(ss)
         i_order = sorted(ss, key=lambda x: -1 * ps[x])
         order = [list(SOLVERS.keys())[int(choice)] for choice in i_order]
         return list(unique_everseen(order))
@@ -215,16 +215,14 @@ class KNearest(ClassifierInterface):
         return positions
 
     def get_ordering(self, point, count):
-        # if np.random.rand() >= self.epsilon * (self.decay ** count) and self.solved:
-        candidates = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))[:self.k]
-        methods = [x.solve_method for x in candidates]
-        ss = list(SOLVERS.keys())
-        random.shuffle(ss)
-        order = sorted(ss, key= lambda x: methods.count(x), reverse=True)
-        # else:
-        #     order = Random.get_ordering(self, point, count)
-
-        return list(unique_everseen(order))
+        if np.random.rand() >= self.epsilon * (self.decay ** count) and self.solved:
+            candidates = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))[:self.k]
+            methods = [x.solve_method for x in candidates]
+            ss = list(SOLVERS.keys())
+            np.random.shuffle(ss)
+            order = sorted(ss, key= lambda x: -1 * methods.count(x))
+        else:
+            order = Random.get_ordering(self, point, count)
 
     def update(self, solved_prob, rewards):
         #TODO: Implement pruning

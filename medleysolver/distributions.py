@@ -2,12 +2,13 @@ from math import log
 import numpy as np
 
 class ExponentialDist:
-    def __init__(self, lamb, conf):
+    def __init__(self, lamb, conf, T):
         self.lamb = lamb
         self.count = 0
         self.total = 0
         self.confidence = conf
         self.naughtylist = False
+        self.T = T
 
     def add_sample(self, sample):
         self.total += sample
@@ -24,7 +25,7 @@ class ExponentialDist:
     def get_cutoff(self):
         if self.naughtylist:
             return 0
-        return log(1 - self.confidence) / (-1 * self.lamb)
+        return log(1 - self.confidence + np.exp(-1 * self.lamb * self.T)) / (-1 * self.lamb)
 
 class ThompsonDist(object):
     def __init__(self, n, init_a=1, init_b=1):
