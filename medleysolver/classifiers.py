@@ -138,8 +138,9 @@ class LinearBandit(ClassifierInterface):
                 for i in range(len(SOLVERS))]
         
         ps = [thetas[i].T @ point + beta.T @ point + self.alpha * np.sqrt(sigmas[i]) for i in range(len(SOLVERS))]
-
-        i_order = sorted(random.shuffle(list(range(len(ps)))), key=lambda x: -1 * ps[x])
+        ss = list(range(len(ps)))
+        random.shuffle(ss)
+        i_order = sorted(ss, key=lambda x: -1 * ps[x])
         order = [list(SOLVERS.keys())[int(choice)] for choice in i_order]
         return order
 
