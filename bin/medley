@@ -134,6 +134,13 @@ def main():
         default="both"
     )
 
+    global_parser.add_argument(
+        "--gamma",
+        help="gamma parameter for exp3",
+        type=float,
+        default=0.07
+    )
+
     args = global_parser.parse_args()
 
     if not args.output.endswith(".csv"):
@@ -174,7 +181,7 @@ def main():
         classifier = Preset(args.preset)
         timeout_manager = Constant(args.timeout)
     elif args.classifier == "exp3":
-        classifier = Exp3(0.07)
+        classifier = Exp3(args.gamma)
     elif args.classifier == "knearest":
         classifier = KNearest(args.k, args.epsilon, args.epsilon_decay)
     else:
