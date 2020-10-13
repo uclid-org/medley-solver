@@ -6,7 +6,7 @@ from medleysolver.constants import SOLVERS, Result, Solved_Problem, SAT_RESULT, 
 from medleysolver.distributions import ExponentialDist
 from medleysolver.dispatch import run_problem
 
-def execute(problems, output, classifier, time_manager, timeout, feature_setting, extra_time_to_first):
+def execute(problems, output, classifier, time_manager, timeout, feature_setting, extra_time_to_first, reward):
     mean = 0
     writer = csv.writer(open(output, 'w'))
 
@@ -29,15 +29,16 @@ def execute(problems, output, classifier, time_manager, timeout, feature_setting
         writer.writerow(solved_prob)
 
 
-def apply_ordering(problem, order, timeout, time_manager, extra_time_to_first, times):
+def apply_ordering(problem, order, timeout, time_manager, extra_time_to_first, times, reward):
     elapsed = 0
     rewards = [-1 for _ in SOLVERS] # negative rewards should be ignored. 
     time_spent = []
+    timeout = int(timeout)
 
     budgets = [int(time_manager.get_timeout(solver, times))+1 for solver in order]
 
     for i in range(len(budgets)):
-        budgets[i] = min(budgets[i], int(timeout - sum(budgets[:i])))
+        budgets[i] = min(budgets[i], max(0, int(timeout - sum(budgets[:i]))))
 
     if sum(budgets) < timeout:
         if extra_time_to_first:
@@ -54,7 +55,13 @@ def apply_ordering(problem, order, timeout, time_manager, extra_time_to_first, t
         time_for_solver = int(timeout - elapsed) + 1 if i == len(order) - 1 else budgets[i]
         res = run_problem(solver, SOLVERS[solver], problem, time_for_solver)
 
-        reward = 1 + ((1 - res.elapsed / timeout) ** 4) if is_solved(res.result) else 0
+        if reward == "binary":
+            reward = 1 if is_solved(res.result) else 0
+        elif reward == "bump":
+            reward = 1 + ((1 - res.elapsed / timeout) ** 4) if is_solved(res.result) else 0
+        elif reward == "exp":
+            reward = (1 - res.elapsed / timeout) ** 4 if is_solved(res.result) else 0
+
         rewards[list(SOLVERS.keys()).index(solver)] = reward
         time_spent.append(res.elapsed)
 

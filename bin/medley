@@ -39,6 +39,14 @@ def main():
     )
 
     global_parser.add_argument(
+        "--reward",
+        help="the kind of reward to give",
+        type=str,
+        default="bump",
+        choices=["binary", "bump", "exp"] 
+    )
+
+    global_parser.add_argument(
         "--classifier",
         "-c",
         help="select mechanism for choosing orderings of solvers",
@@ -211,7 +219,7 @@ def main():
         with open(args.load_classifier, "rb") as f:
             classifier = dill.load(f)
     
-    execute(problems, args.output, classifier, timeout_manager, args.timeout, args.feature_setting, args.extra)
+    execute(problems, args.output, classifier, timeout_manager, args.timeout, args.feature_setting, args.extra, args.reward)
 
     if args.save_classifier:
         classifier.save(args.save_classifier)

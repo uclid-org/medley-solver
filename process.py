@@ -27,6 +27,6 @@ for i in range(len(solvers)):
 totaltimes = [str(sum(time)) for time in times]
 totalcount = [str(sum(map(lambda x: 1 if x == "sat" or x == "unsat" else 0, answer))) for answer in answers]
 
-print(",".join(solvers))
-print(",".join(totaltimes))
-print(",".join(totalcount))
+print("solver, total time, total solved")
+for i in range(len(solvers)):
+    print(",".join([str(solvers[i]), str(totaltimes[i]), str(totalcount[i])]))

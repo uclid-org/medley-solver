@@ -24,7 +24,7 @@ for r in result:
         for row in spamreader:
             r = float(row[3]) if isinstance(row[3], str) else row[3]
             r = r if r < 60 else 60
-            r = r if row[4] != "error" else 60
+            r = r if row[4] != "error" and "timeout" not in row[4] else 60
             cols[solver][row[0]] = r
 
 print("choice, answer, problem")
