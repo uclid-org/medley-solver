@@ -26,7 +26,7 @@ def main():
         "-e",
         help="extra time to first? Add to last if not",
         type=bool,
-        default=False,
+        default=True,
     )
     global_parser.add_argument(
         "--kind",

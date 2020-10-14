@@ -1,5 +1,5 @@
-for seed in 0 1; do
-    for learner in thompson neighbor knearest random MLP linear exp3a exp3b exp3c; do
+for seed in 0; do #1; do
+    for learner in thompson knearest exp3a; do # neighbour random MLP linear exp3b exp3c; do
         if [ $learner = exp3a ]
         then
             learnconfig="exp3 --gamma 0.07"
@@ -12,10 +12,10 @@ for seed in 0 1; do
         else 
             learnconfig=$learner
         fi
-        for feature in both probes bow; do
-            for reward in binary bump exp; do
-                medley ./$1/ ./$1/${learner}_${feature}_${reward}_const_${seed}.csv   --classifier $learnconfig --seed $seed --feature_setting $feature --reward $reward --timeout_manager const --set_const 60
-                medley ./$1/ ./$1/${learner}_${feature}_${reward}_expo_${seed}.csv    --classifier $learnconfig --seed $seed --feature_setting $feature --reward $reward --timeout_manager expo
+        for feature in both; do #probes bow; do
+            for reward in bump; do # binary exp; do
+                # medley ./$1/ ./$1/${learner}_${feature}_${reward}_const_${seed}.csv   --classifier $learnconfig --seed $seed --feature_setting $feature --reward $reward --timeout_manager const --set_const 60
+                # medley ./$1/ ./$1/${learner}_${feature}_${reward}_expo_${seed}.csv    --classifier $learnconfig --seed $seed --feature_setting $feature --reward $reward --timeout_manager expo
                 medley ./$1/ ./$1/${learner}_${feature}_${reward}_nearest_${seed}.csv --classifier $learnconfig --seed $seed --feature_setting $feature --reward $reward --timeout_manager nearest --time_k 20
             done 
         done 

@@ -40,8 +40,11 @@ class NearestExponential(TimerInterface):
         self.init_lambda = init_lambda
         self.confidence = confidence
         self.T = T
+        self.naughtylist = set()
     
     def get_timeout(self, solver, times):
+        if solver in self.naughtylist:
+            return 0
         # want time based on times for same solver at nearby points
         timer = ExponentialDist(self.init_lambda, self.confidence, self.T)
         for (s, t) in times:
@@ -50,4 +53,6 @@ class NearestExponential(TimerInterface):
         return timer.get_cutoff()
     
     def update(self, solver, time, timeout, success, error):
-        pass
+        assert(not success or not error)
+        if error:
+            self.naughtylist.add(solver)
