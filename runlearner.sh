@@ -1,5 +1,5 @@
 for seed in 0 1; do
-    if [ $2 == exp3a ]
+    if [ $2 = exp3a ]
     then
         learnconfig="exp3 --gamma 0.07"
     elif [ $2 = exp3b ]
