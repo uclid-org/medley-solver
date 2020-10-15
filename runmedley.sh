@@ -1,25 +1,22 @@
-for seed in 0 1; do
-    for learner in thompson neighbor knearest random MLP linear exp3a exp3b exp3c exp3d; do
-        if [ $learner == exp3a ]
+for seed in 0; do #1; do
+    for learner in random; do #thompson knearest MLP linear exp3a; do
+        if [ $learner = exp3a ]
         then
             learnconfig="exp3 --gamma 0.07"
-        elif [ $learner == exp3b ]
+        elif [ $learner = exp3b ]
         then
             learnconfig="exp3 --gamma 0.1"
-        elif [ $learner == exp3c ]
+        elif [ $learner = exp3c ]
         then
             learnconfig="exp3 --gamma 0.25"
-        elif [ $learner == exp3d ]
-        then
-            learnconfig="exp3 --gamma 0.5"
         else 
             learnconfig=$learner
         fi
-        for feature in both probes bow; do
-            for reward in binary bump exp; do
-                medley ./$1/ ./$1/${learner}_${feature}_${reward}_const_${seed}.csv   --classifier $learnconfig --seed $seed --feature_setting $feature --reward $reward --timeout_manager const --set_const 60
-                medley ./$1/ ./$1/${learner}_${feature}_${reward}_expo_${seed}.csv    --classifier $learnconfig --seed $seed --feature_setting $feature --reward $reward --timeout_manager expo
-                medley ./$1/ ./$1/${learner}_${feature}_${reward}_nearest_${seed}.csv --classifier $learnconfig --seed $seed --feature_setting $feature --reward $reward --timeout_manager nearest --time_k 20
+        for feature in both; do #probes bow; do
+            for reward in bump; do # binary exp; do
+                # medley ./$1/ ./$1/${learner}_${feature}_${reward}_const_${seed}.csv   --classifier $learnconfig --seed $seed --feature_setting $feature --reward $reward --timeout_manager const --set_const 60
+                medley ./$1/ ./$1/${learner}_${feature}_${reward}_perfect_${seed}.csv    --classifier $learnconfig --seed $seed --feature_setting $feature --reward $reward --timeout_manager perfect
+                # medley ./$1/ ./$1/${learner}_${feature}_${reward}_5_nearest_${seed}.csv --classifier $learnconfig --seed $seed --feature_setting $feature --reward $reward --timeout_manager nearest --time_k 20
             done 
         done 
     done 
