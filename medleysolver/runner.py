@@ -21,7 +21,7 @@ def execute(problems, output, classifier, time_manager, timeout, feature_setting
         times = classifier.get_nearby_times(point, c)
         end = time.time()
 
-        solver, elapsed, result, rewards, time_spent = apply_ordering(prob, order, timeout - (end - start), time_manager, extra_time_to_first, times, reward)
+        solver, elapsed, result, rewards, time_spent = apply_ordering(prob, order, timeout - (end - start), time_manager, extra_time_to_first, times, reward, point)
         solved_prob = Solved_Problem(prob, point, solver, elapsed + (end - start), result, order, time_spent)
 
         classifier.update(solved_prob, rewards)
@@ -29,13 +29,13 @@ def execute(problems, output, classifier, time_manager, timeout, feature_setting
         writer.writerow(solved_prob)
 
 
-def apply_ordering(problem, order, timeout, time_manager, extra_time_to_first, times, reward):
+def apply_ordering(problem, order, timeout, time_manager, extra_time_to_first, times, reward, point):
     elapsed = 0
     rewards = [-1 for _ in SOLVERS] # negative rewards should be ignored. 
     time_spent = []
     timeout = int(timeout)
 
-    budgets = [int(time_manager.get_timeout(solver, times))+1 for solver in order]
+    budgets = [int(time_manager.get_timeout(solver, times, point))+1 for solver in order]
 
     for i in range(len(budgets)):
         budgets[i] = min(budgets[i], max(0, int(timeout - sum(budgets[:i]))))
@@ -66,6 +66,6 @@ def apply_ordering(problem, order, timeout, time_manager, extra_time_to_first, t
         time_spent.append(res.elapsed)
 
         elapsed += res.elapsed
-        time_manager.update(solver, res.elapsed, timeout, is_solved(res.result), is_error(res.result))
+        time_manager.update(solver, res.elapsed, timeout, is_solved(res.result), is_error(res.result), point)
         if elapsed >= timeout or is_solved(res.result) or i == len(order) - 1:
             return solver, elapsed, res.result, rewards, time_spent

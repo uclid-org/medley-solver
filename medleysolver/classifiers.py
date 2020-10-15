@@ -102,6 +102,8 @@ class MLP(ClassifierInterface):
     def get_ordering(self, point, count):
         point = np.array(point).reshape(1, -1)
         if self.fitted:
+            scores = self.clf.predict_proba(point)
+            order = sorted(list(range(len(SOLVERS))), key=lambda x: -1 * scores[x])
             choice = self.clf.predict(point)
             order = [list(SOLVERS.keys())[int(choice)]]
         else: 
