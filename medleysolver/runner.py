@@ -17,7 +17,7 @@ def execute(problems, output, classifier, time_manager, timeout, feature_setting
         mean = (c - 1) / c * mean + 1 / c * point
         point = point / (mean+1e-9)
 
-        order = classifier.get_ordering(point, c)
+        order = classifier.get_ordering(point, c, prob)
         times = classifier.get_nearby_times(point, c)
         end = time.time()
 
@@ -35,7 +35,7 @@ def apply_ordering(problem, order, timeout, time_manager, extra_time_to_first, t
     time_spent = []
     timeout = int(timeout)
 
-    budgets = [int(time_manager.get_timeout(solver, times, point))+1 for solver in order]
+    budgets = [int(time_manager.get_timeout(solver, times, problem, point))+1 for solver in order]
 
     for i in range(len(budgets)):
         budgets[i] = min(budgets[i], max(0, int(timeout - sum(budgets[:i]))))
