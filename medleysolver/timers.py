@@ -8,8 +8,8 @@ import csv
 class TimerInterface(object):
     def get_timeout(self, solver, position, problem, point):
         raise NotImplementedError
-    
-    def update(self, solver, time, success, error, point):
+
+    def update(self, solver, time, timeout, success, error, point):
         raise NotImplementedError
 
 class Constant(TimerInterface):
@@ -45,6 +45,7 @@ class NearestExponential(TimerInterface):
         self.confidence = confidence
         self.T = T
         self.naughtylist = set()
+        self.count = 0
     
     def get_timeout(self, solver, times, problem, point):
         if solver in self.naughtylist:
@@ -60,6 +61,11 @@ class NearestExponential(TimerInterface):
         assert(not success or not error)
         if error:
             self.naughtylist.add(solver)
+            self.count = 500
+        
+        self.count -= 1
+        if self.count == 0:
+            self.naughtylist = set()
 
 class SGD(TimerInterface):
     def __init__(self):
@@ -100,6 +106,6 @@ class PerfectTimer(TimerInterface):
         time = elapsed+1 if output == SAT_RESULT or output == UNSAT_RESULT else 0
 
         return time
-    
-    def update(self, solver, time, timeout, success, error):
+
+    def update(self, solver, time, timeout, success, error, point):
         pass
