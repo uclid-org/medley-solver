@@ -5,7 +5,7 @@ import glob
 import dill
 from medleysolver.runner import execute
 from medleysolver.constants import SOLVERS
-from medleysolver.timers import Exponential, Constant, NearestExponential, PerfectTimer
+from medleysolver.timers import Exponential, Constant, NearestExponential, PerfectTimer, SGD
 from medleysolver.classifiers import *
 
 def main():
@@ -69,7 +69,7 @@ def main():
         help="choose how timeout is distributed amongst solvers",
         type=str,
         default="expo",
-        choices=["expo", "const", "nearest", "perfect"]
+        choices=["expo", "const", "nearest", "perfect", "sgd"]
     )
 
     global_parser.add_argument(
@@ -201,6 +201,8 @@ def main():
         timeout_manager = NearestExponential(args.set_lambda, args.confidence, args.timeout)
     elif args.timeout_manager == "perfect":
         timeout_manager = PerfectTimer()
+    elif args.timeout_manager == "sgd":
+        timeout_manager = SGD()
     else:
         raise RuntimeError("timeout_manager not properly set")
 

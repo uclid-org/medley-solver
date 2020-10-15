@@ -2,7 +2,7 @@ from medleysolver.distributions import ExponentialDist
 from medleysolver.constants import SOLVERS, ERROR_RESULT, SAT_RESULT, UNSAT_RESULT
 from sklearn.linear_model import SGDRegressor
 from medleysolver.dispatch import output2result
-
+import numpy as np
 import csv
 
 class TimerInterface(object):
@@ -62,21 +62,24 @@ class NearestExponential(TimerInterface):
             self.naughtylist.add(solver)
 
 class SGD(TimerInterface):
-    def __init__(self, init_lambda, confidence, T):
+    def __init__(self):
         self.fitted = [False for _ in SOLVERS]
         self.models = [SGDRegressor() for _ in SOLVERS]
+        self.solvers_to_i = {s: i for i, s in enumerate(list(SOLVERS.keys()))}
 
     def get_timeout(self, solver, times, problem, point):
-        if not self.fitted[solver]: return 60
-        clf = self.models[solver]
+        point = point.reshape(1, -1)
+        sindex = self.solvers_to_i[solver]
+        if not self.fitted[sindex]: return 60
+        clf = self.models[sindex]
         return clf.predict(point)
 
     def update(self, solver, time, timeout, success, error, point):
-        clf = self.models[solver]
-        if self.fitted[solver]:
-            clf.partial_fit(point, time)
-        else:
-            clf.fit(point, time)
+        point = point.reshape(1, -1)
+        time = np.array([time])
+        sindex = self.solvers_to_i[solver]
+        clf = self.models[sindex]
+        clf.partial_fit(point, time)
 
 class PerfectTimer(TimerInterface):
     def get_timeout(self, solver, position, problem, point):
