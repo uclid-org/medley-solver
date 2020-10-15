@@ -1,3 +1,3 @@
-for learner in exp3c exp3d; do
+for learner in exp3c; do
     sh ./runlearner.sh tmp/uclid $learner
 done

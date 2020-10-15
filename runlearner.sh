@@ -1,16 +1,13 @@
 for seed in 0 1; do
-    if [ $2 == exp3a ]
+    if [ $2 = exp3a ]
     then
         learnconfig="exp3 --gamma 0.07"
-    elif [ $2 == exp3b ]
+    elif [ $2 = exp3b ]
     then
         learnconfig="exp3 --gamma 0.1"
-    elif [ $2 == exp3c ]
+    elif [ $2 = exp3c ]
     then
         learnconfig="exp3 --gamma 0.25"
-    elif [ $2 == exp3d ]
-    then
-        learnconfig="exp3 --gamma 0.5"
     else 
         learnconfig=$2
     fi
