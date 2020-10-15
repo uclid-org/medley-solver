@@ -29,7 +29,7 @@ def run_problem(solver, invocation, problem, timeout):
         result = Result(
             problem  = problem.split("/", 2)[-1],
             result   = ERROR_RESULT,
-            elapsed  = 0
+            elapsed  = 0.1 # penalty: simulating time it would have taken to run and fail
         )
     return result
 

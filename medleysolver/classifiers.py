@@ -1,4 +1,4 @@
-import numpy as np, random, dill
+import numpy as np, dill
 from collections import OrderedDict
 from sklearn.neural_network import MLPClassifier
 from medleysolver.constants import SOLVERS, is_solved, ERROR_RESULT
@@ -56,7 +56,7 @@ class NearestNeighbor(ClassifierInterface):
                 order = list(OrderedDict((x.solve_method, True) for x in fast).keys())
                 #randomly append solvers not found in sort
                 remaining = [x for x in SOLVERS.keys() if x not in order]
-                random.shuffle(remaining)
+                np.random.shuffle(remaining)
                 order = order + remaining
             else:
                 order = Random.get_ordering(self, point, count, problem)
@@ -66,7 +66,7 @@ class NearestNeighbor(ClassifierInterface):
                 candidate = sorted(self.solved, key=lambda entry: np.linalg.norm(entry.datapoint - point))[0]
                 order = list(OrderedDict((x.solve_method, True) for x in [candidate]).keys())
                 remaining = [x for x in SOLVERS.keys() if x != candidate]
-                random.shuffle(remaining)
+                np.random.shuffle(remaining)
                 order = order + remaining
             else:
                 order = Random.get_ordering(self, point, count, problem)
@@ -146,7 +146,7 @@ class Thompson(ClassifierInterface):
             t_order = self.dist.get_ordering()
             order = [[list(SOLVERS.keys())[int(choice)] for choice in t_order][0]]
             remaining = [x for x in SOLVERS.keys() if x not in order]
-            random.shuffle(remaining)
+            np.random.shuffle(remaining)
             order = order + remaining
         else:
             t_order = self.dist.get_ordering()

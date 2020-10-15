@@ -1,4 +1,4 @@
-import numpy as np, csv, random, tqdm
+import numpy as np, csv, tqdm
 import time
 from collections import OrderedDict
 from medleysolver.compute_features import get_features
@@ -11,7 +11,7 @@ def execute(problems, output, classifier, time_manager, timeout, feature_setting
     writer = csv.writer(open(output, 'w'))
 
     for c, prob in tqdm.tqdm(enumerate(problems, 1)): 
-        start = time.time()
+        # start = time.time()
         point = np.array(get_features(prob, feature_setting))
         #normalizing point
         mean = (c - 1) / c * mean + 1 / c * point
@@ -19,10 +19,13 @@ def execute(problems, output, classifier, time_manager, timeout, feature_setting
 
         order = classifier.get_ordering(point, c, prob)
         times = classifier.get_nearby_times(point, c)
-        end = time.time()
+        # end = time.time()
 
-        solver, elapsed, result, rewards, time_spent = apply_ordering(prob, order, timeout - (end - start), time_manager, extra_time_to_first, times, reward, point)
-        solved_prob = Solved_Problem(prob, point, solver, elapsed + (end - start), result, order, time_spent)
+        # solver, elapsed, result, rewards, time_spent = apply_ordering(prob, order, timeout - (end - start), time_manager, extra_time_to_first, times, reward, point)
+        # solved_prob = Solved_Problem(prob, point, solver, elapsed + (end - start), result, order, time_spent)
+
+        solver, elapsed, result, rewards, time_spent = apply_ordering(prob, order, timeout, time_manager, extra_time_to_first, times, reward, point)
+        solved_prob = Solved_Problem(prob, point, solver, elapsed, result, order, time_spent)
 
         classifier.update(solved_prob, rewards)
 

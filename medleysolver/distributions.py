@@ -20,11 +20,12 @@ class ExponentialDist:
 
     def add_error(self):
         # punish for giving an error
-        self.naughtylist = True
+        # self.naughtylist = True
+        pass
 
     def get_cutoff(self):
-        if self.naughtylist:
-            return 0
+        # if self.naughtylist:
+        #     return 0
         return log(1 - self.confidence + np.exp(-1 * self.lamb * self.T)) / (-1 * self.lamb)
 
 class ThompsonDist(object):

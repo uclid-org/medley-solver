@@ -58,14 +58,15 @@ class NearestExponential(TimerInterface):
         return timer.get_cutoff()
     
     def update(self, solver, time, timeout, success, error, point):
-        assert(not success or not error)
-        if error:
-            self.naughtylist.add(solver)
-            self.count = 500
+        # assert(not success or not error)
+        # if error:
+        #     self.naughtylist.add(solver)
+        #     self.count = 10
         
-        self.count -= 1
-        if self.count == 0:
-            self.naughtylist = set()
+        # self.count -= 1
+        # if self.count == 0:
+        #     self.naughtylist = set()
+        pass
 
 class SGD(TimerInterface):
     def __init__(self):

@@ -177,8 +177,7 @@ def main():
     if not args.output.endswith(".csv"):
         global_parser.error("The output file needs to be a csv file.")
 
-    if args.seed:
-        np.random.seed(args.seed)
+    np.random.seed(args.seed)
     
     problems = glob.glob(args.input + "/**.smt2", recursive=True)
     problems = sorted([p for p in problems if p.endswith(".smt2")])
