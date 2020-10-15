@@ -5,7 +5,7 @@ import glob
 import dill
 from medleysolver.runner import execute
 from medleysolver.constants import SOLVERS
-from medleysolver.timers import Exponential, Constant, NearestExponential
+from medleysolver.timers import Exponential, Constant, NearestExponential, PerfectTimer
 from medleysolver.classifiers import *
 
 def main():
@@ -52,7 +52,7 @@ def main():
         help="select mechanism for choosing orderings of solvers",
         type=str,
         default="neighbor",
-        choices=["neighbor", "random", "MLP", "thompson", "linear", "preset", "exp3", "knearest"]
+        choices=["neighbor", "random", "MLP", "thompson", "linear", "preset", "exp3", "knearest", "perfect"]
     )
 
     global_parser.add_argument(
@@ -69,7 +69,7 @@ def main():
         help="choose how timeout is distributed amongst solvers",
         type=str,
         default="expo",
-        choices=["expo", "const", "nearest"]
+        choices=["expo", "const", "nearest", "perfect"]
     )
 
     global_parser.add_argument(
@@ -153,7 +153,7 @@ def main():
         "--time_k",
         help="set k value for knearest neighbor",
         type=int,
-        default=20
+        default=40
     )
 
     global_parser.add_argument(
@@ -199,26 +199,30 @@ def main():
         if not args.set_lambda:
             args.set_lambda = 1 / (args.timeout / len(SOLVERS))
         timeout_manager = NearestExponential(args.set_lambda, args.confidence, args.timeout)
+    elif args.timeout_manager == "perfect":
+        timeout_manager = PerfectTimer()
     else:
         raise RuntimeError("timeout_manager not properly set")
 
     if args.classifier == "neighbor":
-        classifier = NearestNeighbor(args.epsilon, args.epsilon_decay, args.kind)
+        classifier = NearestNeighbor(args.epsilon, args.epsilon_decay, args.kind, args.time_k)
     elif args.classifier == "random":
-        classifier = Random()
+        classifier = Random(args.time_k)
     elif args.classifier == "MLP":
-        classifier = MLP()
+        classifier = MLP(args.time_k)
     elif args.classifier == "thompson":
-        classifier = Thompson(args.kind)
+        classifier = Thompson(args.kind, args.time_k)
     elif args.classifier == "linear":
-        classifier = LinearBandit()
+        classifier = LinearBandit(args.time_k)
     elif args.classifier == "preset":
         classifier = Preset(args.preset)
         timeout_manager = Constant(args.timeout)
     elif args.classifier == "exp3":
-        classifier = Exp3(args.gamma)
+        classifier = Exp3(args.gamma, args.time_k)
     elif args.classifier == "knearest":
         classifier = KNearest(args.k, args.epsilon, args.epsilon_decay, args.time_k)
+    elif args.classifier == "perfect":
+        classifier = PerfectSelector(args.time_k)
     else:
         raise RuntimeError("classifier not properly set")
     

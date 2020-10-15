@@ -27,7 +27,8 @@ for r in result:
             r = r if row[4] != "error" and "timeout" not in row[4] else 60
             cols[solver][row[0]] = r
 
-print("solver, answer, guess, problem")
+total = 0
+# print("solver, answer, guess, problem")
 # Load nearest, zip times with solvers
 with open("%s/%s/%s.csv"%(path, dataset, learner)) as csvfile:
     spamreader = list(csv.reader(csvfile))
@@ -38,6 +39,9 @@ with open("%s/%s/%s.csv"%(path, dataset, learner)) as csvfile:
         zipped = zip(solvers, times)
 
 
-        for (a, b) in zipped:
+        for (a, b) in list(zipped)[:1]:
             if b > 0 and a in cols and cols[a][row[0]] > b and cols[a][row[0]] < 60:
-                print(",".join([str(a), str(cols[a][row[0]]), str(b), str(row[0])]))
+                # print(",".join([str(a), str(cols[a][row[0]]), str(b), str(row[0])]))
+                total += 1
+
+print(total)

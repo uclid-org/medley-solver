@@ -1,0 +1,1000 @@
+./tmp/uclid500/run-btfnt-bdata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.44698242 0.3831084  0.51668151 0.86766647 1.11953353 1.11953353
+ 1.10492998 0.         0.49732127 0.01442403 1.32360307]",CVC4,1.694300889968872,unsat,['CVC4'],[1.694300889968872]
+./tmp/uclid500/run-btfnt-bdata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00090542 0.00010824 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.10040998458862305,unsat,['CVC4'],[0.10040998458862305]
+./tmp/uclid500/run-btfnt-bdata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.07331249 1.06467788 1.17491366 0.908768   1.15923567 1.15923567
+ 1.14561477 0.         1.07391872 0.0371277  3.46989789]",CVC4,3.9009978771209717,unsat,['CVC4'],[3.9009978771209717]
+./tmp/uclid500/run-btfnt-bdata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.66871604 1.73830091 1.77692691 0.89818843 1.12698413 1.12698413
+ 1.109375   0.         1.60980005 0.05830126 5.43114905]",CVC4,5.914862155914307,unsat,['CVC4'],[5.914862155914307]
+./tmp/uclid500/run-btfnt-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089242 0.00010604 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.06361794471740723,unsat,['CVC4'],[0.06361794471740723]
+./tmp/uclid500/run-btfnt-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.86754669 0.90168159 0.93907205 0.89033368 1.14655172 1.14655172
+ 1.13159387 0.         0.89026587 0.02819788 2.74735169]",CVC4,2.830544948577881,unsat,['CVC4'],[2.830544948577881]
+./tmp/uclid500/run-btfnt-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.07010353 1.16116045 1.14251381 0.89203314 1.1319797  1.1319797
+ 1.115      0.         1.07833999 0.03660298 3.64882554]",CVC4,3.4170539379119873,unsat,['CVC4'],[3.4170539379119873]
+./tmp/uclid500/run-btfnt-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.29779953 1.43925393 1.36701929 0.88370822 1.12068965 1.12068965
+ 1.1060692  0.         1.28930369 0.04323645 3.72023492]",CVC4,9.247849225997925,unsat,['CVC4'],[9.247849225997925]
+./tmp/uclid500/run-btfnt-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.91273458 2.19902388 1.98203631 0.88692326 1.12109375 1.12109375
+ 1.10583098 0.         1.86207879 0.06512859 5.37017486]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-btfnt-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089012 0.00010604 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.06824994087219238,unsat,['CVC4'],[0.06824994087219238]
+./tmp/uclid500/run-btfnt-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.41869547 0.33661301 0.51125572 0.87520966 1.125      1.125
+ 1.10842792 0.         0.47792586 0.01463012 1.29072795]",CVC4,1.1967260837554932,unsat,['CVC4'],[1.1967260837554932]
+./tmp/uclid500/run-btfnt-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.83684117 0.80291075 0.93317071 0.88363838 1.12204724 1.12204724
+ 1.10650964 0.         0.85652825 0.0288498  2.48238236]",CVC4,3.400554895401001,unsat,['CVC4'],[3.400554895401001]
+./tmp/uclid500/run-btfnt-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.23513973 0.11698709 0.30243975 0.80058837 1.14511873 1.14511873
+ 1.13001215 0.         0.3004797  0.0070722  0.76837926]",CVC4,0.4412820339202881,unsat,['CVC4'],[0.4412820339202881]
+./tmp/uclid500/run-btfnt-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.44670391 0.36889169 0.49144543 0.8603393  1.10951894 1.10951894
+ 1.09576117 0.         0.49657745 0.01440972 1.18789871]",CVC4,2.0444440841674805,unsat,['CVC4'],[2.0444440841674805]
+./tmp/uclid500/run-btfnt-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.87161637 0.87371716 0.87233261 0.87697172 1.1136108  1.1136108
+ 1.09991852 0.         0.89216949 0.02921819 2.09563994]",CVC4,4.502279043197632,unsat,['CVC4'],[4.502279043197632]
+./tmp/uclid500/run-btfnt-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.08173881 1.12338049 1.06053701 0.87948634 1.11412429 1.11412429
+ 1.10011901 0.         1.08767232 0.03643351 2.55442238]",CVC4,6.333005905151367,unsat,['CVC4'],[6.333005905151367]
+./tmp/uclid500/run-btfnt-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.92954505 2.12913227 1.8189136  0.88331233 1.11796982 1.11796982
+ 1.10363817 0.         1.87707955 0.06476021 4.29480727]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-btfnt-bdata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089602 0.00010702 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.10015487670898438,unsat,['CVC4'],[0.10015487670898438]
+./tmp/uclid500/run-btfnt-bdata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.42438253 0.32822395 0.49221696 0.86622601 1.11631016 1.11631016
+ 1.10197079 0.         0.4836343  0.01447893 1.16515499]",CVC4,1.6041889190673828,unsat,['CVC4'],[1.6041889190673828]
+./tmp/uclid500/run-btfnt-bdata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.84251267 0.76928414 0.87177147 0.8915997  1.13965087 1.13965087
+ 1.12303408 0.         0.86279103 0.0281006  2.23446216]",CVC4,3.099545955657959,unsat,['CVC4'],[3.099545955657959]
+./tmp/uclid500/run-btfnt-bdata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.69968929 1.68622276 1.64333825 0.87751804 1.10793651 1.10793651
+ 1.09541745 0.         1.63522683 0.05981757 3.94009196]",CVC4,23.347251176834106,unsat,['CVC4'],[23.347251176834106]
+./tmp/uclid500/run-btfnt-bdata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.94611432 2.14769242 1.83395336 0.88088697 1.11297852 1.11297852
+ 1.09936055 0.         1.89065461 0.066433   4.40165251]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-btfnt-bdata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089799 0.00010724 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.09180712699890137,unsat,['CVC4'],[0.09180712699890137]
+./tmp/uclid500/run-btfnt-bdata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21702951 0.10546753 0.3059775  0.7842377  1.1092511  1.1092511
+ 1.0969447  0.         0.29679397 0.00747358 0.72907952]",CVC4,0.6555030345916748,unsat,['CVC4'],[0.6555030345916748]
+./tmp/uclid500/run-btfnt-bdata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.41474026 0.31938994 0.48183503 0.8676325  1.11456628 1.11456628
+ 1.09756098 0.         0.4733574  0.01432041 1.11709108]",CVC4,1.4462039470672607,unsat,['CVC4'],[1.4462039470672607]
+./tmp/uclid500/run-btfnt-bdata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.6337522  0.54836721 0.68286604 0.89017529 1.14435696 1.14435696
+ 1.12933863 0.         0.67409003 0.021313   1.73616119]",CVC4,1.7384521961212158,unsat,['CVC4'],[1.7384521961212158]
+./tmp/uclid500/run-btfnt-bdata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.23305206 1.18749667 1.22266491 0.88557221 1.12056738 1.12056738
+ 1.10335195 0.         1.21512198 0.04307427 2.83129226]",CVC4,7.212718963623047,unsat,['CVC4'],[7.212718963623047]
+./tmp/uclid500/run-btfnt-bdata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.86382565 1.86098617 1.79569942 0.89616206 1.13207547 1.13207547
+ 1.11662531 0.         1.78788057 0.06685375 4.69421072]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-btfnt-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.70290086 0.66249345 0.7277439  1.59570673 1.13793103 1.13793103
+ 1.10244989 0.         0.73628522 1.71014493 0.        ]",CVC4,1.1888418197631836,unsat,['CVC4'],[1.1888418197631836]
+./tmp/uclid500/run-btfnt-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.88382574 0.89064251 0.8829037  1.50887403 1.10994764 1.10994764
+ 1.09749784 0.         0.90324163 2.26058812 0.        ]",CVC4,5.87951397895813,unsat,['CVC4'],[5.87951397895813]
+./tmp/uclid500/run-btfnt-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.08744485 1.13451203 1.06481844 1.50548563 1.10835913 1.10835913
+ 1.09603021 0.         1.092359   2.74505269 0.        ]",CVC4,15.242193937301636,unsat,['CVC4'],[15.242193937301636]
+./tmp/uclid500/run-btfnt-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089577 0.00010695 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.10426783561706543,unsat,['CVC4'],[0.10426783561706543]
+./tmp/uclid500/run-btfnt-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21416619 0.10525389 0.30257859 1.53238027 1.11866502 1.11866502
+ 0.88378906 0.         0.29345006 0.74084569 0.        ]",CVC4,0.5152769088745117,unsat,['CVC4'],[0.5152769088745117]
+./tmp/uclid500/run-btfnt-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.63422258 0.55473919 0.68186613 1.51815946 1.11756935 1.11756935
+ 1.10338231 0.         0.67344709 1.70684084 0.        ]",CVC4,2.667336940765381,unsat,['CVC4'],[2.667336940765381]
+./tmp/uclid500/run-btfnt-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.85403949 0.78384086 0.88763465 1.60052208 1.16981132 1.16981132
+ 1.13970588 0.         0.87477314 2.13233117 0.        ]",CVC4,1.9888091087341309,unsat,['CVC4'],[1.9888091087341309]
+./tmp/uclid500/run-btfnt-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.28305116 1.24835165 1.2673938  1.50617454 1.109375   1.109375
+ 1.09687017 0.         1.25920268 3.25333896 0.        ]",CVC4,11.300783157348633,unsat,['CVC4'],[11.300783157348633]
+./tmp/uclid500/run-btfnt-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.48177271 1.46019948 1.44797103 1.50539266 1.11153479 1.11153479
+ 1.09792844 0.         1.43885336 3.64940658 0.        ]",CVC4,13.709995985031128,unsat,['CVC4'],[13.709995985031128]
+./tmp/uclid500/run-btfnt-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.69249761 1.68741778 1.64221636 1.53749743 1.13513513 1.13513513
+ 1.11900533 0.         1.63208235 4.18779177 0.        ]",CVC4,6.0640130043029785,unsat,['CVC4'],[6.0640130043029785]
+./tmp/uclid500/run-btfnt-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00091311 0.00010931 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.10541200637817383,unsat,['CVC4'],[0.10541200637817383]
+./tmp/uclid500/run-btfnt-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.65409665 0.61668602 0.67711757 1.53312852 1.12815126 1.12815126
+ 1.11195472 0.         0.69016277 1.70666738 0.        ]",CVC4,2.2019500732421875,unsat,['CVC4'],[2.2019500732421875]
+./tmp/uclid500/run-btfnt-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.88730906 0.89488108 0.88628871 1.50810222 1.11026936 1.11026936
+ 1.0980686  0.         0.90655924 2.2615237  0.        ]",CVC4,6.291293144226074,unsat,['CVC4'],[6.291293144226074]
+./tmp/uclid500/run-btfnt-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00090002 0.00010755 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.09151506423950195,unsat,['CVC4'],[0.09151506423950195]
+./tmp/uclid500/run-btfnt-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.0525105  1.00227266 1.05974436 1.51629645 1.11817027 1.11817027
+ 1.10451008 0.         1.05178855 2.67344715 0.        ]",CVC4,6.630122184753418,unsat,['CVC4'],[6.630122184753418]
+./tmp/uclid500/run-btfnt-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.28037958 1.24494521 1.26543161 1.5068104  1.11101083 1.11101083
+ 1.09806137 0.         1.25686905 3.22202722 0.        ]",CVC4,11.250977039337158,unsat,['CVC4'],[11.250977039337158]
+./tmp/uclid500/run-btfnt-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.9075474  1.91519326 1.83195399 1.50538942 1.11245353 1.11245353
+ 1.09883721 0.         1.82355793 4.64204016 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-btfnt-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089809 0.00010752 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.04848790168762207,unsat,['CVC4'],[0.04848790168762207]
+./tmp/uclid500/run-btfnt-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.09361838 1.13286261 1.07680816 1.51666525 1.15625    1.15625
+ 1.13381001 0.         1.10101801 2.40714223 0.        ]",CVC4,2.8940601348876953,unsat,['CVC4'],[2.8940601348876953]
+./tmp/uclid500/run-btfnt-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.29636654 1.38231691 1.25235842 1.48178936 1.11026201 1.11026201
+ 1.09669303 0.         1.28698328 3.16656503 0.        ]",CVC4,9.345093011856079,unsat,['CVC4'],[9.345093011856079]
+./tmp/uclid500/run-btfnt-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00091531 0.0001083  0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.08481597900390625,unsat,['CVC4'],[0.08481597900390625]
+./tmp/uclid500/run-btfnt-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21736341 0.10572218 0.30651844 1.53797053 1.11121157 1.11121157
+ 0.8785893  0.         0.29724341 0.77290456 0.        ]",CVC4,0.6768689155578613,unsat,['CVC4'],[0.6768689155578613]
+./tmp/uclid500/run-btfnt-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.63816927 0.55630997 0.68583617 1.49230543 1.11027333 1.11027333
+ 1.096562   0.         0.67672601 1.73351957 0.        ]",CVC4,3.3807530403137207,unsat,['CVC4'],[3.3807530403137207]
+./tmp/uclid500/run-btfnt-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.83343955 0.76539339 0.86101174 1.49436145 1.117737   1.117737
+ 1.10201005 0.         0.85318617 2.16792529 0.        ]",CVC4,3.902754783630371,unsat,['CVC4'],[3.902754783630371]
+./tmp/uclid500/run-btfnt-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.66068753 1.64681911 1.60870141 1.4852143  1.11719939 1.11719939
+ 1.1013304  0.         1.60207184 4.03226245 0.        ]",CVC4,13.023109912872314,unsat,['CVC4'],[13.023109912872314]
+./tmp/uclid500/run-btfnt-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00090327 0.00010794 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.09358811378479004,unsat,['CVC4'],[0.09358811378479004]
+./tmp/uclid500/run-btfnt-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.86937161 0.87330188 0.86988704 1.48181551 1.10807975 1.10807975
+ 1.09414934 0.         0.88966483 2.17152273 0.        ]",CVC4,4.513422012329102,unsat,['CVC4'],[4.513422012329102]
+./tmp/uclid500/run-btfnt-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.09419336 1.13530648 1.07526607 1.52652428 1.15648855 1.15648855
+ 1.14339623 0.         1.10227966 2.6993972  0.        ]",CVC4,3.837209939956665,unsat,['CVC4'],[3.837209939956665]
+./tmp/uclid500/run-btfnt-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.50158956 1.62502647 1.43647667 1.47592995 1.1090535  1.1090535
+ 1.09530583 0.         1.47767554 3.58859639 0.        ]",CVC4,14.079616069793701,unsat,['CVC4'],[14.079616069793701]
+./tmp/uclid500/run-btfnt-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.7338408  1.89660263 1.64843941 1.52318523 1.15460526 1.15460526
+ 1.14109233 0.         1.69880189 4.08996583 0.        ]",CVC4,8.876610040664673,unsat,['CVC4'],[8.876610040664673]
+./tmp/uclid500/run-btfnt-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00087749 0.00010448 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.10085892677307129,unsat,['CVC4'],[0.10085892677307129]
+./tmp/uclid500/run-btfnt-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.6367174  0.55483094 0.68461178 1.48961525 1.11067581 1.11067581
+ 1.09734856 0.         0.67533784 1.71891017 0.        ]",CVC4,4.016324043273926,unsat,['CVC4'],[4.016324043273926]
+./tmp/uclid500/run-btfnt-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.05437904 0.99425527 1.06831748 1.50595453 1.13636364 1.13636364
+ 1.10294118 0.         1.05308403 2.35685923 0.        ]",CVC4,1.8930668830871582,unsat,['CVC4'],[1.8930668830871582]
+./tmp/uclid500/run-btfnt-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.47113446 1.44733137 1.43811771 1.48345324 1.11222222 1.11222222
+ 1.09814964 0.         1.42976511 3.65723555 0.        ]",CVC4,11.54051399230957,unsat,['CVC4'],[11.54051399230957]
+./tmp/uclid500/run-btfnt-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.68085297 1.67083768 1.62810272 1.48280548 1.1182266  1.1182266
+ 1.10435417 0.         1.62015125 4.02175495 0.        ]",CVC4,12.837617874145508,unsat,['CVC4'],[12.837617874145508]
+./tmp/uclid500/run-btfnt-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.45453893 0.37613365 0.50221096 0.862347   1.10909091 1.10909091
+ 1.09662139 0.         0.50454936 0.01500597 0.        ]",CVC4,2.157362937927246,unsat,['CVC4'],[2.157362937927246]
+./tmp/uclid500/run-btfnt-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.66940746 0.63167707 0.69430543 0.87082313 1.10890233 1.10890233
+ 1.09645624 0.         0.70407762 0.02247788 0.        ]",CVC4,3.7292349338531494,unsat,['CVC4'],[3.7292349338531494]
+./tmp/uclid500/run-btfnt-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.31941481 1.39580706 1.28573134 0.90352029 1.17391304 1.17391304
+ 1.15275142 0.         1.31282167 0.03829485 0.        ]",CVC4,2.9292550086975098,unsat,['CVC4'],[2.9292550086975098]
+./tmp/uclid500/run-btfnt-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.71986471 1.87895344 1.63538078 0.8777355  1.11155378 1.11155378
+ 1.09813697 0.         1.68062575 0.05802527 0.        ]",CVC4,17.697953939437866,unsat,['CVC4'],[17.697953939437866]
+./tmp/uclid500/run-btfnt-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.44554412 0.36577887 0.49393316 0.88236505 1.13975904 1.13975904
+ 1.12298196 0.         0.49637235 0.01424334 0.        ]",CVC4,1.2470569610595703,unsat,['CVC4'],[1.2470569610595703]
+./tmp/uclid500/run-btfnt-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.86963286 0.87151999 0.87340276 0.8706647  1.10777202 1.10777202
+ 1.09401651 0.         0.88986544 0.02881207 0.        ]",CVC4,4.716356039047241,unsat,['CVC4'],[4.716356039047241]
+./tmp/uclid500/run-btfnt-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.49265097 1.6135164  1.43571295 0.89308757 1.13368984 1.13368984
+ 1.11735769 0.         1.47237041 0.05072984 0.        ]",CVC4,5.900039911270142,unsat,['CVC4'],[5.900039911270142]
+./tmp/uclid500/run-btfnt-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.71396546 1.87465014 1.62951422 0.87553332 1.1078534  1.1078534
+ 1.09395464 0.         1.67513006 0.05762841 0.        ]",CVC4,14.232311964035034,unsat,['CVC4'],[14.232311964035034]
+./tmp/uclid500/run-btfnt-udata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21703149 0.10543054 0.30928435 0.78527849 1.11151405 1.11151405
+ 1.09810712 0.         0.29683302 0.0074231  0.        ]",CVC4,0.6716630458831787,unsat,['CVC4'],[0.6716630458831787]
+./tmp/uclid500/run-btfnt-udata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.47218403 1.44414173 1.44127529 0.88160466 1.11574697 1.11574697
+ 1.10131963 0.         1.43117951 0.05061227 0.        ]",CVC4,10.84640097618103,unsat,['CVC4'],[10.84640097618103]
+./tmp/uclid500/run-btfnt-udata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.90533292 1.89834757 1.83858307 0.90097929 1.15384615 1.15384615
+ 1.14130435 0.         1.82707077 0.06477187 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-full-bdata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.44279618 0.37470148 0.51200836 0.86505092 1.11441308 1.11441308
+ 1.09927692 0.         0.49282858 0.01435654 1.3122642 ]",CVC4,1.6392409801483154,unsat,['CVC4'],[1.6392409801483154]
+./tmp/uclid500/run-full-bdata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.30369128 1.42840274 1.37269556 0.87782832 1.11079812 1.11079812
+ 1.0971312  0.         1.2933726  0.04420832 3.79554773]",CVC4,10.368240118026733,unsat,['CVC4'],[10.368240118026733]
+./tmp/uclid500/run-full-bdata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.48000425 1.64379203 1.55024602 0.88920697 1.12244898 1.12244898
+ 1.10616772 0.         1.45966642 0.05099583 4.15110366]",CVC4,8.814985036849976,unsat,['CVC4'],[8.814985036849976]
+./tmp/uclid500/run-full-bdata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.72312303 1.94412633 1.79116673 0.88303044 1.11904762 1.11904762
+ 1.10501567 0.         1.68497185 0.05756588 4.88402331]",CVC4,14.24157190322876,unsat,['CVC4'],[14.24157190322876]
+./tmp/uclid500/run-full-bdata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21526981 0.10524435 0.30761847 0.8021013  1.14322917 1.14322917
+ 1.12795478 0.         0.29530036 0.00715275 0.79383818]",CVC4,0.38040900230407715,unsat,['CVC4'],[0.38040900230407715]
+./tmp/uclid500/run-full-bdata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.42402842 0.33554605 0.51816006 0.87953356 1.13930348 1.13930348
+ 1.12273247 0.         0.48385204 0.01408061 1.43827282]",CVC4,1.1162362098693848,unsat,['CVC4'],[1.1162362098693848]
+./tmp/uclid500/run-full-bdata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.62768999 0.5613536  0.72217489 0.88234823 1.12525667 1.12525667
+ 1.10991088 0.         0.66724524 0.02166094 1.8863794 ]",CVC4,2.000638961791992,unsat,['CVC4'],[2.000638961791992]
+./tmp/uclid500/run-full-bdata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.27327045 1.27440721 1.37284824 0.87754128 1.11059044 1.11059044
+ 1.09695137 0.         1.25040292 0.04423457 3.78980531]",CVC4,10.093523025512695,unsat,['CVC4'],[10.093523025512695]
+./tmp/uclid500/run-full-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.23410231 0.11776673 0.30382745 0.797092   1.13034188 1.13034188
+ 1.11446629 0.         0.29894043 0.0072855  0.71417291]",CVC4,0.3894820213317871,unsat,['CVC4'],[0.3894820213317871]
+./tmp/uclid500/run-full-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.85604519 0.88082706 0.92535795 0.87770312 1.11587302 1.11587302
+ 1.09923903 0.         0.87758253 0.02846183 2.46203877]",CVC4,4.161012887954712,unsat,['CVC4'],[4.161012887954712]
+./tmp/uclid500/run-full-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.07972742 1.14830127 1.15110353 0.89398044 1.14039409 1.14039409
+ 1.12324114 0.         1.08748426 0.03510874 3.33061577]",CVC4,4.1780900955200195,unsat,['CVC4'],[4.1780900955200195]
+./tmp/uclid500/run-full-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.88752387 2.13932678 1.96641406 0.89065277 1.13333333 1.13333333
+ 1.11492817 0.         1.83968137 0.05942077 6.8024478 ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-full-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21428819 0.10522099 0.30559317 0.78691994 1.11605938 1.11605938
+ 1.10158956 0.         0.29356329 0.00721364 0.73356094]",CVC4,0.5596640110015869,unsat,['CVC4'],[0.5596640110015869]
+./tmp/uclid500/run-full-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.63230471 0.56736699 0.72703472 0.87890555 1.11901682 1.11901682
+ 1.10491357 0.         0.67161436 0.02192482 1.92039547]",CVC4,2.898400068283081,unsat,['CVC4'],[2.898400068283081]
+./tmp/uclid500/run-full-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.46098801 1.4753202  1.56397942 0.89601033 1.13583138 1.13583138
+ 1.11940298 0.         1.42271504 0.05021447 4.41134752]",CVC4,7.861147165298462,unsat,['CVC4'],[7.861147165298462]
+./tmp/uclid500/run-full-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.84767592 1.90589436 1.95296699 0.88822915 1.12062937 1.12062937
+ 1.10339683 0.         1.77224693 0.06477437 5.19012462]",CVC4,32.434025049209595,unsat,['CVC4'],[32.434025049209595]
+./tmp/uclid500/run-full-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.66005974 0.61101861 0.6826658  0.87767624 1.12191582 1.12191582
+ 1.10734409 0.         0.69584383 0.02161351 1.61333059]",CVC4,2.8565268516540527,unsat,['CVC4'],[2.8565268516540527]
+./tmp/uclid500/run-full-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.09356193 1.11323252 1.07320135 0.89983486 1.15088757 1.15088757
+ 1.13720522 0.         1.10143902 0.03678    2.75838022]",CVC4,3.5691158771514893,unsat,['CVC4'],[3.5691158771514893]
+./tmp/uclid500/run-full-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.29026659 1.3471449  1.24668937 0.88244621 1.11876833 1.11876833
+ 1.10409029 0.         1.28224489 0.04321273 2.95119064]",CVC4,8.0136399269104,unsat,['CVC4'],[8.0136399269104]
+./tmp/uclid500/run-full-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.71335302 1.84299354 1.62591911 0.87500329 1.10729167 1.10729167
+ 1.09339642 0.         1.67446555 0.0577843  3.93946881]",CVC4,13.90270709991455,unsat,['CVC4'],[13.90270709991455]
+./tmp/uclid500/run-full-bdata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089573 0.00010704 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.09753108024597168,unsat,['CVC4'],[0.09753108024597168]
+./tmp/uclid500/run-full-bdata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.67574671 0.57582658 0.72353432 0.95598857 1.14285714 1.14285714
+ 1.10091743 0.         0.71392405 0.02568676 1.6687556 ]",CVC4,1.1378099918365479,unsat,['CVC4'],[1.1378099918365479]
+./tmp/uclid500/run-full-bdata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.25623722 1.18653453 1.24428881 0.89160728 1.13232104 1.13232104
+ 1.11681643 0.         1.23692459 0.04341257 2.91464131]",CVC4,5.315191030502319,unsat,['CVC4'],[5.315191030502319]
+./tmp/uclid500/run-full-bdata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.6543959  0.60270554 0.67860177 0.88594467 1.14477212 1.14477212
+ 1.12943044 0.         0.69128446 0.02088258 1.75577517]",CVC4,1.7883470058441162,unsat,['CVC4'],[1.7883470058441162]
+./tmp/uclid500/run-full-bdata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.30390562 1.35811726 1.26200974 0.89994827 1.15       1.15
+ 1.13596746 0.         1.29739447 0.0438882  3.24192174]",CVC4,5.305728912353516,unsat,['CVC4'],[5.305728912353516]
+./tmp/uclid500/run-full-bdata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.5198272  1.61565676 1.45170884 0.87705526 1.10785091 1.10785091
+ 1.09534264 0.         1.49391696 0.0523759  3.47494904]",CVC4,17.12914490699768,unsat,['CVC4'],[17.12914490699768]
+./tmp/uclid500/run-full-bdata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.91134745 2.06829042 1.80349207 0.88898886 1.1223301  1.1223301
+ 1.1071383  0.         1.86102184 0.06556509 4.21206911]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-full-bdata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089683 0.00010711 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.09445786476135254,unsat,['CVC4'],[0.09445786476135254]
+./tmp/uclid500/run-full-bdata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.42541393 0.32172804 0.4958053  0.86879783 1.13392857 1.13392857
+ 1.11599297 0.         0.48488362 0.01324711 1.51771233]",CVC4,0.8375370502471924,unsat,['CVC4'],[0.8375370502471924]
+./tmp/uclid500/run-full-bdata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.82987742 0.74543398 0.8575869  0.87939453 1.11690363 1.11690363
+ 1.10033202 0.         0.84971724 0.02861856 2.00030382]",CVC4,3.906911849975586,unsat,['CVC4'],[3.906911849975586]
+./tmp/uclid500/run-full-bdata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.24578151 1.17893361 1.24071612 0.88811037 1.13461538 1.13461538
+ 1.11601513 0.         1.2269935  0.03930058 3.85644472]",CVC4,4.095317840576172,unsat,['CVC4'],[4.095317840576172]
+./tmp/uclid500/run-full-bdata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.87437113 0.8546833  0.87683571 0.8930628  1.15       1.15
+ 1.13727337 0.         0.89699614 0.02856573 2.36478793]",CVC4,2.69018292427063,unsat,['CVC4'],[2.69018292427063]
+./tmp/uclid500/run-full-bdata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.46971213 1.54683918 1.40747558 0.88306333 1.11494253 1.11494253
+ 1.09787647 0.         1.44941092 0.04997634 3.27926136]",CVC4,8.971282005310059,unsat,['CVC4'],[8.971282005310059]
+./tmp/uclid500/run-full-bdata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.72478223 1.84458613 1.63695732 0.87832823 1.11251212 1.11251212
+ 1.0990099  0.         1.68513727 0.05815287 3.98454805]",CVC4,13.981950044631958,unsat,['CVC4'],[13.981950044631958]
+./tmp/uclid500/run-full-bdata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089793 0.00010732 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.06856608390808105,unsat,['CVC4'],[0.06856608390808105]
+./tmp/uclid500/run-full-bdata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.83818734 0.74545489 0.87061813 0.90213742 1.14285714 1.14285714
+ 1.11111111 0.         0.85808749 0.02647754 2.56344086]",CVC4,1.7972970008850098,unsat,['CVC4'],[1.7972970008850098]
+./tmp/uclid500/run-full-bdata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.04557127 0.96088972 1.0533876  0.89119299 1.13151927 1.13151927
+ 1.11549925 0.         1.0459948  0.0362098  2.50816267]",CVC4,3.599186897277832,unsat,['CVC4'],[3.599186897277832]
+./tmp/uclid500/run-full-bdata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.26657419 1.19293146 1.25779462 0.89624916 1.14876033 1.14876033
+ 1.13500272 0.         1.24776552 0.04296865 3.50066198]",CVC4,4.996784925460815,unsat,['CVC4'],[4.996784925460815]
+./tmp/uclid500/run-full-bdata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.23636891 0.11546732 0.30312275 0.78821863 1.11894882 1.11894882
+ 1.10488937 0.         0.30145858 0.00718677 0.71377665]",CVC4,0.5294780731201172,unsat,['CVC4'],[0.5294780731201172]
+./tmp/uclid500/run-full-bdata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.86633788 0.84468781 0.86780725 0.88956497 1.13457077 1.13457077
+ 1.11882245 0.         0.88828662 0.02868456 2.12166038]",CVC4,3.2601962089538574,unsat,['CVC4'],[3.2601962089538574]
+./tmp/uclid500/run-full-bdata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.71484799 1.83448333 1.62783769 0.88163179 1.11503417 1.11503417
+ 1.10065957 0.         1.67682902 0.05793628 3.94066091]",CVC4,12.779420852661133,unsat,['CVC4'],[12.779420852661133]
+./tmp/uclid500/run-full-bdata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.84223307 0.75480274 0.86987328 0.87522496 1.11184939 1.11184939
+ 1.09782767 0.         0.86109717 0.02915977 2.09434609]",CVC4,4.105427026748657,unsat,['CVC4'],[4.105427026748657]
+./tmp/uclid500/run-full-bdata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.47241133 1.4093535  1.43971246 0.88032301 1.11837238 1.11837238
+ 1.10448125 0.         1.43157596 0.04990528 3.4863944 ]",CVC4,9.949888944625854,unsat,['CVC4'],[9.949888944625854]
+./tmp/uclid500/run-full-bdata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.67666975 1.62063142 1.623216   0.88328875 1.11842105 1.11842105
+ 1.10378992 0.         1.61649874 0.0575637  3.83831027]",CVC4,12.191467046737671,unsat,['CVC4'],[12.191467046737671]
+./tmp/uclid500/run-full-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.86293038 0.85490895 0.86430146 1.52075771 1.12761506 1.12761506
+ 1.11149299 0.         0.88470159 2.16486016 0.        ]",CVC4,3.224552869796753,unsat,['CVC4'],[3.224552869796753]
+./tmp/uclid500/run-full-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.27196994 1.33796844 1.23032169 1.50457501 1.11624204 1.11624204
+ 1.09955035 0.         1.26511396 3.09096081 0.        ]",CVC4,8.772005796432495,unsat,['CVC4'],[8.772005796432495]
+./tmp/uclid500/run-full-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.50311048 1.61202106 1.43773314 1.50598585 1.1180203  1.1180203
+ 1.10437907 0.         1.48028166 3.62157985 0.        ]",CVC4,11.485611915588379,unsat,['CVC4'],[11.485611915588379]
+./tmp/uclid500/run-full-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21360049 0.10321686 0.30169337 1.53707243 1.1185567  1.1185567
+ 0.88368542 0.         0.29274031 0.75835245 0.        ]",CVC4,0.49501609802246094,unsat,['CVC4'],[0.49501609802246094]
+./tmp/uclid500/run-full-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.05150714 0.98868472 1.05897515 1.50038799 1.11197339 1.11197339
+ 1.09793476 0.         1.05032163 2.68010456 0.        ]",CVC4,6.628495931625366,unsat,['CVC4'],[6.628495931625366]
+./tmp/uclid500/run-full-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00088586 0.00010587 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.0359501838684082,unsat,['CVC4'],[0.0359501838684082]
+./tmp/uclid500/run-full-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.66027848 0.61630924 0.6843948  1.54172229 1.15068493 1.15068493
+ 1.13718412 0.         0.69742361 1.71221282 0.        ]",CVC4,1.7047979831695557,unsat,['CVC4'],[1.7047979831695557]
+./tmp/uclid500/run-full-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.48609588 1.58264905 1.43111242 1.55137024 1.15517241 1.15517241
+ 1.12668161 0.         1.46723089 3.33964709 0.        ]",CVC4,12.699012994766235,unsat,['CVC4'],[12.699012994766235]
+./tmp/uclid500/run-full-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.74848541 1.90138403 1.65588144 1.49698844 1.10949529 1.10949529
+ 1.09716896 0.         1.70611944 4.24572017 0.        ]",CVC4,18.774849891662598,unsat,['CVC4'],[18.774849891662598]
+./tmp/uclid500/run-full-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.96399892 2.15582255 1.84859942 1.49573057 1.10912191 1.10912191
+ 1.09690293 0.         1.90616315 4.73505022 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-full-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21248159 0.10213424 0.30057364 1.55546102 1.13647059 1.13647059
+ 0.89596537 0.         0.29160654 0.74306593 0.        ]",CVC4,0.4110221862792969,unsat,['CVC4'],[0.4110221862792969]
+./tmp/uclid500/run-full-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.43273374 0.33276154 0.50124304 1.51034647 1.11147541 1.11147541
+ 1.0992812  0.         0.49206371 1.27346452 0.        ]",CVC4,2.3766729831695557,unsat,['CVC4'],[2.3766729831695557]
+./tmp/uclid500/run-full-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.26125612 1.21059439 1.24831355 1.49372298 1.10899471 1.10899471
+ 1.09524141 0.         1.23966593 3.12232359 0.        ]",CVC4,8.368730068206787,unsat,['CVC4'],[8.368730068206787]
+./tmp/uclid500/run-full-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.50101909 1.45810473 1.46887637 1.54364203 1.1572327  1.1572327
+ 1.14356743 0.         1.46115821 3.65369341 0.        ]",CVC4,6.14840292930603,unsat,['CVC4'],[6.14840292930603]
+./tmp/uclid500/run-full-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.69662077 1.66850255 1.64116645 1.49783856 1.11142322 1.11142322
+ 1.09778655 0.         1.6328761  4.16517049 0.        ]",CVC4,13.841842889785767,unsat,['CVC4'],[13.841842889785767]
+./tmp/uclid500/run-full-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.87779222 1.85138997 1.80600427 1.52043979 1.13111111 1.13111111
+ 1.1150869  0.         1.79961709 4.56917221 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-full-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00090162 0.00010752 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.051363229751586914,unsat,['CVC4'],[0.051363229751586914]
+./tmp/uclid500/run-full-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.63122619 0.5369839  0.68269231 1.50736404 1.14516129 1.14516129
+ 1.12223393 0.         0.67119224 1.53148707 0.        ]",CVC4,1.147845983505249,unsat,['CVC4'],[1.147845983505249]
+./tmp/uclid500/run-full-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.05306898 0.98123667 1.06048127 1.48201235 1.11272321 1.11272321
+ 1.09882439 0.         1.0518123  2.69572309 0.        ]",CVC4,5.2882959842681885,unsat,['CVC4'],[5.2882959842681885]
+./tmp/uclid500/run-full-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.26788365 1.20463671 1.25481381 1.47387688 1.11177052 1.11177052
+ 1.09822824 0.         1.24568195 3.15079801 0.        ]",CVC4,11.483299970626831,unsat,['CVC4'],[11.483299970626831]
+./tmp/uclid500/run-full-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.45167018 0.36744342 0.4984256  1.53462718 1.14537445 1.14537445
+ 1.13174695 0.         0.50292235 1.24286478 0.        ]",CVC4,0.9151649475097656,unsat,['CVC4'],[0.9151649475097656]
+./tmp/uclid500/run-full-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00090336 0.00010721 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.05633807182312012,unsat,['CVC4'],[0.05633807182312012]
+./tmp/uclid500/run-full-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.42117152 0.31790455 0.48900177 1.52160989 1.13092551 1.13092551
+ 1.11498516 0.         0.48057725 1.22532658 0.        ]",CVC4,0.9651980400085449,unsat,['CVC4'],[0.9651980400085449]
+./tmp/uclid500/run-full-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.63080891 0.5355752  0.67937051 1.52058907 1.13908873 1.13908873
+ 1.12240076 0.         0.67086363 1.68164294 0.        ]",CVC4,2.0361359119415283,unsat,['CVC4'],[2.0361359119415283]
+./tmp/uclid500/run-full-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.85077189 0.7656276  0.87950705 1.51695091 1.14880952 1.14880952
+ 1.13507155 0.         0.8713808  2.20479649 0.        ]",CVC4,2.9002161026000977,unsat,['CVC4'],[2.9002161026000977]
+./tmp/uclid500/run-full-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.05324978 0.98098916 1.06031973 1.48573771 1.11710526 1.11710526
+ 1.10297939 0.         1.05238172 2.6623038  0.        ]",CVC4,5.720468044281006,unsat,['CVC4'],[5.720468044281006]
+./tmp/uclid500/run-full-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.24717858 1.18476314 1.23757822 1.50150118 1.12676056 1.12676056
+ 1.11008326 0.         1.22812839 3.17745035 0.        ]",CVC4,2.945152997970581,unsat,['CVC4'],[2.945152997970581]
+./tmp/uclid500/run-full-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00091371 0.0001094  0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.10576987266540527,unsat,['CVC4'],[0.10576987266540527]
+./tmp/uclid500/run-full-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.23982819 0.11684746 0.30832484 1.59723611 1.15806452 1.15806452
+ 0.91601106 0.         0.30632644 0.76195918 0.        ]",CVC4,0.24028897285461426,unsat,['CVC4'],[0.24028897285461426]
+./tmp/uclid500/run-full-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.43868286 0.35308557 0.48320741 1.53585084 1.12208258 1.12208258
+ 1.10515148 0.         0.48887751 1.23005858 0.        ]",CVC4,1.1399669647216797,unsat,['CVC4'],[1.1399669647216797]
+./tmp/uclid500/run-full-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.88724193 0.86770145 0.88893312 1.55932874 1.15873016 1.15873016
+ 1.14515792 0.         0.90976887 2.23490532 0.        ]",CVC4,2.7771620750427246,unsat,['CVC4'],[2.7771620750427246]
+./tmp/uclid500/run-full-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.06265933 1.07817452 1.0445429  1.52377701 1.13043478 1.13043478
+ 1.11519608 0.         1.07127229 2.66836653 0.        ]",CVC4,3.0094399452209473,unsat,['CVC4'],[3.0094399452209473]
+./tmp/uclid500/run-full-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.27501808 1.32240277 1.23279493 1.50569365 1.11544228 1.11544228
+ 1.09983246 0.         1.26793098 3.09388115 0.        ]",CVC4,7.720331907272339,unsat,['CVC4'],[7.720331907272339]
+./tmp/uclid500/run-full-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.5238533  1.6120535  1.45531361 1.49739921 1.1085395  1.1085395
+ 1.09594445 0.         1.49765603 3.7207882  0.        ]",CVC4,16.320701122283936,unsat,['CVC4'],[16.320701122283936]
+./tmp/uclid500/run-full-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.67631774 1.78645938 1.59302364 1.51106599 1.11937716 1.11937716
+ 1.10233985 0.         1.64264757 4.03004358 0.        ]",CVC4,11.02953290939331,unsat,['CVC4'],[11.02953290939331]
+./tmp/uclid500/run-full-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.92633785 2.08187518 1.82316537 1.53147407 1.13679245 1.13679245
+ 1.12162581 0.         1.876406   4.63757878 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-full-idata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.43049574 0.32473312 0.49870975 1.5204275  1.11004367 1.11004367
+ 1.09758204 0.         0.48967204 1.27377984 0.        ]",CVC4,2.00757098197937,unsat,['CVC4'],[2.00757098197937]
+./tmp/uclid500/run-full-idata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.62909639 0.5335224  0.67857324 1.53733223 1.13259668 1.13259668
+ 1.11736919 0.         0.66902753 1.74814815 0.        ]",CVC4,1.1008758544921875,unsat,['CVC4'],[1.1008758544921875]
+./tmp/uclid500/run-full-idata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.83987452 0.74755362 0.86849885 1.5375752  1.13875598 1.13875598
+ 1.12211221 0.         0.86024311 2.14673775 0.        ]",CVC4,2.821528911590576,unsat,['CVC4'],[2.821528911590576]
+./tmp/uclid500/run-full-idata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.88337564 1.83417954 1.81534101 1.52228332 1.13865546 1.13865546
+ 1.12510379 0.         1.80566748 4.55789446 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-full-idata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.64244178 0.59169817 0.66682766 1.51590323 1.12209302 1.12209302
+ 1.10707457 0.         0.67875206 1.68048996 0.        ]",CVC4,1.4509849548339844,unsat,['CVC4'],[1.4509849548339844]
+./tmp/uclid500/run-full-idata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.08041703 1.09693979 1.05861408 1.50933873 1.11637348 1.11637348
+ 1.10186092 0.         1.08672103 2.65215378 0.        ]",CVC4,6.264621019363403,unsat,['CVC4'],[6.264621019363403]
+./tmp/uclid500/run-full-idata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.51012565 1.59487687 1.44445821 1.49694637 1.11133005 1.11133005
+ 1.09791707 0.         1.48547108 3.62840968 0.        ]",CVC4,14.334803819656372,unsat,['CVC4'],[14.334803819656372]
+./tmp/uclid500/run-full-idata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.7143249  1.83279387 1.62719188 1.49628539 1.10997963 1.10997963
+ 1.09628537 0.         1.67553802 4.07482018 0.        ]",CVC4,15.266803979873657,unsat,['CVC4'],[15.266803979873657]
+./tmp/uclid500/run-full-idata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089847 0.0001071  0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.037323951721191406,unsat,['CVC4'],[0.037323951721191406]
+./tmp/uclid500/run-full-idata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.42803671 0.32249501 0.49634134 1.51892214 1.11100917 1.11100917
+ 1.09738416 0.         0.48711195 1.25415014 0.        ]",CVC4,1.925887107849121,unsat,['CVC4'],[1.925887107849121]
+./tmp/uclid500/run-full-idata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.05480063 0.97593447 1.06177894 1.50355784 1.11074561 1.11074561
+ 1.09711191 0.         1.05329014 2.69127032 0.        ]",CVC4,6.215052127838135,unsat,['CVC4'],[6.215052127838135]
+./tmp/uclid500/run-full-idata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.47739582 1.41496505 1.44364953 1.50101423 1.11538462 1.11538462
+ 1.10168841 0.         1.43572972 3.57856005 0.        ]",CVC4,10.252734899520874,unsat,['CVC4'],[10.252734899520874]
+./tmp/uclid500/run-full-idata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.68708656 1.63171687 1.63277806 1.50743275 1.12       1.12
+ 1.10547095 0.         1.62597517 4.06519051 0.        ]",CVC4,13.512316942214966,unsat,['CVC4'],[13.512316942214966]
+./tmp/uclid500/run-full-idata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.9124574  1.8614269  1.84282647 1.5405372  1.15503876 1.15503876
+ 1.14176245 0.         1.83353397 4.6360772  0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-full-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.235257   0.11528905 0.30506918 0.79037595 1.11840412 1.11840412
+ 1.10447382 0.         0.30012211 0.00730019 0.        ]",CVC4,0.514739990234375,unsat,['CVC4'],[0.514739990234375]
+./tmp/uclid500/run-full-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.44765898 0.36316989 0.49558758 0.86176821 1.11167002 1.11167002
+ 1.09782753 0.         0.49760423 0.01443058 0.        ]",CVC4,2.0176548957824707,unsat,['CVC4'],[2.0176548957824707]
+./tmp/uclid500/run-full-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.05999148 1.0783334  1.04365265 0.88482712 1.12121212 1.12121212
+ 1.10415448 0.         1.06807277 0.03601654 0.        ]",CVC4,4.70430588722229,unsat,['CVC4'],[4.70430588722229]
+./tmp/uclid500/run-full-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.47101885 1.55716646 1.41131865 0.88393594 1.11655405 1.11655405
+ 1.09946773 0.         1.45088329 0.05001405 0.        ]",CVC4,9.268506050109863,unsat,['CVC4'],[9.268506050109863]
+./tmp/uclid500/run-full-udata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21242394 0.10067985 0.3031153  0.7867247  1.11521418 1.11521418
+ 1.10015543 0.         0.29119592 0.00717503 0.        ]",CVC4,0.5061500072479248,unsat,['CVC4'],[0.5061500072479248]
+./tmp/uclid500/run-full-udata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.42359719 0.32122755 0.49478017 0.86327044 1.11172566 1.11172566
+ 1.09772082 0.         0.48260591 0.01459419 0.        ]",CVC4,1.5536880493164062,unsat,['CVC4'],[1.5536880493164062]
+./tmp/uclid500/run-full-udata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.2680962  1.20303615 1.25802181 0.87532175 1.11045943 1.11045943
+ 1.09716052 0.         1.24575181 0.04363636 0.        ]",CVC4,18.09136700630188,unsat,['CVC4'],[18.09136700630188]
+./tmp/uclid500/run-full-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.23894237 0.11722598 0.30941897 0.78506448 1.11171662 1.11171662
+ 1.0984146  0.         0.30421995 0.00741153 0.        ]",CVC4,0.6159319877624512,unsat,['CVC4'],[0.6159319877624512]
+./tmp/uclid500/run-full-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.5060885  1.60012234 1.44425044 0.88075483 1.11887255 1.11887255
+ 1.104881   0.         1.48301514 0.049941   0.        ]",CVC4,9.966376066207886,unsat,['CVC4'],[9.966376066207886]
+./tmp/uclid500/run-full-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[2.2570829  2.37459996 2.18318695 1.50678733 1.5        1.5
+ 1.5        0.         2.20786517 2.25       0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-full-udata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00090897 0.00010882 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.03581809997558594,unsat,['CVC4'],[0.03581809997558594]
+./tmp/uclid500/run-full-udata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.63019177 0.53519637 0.68542254 0.8877144  1.14736842 1.14736842
+ 1.12836439 0.         0.67022077 0.01975353 0.        ]",CVC4,1.4020841121673584,unsat,['CVC4'],[1.4020841121673584]
+./tmp/uclid500/run-full-udata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.04476423 0.96836962 1.05532222 0.88428139 1.1208577  1.1208577
+ 1.10562748 0.         1.04467282 0.0362433  0.        ]",CVC4,5.1570940017700195,unsat,['CVC4'],[5.1570940017700195]
+./tmp/uclid500/run-full-udata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.46830427 1.41301139 1.43837316 0.88404826 1.11703511 1.11703511
+ 1.10288453 0.         1.42781158 0.05102638 0.        ]",CVC4,10.174576997756958,unsat,['CVC4'],[10.174576997756958]
+./tmp/uclid500/run-full-udata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.69596899 1.64728207 1.64803752 0.90494784 1.15202703 1.15202703
+ 1.13869101 0.         1.6375114  0.05888702 0.        ]",CVC4,7.304478168487549,unsat,['CVC4'],[7.304478168487549]
+./tmp/uclid500/run-full-udata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.23525255 0.11482333 0.30498424 0.78844732 1.11894273 1.11894273
+ 1.10424114 0.         0.30013504 0.00719309 0.        ]",CVC4,0.4029810428619385,unsat,['CVC4'],[0.4029810428619385]
+./tmp/uclid500/run-full-udata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.50156084 1.58433464 1.4430973  0.90058298 1.14224138 1.14224138
+ 1.1286201  0.         1.48094653 0.05210528 0.        ]",CVC4,6.031522035598755,unsat,['CVC4'],[6.031522035598755]
+./tmp/uclid500/run-full-udata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.92824047 2.08245286 1.82140926 0.8839351  1.11725955 1.11725955
+ 1.10311335 0.         1.8757894  0.06523858 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-full-udata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21570397 0.10191839 0.30776522 0.78342288 1.11196911 1.11196911
+ 1.09853783 0.         0.29517325 0.00727875 0.        ]",CVC4,0.6316490173339844,unsat,['CVC4'],[0.6316490173339844]
+./tmp/uclid500/run-full-udata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.42292899 0.31878647 0.49396224 0.86917522 1.11794872 1.11794872
+ 1.10407698 0.         0.48215076 0.01458048 0.        ]",CVC4,1.5176539421081543,unsat,['CVC4'],[1.5176539421081543]
+./tmp/uclid500/run-full-udata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.28585157 1.21140453 1.27709449 0.90353789 1.1529052  1.1529052
+ 1.13966143 0.         1.26590865 0.04435381 0.        ]",CVC4,5.156074047088623,unsat,['CVC4'],[5.156074047088623]
+./tmp/uclid500/run-full-udata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.89192312 1.84519951 1.82028265 0.88367665 1.11668928 1.11668928
+ 1.10213374 0.         1.81093069 0.06527544 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-full-udata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.44814461 0.36222347 0.49613878 0.86409236 1.11715976 1.11715976
+ 1.1031474  0.         0.49840091 0.01429891 0.        ]",CVC4,1.5490219593048096,unsat,['CVC4'],[1.5490219593048096]
+./tmp/uclid500/run-full-udata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.85976863 0.84042903 0.86417925 0.8816085  1.11975117 1.11975117
+ 1.10305382 0.         0.8813466  0.0286904  0.        ]",CVC4,3.5990209579467773,unsat,['CVC4'],[3.5990209579467773]
+./tmp/uclid500/run-full-udata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.72128733 1.84025065 1.63682836 0.87679459 1.11122047 1.11122047
+ 1.09782186 0.         1.68179912 0.05810303 0.        ]",CVC4,16.86568284034729,unsat,['CVC4'],[16.86568284034729]
+./tmp/uclid500/run-full-udata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00090443 0.00010808 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.07097601890563965,unsat,['CVC4'],[0.07097601890563965]
+./tmp/uclid500/run-full-udata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.43550415 0.32733261 0.51112897 0.88935442 1.17142857 1.17142857
+ 1.15060804 0.         0.49674669 0.01292051 0.        ]",CVC4,0.703524112701416,unsat,['CVC4'],[0.703524112701416]
+./tmp/uclid500/run-full-udata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.62460564 0.52838557 0.67528526 0.87781734 1.11792453 1.11792453
+ 1.10141485 0.         0.66396447 0.02158252 0.        ]",CVC4,2.287627935409546,unsat,['CVC4'],[2.287627935409546]
+./tmp/uclid500/run-full-udata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.05482309 0.97025254 1.06759793 0.89753355 1.15056818 1.15056818
+ 1.13530181 0.         1.05607195 0.03576538 0.        ]",CVC4,3.5730838775634766,unsat,['CVC4'],[3.5730838775634766]
+./tmp/uclid500/run-full-udata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.50136214 1.43478205 1.47194471 0.90513653 1.15432099 1.15432099
+ 1.1409396  0.         1.46115154 0.05185185 0.        ]",CVC4,6.279313087463379,unsat,['CVC4'],[6.279313087463379]
+./tmp/uclid500/run-full-udata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.71633057 1.66403208 1.66184298 0.87806372 1.11074919 1.11074919
+ 1.09840554 0.         1.65035697 0.05977606 0.        ]",CVC4,20.421761989593506,unsat,['CVC4'],[20.421761989593506]
+./tmp/uclid500/run-full-udata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.87170436 1.81290563 1.8101164  0.8975056  1.12765957 1.12765957
+ 1.09504132 0.         1.79228764 0.06096626 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-lf-bdata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.45321502 0.38398739 0.52330598 0.86294646 1.11051213 1.11051213
+ 1.09756098 0.         0.50322343 0.01484444 1.36592666]",CVC4,2.2870640754699707,unsat,['CVC4'],[2.2870640754699707]
+./tmp/uclid500/run-lf-bdata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.65643549 0.63310571 0.72618992 0.88688417 1.12896406 1.12896406
+ 1.11327311 0.         0.69250978 0.02205852 1.86842536]",CVC4,2.3450748920440674,unsat,['CVC4'],[2.3450748920440674]
+./tmp/uclid500/run-lf-bdata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.93298577 2.19540459 2.00771121 0.90052988 1.1441048  1.1441048
+ 1.13028473 0.         1.88303067 0.06627132 6.35646408]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-lf-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089475 0.00010689 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.08145713806152344,unsat,['CVC4'],[0.08145713806152344]
+./tmp/uclid500/run-lf-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.44464246 0.37430916 0.51444093 0.87715209 1.13140312 1.13140312
+ 1.11533958 0.         0.49514059 0.01456172 1.31356309]",CVC4,0.9960708618164062,unsat,['CVC4'],[0.9960708618164062]
+./tmp/uclid500/run-lf-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.07757754 1.14475455 1.14974643 0.89327607 1.14794521 1.14794521
+ 1.13284066 0.         1.08622351 0.03502115 3.4017717 ]",CVC4,4.600235939025879,unsat,['CVC4'],[4.600235939025879]
+./tmp/uclid500/run-lf-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.23555391 0.11488329 0.30292552 0.80095555 1.14473684 1.14473684
+ 1.12967451 0.         0.30096368 0.00708838 0.76878861]",CVC4,0.39289402961730957,unsat,['CVC4'],[0.39289402961730957]
+./tmp/uclid500/run-lf-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.07970483 1.10014633 1.05896347 0.87917548 1.11895911 1.11895911
+ 1.10472229 0.         1.08621263 0.03556827 2.56773228]",CVC4,5.738505125045776,unsat,['CVC4'],[5.738505125045776]
+./tmp/uclid500/run-lf-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.93234674 2.09460086 1.82281788 0.88088373 1.117717   1.117717
+ 1.10363181 0.         1.87941179 0.06419547 4.42668924]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-lf-bdata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.88309079 2.03257744 1.77932885 0.88712424 1.12078153 1.12078153
+ 1.1035327  0.         1.83556503 0.06451356 4.13324572]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-lf-bdata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089415 0.00010686 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.04103684425354004,unsat,['CVC4'],[0.04103684425354004]
+./tmp/uclid500/run-lf-bdata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.23412932 0.11371648 0.30126323 0.7991486  1.14640884 1.14640884
+ 1.13120116 0.         0.29932253 0.00700871 0.77750696]",CVC4,0.32227206230163574,unsat,['CVC4'],[0.32227206230163574]
+./tmp/uclid500/run-lf-bdata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.44569929 0.35998139 0.4912157  0.87554914 1.12413793 1.12413793
+ 1.10783869 0.         0.49600473 0.01484247 1.28865882]",CVC4,0.553645133972168,unsat,['CVC4'],[0.553645133972168]
+./tmp/uclid500/run-lf-bdata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.86812018 0.84529187 0.87061765 0.89082093 1.14571429 1.14571429
+ 1.13042661 0.         0.89075338 0.02833522 2.23527871]",CVC4,2.3945560455322266,unsat,['CVC4'],[2.3945560455322266]
+./tmp/uclid500/run-lf-bdata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.28978942 1.33163364 1.24930224 0.89680014 1.1488764  1.1488764
+ 1.13380151 0.         1.2842399  0.04262859 3.20631548]",CVC4,5.218565940856934,unsat,['CVC4'],[5.218565940856934]
+./tmp/uclid500/run-lf-bdata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.71200103 1.82768896 1.62475342 0.88434956 1.11734029 1.11734029
+ 1.1031494  0.         1.67467199 0.05818552 3.87327377]",CVC4,12.524070978164673,unsat,['CVC4'],[12.524070978164673]
+./tmp/uclid500/run-lf-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00108893 0.00012603 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.0517120361328125,unsat,['CVC4'],[0.0517120361328125]
+./tmp/uclid500/run-lf-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.45094188 0.36978492 0.49567619 1.5096268  1.11090226 1.11090226
+ 1.09722136 0.         0.5009009  1.25155713 0.        ]",CVC4,1.8517639636993408,unsat,['CVC4'],[1.8517639636993408]
+./tmp/uclid500/run-lf-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.07268205 1.10276634 1.05148923 1.50347301 1.11504425 1.11504425
+ 1.1000097  0.         1.07944202 2.63469515 0.        ]",CVC4,5.855786085128784,unsat,['CVC4'],[5.855786085128784]
+./tmp/uclid500/run-lf-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.51879493 1.62631914 1.451585   1.49834124 1.11193339 1.11193339
+ 1.09825181 0.         1.49339623 3.67633565 0.        ]",CVC4,13.760164976119995,unsat,['CVC4'],[13.760164976119995]
+./tmp/uclid500/run-lf-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.96232754 2.15072208 1.84763184 1.4957097  1.10980721 1.10980721
+ 1.09754076 0.         1.90475877 4.72854471 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-lf-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.86844063 0.85994196 0.87332578 1.50899012 1.13636364 1.13636364
+ 1.11806798 0.         0.88992137 1.96942821 0.        ]",CVC4,2.341583013534546,unsat,['CVC4'],[2.341583013534546]
+./tmp/uclid500/run-lf-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.49245381 1.5887132  1.43129187 1.52210632 1.14555256 1.14555256
+ 1.13031915 0.         1.47307525 3.4644668  0.        ]",CVC4,7.225090026855469,unsat,['CVC4'],[7.225090026855469]
+./tmp/uclid500/run-lf-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00090093 0.00010775 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.0716860294342041,unsat,['CVC4'],[0.0716860294342041]
+./tmp/uclid500/run-lf-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.28222443 1.33636414 1.24002528 1.49063916 1.12277228 1.12277228
+ 1.10713356 0.         1.27498732 3.11420183 0.        ]",CVC4,6.1598310470581055,unsat,['CVC4'],[6.1598310470581055]
+./tmp/uclid500/run-lf-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.51477532 1.60722659 1.45160394 1.51633588 1.15151515 1.15151515
+ 1.13822942 0.         1.494364   3.65181737 0.        ]",CVC4,6.358254909515381,unsat,['CVC4'],[6.358254909515381]
+./tmp/uclid500/run-lf-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.74723838 1.88350342 1.65503491 1.47304392 1.10950764 1.10950764
+ 1.09733572 0.         1.70499915 4.23844937 0.        ]",CVC4,18.670639991760254,unsat,['CVC4'],[18.670639991760254]
+./tmp/uclid500/run-lf-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089654 0.00010693 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.047564029693603516,unsat,['CVC4'],[0.047564029693603516]
+./tmp/uclid500/run-lf-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.67100216 0.61854101 0.69281904 1.50862558 1.10944027 1.10944027
+ 1.09715796 0.         0.70563037 1.76691322 0.        ]",CVC4,3.73372483253479,unsat,['CVC4'],[3.73372483253479]
+./tmp/uclid500/run-lf-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.88297076 0.86229961 0.88598923 1.55031951 1.15830116 1.15830116
+ 1.14503817 0.         0.90558627 2.21375165 0.        ]",CVC4,2.4391980171203613,unsat,['CVC4'],[2.4391980171203613]
+./tmp/uclid500/run-lf-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.50972662 1.58815181 1.44712089 1.53419516 1.15107914 1.15107914
+ 1.13879004 0.         1.48951002 3.56752659 0.        ]",CVC4,6.159564018249512,unsat,['CVC4'],[6.159564018249512]
+./tmp/uclid500/run-lf-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.70723875 1.81301156 1.62396807 1.52732336 1.14673913 1.14673913
+ 1.13177186 0.         1.67345627 3.95476522 0.        ]",CVC4,8.267566919326782,unsat,['CVC4'],[8.267566919326782]
+./tmp/uclid500/run-lf-idata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00088365 0.00010527 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.06324481964111328,unsat,['CVC4'],[0.06324481964111328]
+./tmp/uclid500/run-lf-idata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.23890667 0.1166674  0.30611622 1.54658513 1.11051693 1.11051693
+ 0.87813473 0.         0.3041559  0.77122316 0.        ]",CVC4,0.6141459941864014,unsat,['CVC4'],[0.6141459941864014]
+./tmp/uclid500/run-lf-idata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.44890547 0.36203659 0.49359021 1.52823104 1.12017167 1.12017167
+ 1.10561988 0.         0.49931872 1.22579219 0.        ]",CVC4,1.427645206451416,unsat,['CVC4'],[1.427645206451416]
+./tmp/uclid500/run-lf-idata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.08149371 1.09641975 1.06044873 1.50774615 1.1181486  1.1181486
+ 1.1042502  0.         1.08778372 2.63180692 0.        ]",CVC4,5.556955099105835,unsat,['CVC4'],[5.556955099105835]
+./tmp/uclid500/run-lf-idata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.49923744 1.58059936 1.4341959  1.5116877  1.11787565 1.11787565
+ 1.10376876 0.         1.47670752 3.64578053 0.        ]",CVC4,10.526673078536987,unsat,['CVC4'],[10.526673078536987]
+./tmp/uclid500/run-lf-idata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.96114879 2.11800587 1.8464435  1.49744459 1.11003236 1.11003236
+ 1.0976     0.         1.90377934 4.72140002 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-lf-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.0008995  0.00010751 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.10206198692321777,unsat,['CVC4'],[0.10206198692321777]
+./tmp/uclid500/run-lf-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.24017336 0.1179588  0.31079789 0.78427679 1.10930828 1.10930828
+ 1.09688133 0.         0.30561795 0.00751249 0.        ]",CVC4,0.6203269958496094,unsat,['CVC4'],[0.6203269958496094]
+./tmp/uclid500/run-lf-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.3011253  1.35390247 1.26335941 0.89933848 1.15248227 1.15248227
+ 1.13981763 0.         1.29507942 0.04323629 0.        ]",CVC4,4.848611831665039,unsat,['CVC4'],[4.848611831665039]
+./tmp/uclid500/run-lf-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.0008955  0.00010705 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.09972000122070312,unsat,['CVC4'],[0.09972000122070312]
+./tmp/uclid500/run-lf-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.05735421 1.07384698 1.04048099 0.88216365 1.11557789 1.11557789
+ 1.09828496 0.         1.06516833 0.03569476 0.        ]",CVC4,5.509936094284058,unsat,['CVC4'],[5.509936094284058]
+./tmp/uclid500/run-lf-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.69898392 1.82301968 1.62077491 0.89814957 1.13559322 1.13559322
+ 1.12081784 0.         1.66494172 0.05927455 0.        ]",CVC4,6.564834117889404,unsat,['CVC4'],[6.564834117889404]
+./tmp/uclid500/run-lf-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.95743175 2.10480443 1.85751904 0.91687134 1.16883117 1.16883117
+ 1.14795918 0.         1.90630179 0.06278096 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-lf-udata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.66314882 0.61029195 0.6889726  0.87149136 1.11164122 1.11164122
+ 1.09802073 0.         0.69810686 0.02194635 0.        ]",CVC4,3.056324005126953,unsat,['CVC4'],[3.056324005126953]
+./tmp/uclid500/run-lf-udata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.95910248 2.1152467  1.84745427 0.87950714 1.10967185 1.10967185
+ 1.09722776 0.         1.90188087 0.06753521 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-lf-udata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.9327167  2.08466843 1.83077409 0.89584166 1.13333333 1.13333333
+ 1.11744084 0.         1.88138887 0.06666376 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-nt-bdata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.95110756 2.21062012 2.01814026 0.87753049 1.10836653 1.10836653
+ 1.09579329 0.         1.89453875 0.06706595 5.63965951]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-nt-bdata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21580437 0.10531429 0.30782127 0.78449221 1.11196172 1.11196172
+ 1.09829868 0.         0.2952986  0.0073261  0.75172717]",CVC4,0.5634539127349854,unsat,['CVC4'],[0.5634539127349854]
+./tmp/uclid500/run-nt-bdata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.42943663 0.33959457 0.52318253 0.86262796 1.11101001 1.11101001
+ 1.09769254 0.         0.48857951 0.01478763 1.37338895]",CVC4,2.0064611434936523,unsat,['CVC4'],[2.0064611434936523]
+./tmp/uclid500/run-nt-bdata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.84748272 0.79937436 0.94376553 0.87872161 1.11921459 1.11921459
+ 1.10516111 0.         0.86658225 0.02874899 2.52327632]",CVC4,4.565972089767456,unsat,['CVC4'],[4.565972089767456]
+./tmp/uclid500/run-nt-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00090004 0.00010766 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.036695003509521484,unsat,['CVC4'],[0.036695003509521484]
+./tmp/uclid500/run-nt-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.45439569 0.38332103 0.52442007 0.86295781 1.10985179 1.10985179
+ 1.09741379 0.         0.50441567 0.01498238 1.36208155]",CVC4,2.2038559913635254,unsat,['CVC4'],[2.2038559913635254]
+./tmp/uclid500/run-nt-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.10982973 1.17582686 1.18597612 0.90467262 1.16901408 1.16901408
+ 1.14852398 0.         1.11700385 0.03268231 4.0273884 ]",CVC4,2.0564780235290527,unsat,['CVC4'],[2.0564780235290527]
+./tmp/uclid500/run-nt-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.4752001  1.63152511 1.54870015 0.90016622 1.12307692 1.12307692
+ 1.1049445  0.         1.45479927 0.05237802 4.64250294]",CVC4,4.90749716758728,unsat,['CVC4'],[4.90749716758728]
+./tmp/uclid500/run-nt-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.71609753 1.91354794 1.78914685 0.9001987  1.15014164 1.15014164
+ 1.13492359 0.         1.6818499  0.0573578  5.30660168]",CVC4,7.921799898147583,unsat,['CVC4'],[7.921799898147583]
+./tmp/uclid500/run-nt-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.96414691 2.22674675 2.03109437 0.879021   1.11074105 1.11074105
+ 1.09848485 0.         1.90646793 0.06725372 5.65882378]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-nt-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.41567856 0.32834908 0.50870067 0.87174339 1.12571429 1.12571429
+ 1.11090226 0.         0.47477506 0.0145291  1.46174061]",CVC4,0.9047420024871826,unsat,['CVC4'],[0.9047420024871826]
+./tmp/uclid500/run-nt-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.63568816 0.56654748 0.73091986 0.86940118 1.11111111 1.11111111
+ 1.09772683 0.         0.67434847 0.02180751 1.97858538]",CVC4,3.1287548542022705,unsat,['CVC4'],[3.1287548542022705]
+./tmp/uclid500/run-nt-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.23128685 1.21890656 1.33131196 0.88501531 1.12014134 1.12014134
+ 1.10273655 0.         1.21348079 0.04293163 3.53710681]",CVC4,7.428181886672974,unsat,['CVC4'],[7.428181886672974]
+./tmp/uclid500/run-nt-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.91435096 1.96963266 2.01785523 0.87920459 1.11001789 1.11001789
+ 1.09693577 0.         1.82924243 0.06666269 5.62291499]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-nt-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.88621061 0.86764026 0.88533133 0.8747781  1.11166253 1.11166253
+ 1.09959638 0.         0.90558686 0.0298097  2.12422499]",CVC4,6.606842994689941,unsat,['CVC4'],[6.606842994689941]
+./tmp/uclid500/run-nt-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.29538463 1.34483966 1.25133934 0.87722695 1.11002179 1.11002179
+ 1.09648493 0.         1.28607338 0.0438594  3.00151407]",CVC4,8.434282064437866,unsat,['CVC4'],[8.434282064437866]
+./tmp/uclid500/run-nt-bdata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00090542 0.0001082  0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.06285595893859863,unsat,['CVC4'],[0.06285595893859863]
+./tmp/uclid500/run-nt-bdata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.42505911 0.32000962 0.49309439 0.86249692 1.11038251 1.11038251
+ 1.09679741 0.         0.48409981 0.01462365 1.18324622]",CVC4,1.604936122894287,unsat,['CVC4'],[1.604936122894287]
+./tmp/uclid500/run-nt-bdata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.83329969 0.74277227 0.86083022 0.87809339 1.11666667 1.11666667
+ 1.10087632 0.         0.85298878 0.02860997 2.02549087]",CVC4,3.8098950386047363,unsat,['CVC4'],[3.8098950386047363]
+./tmp/uclid500/run-nt-bdata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.91645992 1.8651289  1.83933557 0.8794897  1.11061151 1.11061151
+ 1.09764769 0.         1.83114151 0.06674673 4.43346106]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-nt-bdata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089537 0.00010706 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.09210205078125,unsat,['CVC4'],[0.09210205078125]
+./tmp/uclid500/run-nt-bdata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.85057723 0.82829224 0.85265514 0.88383768 1.12147887 1.12147887
+ 1.1041137  0.         0.8727852  0.02875425 1.96405587]",CVC4,3.554075002670288,unsat,['CVC4'],[3.554075002670288]
+./tmp/uclid500/run-nt-bdata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.31403119 1.36441751 1.26756342 0.87807327 1.10966057 1.10966057
+ 1.09712024 0.         1.30276449 0.04501536 3.03384092]",CVC4,10.211726903915405,unsat,['CVC4'],[10.211726903915405]
+./tmp/uclid500/run-nt-bdata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.72350357 1.84062485 1.63525478 0.88031554 1.11560694 1.11560694
+ 1.10184974 0.         1.6847644  0.05756511 3.9571269 ]",CVC4,12.425365924835205,unsat,['CVC4'],[12.425365924835205]
+./tmp/uclid500/run-nt-bdata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00090538 0.00010826 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.15593695640563965,unsat,['CVC4'],[0.15593695640563965]
+./tmp/uclid500/run-nt-bdata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21554147 0.10161368 0.30426573 0.78413375 1.11090047 1.11090047
+ 1.09737828 0.         0.29493959 0.00732738 0.73111142]",CVC4,0.6246778964996338,unsat,['CVC4'],[0.6246778964996338]
+./tmp/uclid500/run-nt-bdata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.24172439 1.16381771 1.23051142 0.88930654 1.12357414 1.12357414
+ 1.10784804 0.         1.22320837 0.0437238  2.86114379]",CVC4,5.45549201965332,unsat,['CVC4'],[5.45549201965332]
+./tmp/uclid500/run-nt-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00090324 0.00010793 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.08869600296020508,unsat,['CVC4'],[0.08869600296020508]
+./tmp/uclid500/run-nt-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.65340348 0.60482172 0.67634803 1.52213505 1.12375249 1.12375249
+ 1.10797691 0.         0.68930219 1.70827601 0.        ]",CVC4,2.1037349700927734,unsat,['CVC4'],[2.1037349700927734]
+./tmp/uclid500/run-nt-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.50263516 1.60038598 1.44245713 1.52356479 1.13551402 1.13551402
+ 1.12050415 0.         1.48142367 3.61833289 0.        ]",CVC4,6.24933385848999,unsat,['CVC4'],[6.24933385848999]
+./tmp/uclid500/run-nt-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.94014802 2.11018121 1.83630269 1.5343648  1.14666667 1.14666667
+ 1.13290398 0.         1.88992493 4.60740322 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-nt-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089452 0.00010627 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.06093406677246094,unsat,['CVC4'],[0.06093406677246094]
+./tmp/uclid500/run-nt-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.43175095 0.32933969 0.50010535 1.50813895 1.10941476 1.10941476
+ 1.09725407 0.         0.49096915 1.27276682 0.        ]",CVC4,2.0824599266052246,unsat,['CVC4'],[2.0824599266052246]
+./tmp/uclid500/run-nt-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.84689236 0.76497295 0.87418388 1.51200879 1.12138728 1.12138728
+ 1.10688475 0.         0.86613561 2.17803305 0.        ]",CVC4,3.7344210147857666,unsat,['CVC4'],[3.7344210147857666]
+./tmp/uclid500/run-nt-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.68729156 1.64531382 1.63229725 1.50429226 1.11927878 1.11927878
+ 1.10517666 0.         1.62608978 4.05801453 0.        ]",CVC4,13.699841976165771,unsat,['CVC4'],[13.699841976165771]
+./tmp/uclid500/run-nt-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21712256 0.10441663 0.30613706 1.52472242 1.11012433 1.11012433
+ 0.87801452 0.         0.29692846 0.77237052 0.        ]",CVC4,0.6671819686889648,unsat,['CVC4'],[0.6671819686889648]
+./tmp/uclid500/run-nt-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.43170796 0.32934208 0.50007617 1.50794283 1.10953177 1.10953177
+ 1.0972383  0.         0.49092254 1.27351248 0.        ]",CVC4,2.17944598197937,unsat,['CVC4'],[2.17944598197937]
+./tmp/uclid500/run-nt-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.85092506 0.76911977 0.87772381 1.50098176 1.10936271 1.10936271
+ 1.09682103 0.         0.86893039 2.26226843 0.        ]",CVC4,8.227296829223633,unsat,['CVC4'],[8.227296829223633]
+./tmp/uclid500/run-nt-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.66269243 1.61495424 1.61127095 1.51516935 1.12348178 1.12348178
+ 1.10807933 0.         1.60429189 4.09066049 0.        ]",CVC4,9.129302024841309,unsat,['CVC4'],[9.129302024841309]
+./tmp/uclid500/run-nt-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.08397186 1.10087314 1.06183939 1.48532896 1.11813187 1.11813187
+ 1.1037787  0.         1.09016736 2.644934   0.        ]",CVC4,6.071775197982788,unsat,['CVC4'],[6.071775197982788]
+./tmp/uclid500/run-nt-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.44396264 1.46300811 1.38087895 1.79547278 1.2        1.2
+ 1.13924051 0.         1.4236616  5.74834437 0.        ]",CVC4,2.3855161666870117,unsat,['CVC4'],[2.3855161666870117]
+./tmp/uclid500/run-nt-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.4702497  1.54793997 1.40804863 1.48923103 1.12020906 1.12020906
+ 1.10304209 0.         1.45059724 3.5896119  0.        ]",CVC4,9.080956935882568,unsat,['CVC4'],[9.080956935882568]
+./tmp/uclid500/run-nt-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.71732847 1.83474405 1.63378391 1.5023939  1.13983051 1.13983051
+ 1.12678023 0.         1.68165338 4.17763754 0.        ]",CVC4,6.510456085205078,unsat,['CVC4'],[6.510456085205078]
+./tmp/uclid500/run-nt-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.8871003  2.03014666 1.78150117 1.47848858 1.11363636 1.11363636
+ 1.09631366 0.         1.83810761 4.50584078 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-nt-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.42369034 0.3191746  0.49146625 1.50433047 1.11621622 1.11621622
+ 1.10172506 0.         0.48289242 1.22484583 0.        ]",CVC4,1.5924248695373535,unsat,['CVC4'],[1.5924248695373535]
+./tmp/uclid500/run-nt-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00094251 0.00011203 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.05227398872375488,unsat,['CVC4'],[0.05227398872375488]
+./tmp/uclid500/run-nt-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.23320406 0.11361789 0.29934023 1.53977534 1.11458333 1.11458333
+ 0.87953811 0.         0.29762293 0.74555896 0.        ]",CVC4,0.4961540699005127,unsat,['CVC4'],[0.4961540699005127]
+./tmp/uclid500/run-nt-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.92560386 2.07894388 1.81534399 1.4792263  1.11653116 1.11653116
+ 1.10199715 0.         1.87336104 4.56393672 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-nt-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.4269946  0.32167202 0.49520847 1.49935922 1.11048159 1.11048159
+ 1.0967421  0.         0.48599504 1.2484934  0.        ]",CVC4,1.6439619064331055,unsat,['CVC4'],[1.6439619064331055]
+./tmp/uclid500/run-nt-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.63373747 0.53739965 0.68172899 1.49119379 1.11800487 1.11800487
+ 1.10412495 0.         0.67294801 1.68652701 0.        ]",CVC4,2.448390007019043,unsat,['CVC4'],[2.448390007019043]
+./tmp/uclid500/run-nt-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.84478395 0.75735955 0.8721165  1.48284406 1.11086718 1.11086718
+ 1.0972172  0.         0.86345677 2.21229406 0.        ]",CVC4,4.269254207611084,unsat,['CVC4'],[4.269254207611084]
+./tmp/uclid500/run-nt-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.2553753  1.1777388  1.24543069 1.50187275 1.14634146 1.14634146
+ 1.1314194  0.         1.23744689 3.01795167 0.        ]",CVC4,5.258993148803711,unsat,['CVC4'],[5.258993148803711]
+./tmp/uclid500/run-nt-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089616 0.00010707 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.09562110900878906,unsat,['CVC4'],[0.09562110900878906]
+./tmp/uclid500/run-nt-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.44724206 0.36068367 0.49520049 0.86496064 1.11284916 1.11284916
+ 1.09893343 0.         0.49731128 0.01467565 0.        ]",CVC4,1.451287031173706,unsat,['CVC4'],[1.451287031173706]
+./tmp/uclid500/run-nt-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.51060145 1.59326663 1.44785881 0.88101336 1.11635945 1.11635945
+ 1.10247269 0.         1.48678568 0.05057072 0.        ]",CVC4,10.392338991165161,unsat,['CVC4'],[10.392338991165161]
+./tmp/uclid500/run-nt-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.96548421 2.12171811 1.85362229 0.8785513  1.11065907 1.11065907
+ 1.09832636 0.         1.90775173 0.06729405 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-nt-udata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00091147 0.00010909 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.09429788589477539,unsat,['CVC4'],[0.09429788589477539]
+./tmp/uclid500/run-nt-udata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21503044 0.10146056 0.30677527 0.78579046 1.11633372 1.11633372
+ 1.10242921 0.         0.29448901 0.00716705 0.        ]",CVC4,0.5125758647918701,unsat,['CVC4'],[0.5125758647918701]
+./tmp/uclid500/run-nt-udata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.62072073 0.52317761 0.67119596 0.87604358 1.11400651 1.11400651
+ 1.09662249 0.         0.65995381 0.02152026 0.        ]",CVC4,2.606442928314209,unsat,['CVC4'],[2.606442928314209]
+./tmp/uclid500/run-nt-udata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.66401637 1.60332293 1.61831797 0.89658586 1.12765957 1.12765957
+ 1.11085235 0.         1.60559519 0.05938375 0.        ]",CVC4,5.610529184341431,unsat,['CVC4'],[5.610529184341431]
+./tmp/uclid500/run-nt-udata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.87673157 1.81982226 1.8076225  0.89086972 1.1237911  1.1237911
+ 1.10863758 0.         1.79816749 0.0658946  0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-nt-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.1009687  1.1173059  1.08016267 0.87656484 1.10901288 1.10901288
+ 1.09665007 0.         1.10484817 0.0376023  0.        ]",CVC4,7.795573949813843,unsat,['CVC4'],[7.795573949813843]
+./tmp/uclid500/run-nt-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.53203667 1.61794333 1.4657826  0.87745883 1.10913706 1.10913706
+ 1.09700993 0.         1.50512056 0.05237565 0.        ]",CVC4,13.660176992416382,unsat,['CVC4'],[13.660176992416382]
+./tmp/uclid500/run-nt-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.9268581  2.07462587 1.82065904 0.87766343 1.11009174 1.11009174
+ 1.09638231 0.         1.87319168 0.06497743 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-nt-udata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.64367896 1.57188997 1.60862858 0.90467051 1.16091954 1.16091954
+ 1.13909774 0.         1.59019185 0.05147808 0.        ]",CVC4,4.6998889446258545,unsat,['CVC4'],[4.6998889446258545]
+./tmp/uclid500/run-stall-bdata-fullalu-amem-coninv-f7.ucl-property_correspondence-vobj-0003.smt2,"[0.44026527 0.37095781 0.50960258 0.87351087 1.12222222 1.12222222
+ 1.25313222 0.         0.49049396 0.01459397 1.28077495]",CVC4,1.096693992614746,unsat,['CVC4'],[1.096693992614746]
+./tmp/uclid500/run-stall-bdata-fullalu-amem-coninv-f7.ucl-property_correspondence-vobj-0005.smt2,"[0.8515868  0.87264047 0.92071963 0.87992234 1.11437908 1.11437908
+ 1.24345774 0.         0.87324393 0.02868167 2.41533372]",CVC4,4.003010034561157,unsat,['CVC4'],[4.003010034561157]
+./tmp/uclid500/run-stall-bdata-fullalu-amem-coninv-f7.ucl-property_correspondence-vobj-0008.smt2,"[1.5056118  1.67273097 1.57528648 0.8808126  1.11335578 1.11335578
+ 1.24595493 0.         1.48192197 0.05122984 4.36367751]",CVC4,11.576665163040161,unsat,['CVC4'],[11.576665163040161]
+./tmp/uclid500/run-stall-bdata-fullalu-amem-coninv-f7.ucl-property_correspondence-vobj-0010.smt2,"[1.92510936 2.18361716 1.99469827 0.87837533 1.1106599  1.1106599
+ 1.24309872 0.         1.87164242 0.06502315 5.59875732]",CVC4,24.36660408973694,unsat,['CVC4'],[24.36660408973694]
+./tmp/uclid500/run-stall-bdata-fullalu-amem-coninv-f7.ucl-property_correspondence-vobj-0011.smt2,"[2.13438881 2.44261899 2.20351665 0.87839745 1.10909091 1.10909091
+ 1.24121664 0.         2.06643378 0.07254082 6.16057625]",CVC4,23.076797008514404,unsat,['CVC4'],[23.076797008514404]
+./tmp/uclid500/run-stall-bdata-fullalu-umem-coninv-f7.ucl-property_correspondence-vobj-0001.smt2,"[0.00091333 0.00010931 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.10355496406555176,unsat,['CVC4'],[0.10355496406555176]
+./tmp/uclid500/run-stall-bdata-fullalu-umem-coninv-f7.ucl-property_correspondence-vobj-0002.smt2,"[0.23587916 0.11898675 0.3057998  0.78765121 1.1167979  1.1167979
+ 1.10271251 0.         0.30082693 0.00722478 0.74171586]",CVC4,0.5566859245300293,unsat,['CVC4'],[0.5566859245300293]
+./tmp/uclid500/run-stall-bdata-fullalu-umem-coninv-f7.ucl-property_correspondence-vobj-0004.smt2,"[0.65017771 0.62648682 0.71986801 0.88453401 1.12431444 1.12431444
+ 1.25495139 0.         0.6863247  0.02204854 1.85361464]",CVC4,1.9386489391326904,unsat,['CVC4'],[1.9386489391326904]
+./tmp/uclid500/run-stall-bdata-fullalu-umem-coninv-f7.ucl-property_correspondence-vobj-0005.smt2,"[0.96591286 0.98314959 1.02675509 0.95650858 1.15384615 1.15384615
+ 1.24390244 0.         0.98031496 0.03797468 2.2826087 ]",CVC4,1.3753678798675537,unsat,['CVC4'],[1.3753678798675537]
+./tmp/uclid500/run-stall-bdata-fullalu-umem-coninv-f7.ucl-property_correspondence-vobj-0006.smt2,"[1.07774106 1.14871984 1.14856802 0.89669865 1.12408759 1.12408759
+ 1.25563549 0.         1.08428098 0.03867015 3.28716441]",CVC4,3.1944830417633057,unsat,['CVC4'],[3.1944830417633057]
+./tmp/uclid500/run-stall-bdata-fullalu-umem-coninv-f7.ucl-property_correspondence-vobj-0008.smt2,"[1.52801244 1.69934712 1.59605416 0.87688567 1.10932476 1.10932476
+ 1.24284806 0.         1.50148224 0.05212858 4.4547087 ]",CVC4,16.980942010879517,unsat,['CVC4'],[16.980942010879517]
+./tmp/uclid500/run-stall-bdata-fullalu-umem-coninv-f7.ucl-property_correspondence-vobj-0011.smt2,"[2.10583825 2.39922297 2.17631062 0.89012194 1.12260536 1.12260536
+ 1.25465995 0.         2.042783   0.07272276 5.92776513]",CVC4,17.09668493270874,unsat,['CVC4'],[17.09668493270874]
+./tmp/uclid500/run-stall-bdata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0002.smt2,"[0.23663215 0.11574092 0.30368679 0.78261159 1.11100196 1.11100196
+ 1.09763199 0.         0.30149089 0.00727556 0.73324605]",CVC4,0.6128628253936768,unsat,['CVC4'],[0.6128628253936768]
+./tmp/uclid500/run-stall-bdata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0004.smt2,"[0.66503531 0.61409724 0.68745203 0.87126293 1.11131555 1.11131555
+ 1.24400291 0.         0.69992802 0.0221016  1.66498471]",CVC4,3.5216500759124756,unsat,['CVC4'],[3.5216500759124756]
+./tmp/uclid500/run-stall-bdata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0006.smt2,"[1.06005604 1.07715151 1.04280142 0.89889716 1.1221374  1.1221374
+ 1.25012506 0.         1.06776259 0.03765948 2.67822726]",CVC4,2.6564409732818604,unsat,['CVC4'],[2.6564409732818604]
+./tmp/uclid500/run-stall-bdata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0009.smt2,"[1.70136388 1.8119618  1.61740769 0.89812447 1.13711584 1.13711584
+ 1.2693263  0.         1.66685632 0.05743541 3.97208862]",CVC4,10.425271987915039,unsat,['CVC4'],[10.425271987915039]
+./tmp/uclid500/run-stall-bdata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0010.smt2,"[1.93101603 2.08738179 1.82148159 0.87794    1.11122145 1.11122145
+ 1.24406514 0.         1.87693381 0.06537573 4.42427223]",CVC4,21.653712034225464,unsat,['CVC4'],[21.653712034225464]
+./tmp/uclid500/run-stall-bdata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0012.smt2,"[2.3943885  2.6307228  2.23386989 0.87971392 1.11017662 1.11017662
+ 1.2442473  0.         2.30598181 0.08243068 5.36680975]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-stall-bdata-thrualu-umem-coninv-f7.ucl-property_correspondence-vobj-0004.smt2,"[0.66767256 0.61709197 0.68947674 0.87155071 1.10905893 1.10905893
+ 1.24286874 0.         0.70239199 0.02245544 1.64973582]",CVC4,3.681702136993408,unsat,['CVC4'],[3.681702136993408]
+./tmp/uclid500/run-stall-bdata-thrualu-umem-coninv-f7.ucl-property_correspondence-vobj-0008.smt2,"[1.49235149 1.57271399 1.42881041 0.89240009 1.13062098 1.13062098
+ 1.26333568 0.         1.47139559 0.05090278 3.31978064]",CVC4,7.635948896408081,unsat,['CVC4'],[7.635948896408081]
+./tmp/uclid500/run-stall-bdata-thrualu-umem-coninv-f7.ucl-property_correspondence-vobj-0011.smt2,"[2.17111403 2.36865817 2.03403485 0.88142265 1.11062335 1.11062335
+ 1.24450231 0.         2.09898036 0.07508399 4.86516703]",CVC4,24.68129301071167,unsat,['CVC4'],[24.68129301071167]
+./tmp/uclid500/run-stall-bdata-uintalu-amem-coninv-f7.ucl-property_correspondence-vobj-0001.smt2,"[0.00090328 0.00010765 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.0886380672454834,unsat,['CVC4'],[0.0886380672454834]
+./tmp/uclid500/run-stall-bdata-uintalu-amem-coninv-f7.ucl-property_correspondence-vobj-0005.smt2,"[0.8688132  0.84744349 0.87172579 0.89721964 1.1416309  1.1416309
+ 1.27776208 0.         0.89108032 0.02988344 2.36190817]",CVC4,2.406856060028076,unsat,['CVC4'],[2.406856060028076]
+./tmp/uclid500/run-stall-bdata-uintalu-amem-coninv-f7.ucl-property_correspondence-vobj-0010.smt2,"[1.9339614  2.08021046 1.82413189 0.87781919 1.11166008 1.11166008
+ 1.24438805 0.         1.87961534 0.06539346 4.43047777]",CVC4,25.735517978668213,unsat,['CVC4'],[25.735517978668213]
+./tmp/uclid500/run-stall-bdata-uintalu-umem-coninv-f7.ucl-property_correspondence-vobj-0002.smt2,"[0.23553185 0.11484905 0.30236316 0.7869529  1.11477273 1.11477273
+ 1.10043374 0.         0.30035209 0.00725635 0.72834282]",CVC4,0.5605959892272949,unsat,['CVC4'],[0.5605959892272949]
+./tmp/uclid500/run-stall-bdata-uintalu-umem-coninv-f7.ucl-property_correspondence-vobj-0004.smt2,"[0.64337719 0.58886694 0.66644629 0.87771095 1.11774744 1.11774744
+ 1.24678088 0.         0.6793734  0.02132347 1.53230989]",CVC4,2.5053510665893555,unsat,['CVC4'],[2.5053510665893555]
+./tmp/uclid500/run-stall-bdata-uintalu-umem-coninv-f7.ucl-property_correspondence-vobj-0008.smt2,"[1.48964984 1.5628909  1.42594513 0.88942758 1.1242485  1.1242485
+ 1.25619073 0.         1.4683357  0.05064352 3.34749035]",CVC4,7.715579986572266,unsat,['CVC4'],[7.715579986572266]
+./tmp/uclid500/run-stall-idata-fullalu-amem-coninv-f7.ucl-property_correspondence-vobj-0001.smt2,"[0.00091364 0.00010896 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.06167292594909668,unsat,['CVC4'],[0.06167292594909668]
+./tmp/uclid500/run-stall-idata-fullalu-amem-coninv-f7.ucl-property_correspondence-vobj-0007.smt2,"[1.34170153 1.35869245 1.33221757 1.84487451 1.33333333 1.33333333
+ 1.44680851 0.         1.34080299 3.89237668 0.        ]",CVC4,2.4308969974517822,unsat,['CVC4'],[2.4308969974517822]
+./tmp/uclid500/run-stall-idata-fullalu-amem-coninv-f7.ucl-property_correspondence-vobj-0008.smt2,"[1.47199625 1.55740666 1.41437217 1.51554438 1.1025641  1.1025641
+ 1.21227197 0.         1.44708178 3.62135759 0.        ]",CVC4,4.082757949829102,unsat,['CVC4'],[4.082757949829102]
+./tmp/uclid500/run-stall-idata-fullalu-amem-coninv-f7.ucl-property_correspondence-vobj-0012.smt2,"[2.35831366 2.5980705  2.20751469 1.5265891  1.14066496 1.14066496
+ 1.27471419 0.         2.27881113 5.40691844 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-stall-idata-fullalu-umem-coninv-f7.ucl-property_correspondence-vobj-0001.smt2,"[0.00091231 0.00010926 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.04842495918273926,unsat,['CVC4'],[0.04842495918273926]
+./tmp/uclid500/run-stall-idata-fullalu-umem-coninv-f7.ucl-property_correspondence-vobj-0009.smt2,"[1.701634   1.83014381 1.61929324 1.52503186 1.1468144  1.1468144
+ 1.2824344  0.         1.66839378 3.95744034 0.        ]",CVC4,10.466699838638306,unsat,['CVC4'],[10.466699838638306]
+./tmp/uclid500/run-stall-idata-fullalu-umem-coninv-f7.ucl-property_correspondence-vobj-0012.smt2,"[2.34691552 2.60009212 2.19333473 1.49468127 1.10895361 1.10895361
+ 1.24128134 0.         2.26407334 5.5572679  0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-stall-idata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0002.smt2,"[0.23227402 0.11344053 0.29960088 1.54846357 1.13207547 1.13207547
+ 1.11386139 0.         0.29665382 0.68843778 0.        ]",CVC4,0.2854428291320801,unsat,['CVC4'],[0.2854428291320801]
+./tmp/uclid500/run-stall-idata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0003.smt2,"[0.44699319 0.36265853 0.49164102 1.49335748 1.107628   1.107628
+ 1.23942499 0.         0.49684707 1.22547519 0.        ]",CVC4,1.6014761924743652,unsat,['CVC4'],[1.6014761924743652]
+./tmp/uclid500/run-stall-idata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0009.smt2,"[1.71930725 1.84743554 1.63163007 1.47775754 1.11542857 1.11542857
+ 1.24798796 0.         1.68089247 4.08721709 0.        ]",CVC4,14.454606771469116,unsat,['CVC4'],[14.454606771469116]
+./tmp/uclid500/run-stall-idata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0010.smt2,"[1.9027784  2.05844512 1.79561252 1.47822713 1.11755725 1.11755725
+ 1.24852012 0.         1.852896   4.5150347  0.        ]",CVC4,16.379722833633423,unsat,['CVC4'],[16.379722833633423]
+./tmp/uclid500/run-stall-idata-thrualu-umem-coninv-f7.ucl-property_correspondence-vobj-0001.smt2,"[0.00089112 0.00010654 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.04044699668884277,unsat,['CVC4'],[0.04044699668884277]
+./tmp/uclid500/run-stall-idata-thrualu-umem-coninv-f7.ucl-property_correspondence-vobj-0003.smt2,"[0.4564713  0.37075514 0.50119968 1.50071515 1.11221122 1.11221122
+ 1.24672216 0.         0.50661483 1.26947196 0.        ]",CVC4,2.577333927154541,unsat,['CVC4'],[2.577333927154541]
+./tmp/uclid500/run-stall-idata-thrualu-umem-coninv-f7.ucl-property_correspondence-vobj-0006.smt2,"[1.05722812 1.07429833 1.03740135 1.48405412 1.11461794 1.11461794
+ 1.24408332 0.         1.06495703 2.61459944 0.        ]",CVC4,5.313015937805176,unsat,['CVC4'],[5.313015937805176]
+./tmp/uclid500/run-stall-idata-thrualu-umem-coninv-f7.ucl-property_correspondence-vobj-0009.smt2,"[1.67973866 1.79838232 1.59543515 1.47974965 1.115      1.115
+ 1.24471927 0.         1.64519123 4.02545049 0.        ]",CVC4,13.98209810256958,unsat,['CVC4'],[13.98209810256958]
+./tmp/uclid500/run-stall-idata-thrualu-umem-coninv-f7.ucl-property_correspondence-vobj-0010.smt2,"[1.91777683 2.07155804 1.80959697 1.49756798 1.12869198 1.12869198
+ 1.26109262 0.         1.86745182 4.61553162 0.        ]",CVC4,15.933357954025269,unsat,['CVC4'],[15.933357954025269]
+./tmp/uclid500/run-stall-idata-thrualu-umem-coninv-f7.ucl-property_correspondence-vobj-0011.smt2,"[2.13841406 2.33906105 2.00640105 1.4707272  1.10930736 1.10930736
+ 1.24180445 0.         2.0701509  5.09021444 0.        ]",CVC4,21.154019117355347,unsat,['CVC4'],[21.154019117355347]
+./tmp/uclid500/run-stall-idata-uintalu-amem-coninv-f7.ucl-property_correspondence-vobj-0001.smt2,"[0.00090762 0.00010823 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.048265933990478516,unsat,['CVC4'],[0.048265933990478516]
+./tmp/uclid500/run-stall-idata-uintalu-amem-coninv-f7.ucl-property_correspondence-vobj-0003.smt2,"[0.44383972 0.35633564 0.48847849 1.53380859 1.12156863 1.12156863
+ 1.25325428 0.         0.49408709 1.22766927 0.        ]",CVC4,1.2553279399871826,unsat,['CVC4'],[1.2553279399871826]
+./tmp/uclid500/run-stall-idata-uintalu-amem-coninv-f7.ucl-property_correspondence-vobj-0012.smt2,"[2.34916483 2.54837658 2.1999461  1.52616007 1.14035088 1.14035088
+ 1.27346065 0.         2.27048767 5.3445466  0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-stall-idata-uintalu-umem-coninv-f7.ucl-property_correspondence-vobj-0010.smt2,"[1.95782163 2.1100624  1.8436475  1.49663755 1.10967742 1.10967742
+ 1.24346162 0.         1.90071782 4.70417172 0.        ]",CVC4,27.352257013320923,unsat,['CVC4'],[27.352257013320923]
+./tmp/uclid500/run-stall-idata-uintalu-umem-coninv-f7.ucl-property_correspondence-vobj-0011.smt2,"[2.14256757 2.31092997 2.01416411 1.53017849 1.14105793 1.14105793
+ 1.27457795 0.         2.07794873 4.93729115 0.        ]",CVC4,13.685463905334473,unsat,['CVC4'],[13.685463905334473]
+./tmp/uclid500/run-stall-udata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0003.smt2,"[0.44668834 0.36171417 0.49448937 0.85896334 1.10718002 1.10718002
+ 1.23890411 0.         0.49650523 0.01445947 0.        ]",CVC4,1.8572158813476562,unsat,['CVC4'],[1.8572158813476562]
+./tmp/uclid500/run-stall-udata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0006.smt2,"[1.25860271 1.25047841 1.21716402 1.14892632 1.22222222 1.22222222
+ 1.30769231 0.         1.25384327 0.11652542 0.        ]",CVC4,1.8887081146240234,unsat,['CVC4'],[1.8887081146240234]
+./tmp/uclid500/run-stall-udata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0011.smt2,"[2.13574328 2.32711835 2.00734638 0.88496543 1.11749347 1.11749347
+ 1.25038666 0.         2.06908298 0.07265197 0.        ]",CVC4,21.43600606918335,unsat,['CVC4'],[21.43600606918335]
+./tmp/uclid500/run-stall-udata-thrualu-umem-coninv-f7.ucl-property_correspondence-vobj-0002.smt2,"[0.24023746 0.11779664 0.31091879 0.7833138  1.10934891 1.10934891
+ 1.09707776 0.         0.30569042 0.00749252 0.        ]",CVC4,0.8400921821594238,unsat,['CVC4'],[0.8400921821594238]
+./tmp/uclid500/run-stall-udata-thrualu-umem-coninv-f7.ucl-property_correspondence-vobj-0005.smt2,"[0.87467957 0.85878689 0.87804212 0.88123093 1.12103746 1.12103746
+ 1.25388699 0.         0.89560064 0.02892086 0.        ]",CVC4,4.304924964904785,unsat,['CVC4'],[4.304924964904785]
+./tmp/uclid500/run-stall-udata-thrualu-umem-coninv-f7.ucl-property_correspondence-vobj-0007.smt2,"[1.28378616 1.33109033 1.24485732 0.89145924 1.13090129 1.13090129
+ 1.26396727 0.         1.27706265 0.04355252 0.        ]",CVC4,5.955380201339722,unsat,['CVC4'],[5.955380201339722]
+./tmp/uclid500/run-stall-udata-thrualu-umem-coninv-f7.ucl-property_correspondence-vobj-0008.smt2,"[1.50400765 1.59301233 1.44195005 0.88036661 1.11259755 1.11259755
+ 1.24502825 0.         1.48040976 0.05132613 0.        ]",CVC4,11.92843508720398,unsat,['CVC4'],[11.92843508720398]
+./tmp/uclid500/run-stall-udata-thrualu-umem-coninv-f7.ucl-property_correspondence-vobj-0009.smt2,"[1.71857844 1.84149013 1.63293048 0.88274939 1.11732606 1.11732606
+ 1.24993267 0.         1.68059907 0.05775282 0.        ]",CVC4,15.648774147033691,unsat,['CVC4'],[15.648774147033691]
+./tmp/uclid500/run-stall-udata-thrualu-umem-coninv-f7.ucl-property_correspondence-vobj-0010.smt2,"[1.93603054 2.0958435  1.82895094 0.88174654 1.11662818 1.11662818
+ 1.24973392 0.         1.88256712 0.06489062 0.        ]",CVC4,18.392130851745605,unsat,['CVC4'],[18.392130851745605]
+./tmp/uclid500/run-stall-udata-uintalu-amem-coninv-f7.ucl-property_correspondence-vobj-0004.smt2,"[0.66134325 0.60792422 0.68734586 0.87376798 1.11884754 1.11884754
+ 1.25189633 0.         0.69690569 0.02137909 0.        ]",CVC4,2.702755928039551,unsat,['CVC4'],[2.702755928039551]
+./tmp/uclid500/run-stall-udata-uintalu-amem-coninv-f7.ucl-property_correspondence-vobj-0005.smt2,"[0.89301986 0.86821937 0.89878257 0.90004062 1.16       1.16
+ 1.29057592 0.         0.91439787 0.02701025 0.        ]",CVC4,1.5040628910064697,unsat,['CVC4'],[1.5040628910064697]
+./tmp/uclid500/run-stall-udata-uintalu-amem-coninv-f7.ucl-property_correspondence-vobj-0008.smt2,"[1.48920657 1.56931172 1.43278205 0.89353607 1.13297872 1.13297872
+ 1.26475725 0.         1.46911236 0.05095694 0.        ]",CVC4,6.655129909515381,unsat,['CVC4'],[6.655129909515381]
+./tmp/uclid500/run-stall-udata-uintalu-amem-coninv-f7.ucl-property_correspondence-vobj-0010.smt2,"[1.93337259 2.08203257 1.82645408 0.88114802 1.11619718 1.11619718
+ 1.24909217 0.         1.88011319 0.06456699 0.        ]",CVC4,18.443470001220703,unsat,['CVC4'],[18.443470001220703]
+./tmp/uclid500/run-stall-udata-uintalu-amem-coninv-f7.ucl-property_correspondence-vobj-0012.smt2,"[2.40188527 2.59256618 2.2600721  0.93136799 1.13333333 1.13333333
+ 1.24034335 0.         2.31064423 0.08192771 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-stall-udata-uintalu-umem-coninv-f7.ucl-property_correspondence-vobj-0003.smt2,"[0.45159288 0.36385489 0.49955314 0.86302622 1.11182994 1.11182994
+ 1.24443227 0.         0.50161388 0.0147174  0.        ]",CVC4,1.9522719383239746,unsat,['CVC4'],[1.9522719383239746]
+./tmp/uclid500/run-stall-udata-uintalu-umem-coninv-f7.ucl-property_correspondence-vobj-0007.smt2,"[1.29172555 1.33821373 1.25191686 0.88054016 1.11845387 1.11845387
+ 1.25155942 0.         1.28352266 0.04293098 0.        ]",CVC4,8.237138986587524,unsat,['CVC4'],[8.237138986587524]
+./tmp/uclid500/run-stall-udata-uintalu-umem-coninv-f7.ucl-property_correspondence-vobj-0008.smt2,"[1.49418923 1.56501309 1.43587525 0.8936536  1.14594595 1.14594595
+ 1.28142222 0.         1.47472066 0.0487861  0.        ]",CVC4,7.186734914779663,unsat,['CVC4'],[7.186734914779663]
+./tmp/uclid500/run-stall-udata-uintalu-umem-coninv-f7.ucl-property_correspondence-vobj-0009.smt2,"[1.70993413 1.82186248 1.62616414 0.8861012  1.11870968 1.11870968
+ 1.25171974 0.         1.67296702 0.05831855 0.        ]",CVC4,14.13759708404541,unsat,['CVC4'],[14.13759708404541]
+./tmp/uclid500/run-std-bdata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.45283024 0.37912451 0.52297813 0.86253084 1.11111111 1.11111111
+ 1.09778044 0.         0.50284515 0.0147757  1.37380941]",CVC4,2.056087017059326,unsat,['CVC4'],[2.056087017059326]
+./tmp/uclid500/run-std-bdata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.64239933 0.61429995 0.71279017 0.88085486 1.125      1.125
+ 1.11045828 0.         0.67887428 0.02181105 2.06972347]",CVC4,1.349534034729004,unsat,['CVC4'],[1.349534034729004]
+./tmp/uclid500/run-std-bdata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.87782625 0.8944559  0.94712031 0.87445135 1.10901961 1.10901961
+ 1.0965207  0.         0.89753061 0.02998781 2.55844911]",CVC4,8.195868015289307,unsat,['CVC4'],[8.195868015289307]
+./tmp/uclid500/run-std-bdata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.24813111 1.22777713 1.34780869 0.88400016 1.11937984 1.11937984
+ 1.10273903 0.         1.2286981  0.04307962 3.65203933]",CVC4,7.827969074249268,unsat,['CVC4'],[7.827969074249268]
+./tmp/uclid500/run-std-bdata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.47302432 1.47140917 1.58010005 0.88706438 1.13043478 1.13043478
+ 1.1130137  0.         1.43219125 0.04742053 5.27084284]",CVC4,4.862591028213501,unsat,['CVC4'],[4.862591028213501]
+./tmp/uclid500/run-std-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.65395944 0.6219555  0.72439948 0.89025924 1.13744076 1.13744076
+ 1.12062257 0.         0.69044777 0.02149607 1.99125543]",CVC4,2.149250030517578,unsat,['CVC4'],[2.149250030517578]
+./tmp/uclid500/run-std-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.29222606 1.39786636 1.36192896 0.87972401 1.11247216 1.11247216
+ 1.09844598 0.         1.28337246 0.04403597 3.75608695]",CVC4,9.318259000778198,unsat,['CVC4'],[9.318259000778198]
+./tmp/uclid500/run-std-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.50144521 1.64934708 1.57099776 0.8768194  1.11021234 1.11021234
+ 1.09646495 0.         1.47756216 0.05048707 4.3741938 ]",CVC4,13.237549066543579,unsat,['CVC4'],[13.237549066543579]
+./tmp/uclid500/run-std-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21398018 0.10365226 0.30548387 0.7868164  1.11881188 1.11881188
+ 1.10459433 0.         0.29322089 0.00712147 0.7500137 ]",CVC4,0.46958398818969727,unsat,['CVC4'],[0.46958398818969727]
+./tmp/uclid500/run-std-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.42460212 0.33295925 0.51760228 0.86674271 1.11780822 1.11780822
+ 1.10349802 0.         0.48390498 0.01440856 1.32307562]",CVC4,1.612933874130249,unsat,['CVC4'],[1.612933874130249]
+./tmp/uclid500/run-std-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.48134475 1.48317049 1.58199257 0.87822895 1.10861133 1.10861133
+ 1.09625121 0.         1.43828774 0.05248026 4.35557581]",CVC4,20.623568058013916,unsat,['CVC4'],[20.623568058013916]
+./tmp/uclid500/run-std-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.84653759 1.87668316 1.95129377 0.88600921 1.11734694 1.11734694
+ 1.09976565 0.         1.77081402 0.06415737 5.18186153]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-std-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.23036091 0.11117902 0.29591706 0.78902215 1.11596639 1.11596639
+ 1.09861019 0.         0.29429518 0.0071182  0.67680676]",CVC4,0.46826982498168945,unsat,['CVC4'],[0.46826982498168945]
+./tmp/uclid500/run-std-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.64582842 0.58404706 0.67101591 0.90453685 1.10810811 1.10810811
+ 1.07705779 0.         0.67982906 0.0236493  1.79702784]",CVC4,0.8264720439910889,unsat,['CVC4'],[0.8264720439910889]
+./tmp/uclid500/run-std-bdata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.44964146 1.3683756  1.41860587 0.88973012 1.1240458  1.1240458
+ 1.10825389 0.         1.41155607 0.05084662 3.31908741]",CVC4,7.130448818206787,unsat,['CVC4'],[7.130448818206787]
+./tmp/uclid500/run-std-bdata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00090864 0.00010865 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.08881878852844238,unsat,['CVC4'],[0.08881878852844238]
+./tmp/uclid500/run-std-bdata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.4519547  0.36106838 0.49848727 0.88306721 1.15555556 1.15555556
+ 1.14285714 0.         0.50355302 0.01426286 1.36596044]",CVC4,0.8415489196777344,unsat,['CVC4'],[0.8415489196777344]
+./tmp/uclid500/run-std-bdata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.8624632  0.83944039 0.865717   0.88903413 1.13       1.13
+ 1.11330049 0.         0.88461659 0.02931543 2.40245425]",CVC4,2.053238868713379,unsat,['CVC4'],[2.053238868713379]
+./tmp/uclid500/run-std-bdata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.10291695 1.11226227 1.0791259  0.87630822 1.11129568 1.11129568
+ 1.09924417 0.         1.10677805 0.03733405 2.58982932]",CVC4,8.985729932785034,unsat,['CVC4'],[8.985729932785034]
+./tmp/uclid500/run-std-bdata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.96024817 2.1021234  1.84565594 0.8785266  1.1098546  1.1098546
+ 1.09744409 0.         1.90293643 0.06732874 4.46227148]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-std-bdata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.25901141 1.17583404 1.24619123 0.88409308 1.11810013 1.11810013
+ 1.10420892 0.         1.23856963 0.043692   2.96694708]",CVC4,7.826947927474976,unsat,['CVC4'],[7.826947927474976]
+./tmp/uclid500/run-std-bdata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.06313577 1.06414616 1.04509697 0.88622884 1.12883436 1.12883436
+ 1.11380145 0.         1.07157088 0.03621049 2.75408214]",CVC4,2.8571090698242188,unsat,['CVC4'],[2.8571090698242188]
+./tmp/uclid500/run-std-bdata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.54689515 1.59502743 1.48675437 0.95947519 1.15384615 1.15384615
+ 1.11386139 0.         1.52019584 0.05230386 3.38057143]",CVC4,3.143203020095825,unsat,['CVC4'],[3.143203020095825]
+./tmp/uclid500/run-std-bdata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.94878334 2.07712263 1.83534419 0.87785006 1.10802224 1.10802224
+ 1.09549238 0.         1.89238237 0.06724944 4.40835426]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-std-bdata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21821031 0.10188078 0.3075725  0.78357472 1.1090448  1.1090448
+ 1.09692882 0.         0.29827524 0.0074879  0.73511796]",CVC4,0.5846381187438965,unsat,['CVC4'],[0.5846381187438965]
+./tmp/uclid500/run-std-bdata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.63883862 0.53369624 0.68681155 0.87160328 1.1125     1.1125
+ 1.09897416 0.         0.67750174 0.02192866 1.65937867]",CVC4,2.924558162689209,unsat,['CVC4'],[2.924558162689209]
+./tmp/uclid500/run-std-bdata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.84376837 0.7442356  0.87157324 0.8773575  1.11858191 1.11858191
+ 1.10462777 0.         0.86297446 0.02859777 2.10219957]",CVC4,3.7135839462280273,unsat,['CVC4'],[3.7135839462280273]
+./tmp/uclid500/run-std-bdata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.04928517 0.94976141 1.05881842 0.89373303 1.14713896 1.14713896
+ 1.13212621 0.         1.05071307 0.03518302 2.72149802]",CVC4,4.056993007659912,unsat,['CVC4'],[4.056993007659912]
+./tmp/uclid500/run-std-bdata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.89773968 1.82159602 1.82300284 0.88497    1.12034384 1.12034384
+ 1.10576923 0.         1.81650079 0.06491362 4.31126607]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-std-bdata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.45110781 0.35979377 0.4957143  0.86261825 1.10919089 1.10919089
+ 1.09667064 0.         0.50102877 0.01500228 1.18128987]",CVC4,2.8345589637756348,unsat,['CVC4'],[2.8345589637756348]
+./tmp/uclid500/run-std-bdata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.08084985 1.08289327 1.05977583 0.8796435  1.11464245 1.11464245
+ 1.10032121 0.         1.08689225 0.03631737 2.56278893]",CVC4,5.559628963470459,unsat,['CVC4'],[5.559628963470459]
+./tmp/uclid500/run-std-bdata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.51083999 1.57179634 1.45109829 0.88628846 1.13157895 1.13157895
+ 1.11398964 0.         1.48730088 0.04707293 4.3207419 ]",CVC4,4.411184072494507,unsat,['CVC4'],[4.411184072494507]
+./tmp/uclid500/run-std-bdata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21437573 0.09991633 0.30287333 0.78673746 1.11916462 1.11916462
+ 1.10513546 0.         0.29373115 0.00712866 0.72859062]",CVC4,0.4723091125488281,unsat,['CVC4'],[0.4723091125488281]
+./tmp/uclid500/run-std-bdata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.60582773 0.4550328  0.70149254 1.19550124 1.33333333 1.33333333
+ 1.27659574 0.         0.67754078 0.03524229 1.54482759]",CVC4,0.4873359203338623,unsat,['CVC4'],[0.4873359203338623]
+./tmp/uclid500/run-std-bdata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.63461272 0.53062575 0.68230292 0.87216496 1.11098901 1.11098901
+ 1.09732272 0.         0.67347698 0.02200281 1.63604731]",CVC4,2.7057039737701416,unsat,['CVC4'],[2.7057039737701416]
+./tmp/uclid500/run-std-bdata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.84140527 0.74182775 0.86889566 0.88028624 1.1171875  1.1171875
+ 1.1030168  0.         0.86068562 0.02912572 2.06594969]",CVC4,3.9585390090942383,unsat,['CVC4'],[3.9585390090942383]
+./tmp/uclid500/run-std-bdata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.26941497 1.1762617  1.25918809 0.89961626 1.15194346 1.15194346
+ 1.13932898 0.         1.25082377 0.04336356 3.40270699]",CVC4,4.64457106590271,unsat,['CVC4'],[4.64457106590271]
+./tmp/uclid500/run-std-bdata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.68587998 1.60549437 1.63172795 0.88294645 1.11965812 1.11965812
+ 1.10507077 0.         1.62490074 0.05744197 3.86213577]",CVC4,13.312644004821777,unsat,['CVC4'],[13.312644004821777]
+./tmp/uclid500/run-std-bdata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.92914844 1.85589849 1.85040778 0.87965002 1.11054852 1.11054852
+ 1.09843637 0.         1.84237233 0.0674768  4.44488539]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-std-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.87956725 0.86167718 0.88182036 1.5437468  1.15309446 1.15309446
+ 1.13972956 0.         0.90218315 2.18692851 0.        ]",CVC4,2.6585850715637207,unsat,['CVC4'],[2.6585850715637207]
+./tmp/uclid500/run-std-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21212591 0.10053407 0.30176495 1.56330154 1.15730337 1.15730337
+ 0.91083272 0.         0.29135189 0.67788887 0.        ]",CVC4,0.24771690368652344,unsat,['CVC4'],[0.24771690368652344]
+./tmp/uclid500/run-std-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.64398146 0.54820006 0.6911832  1.50316411 1.10928014 1.10928014
+ 1.0967871  0.         0.68238887 1.7680336  0.        ]",CVC4,3.323930025100708,unsat,['CVC4'],[3.323930025100708]
+./tmp/uclid500/run-std-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.47473811 1.41344969 1.44177309 1.5000823  1.11835749 1.11835749
+ 1.10457256 0.         1.43363627 3.55765241 0.        ]",CVC4,10.429018020629883,unsat,['CVC4'],[10.429018020629883]
+./tmp/uclid500/run-std-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.69382034 1.64097346 1.63834946 1.49671842 1.1088647  1.1088647
+ 1.09647324 0.         1.63018725 4.23493979 0.        ]",CVC4,24.605835914611816,unsat,['CVC4'],[24.605835914611816]
+./tmp/uclid500/run-std-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00090413 0.00010772 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.10227084159851074,unsat,['CVC4'],[0.10227084159851074]
+./tmp/uclid500/run-std-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.08250386 1.09602089 1.06304358 1.53014308 1.14782609 1.14782609
+ 1.13315528 0.         1.09087943 2.63056428 0.        ]",CVC4,3.1547579765319824,unsat,['CVC4'],[3.1547579765319824]
+./tmp/uclid500/run-std-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.31710165 1.3734401  1.27074283 1.49696336 1.11047928 1.11047928
+ 1.09805077 0.         1.30567683 3.24193857 0.        ]",CVC4,12.159455060958862,unsat,['CVC4'],[12.159455060958862]
+./tmp/uclid500/run-std-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.50180677 1.58933833 1.43634546 1.49209654 1.10842105 1.10842105
+ 1.09459459 0.         1.47790977 3.59253245 0.        ]",CVC4,10.74092984199524,unsat,['CVC4'],[10.74092984199524]
+./tmp/uclid500/run-std-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.96262218 2.12507176 1.84771727 1.49400525 1.10916667 1.10916667
+ 1.09691775 0.         1.90490289 4.71232263 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-std-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089546 0.00010686 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.06613707542419434,unsat,['CVC4'],[0.06613707542419434]
+./tmp/uclid500/run-std-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.4267943  0.3227244  0.49515712 1.50827752 1.11142857 1.11142857
+ 1.09783631 0.         0.48582715 1.24054226 0.        ]",CVC4,1.7044050693511963,unsat,['CVC4'],[1.7044050693511963]
+./tmp/uclid500/run-std-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.62282462 0.52767923 0.67065607 1.52095894 1.12241055 1.12241055
+ 1.1065726  0.         0.66245322 1.7095006  0.        ]",CVC4,2.1448299884796143,unsat,['CVC4'],[2.1448299884796143]
+./tmp/uclid500/run-std-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.04777535 0.96525905 1.05566989 1.52125188 1.13129103 1.13129103
+ 1.11598791 0.         1.04803801 2.65858055 0.        ]",CVC4,3.862661123275757,unsat,['CVC4'],[3.862661123275757]
+./tmp/uclid500/run-std-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.87557367 1.82322241 1.80398205 1.5176926  1.1278826  1.1278826
+ 1.11172338 0.         1.79744211 4.54026626 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-std-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.6724381  0.6171118  0.69428182 1.48642408 1.11083945 1.11083945
+ 1.09848485 0.         0.70711279 1.76217815 0.        ]",CVC4,4.138473987579346,unsat,['CVC4'],[4.138473987579346]
+./tmp/uclid500/run-std-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.92005211 0.89072745 0.92223492 1.59539344 1.14285714 1.14285714
+ 1.10599078 0.         0.93730149 2.23807318 0.        ]",CVC4,1.7900519371032715,unsat,['CVC4'],[1.7900519371032715]
+./tmp/uclid500/run-std-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.2950077  1.33935336 1.25118431 1.47572234 1.11062432 1.11062432
+ 1.09700685 0.         1.28579754 3.16715365 0.        ]",CVC4,8.14434003829956,unsat,['CVC4'],[8.14434003829956]
+./tmp/uclid500/run-std-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00088299 0.00010521 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.06067299842834473,unsat,['CVC4'],[0.06067299842834473]
+./tmp/uclid500/run-std-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.21285494 0.09919342 0.30086328 1.56006645 1.13245033 1.13245033
+ 0.89359849 0.         0.29198914 0.75126732 0.        ]",CVC4,0.23754501342773438,unsat,['CVC4'],[0.23754501342773438]
+./tmp/uclid500/run-std-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.63443119 0.53474227 0.68473563 1.51596238 1.13114754 1.13114754
+ 1.11350188 0.         0.67394015 1.67358684 0.        ]",CVC4,1.295198917388916,unsat,['CVC4'],[1.295198917388916]
+./tmp/uclid500/run-std-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.8537714  0.75822914 0.88306379 1.52747042 1.15511551 1.15511551
+ 1.14155251 0.         0.8746915  2.20171638 0.        ]",CVC4,2.302006959915161,unsat,['CVC4'],[2.302006959915161]
+./tmp/uclid500/run-std-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.26366938 1.18522667 1.2502605  1.47591837 1.10942579 1.10942579
+ 1.0959686  0.         1.24195832 3.17766846 0.        ]",CVC4,8.222902059555054,unsat,['CVC4'],[8.222902059555054]
+./tmp/uclid500/run-std-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.8975346  1.83057155 1.82633716 1.5086747  1.14912281 1.14912281
+ 1.13496342 0.         1.81974414 4.59139308 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-std-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089749 0.00010669 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.05420684814453125,unsat,['CVC4'],[0.05420684814453125]
+./tmp/uclid500/run-std-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.23396911 0.11338415 0.30120273 1.58060377 1.12781955 1.12781955
+ 0.88845015 0.         0.29868437 0.79490446 0.        ]",CVC4,0.29643988609313965,unsat,['CVC4'],[0.29643988609313965]
+./tmp/uclid500/run-std-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.45587384 0.36651946 0.5004231  1.49984963 1.10958904 1.10958904
+ 1.09725123 0.         0.50592726 1.27841799 0.        ]",CVC4,2.023466110229492,unsat,['CVC4'],[2.023466110229492]
+./tmp/uclid500/run-std-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.66048373 0.60514512 0.68309696 1.48971521 1.11578947 1.11578947
+ 1.10178626 0.         0.69591571 1.69146395 0.        ]",CVC4,2.698704957962036,unsat,['CVC4'],[2.698704957962036]
+./tmp/uclid500/run-std-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.30521799 1.34833292 1.26036961 1.47859461 1.11287313 1.11287313
+ 1.099269   0.         1.29499433 3.19764081 0.        ]",CVC4,9.344325065612793,unsat,['CVC4'],[9.344325065612793]
+./tmp/uclid500/run-std-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.90930644 2.04569227 1.80422181 1.50178043 1.12318841 1.12318841
+ 1.10714286 0.         1.85853871 4.76830218 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-std-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.04409511 0.95761341 1.05334673 1.50538138 1.13375796 1.13375796
+ 1.11809045 0.         1.04500978 2.70487674 0.        ]",CVC4,2.2060189247131348,unsat,['CVC4'],[2.2060189247131348]
+./tmp/uclid500/run-std-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.44482294 1.36848374 1.41378476 1.48237057 1.11698718 1.11698718
+ 1.09983168 0.         1.40661026 3.56030035 0.        ]",CVC4,8.976948976516724,unsat,['CVC4'],[8.976948976516724]
+./tmp/uclid500/run-std-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00089114 0.00010633 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.03635692596435547,unsat,['CVC4'],[0.03635692596435547]
+./tmp/uclid500/run-std-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.24031382 0.11606992 0.30776868 1.5458115  1.10921502 1.10921502
+ 0.87758776 0.         0.30578128 0.78143062 0.        ]",CVC4,0.625042200088501,unsat,['CVC4'],[0.625042200088501]
+./tmp/uclid500/run-std-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.64999718 0.58903978 0.67320132 1.53231226 1.1252302  1.1252302
+ 1.10862465 0.         0.68621083 1.7235749  0.        ]",CVC4,1.7952570915222168,unsat,['CVC4'],[1.7952570915222168]
+./tmp/uclid500/run-std-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.08078798 1.07170099 1.06467209 1.53775126 1.125      1.125
+ 1.09223301 0.         1.08519752 2.62648692 0.        ]",CVC4,2.2269489765167236,unsat,['CVC4'],[2.2269489765167236]
+./tmp/uclid500/run-std-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.31945714 1.34623469 1.28153201 1.54362011 1.16923077 1.16923077
+ 1.14688129 0.         1.31229859 2.80786584 0.        ]",CVC4,2.28304386138916,unsat,['CVC4'],[2.28304386138916]
+./tmp/uclid500/run-std-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.50126277 1.56305605 1.43609951 1.49673599 1.10998991 1.10998991
+ 1.09627267 0.         1.47736268 3.59540573 0.        ]",CVC4,12.104825019836426,unsat,['CVC4'],[12.104825019836426]
+./tmp/uclid500/run-std-idata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00088631 0.00010549 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.06611013412475586,unsat,['CVC4'],[0.06611013412475586]
+./tmp/uclid500/run-std-idata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.46303267 1.37083693 1.43122094 1.52574759 1.13303769 1.13303769
+ 1.11702128 0.         1.42423144 3.60346384 0.        ]",CVC4,6.9580700397491455,unsat,['CVC4'],[6.9580700397491455]
+./tmp/uclid500/run-std-idata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.88300293 1.79398208 1.82272382 1.54818167 1.16666667 1.16666667
+ 1.14575214 0.         1.80740633 4.0801054  0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-std-idata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.51668671 1.58130488 1.44926513 1.50099601 1.10954617 1.10954617
+ 1.09707035 0.         1.49128173 3.74880371 0.        ]",CVC4,19.244014024734497,unsat,['CVC4'],[19.244014024734497]
+./tmp/uclid500/run-std-idata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.72386432 1.80313457 1.64675846 1.55773072 1.1686747  1.1686747
+ 1.14747634 0.         1.68930561 3.77385208 0.        ]",CVC4,5.011217832565308,unsat,['CVC4'],[5.011217832565308]
+./tmp/uclid500/run-std-idata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.91036365 2.01631042 1.81335889 1.54325969 1.14583333 1.14583333
+ 1.11336032 0.         1.86091561 4.11069063 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-std-idata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.42110296 0.31074    0.48925825 1.54826566 1.13551402 1.13551402
+ 1.11912803 0.         0.48068047 1.21894364 0.        ]",CVC4,1.097196102142334,unsat,['CVC4'],[1.097196102142334]
+./tmp/uclid500/run-std-idata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.63457501 0.52998654 0.68248173 1.51293907 1.11729858 1.11729858
+ 1.10326808 0.         0.67373782 1.68551001 0.        ]",CVC4,2.551103115081787,unsat,['CVC4'],[2.551103115081787]
+./tmp/uclid500/run-std-idata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.06070395 0.96218805 1.07111314 1.53778959 1.15471698 1.15471698
+ 1.14179104 0.         1.06177269 2.63465993 0.        ]",CVC4,3.0410850048065186,unsat,['CVC4'],[3.0410850048065186]
+./tmp/uclid500/run-std-idata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.7163048  1.63729757 1.6586284  1.50015137 1.11138411 1.11138411
+ 1.09920078 0.         1.65035519 4.22978897 0.        ]",CVC4,20.064964056015015,unsat,['CVC4'],[20.064964056015015]
+./tmp/uclid500/run-std-idata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.89839181 1.82215964 1.82422592 1.49449029 1.11035156 1.11035156
+ 1.09706677 0.         1.81526811 4.58187105 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-std-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.23711171 0.11422894 0.30673733 0.82140967 1.1        1.1
+ 1.05769231 0.         0.30136986 0.00785714 0.        ]",CVC4,0.18471884727478027,unsat,['CVC4'],[0.18471884727478027]
+./tmp/uclid500/run-std-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.4415401  0.3527609  0.48905727 0.86938559 1.11882716 1.11882716
+ 1.10227042 0.         0.49167411 0.01441696 0.        ]",CVC4,1.4238018989562988,unsat,['CVC4'],[1.4238018989562988]
+./tmp/uclid500/run-std-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.65826809 0.60190447 0.68398622 0.87003997 1.108742   1.108742
+ 1.09489051 0.         0.69338814 0.02179867 0.        ]",CVC4,3.145427942276001,unsat,['CVC4'],[3.145427942276001]
+./tmp/uclid500/run-std-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.30106494 1.34076609 1.2601077  0.87722986 1.11111111 1.11111111
+ 1.09756098 0.         1.29102159 0.04389146 0.        ]",CVC4,9.370970964431763,unsat,['CVC4'],[9.370970964431763]
+./tmp/uclid500/run-std-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.52755739 1.60253026 1.46197693 0.87665944 1.10914928 1.10914928
+ 1.09647731 0.         1.50104285 0.05211723 0.        ]",CVC4,13.864415884017944,unsat,['CVC4'],[13.864415884017944]
+./tmp/uclid500/run-std-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.05866219 1.06188986 1.04182084 0.88171343 1.11532125 1.11532125
+ 1.09819401 0.         1.06632402 0.035833   0.        ]",CVC4,4.776448965072632,unsat,['CVC4'],[4.776448965072632]
+./tmp/uclid500/run-std-udata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.83348796 0.73786035 0.86409349 0.87823846 1.11649017 1.11649017
+ 1.10072586 0.         0.85315873 0.02864768 0.        ]",CVC4,3.9056529998779297,unsat,['CVC4'],[3.9056529998779297]
+./tmp/uclid500/run-std-udata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00090072 0.00010774 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.06601095199584961,unsat,['CVC4'],[0.06601095199584961]
+./tmp/uclid500/run-std-udata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.23626051 0.11406056 0.30640951 0.78557332 1.11821472 1.11821472
+ 1.10444797 0.         0.30129078 0.00712293 0.        ]",CVC4,0.5193569660186768,unsat,['CVC4'],[0.5193569660186768]
+./tmp/uclid500/run-std-udata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.44992732 0.35720127 0.49878766 0.88275426 1.14248705 1.14248705
+ 1.12730061 0.         0.50102987 0.01436903 0.        ]",CVC4,0.9355430603027344,unsat,['CVC4'],[0.9355430603027344]
+./tmp/uclid500/run-std-udata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.87817209 0.84897511 0.88132928 0.87520308 1.11214087 1.11214087
+ 1.09843168 0.         0.89804972 0.02945201 0.        ]",CVC4,5.035676002502441,unsat,['CVC4'],[5.035676002502441]
+./tmp/uclid500/run-std-udata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00090546 0.00010831 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.05180716514587402,unsat,['CVC4'],[0.05180716514587402]
+./tmp/uclid500/run-std-udata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.50842721 1.57120317 1.44593016 0.87699695 1.11177645 1.11177645
+ 1.09833048 0.         1.48403809 0.05068474 0.        ]",CVC4,12.55605411529541,unsat,['CVC4'],[12.55605411529541]
+./tmp/uclid500/run-std-udata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00088384 0.0001053  0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.1611769199371338,unsat,['CVC4'],[0.1611769199371338]
+./tmp/uclid500/run-std-udata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.70411612 1.62397547 1.65052834 0.87880629 1.11022222 1.11022222
+ 1.09741096 0.         1.63942582 0.05940229 0.        ]",CVC4,15.545062065124512,unsat,['CVC4'],[15.545062065124512]
+./tmp/uclid500/run-sw-bdata-fullalu-amem-swinv-f6.ucl-property_correspondence-vobj-0002.smt2,"[0.24080649 0.12356202 0.30931446 0.80663539 1.15333333 1.15333333
+ 1.14015817 0.         0.30420766 0.00725443 0.82603604]",CVC4,0.3855571746826172,unsat,['CVC4'],[0.3855571746826172]
+./tmp/uclid500/run-sw-bdata-fullalu-amem-swinv-f6.ucl-property_correspondence-vobj-0003.smt2,"[0.44041378 0.37426692 0.50670179 0.86993845 1.1185567  1.1185567
+ 1.17469268 0.         0.4878271  0.01432658 1.26251995]",CVC4,1.4188039302825928,unsat,['CVC4'],[1.4188039302825928]
+./tmp/uclid500/run-sw-bdata-fullalu-amem-swinv-f6.ucl-property_correspondence-vobj-0005.smt2,"[0.87705226 0.91008811 0.94771508 0.8961831  1.14220183 1.14220183
+ 1.2021726  0.         0.89651233 0.02943871 2.96167042]",CVC4,1.839228868484497,unsat,['CVC4'],[1.839228868484497]
+./tmp/uclid500/run-sw-bdata-fullalu-amem-swinv-f6.ucl-property_correspondence-vobj-0006.smt2,"[1.09197119 1.16887069 1.16069328 0.89643895 1.14138817 1.14138817
+ 1.20121745 0.         1.09655458 0.03590955 3.37659704]",CVC4,4.1725990772247314,unsat,['CVC4'],[4.1725990772247314]
+./tmp/uclid500/run-sw-bdata-fullalu-amem-swinv-f6.ucl-property_correspondence-vobj-0008.smt2,"[1.50029884 1.67001862 1.56793736 0.89246521 1.13394919 1.13394919
+ 1.19265219 0.         1.47646649 0.05022431 4.40663733]",CVC4,8.881694793701172,unsat,['CVC4'],[8.881694793701172]
+./tmp/uclid500/run-sw-bdata-fullalu-amem-swinv-f6.ucl-property_correspondence-vobj-0009.smt2,"[1.74897032 1.98530379 1.81369791 0.87813671 1.1102107  1.1102107
+ 1.17094017 0.         1.70421512 0.05988384 5.08300843]",CVC4,21.1166729927063,unsat,['CVC4'],[21.1166729927063]
+./tmp/uclid500/run-sw-bdata-fullalu-amem-swinv-f6.ucl-property_correspondence-vobj-0010.smt2,"[1.94444423 2.22406989 2.01095939 0.8793268  1.11217641 1.11217641
+ 1.17171717 0.         1.88660037 0.06582473 5.64179525]",CVC4,19.89801812171936,unsat,['CVC4'],[19.89801812171936]
+./tmp/uclid500/run-sw-bdata-fullalu-amem-swinv-f6.ucl-property_correspondence-vobj-0011.smt2,"[2.12640013 2.44670799 2.19798284 0.89781512 1.13071895 1.13071895
+ 1.18900344 0.         2.05948146 0.07530579 6.74882525]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-sw-bdata-fullalu-umem-swinv-f6.ucl-property_correspondence-vobj-0008.smt2,"[1.50356987 1.68175849 1.57041289 0.87524092 1.10894142 1.10894142
+ 1.16814399 0.         1.47702166 0.05028461 4.40532469]",CVC4,13.986156940460205,unsat,['CVC4'],[13.986156940460205]
+./tmp/uclid500/run-sw-bdata-fullalu-umem-swinv-f6.ucl-property_correspondence-vobj-0009.smt2,"[1.712951   1.9403712  1.77968733 0.87443879 1.10710608 1.10710608
+ 1.16625983 0.         1.67161789 0.057449   5.01631241]",CVC4,16.570487022399902,unsat,['CVC4'],[16.570487022399902]
+./tmp/uclid500/run-sw-bdata-fullalu-umem-swinv-f6.ucl-property_correspondence-vobj-0010.smt2,"[1.94262592 2.2218846  2.01549296 0.9001868  1.14473684 1.14473684
+ 1.20623917 0.         1.88942308 0.06603508 6.48965021]",CVC4,9.52086091041565,unsat,['CVC4'],[9.52086091041565]
+./tmp/uclid500/run-sw-bdata-fullalu-umem-swinv-f6.ucl-property_correspondence-vobj-0011.smt2,"[2.15325213 2.47203672 2.22320778 0.90224382 1.14956012 1.14956012
+ 1.2110446  0.         2.08663994 0.07332037 6.57066667]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-sw-idata-fullalu-amem-swinv-f6.ucl-property_correspondence-vobj-0002.smt2,"[0.2385789  0.12117801 0.30277584 1.52987678 1.11399549 1.11399549
+ 1.10000743 0.         0.30075417 0.75800294 0.        ]",CVC4,0.5264379978179932,unsat,['CVC4'],[0.5264379978179932]
+./tmp/uclid500/run-sw-idata-fullalu-amem-swinv-f6.ucl-property_correspondence-vobj-0006.smt2,"[1.06745827 1.10102187 1.04491732 1.51728551 1.1219963  1.1219963
+ 1.17907005 0.         1.07260647 2.67785557 0.        ]",CVC4,4.803122043609619,unsat,['CVC4'],[4.803122043609619]
+./tmp/uclid500/run-sw-idata-fullalu-amem-swinv-f6.ucl-property_correspondence-vobj-0011.smt2,"[2.1697653  2.40498644 2.03104269 1.49626559 1.11091073 1.11091073
+ 1.17110266 0.         2.09533041 5.16443959 0.        ]",CVC4,60,timeout (60.0 s),['CVC4'],[60]
+./tmp/uclid500/run-sw-idata-fullalu-umem-swinv-f6.ucl-property_correspondence-vobj-0001.smt2,"[0.0009015  0.00010773 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.08803200721740723,unsat,['CVC4'],[0.08803200721740723]
+./tmp/uclid500/run-sw-idata-fullalu-umem-swinv-f6.ucl-property_correspondence-vobj-0008.smt2,"[1.47381696 1.5804046  1.40883025 1.5044528  1.11433172 1.11433172
+ 1.1701543  0.         1.45074845 3.56778272 0.        ]",CVC4,10.920242071151733,unsat,['CVC4'],[10.920242071151733]

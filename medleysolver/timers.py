@@ -1,8 +1,12 @@
 from medleysolver.distributions import ExponentialDist
-from medleysolver.constants import SOLVERS
+from medleysolver.constants import SOLVERS, ERROR_RESULT, SAT_RESULT, UNSAT_RESULT
+
+from medleysolver.dispatch import output2result
+
+import csv
 
 class TimerInterface(object):
-    def get_timeout(self, solver, position):
+    def get_timeout(self, solver, position, problem):
         raise NotImplementedError
     
     def update(self, solver, time, success, error):
@@ -12,7 +16,7 @@ class Constant(TimerInterface):
     def __init__(self, const):
         self.const = const
     
-    def get_timeout(self, solver, position):
+    def get_timeout(self, solver, position, problem):
         return self.const
     
     def update(self, solver, time, timeout, success, error):
@@ -22,7 +26,7 @@ class Exponential(TimerInterface):
     def __init__(self, init_lambda, confidence, T):
         self.timers = {solver:ExponentialDist(init_lambda, confidence, T) for solver in SOLVERS}
     
-    def get_timeout(self, solver, position):
+    def get_timeout(self, solver, position, problem):
         return self.timers[solver].get_cutoff()
     
     def update(self, solver, time, timeout, success, error):
@@ -56,3 +60,26 @@ class NearestExponential(TimerInterface):
         assert(not success or not error)
         if error:
             self.naughtylist.add(solver)
+
+class PerfectTimer(TimerInterface):
+    def get_timeout(self, solver, position, problem):
+        instance = problem.split("/")[-1]
+        directory = problem[:-len(instance)]
+        try:
+            with open(directory+"/"+solver+".csv") as csvfile:
+                results = list(csv.reader(csvfile))
+                results = list(filter(lambda s: s[0] == problem, results))
+                assert(len(results) == 1)
+                output = results[0][4]
+                output = output2result(problem, output)
+                elapsed = float(results[0][3])
+        except:
+            output   = ERROR_RESULT,
+            elapsed  = 0
+
+        time = elapsed+1 if output == SAT_RESULT or output == UNSAT_RESULT else 0
+
+        return time
+    
+    def update(self, solver, time, timeout, success, error):
+        pass
