@@ -1,6 +1,6 @@
 total=0
 
-for seed in 0; do #1; do
+for seed in 1; do #1; do
     for learner in thompson knearest MLP linear exp3a; do
         if [ $learner = exp3a ]
         then
@@ -14,13 +14,13 @@ for seed in 0; do #1; do
         else 
             learnconfig=$learner
         fi
-        for feature in both; do #probes bow; do
-            for reward in bump; do # binary exp; do
-                val=$(./timemisses.py ./$1/ ${learner}_${feature}_${reward}_${2}_${seed})
-                total=$total+$val
+        for feature in probes; do #probes bow; do
+            for reward in binary; do # binary exp; do
+                val=$(scripts/timemisses.py ./$1/ ${learner}_${feature}_${reward}_${2}_${seed})
+                total=$(( total + val ))
             done 
         done 
     done 
 done 
 
-echo \($total\)/5
+echo $total/5

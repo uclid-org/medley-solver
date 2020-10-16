@@ -1,0 +1,328 @@
+./data/uclid/run-nt-udata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,[1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.],YICES,0,error,"['Bitwuzla', 'YICES', 'MathSAT', 'CVC4', 'BOOLECTOR', 'Z3']","[0, 0]"
+./data/uclid/run-stall-idata-fullalu-amem-coninv-f7.ucl-property_correspondence-vobj-0001.smt2,[1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0.],Bitwuzla,0.14527010917663574,error,"['MathSAT', 'Bitwuzla', 'Z3', 'CVC4', 'YICES', 'BOOLECTOR']","[0.14527010917663574, 0]"
+./data/uclid/run-btfnt-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[2.99584775 2.99953351 3.         2.99999999 3.         3.
+ 3.         0.         3.         3.         0.        ]",Z3,0.1715850830078125,unsat,"['Z3', 'YICES', 'MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.1715850830078125]
+./data/uclid/run-btfnt-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[1.02674897 0.84600294 1.13497301 1.47121682 2.         2.
+ 2.         0.         1.11646586 0.01834862 0.        ]",Z3,0.07658004760742188,unsat,"['Z3', 'MathSAT', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES']",[0.07658004760742188]
+./data/uclid/run-std-udata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00257069 0.0003065  0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0346989631652832,unsat,"['Z3', 'MathSAT', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES']",[0.0346989631652832]
+./data/uclid/run-sw-bdata-fullalu-amem-swinv-f6.ucl-property_correspondence-vobj-0005.smt2,"[2.0020555  2.04740944 2.1005848  1.62984279 2.         2.
+ 2.08695652 0.         2.         0.05454545 6.        ]",Bitwuzla,0,error,"['BOOLECTOR', 'Bitwuzla', 'CVC4', 'MathSAT', 'Z3', 'YICES']","[0, 0]"
+./data/uclid/run-nt-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[2.55611135 2.61982615 2.44636064 1.50016084 1.75       1.75
+ 1.72131147 0.         2.49612403 0.10961969 0.        ]",CVC4,13.660176992416382,unsat,"['CVC4', 'Z3', 'YICES', 'MathSAT', 'BOOLECTOR', 'Bitwuzla']",[13.660176992416382]
+./data/uclid/run-btfnt-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00173951 0.00020215 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.10426783561706543,unsat,"['YICES', 'CVC4', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'MathSAT']","[0, 0.10426783561706543]"
+./data/uclid/run-nt-bdata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.44460521 0.21661611 0.62054309 1.44552624 1.8        1.8
+ 1.77631579 0.         0.59372486 0.02008929 2.02978723]",Bitwuzla,30,error,"['MathSAT', 'Bitwuzla', 'CVC4', 'Z3', 'BOOLECTOR', 'YICES']","[30, 0]"
+./data/uclid/run-full-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[1.31885878 1.23183705 1.33237822 1.51434945 1.66666667 1.66666667
+ 1.64835165 0.         1.35003479 0.06651885 3.314367  ]",CVC4,2.8565268516540527,unsat,"['CVC4', 'Bitwuzla', 'Z3', 'YICES', 'BOOLECTOR', 'MathSAT']",[2.8565268516540527]
+./data/uclid/run-stall-bdata-fullalu-umem-coninv-f7.ucl-property_correspondence-vobj-0006.smt2,"[1.95825959 2.0783908  2.02138323 1.45408808 1.57142857 1.57142857
+ 1.73148148 0.         1.92073521 0.12061404 4.29314831]",Bitwuzla,0,error,"['BOOLECTOR', 'Bitwuzla', 'Z3', 'YICES', 'CVC4', 'MathSAT']","[0, 0]"
+./data/uclid/run-full-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.4481045  0.22285331 0.55813953 1.26918795 1.5        1.5
+ 1.46341463 0.         0.55232877 0.02625821 0.        ]",CVC4,0.514739990234375,unsat,"['CVC4', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'YICES', 'Z3']",[0.514739990234375]
+./data/uclid/run-full-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[2.21058214 2.33791166 2.07735546 2.18571633 1.44444444 1.44444444
+ 1.41304348 0.         2.13690476 6.332211   0.        ]",CVC4,38.772005796432495,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'YICES']","[30, 8.772005796432495]"
+./data/uclid/run-btfnt-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[2.57763677 2.77588529 2.41678662 1.25652816 1.4        1.4
+ 1.37254902 0.         2.47493404 0.12458287 0.        ]",Bitwuzla,30,error,"['MathSAT', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'CVC4', 'YICES']","[30, 0]"
+./data/uclid/run-nt-udata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.33693609 0.15839156 0.46980586 1.11222226 1.36363636 1.36363636
+ 1.33928571 0.         0.44972578 0.01666667 0.        ]",Z3,30.071192026138306,unsat,"['MathSAT', 'Z3', 'YICES', 'CVC4', 'BOOLECTOR', 'Bitwuzla']","[30, 0.07119202613830566]"
+./data/uclid/run-full-udata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[2.64889028 2.58759258 2.51649643 1.22807581 1.33333333 1.33333333
+ 1.31147541 0.         2.49799445 0.15841584 0.        ]",Z3,13.109646081924438,unsat,"['Bitwuzla', 'Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'MathSAT']","[0, 13.109646081924438]"
+./data/uclid/run-std-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.92651639 0.85359961 0.94476695 1.95421831 1.30769231 1.30769231
+ 1.28787879 0.         0.96011645 3.50393013 0.        ]",Z3,0.12403392791748047,unsat,"['Z3', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'CVC4', 'YICES']",[0.12403392791748047]
+./data/uclid/run-nt-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.99287834 2.1041004  1.89090076 1.84122554 1.28571429 1.28571429
+ 1.26760563 0.         1.9360873  5.47112462 0.        ]",BOOLECTOR,0,error,"['Bitwuzla', 'BOOLECTOR', 'CVC4', 'MathSAT', 'Z3', 'YICES']","[0, 0]"
+./data/uclid/run-full-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[1.1100832  1.00668068 1.13555061 1.7710831  1.26666667 1.26666667
+ 1.25       0.         1.1195599  2.9470981  0.        ]",CVC4,32.9002161026001,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'YICES']","[30, 2.9002161026000977]"
+./data/uclid/run-full-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.32133912 0.15888514 0.40675581 1.77262679 1.25       1.25
+ 1.         0.         0.40249161 1.01413944 0.        ]",Z3,0.0682370662689209,unsat,"['YICES', 'Z3', 'BOOLECTOR', 'MathSAT', 'CVC4', 'Bitwuzla']","[0, 0.0682370662689209]"
+./data/uclid/run-nt-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00128283 0.00015533 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.05227398872375488,unsat,"['CVC4', 'Z3', 'BOOLECTOR', 'MathSAT', 'YICES', 'Bitwuzla']",[0.05227398872375488]
+./data/uclid/run-nt-udata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[2.26305694 2.21693062 2.17502695 1.05507145 1.29411765 1.29411765
+ 1.29411765 0.         2.1538794  0.08547839 0.        ]",CVC4,4.6998889446258545,unsat,"['CVC4', 'MathSAT', 'YICES', 'Z3', 'BOOLECTOR', 'Bitwuzla']",[4.6998889446258545]
+./data/uclid/run-nt-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[2.42538484 2.6273596  2.28568165 1.05301944 1.27777778 1.27777778
+ 1.27777778 0.         2.33973986 0.10009671 0.        ]",MathSAT,60.0,error,"['Bitwuzla', 'MathSAT', 'BOOLECTOR', 'Z3', 'YICES', 'CVC4']","[0, 60.0]"
+./data/uclid/run-sw-bdata-fullalu-umem-swinv-f6.ucl-property_correspondence-vobj-0009.smt2,"[2.06273526 2.32263008 2.13083528 1.05023012 1.26315789 1.26315789
+ 1.34265734 0.         2.00284698 0.09248555 9.13057496]",YICES,30,error,"['MathSAT', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'Z3']","[30, 0]"
+./data/uclid/run-btfnt-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.51837199 1.59777432 1.46604938 1.0466528  1.25       1.25
+ 1.24584718 0.         1.50108714 0.07204611 0.        ]",YICES,0,error,"['Bitwuzla', 'YICES', 'CVC4', 'Z3', 'BOOLECTOR', 'MathSAT']","[0, 0]"
+./data/uclid/run-stall-udata-uintalu-amem-coninv-f7.ucl-property_correspondence-vobj-0010.smt2,"[2.15847163 2.28827781 2.04225352 1.04671761 1.23809524 1.23809524
+ 1.38993711 0.         2.09503306 0.11190818 0.        ]",Bitwuzla,0,error,"['YICES', 'Bitwuzla', 'CVC4', 'MathSAT', 'BOOLECTOR', 'Z3']","[0, 0]"
+./data/uclid/run-btfnt-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.94622174 0.86299689 0.97737557 1.74433577 1.22727273 1.22727273
+ 1.21621622 0.         0.96485765 3.40743836 0.        ]",CVC4,31.98880910873413,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'YICES']","[30, 1.9888091087341309]"
+./data/uclid/run-stall-idata-fullalu-amem-coninv-f7.ucl-property_correspondence-vobj-0008.smt2,"[1.64780932 1.73470238 1.58052465 1.68790418 1.2173913  1.2173913
+ 1.36       0.         1.61944677 4.8392672  0.        ]",BOOLECTOR,30,error,"['MathSAT', 'BOOLECTOR', 'Z3', 'CVC4', 'Bitwuzla', 'YICES']","[30, 0]"
+./data/uclid/run-full-udata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.47295107 0.35451311 0.55239207 0.97303746 1.20833333 1.20833333
+ 1.19178082 0.         0.53681613 0.02003454 0.        ]",YICES,0,error,"['BOOLECTOR', 'YICES', 'Bitwuzla', 'CVC4', 'Z3', 'MathSAT']","[0, 0]"
+./data/uclid/run-lf-bdata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.74147555 0.71061143 0.81792542 0.98342778 1.2        1.2
+ 1.18421053 0.         0.7773474  0.0310559  3.89901823]",Z3,0.12038207054138184,unsat,"['Bitwuzla', 'Z3', 'MathSAT', 'YICES', 'BOOLECTOR', 'CVC4']","[0, 0.12038207054138184]"
+./data/uclid/run-full-udata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.71988832 0.61018767 0.77434879 0.98395379 1.19230769 1.19230769
+ 1.17721519 0.         0.75934853 0.03205791 0.        ]",MathSAT,0.40851497650146484,sat,"['MathSAT', 'YICES', 'CVC4', 'Z3', 'BOOLECTOR', 'Bitwuzla']",[0.40851497650146484]
+./data/uclid/run-nt-udata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.72624551 0.61267037 0.77984797 0.98444744 1.18518518 1.18518518
+ 1.17073171 0.         0.76510238 0.03305785 0.        ]",MathSAT,0.2821640968322754,sat,"['MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'Z3']",[0.2821640968322754]
+./data/uclid/run-lf-idata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.2762693  0.13502383 0.35159447 1.70837373 1.17857143 1.17857143
+ 0.93838863 0.         0.34881087 1.14095745 0.        ]",Z3,0.1354680061340332,unsat,"['Z3', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'CVC4', 'MathSAT']",[0.1354680061340332]
+./data/uclid/run-std-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[2.14084591 2.08040916 2.04621994 1.59756624 1.17241379 1.17241379
+ 1.16704805 0.         2.03525376 5.9032967  0.        ]",CVC4,61,timeout (60.0 s),"['Z3', 'YICES', 'CVC4', 'BOOLECTOR', 'MathSAT', 'Bitwuzla']","[1, 0, 60]"
+./data/uclid/run-stall-idata-fullalu-umem-coninv-f7.ucl-property_correspondence-vobj-0009.smt2,"[1.89117124 2.04365968 1.79038727 1.59573901 1.16666667 1.16666667
+ 1.31057269 0.         1.83983412 4.70993818 0.        ]",Z3,0.1749889850616455,unsat,"['Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'MathSAT']",[0.1749889850616455]
+./data/uclid/run-full-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.2411435  0.11685801 0.33881525 1.59801476 1.16129032 1.16129032
+ 0.92703863 0.         0.32785429 0.86867749 0.        ]",MathSAT,0.2358109951019287,sat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.2358109951019287]
+./data/uclid/run-nt-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.66286571 1.76855019 1.58578019 1.5453093  1.15625    1.15625
+ 1.15384615 0.         1.62645997 3.84615385 0.        ]",Z3,0.1188349723815918,unsat,"['Z3', 'CVC4', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.1188349723815918]
+./data/uclid/run-btfnt-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00101713 0.00012146 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.21560311317443848,unsat,"['YICES', 'MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'Z3']","[0, 0.15198516845703125, 0.06361794471740723]"
+./data/uclid/run-std-bdata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.22055125 1.22178015 1.19374528 0.93039596 1.18181818 1.18181818
+ 1.17943548 0.         1.21950216 0.04049844 5.65827338]",CVC4,2.8571090698242188,unsat,"['CVC4', 'BOOLECTOR', 'MathSAT', 'YICES', 'Bitwuzla', 'Z3']",[2.8571090698242188]
+./data/uclid/run-stall-idata-uintalu-umem-coninv-f7.ucl-property_correspondence-vobj-0011.smt2,"[2.3313962  2.5137611  2.19118613 1.56744926 1.17647059 1.17647059
+ 1.32553606 0.         2.24832541 5.06439325 0.        ]",YICES,0,error,"['BOOLECTOR', 'YICES', 'CVC4', 'MathSAT', 'Bitwuzla', 'Z3']","[0, 0]"
+./data/uclid/run-stall-bdata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0004.smt2,"[0.72285255 0.66466558 0.74840175 0.91346879 1.17142857 1.17142857
+ 1.31509434 0.         0.75788471 0.02229877 3.4928702 ]",Z3,0.12208914756774902,unsat,"['Z3', 'MathSAT', 'BOOLECTOR', 'YICES', 'CVC4', 'Bitwuzla']",[0.12208914756774902]
+./data/uclid/run-std-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.47118258 0.35580224 0.54629988 1.56066551 1.16666667 1.16666667
+ 1.1559633  0.         0.53339605 1.25571579 0.        ]",Bitwuzla,0,error,"['BOOLECTOR', 'Bitwuzla', 'YICES', 'CVC4', 'Z3', 'MathSAT']","[0, 0]"
+./data/uclid/run-std-idata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0010.smt2,"[2.05030154 1.96940537 1.97224789 1.53038299 1.16216216 1.16216216
+ 1.15178571 0.         1.95384339 4.30136119 0.        ]",Bitwuzla,31,error,"['MathSAT', 'Z3', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'YICES']","[30, 1, 0]"
+./data/uclid/run-lf-bdata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.94430201 0.92510834 0.94586983 0.89519769 1.15789474 1.15789474
+ 1.14782609 0.         0.96231884 0.02783929 4.32311243]",YICES,1,error,"['Bitwuzla', 'MathSAT', 'YICES', 'BOOLECTOR', 'CVC4', 'Z3']","[0, 1, 0]"
+./data/uclid/run-stall-bdata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0012.smt2,"[2.46589508 2.69261268 2.31496005 0.90246408 1.15384615 1.15384615
+ 1.29222973 0.         2.37374158 0.07816201 8.95007924]",MathSAT,60.0,error,"['BOOLECTOR', 'MathSAT', 'Z3', 'CVC4', 'Bitwuzla', 'YICES']","[0, 60.0]"
+./data/uclid/run-stall-bdata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0010.smt2,"[1.97820785 2.12387228 1.87832342 0.90379762 1.15       1.15
+ 1.28407225 0.         1.92170932 0.06527909 6.4998866 ]",Z3,0.22443795204162598,unsat,"['Z3', 'MathSAT', 'CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[0.22443795204162598]
+./data/uclid/run-nt-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.93787498 2.07060613 1.84386575 1.49741984 1.14634146 1.14634146
+ 1.12980769 0.         1.88474784 4.25924864 0.        ]",YICES,52,error,"['CVC4', 'YICES', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'Z3']","[52, 0]"
+./data/uclid/run-std-bdata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.26230916 1.16256511 1.26043545 0.89430513 1.14285714 1.14285714
+ 1.12676056 0.         1.24168779 0.04126074 4.2472607 ]",YICES,0,error,"['Bitwuzla', 'YICES', 'MathSAT', 'Z3', 'CVC4', 'BOOLECTOR']","[0, 0]"
+./data/uclid/run-std-bdata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.84574185 0.74125988 0.88048032 0.89335816 1.13953488 1.13953488
+ 1.12385321 0.         0.86481142 0.02806415 2.8436222 ]",Bitwuzla,2,error,"['MathSAT', 'BOOLECTOR', 'Bitwuzla', 'Z3', 'CVC4', 'YICES']","[2, 0, 0]"
+./data/uclid/run-full-bdata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.43006255 0.32461209 0.50243736 0.88313721 1.13636364 1.13636364
+ 1.12107623 0.         0.48948513 0.01431434 1.58400905]",CVC4,0.8375370502471924,unsat,"['CVC4', 'YICES', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'Z3']",[0.8375370502471924]
+./data/uclid/run-full-idata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.06690761 0.98357305 1.08115517 1.52324349 1.13333333 1.13333333
+ 1.11842105 0.         1.06461233 2.5520805  0.        ]",Bitwuzla,0,error,"['YICES', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'MathSAT', 'CVC4']","[0, 0]"
+./data/uclid/run-lf-bdata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.30248221 1.34743266 1.26764532 0.890929   1.13043478 1.13043478
+ 1.11587983 0.         1.29252925 0.0423913  3.88344094]",Z3,0.16982412338256836,unsat,"['Z3', 'Bitwuzla', 'MathSAT', 'CVC4', 'BOOLECTOR', 'YICES']",[0.16982412338256836]
+./data/uclid/run-btfnt-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.87849303 0.91409386 0.9542274  0.88989302 1.12765957 1.12765957
+ 1.11344538 0.         0.89824394 0.0287887  3.16521739]",Z3,0.1201019287109375,unsat,"['Z3', 'BOOLECTOR', 'CVC4', 'MathSAT', 'YICES', 'Bitwuzla']",[0.1201019287109375]
+./data/uclid/run-std-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.88047421 0.86099865 0.88599657 1.51259052 1.125      1.125
+ 1.11111111 0.         0.89993976 2.12731542 0.        ]",Z3,30.12248992919922,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'CVC4']","[30, 0.12248992919921875]"
+./data/uclid/run-std-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.06418891 0.97470733 1.07720119 1.47672533 1.12244898 1.12244898
+ 1.10887097 0.         1.06137184 2.519293   0.        ]",CVC4,2.2060189247131348,unsat,"['CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'Z3']",[2.2060189247131348]
+./data/uclid/run-btfnt-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.67899815 1.66587972 1.63549683 1.46568255 1.12       1.12
+ 1.10671937 0.         1.61703213 3.6855814  0.        ]",CVC4,12.837617874145508,unsat,"['YICES', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'Z3', 'MathSAT']","[0, 12.837617874145508]"
+./data/uclid/run-stall-bdata-uintalu-amem-coninv-f7.ucl-property_correspondence-vobj-0001.smt2,"[0.00091047 0.00010861 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.037049055099487305,unsat,"['Z3', 'BOOLECTOR', 'CVC4', 'YICES', 'Bitwuzla', 'MathSAT']",[0.037049055099487305]
+./data/uclid/run-nt-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00092643 0.00011052 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",MathSAT,0.11398482322692871,unknown,"['Bitwuzla', 'MathSAT', 'CVC4', 'BOOLECTOR', 'YICES', 'Z3']","[0, 0.11398482322692871]"
+./data/uclid/run-btfnt-bdata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00094239 0.00011242 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.11824870109558105,unsat,"['MathSAT', 'Z3', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR']","[0.07859683036804199, 0.03965187072753906]"
+./data/uclid/run-stall-idata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0010.smt2,"[1.9929584  2.15172642 1.89439244 1.52275279 1.17647059 1.17647059
+ 1.31443299 0.         1.93930422 4.10745234 0.        ]",BOOLECTOR,0,error,"['Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES', 'Z3', 'MathSAT']","[0, 0]"
+./data/uclid/run-stall-idata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0002.smt2,"[0.24673567 0.12067714 0.31876537 1.57278078 1.17307692 1.17307692
+ 1.15676359 0.         0.31443299 0.67952014 0.        ]",Z3,0.07316899299621582,unsat,"['BOOLECTOR', 'Z3', 'MathSAT', 'Bitwuzla', 'YICES', 'CVC4']","[0, 0.07316899299621582]"
+./data/uclid/run-full-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.98538081 2.24592429 2.06767811 0.9019181  1.16981132 1.16981132
+ 1.15384615 0.         1.93151011 0.05971108 7.14588474]",Bitwuzla,1,error,"['YICES', 'Z3', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'MathSAT']","[0, 1, 0]"
+./data/uclid/run-nt-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[1.95480576 2.18930287 2.03322057 0.90332445 1.16666667 1.16666667
+ 1.15103532 0.         1.90336716 0.06061578 6.51073799]",YICES,40,error,"['MathSAT', 'CVC4', 'Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR']","[30, 9, 1, 0]"
+./data/uclid/run-stall-udata-thrualu-umem-coninv-f7.ucl-property_correspondence-vobj-0002.smt2,"[0.24188774 0.11735122 0.31454925 0.80812156 1.16363636 1.16363636
+ 1.14832536 0.         0.30846913 0.00684126 0.        ]",Z3,0.08641695976257324,unsat,"['BOOLECTOR', 'Z3', 'Bitwuzla', 'MathSAT', 'CVC4', 'YICES']","[0, 0.08641695976257324]"
+./data/uclid/run-std-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.67938454 0.64479562 0.75264524 0.8993253  1.16071429 1.16071429
+ 1.14571093 0.         0.71558279 0.02083779 2.26981535]",Bitwuzla,0,error,"['BOOLECTOR', 'Bitwuzla', 'Z3', 'MathSAT', 'YICES', 'CVC4']","[0, 0]"
+./data/uclid/run-stall-bdata-fullalu-amem-coninv-f7.ucl-property_correspondence-vobj-0008.smt2,"[1.53908333 1.6914794  1.61111472 0.90780569 1.15789474 1.15789474
+ 1.29262673 0.         1.51497006 0.04933262 4.78294303]",BOOLECTOR,9,error,"['YICES', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'Z3', 'MathSAT']","[0, 9, 0]"
+./data/uclid/run-std-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.43728009 0.33984032 0.53292758 0.8930398  1.15517241 1.15517241
+ 1.13816534 0.         0.49777117 0.01430554 1.46598291]",CVC4,1.612933874130249,unsat,"['CVC4', 'YICES', 'MathSAT', 'Bitwuzla', 'Z3', 'BOOLECTOR']",[1.612933874130249]
+./data/uclid/run-stall-bdata-uintalu-umem-coninv-f7.ucl-property_correspondence-vobj-0008.smt2,"[1.53970223 1.60561749 1.47288165 0.91049163 1.15254237 1.15254237
+ 1.28444444 0.         1.51476998 0.05077875 3.61717738]",YICES,0,error,"['BOOLECTOR', 'YICES', 'MathSAT', 'Bitwuzla', 'Z3', 'CVC4']","[0, 0]"
+./data/uclid/run-nt-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.43734673 0.3302248  0.507107   1.5519296  1.15       1.15
+ 1.13114754 0.         0.49759615 1.22904443 0.        ]",CVC4,3.17944598197937,unsat,"['MathSAT', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'Z3', 'YICES']","[1, 2.17944598197937]"
+./data/uclid/run-full-idata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00093801 0.00011115 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.03658914566040039,unsat,"['BOOLECTOR', 'Z3', 'YICES', 'MathSAT', 'CVC4', 'Bitwuzla']","[0, 0.03658914566040039]"
+./data/uclid/run-stall-bdata-fullalu-umem-coninv-f7.ucl-property_correspondence-vobj-0008.smt2,"[1.56226984 1.7166489  1.63141089 0.91727272 1.16393443 1.16393443
+ 1.29506438 0.         1.53621825 0.05203644 4.4653185 ]",Bitwuzla,9,error,"['YICES', 'CVC4', 'Bitwuzla', 'Z3', 'MathSAT', 'BOOLECTOR']","[0, 9, 0]"
+./data/uclid/run-stall-bdata-fullalu-umem-coninv-f7.ucl-property_correspondence-vobj-0011.smt2,"[2.18400854 2.46193722 2.24850144 0.91964052 1.16129032 1.16129032
+ 1.28977871 0.         2.11474661 0.07530593 5.88300836]",BOOLECTOR,9,error,"['YICES', 'CVC4', 'BOOLECTOR', 'MathSAT', 'Z3', 'Bitwuzla']","[0, 9, 0]"
+./data/uclid/run-full-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.45998914 0.36652338 0.50429926 1.57588956 1.15873016 1.15873016
+ 1.13589212 0.         0.51113238 1.27530572 0.        ]",CVC4,1.1399669647216797,unsat,"['YICES', 'CVC4', 'Bitwuzla', 'MathSAT', 'Z3', 'BOOLECTOR']","[0, 1.1399669647216797]"
+./data/uclid/run-btfnt-idata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.89635987 0.89025339 0.8940131  1.55269563 1.15625    1.15625
+ 1.13381001 0.         0.91667081 2.22744942 0.        ]",MathSAT,60.0,error,"['Bitwuzla', 'MathSAT', 'BOOLECTOR', 'Z3', 'CVC4', 'YICES']","[0, 60.0]"
+./data/uclid/run-full-bdata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.74988121 1.84497768 1.65712906 0.90577729 1.15384615 1.15384615
+ 1.13179074 0.         1.71001458 0.059755   3.69438559]",YICES,9,error,"['CVC4', 'Bitwuzla', 'YICES', 'MathSAT', 'BOOLECTOR', 'Z3']","[9, 0, 0]"
+./data/uclid/run-std-idata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.43546941 0.3189399  0.50385793 1.55437462 1.15151515 1.15151515
+ 1.12983152 0.         0.49553248 1.26530213 0.        ]",Z3,0.06995511054992676,unsat,"['Z3', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'CVC4', 'YICES']",[0.06995511054992676]
+./data/uclid/run-sw-idata-fullalu-amem-swinv-f6.ucl-property_correspondence-vobj-0002.smt2,"[0.24731936 0.12412516 0.31262117 1.54927773 1.14925373 1.14925373
+ 1.12792969 0.         0.31112608 0.77634513 0.        ]",Z3,1.0707979202270508,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'YICES']","[1, 0.07079792022705078]"
+./data/uclid/run-std-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.12047892 1.12636923 1.09445252 1.51294645 1.14705882 1.14705882
+ 1.12608277 0.         1.12416441 2.68688571 0.        ]",CVC4,3.1547579765319824,unsat,"['YICES', 'CVC4', 'Z3', 'MathSAT', 'BOOLECTOR', 'Bitwuzla']","[0, 3.1547579765319824]"
+./data/uclid/run-nt-bdata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.44223395 0.34590872 0.53689004 0.87170081 1.14492754 1.14492754
+ 1.12428842 0.         0.50240249 0.01478708 1.31666667]",Z3,0.07117700576782227,unsat,"['Z3', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'MathSAT', 'CVC4']",[0.07117700576782227]
+./data/uclid/run-full-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.66382639 0.56210386 0.71011726 1.49413787 1.14285714 1.14285714
+ 1.12254443 0.         0.70227867 1.72877942 0.        ]",MathSAT,0.461198091506958,sat,"['MathSAT', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR', 'Z3']",[0.461198091506958]
+./data/uclid/run-nt-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.31770424 1.29837518 1.41290426 0.88254224 1.14084507 1.14084507
+ 1.12084871 0.         1.29150393 0.04447698 3.60119443]",Z3,0.1707749366760254,unsat,"['Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'CVC4']",[0.1707749366760254]
+./data/uclid/run-full-bdata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.73935743 1.66932582 1.67447965 0.88509108 1.13888889 1.13888889
+ 1.11919927 0.         1.67203817 0.05999086 3.62739813]",Bitwuzla,39,error,"['CVC4', 'MathSAT', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'YICES']","[9, 30, 0]"
+./data/uclid/run-full-udata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.44130078 0.33052107 0.51204497 0.87012688 1.1369863  1.1369863
+ 1.11759425 0.         0.50131985 0.01517784 0.        ]",Z3,0.07148313522338867,unsat,"['Z3', 'YICES', 'CVC4', 'BOOLECTOR', 'MathSAT', 'Bitwuzla']",[0.07148313522338867]
+./data/uclid/run-std-bdata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.87921426 0.77137791 0.90174574 0.88353453 1.13513513 1.13513513
+ 1.11603189 0.         0.89606941 0.03071017 1.93866171]",CVC4,33.95853900909424,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'Z3']","[30, 3.9585390090942383]"
+./data/uclid/run-full-idata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.52551723 1.45345316 1.4817186  1.50665093 1.13333333 1.13333333
+ 1.11451049 0.         1.47877523 3.71471025 0.        ]",Z3,0.17123699188232422,unsat,"['YICES', 'Z3', 'MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR']","[0, 0.17123699188232422]"
+./data/uclid/run-lf-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00093941 0.00011177 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.03849506378173828,unsat,"['BOOLECTOR', 'Z3', 'MathSAT', 'CVC4', 'YICES', 'Bitwuzla']","[0, 0.03849506378173828]"
+./data/uclid/run-std-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.24922122 0.12047766 0.31759445 1.55006846 1.14473684 1.14473684
+ 0.90311419 0.         0.31669267 0.78371589 0.        ]",Z3,0.03478217124938965,unsat,"['Z3', 'MathSAT', 'CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[0.03478217124938965]
+./data/uclid/run-nt-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.892799   0.80505953 0.91521144 1.50646012 1.14285714 1.14285714
+ 1.12724167 0.         0.90955097 2.24326834 0.        ]",Z3,0.1292128562927246,unsat,"['YICES', 'Z3', 'BOOLECTOR', 'CVC4', 'MathSAT', 'Bitwuzla']","[0, 0.1292128562927246]"
+./data/uclid/run-sw-bdata-fullalu-umem-swinv-f6.ucl-property_correspondence-vobj-0008.smt2,"[1.58522974 1.76704555 1.64234445 0.88252311 1.14102564 1.14102564
+ 1.19966302 0.         1.55265265 0.0525561  4.09029112]",YICES,0,error,"['BOOLECTOR', 'YICES', 'MathSAT', 'Bitwuzla', 'Z3', 'CVC4']","[0, 0]"
+./data/uclid/run-std-udata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.24995776 0.12031177 0.32129103 0.78982784 1.13924051 1.13924051
+ 1.12312812 0.         0.31744699 0.00759173 0.        ]",YICES,2,error,"['Bitwuzla', 'MathSAT', 'YICES', 'Z3', 'CVC4', 'BOOLECTOR']","[0, 2, 0]"
+./data/uclid/run-std-udata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.47701035 0.37973463 0.52320465 0.87006494 1.1375     1.1375
+ 1.12161052 0.         0.52805377 0.01534958 0.        ]",CVC4,0.9355430603027344,unsat,"['YICES', 'CVC4', 'BOOLECTOR', 'MathSAT', 'Z3', 'Bitwuzla']","[0, 0.9355430603027344]"
+./data/uclid/run-std-udata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.59452485 1.65833712 1.51562537 0.88698451 1.13580247 1.13580247
+ 1.12012987 0.         1.56303349 0.05428186 0.        ]",Z3,0.17641711235046387,unsat,"['Z3', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'CVC4', 'YICES']",[0.17641711235046387]
+./data/uclid/run-std-bdata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.76768843 1.68124023 1.69841084 0.88860531 1.13414634 1.13414634
+ 1.11868484 0.         1.69731276 0.06266846 3.6825149 ]",Z3,0.1710209846496582,unsat,"['Z3', 'MathSAT', 'YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[0.1710209846496582]
+./data/uclid/run-btfnt-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.13505672 1.22704397 1.19811824 0.88726704 1.13253012 1.13253012
+ 1.11727417 0.         1.13735323 0.03957228 2.90881584]",Z3,0.11889791488647461,unsat,"['Bitwuzla', 'Z3', 'CVC4', 'MathSAT', 'BOOLECTOR', 'YICES']","[0, 0.11889791488647461]"
+./data/uclid/run-std-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.53625456 1.46971398 1.4898434  1.50808147 1.13095238 1.13095238
+ 1.11589663 0.         1.48873653 3.83776359 0.        ]",Z3,0.1707010269165039,unsat,"['Z3', 'CVC4', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'YICES']",[0.1707010269165039]
+./data/uclid/run-btfnt-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.88096585 0.84695266 0.97327688 0.88178081 1.12941176 1.12941176
+ 1.11455108 0.         0.8979275  0.03101527 2.34429089]",CVC4,3.400554895401001,unsat,"['BOOLECTOR', 'CVC4', 'MathSAT', 'Z3', 'YICES', 'Bitwuzla']","[0, 3.400554895401001]"
+./data/uclid/run-full-udata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.77829155 1.89792115 1.67775756 0.88701748 1.12790698 1.12790698
+ 1.11323642 0.         1.73405756 0.06263621 0.        ]",CVC4,16.86568284034729,unsat,"['YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'Z3']","[0, 16.86568284034729]"
+./data/uclid/run-full-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.33535411 1.39123763 1.2812281  0.8867519  1.12643678 1.12643678
+ 1.11195159 0.         1.32292998 0.04743848 2.73535933]",Z3,0.17049193382263184,unsat,"['Z3', 'CVC4', 'BOOLECTOR', 'YICES', 'MathSAT', 'Bitwuzla']",[0.17049193382263184]
+./data/uclid/run-lf-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.8994863  0.89099393 0.89375    1.50910856 1.125      1.125
+ 1.11069559 0.         0.91833998 2.35472946 0.        ]",CVC4,2.341583013534546,unsat,"['Bitwuzla', 'CVC4', 'MathSAT', 'Z3', 'BOOLECTOR', 'YICES']","[0, 2.341583013534546]"
+./data/uclid/run-full-bdata-uintalu-amem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.08749977 1.0032186  1.08722484 0.8820905  1.12359551 1.12359551
+ 1.10946746 0.         1.08339168 0.03936388 2.3125438 ]",Bitwuzla,0,error,"['YICES', 'Bitwuzla', 'CVC4', 'Z3', 'MathSAT', 'BOOLECTOR']","[0, 0]"
+./data/uclid/run-lf-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00093478 0.00011148 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",YICES,0.09263777732849121,error,"['MathSAT', 'YICES', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'CVC4']","[0.09263777732849121, 0]"
+./data/uclid/run-std-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.22512606 0.10538282 0.31540091 1.55250916 1.13333333 1.13333333
+ 0.8973607  0.         0.30728535 0.82836171 0.        ]",MathSAT,0.16785001754760742,sat,"['MathSAT', 'YICES', 'Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla']",[0.16785001754760742]
+./data/uclid/run-std-udata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00095118 0.00011357 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.03868579864501953,unsat,"['Z3', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'CVC4', 'YICES']",[0.03868579864501953]
+./data/uclid/run-btfnt-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.0009604  0.00011467 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.03829503059387207,unsat,"['Z3', 'YICES', 'Bitwuzla', 'MathSAT', 'CVC4', 'BOOLECTOR']",[0.03829503059387207]
+./data/uclid/run-std-bdata-fullalu-amem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.48162924 0.40296875 0.55206692 0.89008638 1.15384615 1.15384615
+ 1.14213198 0.         0.53348198 0.016396   1.26880232]",Z3,0.0711219310760498,unsat,"['YICES', 'Z3', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'CVC4']","[0, 0.0711219310760498]"
+./data/uclid/run-full-bdata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.23236659 0.1142111  0.32841015 0.8106288  1.15217391 1.15217391
+ 1.14060258 0.         0.31676385 0.00827543 0.70246952]",CVC4,0.38040900230407715,unsat,"['YICES', 'CVC4', 'BOOLECTOR', 'Z3', 'MathSAT', 'Bitwuzla']","[0, 0.38040900230407715]"
+./data/uclid/run-stall-udata-uintalu-umem-coninv-f7.ucl-property_correspondence-vobj-0009.smt2,"[1.84697272 1.96901407 1.74113583 0.90924115 1.15053763 1.15053763
+ 1.28915663 0.         1.7980938  0.0667863  0.        ]",CVC4,44.13759708404541,unsat,"['MathSAT', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'Z3']","[30, 14.13759708404541]"
+./data/uclid/run-lf-udata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[2.0541506  2.21117362 1.92645596 0.91042655 1.14893617 1.14893617
+ 1.13604488 0.         1.99036331 0.07578356 0.        ]",Z3,12.63927698135376,unsat,"['Z3', 'MathSAT', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR']",[12.63927698135376]
+./data/uclid/run-lf-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.15104244 1.17112195 1.12030235 0.90830226 1.14736842 1.14736842
+ 1.13462873 0.         1.15307791 0.04247526 2.41881648]",Z3,0.12150907516479492,unsat,"['BOOLECTOR', 'Z3', 'Bitwuzla', 'YICES', 'MathSAT', 'CVC4']","[0, 0.12150907516479492]"
+./data/uclid/run-full-bdata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00096238 0.0001148  0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Bitwuzla,0,error,"['YICES', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'Z3', 'CVC4']","[0, 0]"
+./data/uclid/run-stall-idata-fullalu-umem-coninv-f7.ucl-property_correspondence-vobj-0001.smt2,"[0.00097112 0.00011584 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.03631997108459473,unsat,"['Z3', 'Bitwuzla', 'MathSAT', 'CVC4', 'YICES', 'BOOLECTOR']",[0.03631997108459473]
+./data/uclid/run-std-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.25711393 0.12446313 0.32744894 0.82887912 1.16666667 1.16666667
+ 1.15384615 0.         0.32642865 0.00872818 0.70080797]",CVC4,0.46826982498168945,unsat,"['Bitwuzla', 'CVC4', 'MathSAT', 'Z3', 'YICES', 'BOOLECTOR']","[0, 0.46826982498168945]"
+./data/uclid/run-std-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.82153193 1.76365185 1.75118769 1.57441823 1.16494845 1.16494845
+ 1.15227736 0.         1.74861652 4.77369757 0.        ]",CVC4,24.605835914611816,unsat,"['CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'Z3', 'MathSAT']",[24.605835914611816]
+./data/uclid/run-sw-bdata-fullalu-amem-swinv-f6.ucl-property_correspondence-vobj-0009.smt2,"[1.84736268 2.08855277 1.90463319 0.92476737 1.16326531 1.16326531
+ 1.2266308  0.         1.79759944 0.06802924 4.70103093]",Bitwuzla,39,error,"['CVC4', 'MathSAT', 'Bitwuzla', 'YICES', 'Z3', 'BOOLECTOR']","[9, 30, 0]"
+./data/uclid/run-nt-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.83102749 2.04438477 1.88976757 0.92537275 1.16161616 1.16161616
+ 1.14846871 0.         1.78521779 0.06858506 4.55445545]",Z3,0.1700451374053955,unsat,"['Bitwuzla', 'Z3', 'BOOLECTOR', 'CVC4', 'MathSAT', 'YICES']","[0, 0.1700451374053955]"
+./data/uclid/run-full-udata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.12228178 1.03981141 1.12422615 0.92347453 1.16       1.16
+ 1.14700066 0.         1.11794401 0.0432223  0.        ]",Z3,5.126708984375,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'Z3', 'BOOLECTOR', 'YICES']","[2, 0, 3, 0.126708984375]"
+./data/uclid/run-std-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.37381603 1.41399761 1.31757005 1.54829506 1.15841584 1.15841584
+ 1.14556136 0.         1.36086182 3.66548762 0.        ]",Z3,0.17148995399475098,unsat,"['BOOLECTOR', 'Z3', 'Bitwuzla', 'MathSAT', 'CVC4', 'YICES']","[0, 0.17148995399475098]"
+./data/uclid/run-btfnt-bdata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.45242978 0.34877083 0.52076584 0.90532926 1.15686274 1.15686274
+ 1.14414997 0.         0.51387097 0.01703356 1.09858687]",Bitwuzla,0,error,"['YICES', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'MathSAT', 'CVC4']","[0, 0]"
+./data/uclid/run-btfnt-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.92932859 0.93263924 0.92247203 1.57541076 1.15533981 1.15533981
+ 1.14276568 0.         0.94822234 2.53853217 0.        ]",Z3,30.120688915252686,unsat,"['MathSAT', 'Z3', 'YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR']","[30, 0.12068891525268555]"
+./data/uclid/run-std-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.6784866  0.57556509 0.72346731 1.56327548 1.15384615 1.15384615
+ 1.14140774 0.         0.71762573 1.96762315 0.        ]",BOOLECTOR,0,error,"['Bitwuzla', 'BOOLECTOR', 'CVC4', 'Z3', 'YICES', 'MathSAT']","[0, 0]"
+./data/uclid/run-std-udata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.48094662 0.38479529 0.52772169 0.89741666 1.15238095 1.15238095
+ 1.14007538 0.         0.53265138 0.01681139 0.        ]",CVC4,1.4238018989562988,unsat,"['CVC4', 'MathSAT', 'YICES', 'Z3', 'Bitwuzla', 'BOOLECTOR']",[1.4238018989562988]
+./data/uclid/run-btfnt-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00097178 0.00011599 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",CVC4,0.09151506423950195,unsat,"['CVC4', 'MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[0.09151506423950195]
+./data/uclid/run-full-idata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.17128994 1.18784242 1.13824384 1.56980383 1.16037736 1.16037736
+ 1.14810205 0.         1.17289837 3.06604349 0.        ]",CVC4,6.264621019363403,unsat,"['CVC4', 'YICES', 'MathSAT', 'Z3', 'BOOLECTOR', 'Bitwuzla']",[6.264621019363403]
+./data/uclid/run-nt-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.80948012 1.76248936 1.73788979 1.55609763 1.1588785  1.1588785
+ 1.14673243 0.         1.73729626 4.57851132 0.        ]",CVC4,9.129302024841309,unsat,"['CVC4', 'YICES', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'MathSAT']",[9.129302024841309]
+./data/uclid/run-full-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.79783761 1.76668988 1.72769102 1.54920555 1.15740741 1.15740741
+ 1.1453879  0.         1.72710913 4.45108525 0.        ]",CVC4,13.841842889785767,unsat,"['YICES', 'CVC4', 'Z3', 'MathSAT', 'BOOLECTOR', 'Bitwuzla']","[0, 13.841842889785767]"
+./data/uclid/run-nt-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.82217053 1.94583988 1.71777034 1.51845147 1.1559633  1.1559633
+ 1.1440678  0.         1.77699594 4.33242209 0.        ]",CVC4,6.510456085205078,unsat,"['CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'MathSAT', 'Z3']",[6.510456085205078]
+./data/uclid/run-sw-idata-fullalu-amem-swinv-f6.ucl-property_correspondence-vobj-0006.smt2,"[1.14997493 1.18739363 1.11727618 1.53866443 1.15454545 1.15454545
+ 1.21822542 0.         1.15045144 2.77711094 0.        ]",BOOLECTOR,0,error,"['YICES', 'BOOLECTOR', 'MathSAT', 'Z3', 'CVC4', 'Bitwuzla']","[0, 0]"
+./data/uclid/run-stall-idata-fullalu-amem-coninv-f7.ucl-property_correspondence-vobj-0007.smt2,"[1.36744847 1.43432238 1.31365555 1.53113193 1.15315315 1.15315315
+ 1.29139466 0.         1.35479686 3.21798065 0.        ]",CVC4,32.43089699745178,unsat,"['MathSAT', 'CVC4', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'YICES']","[30, 2.4308969974517822]"
+./data/uclid/run-full-bdata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.67170181 0.60189145 0.76714201 0.89102185 1.15178571 1.15178571
+ 1.13823529 0.         0.71107723 0.02241399 1.95721225]",YICES,0,error,"['BOOLECTOR', 'YICES', 'Bitwuzla', 'Z3', 'MathSAT', 'CVC4']","[0, 0]"
+./data/uclid/run-btfnt-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.14544552 1.18900783 1.11554426 1.51224579 1.15044248 1.15044248
+ 1.13702624 0.         1.14850334 2.71294091 0.        ]",BOOLECTOR,0,error,"['Bitwuzla', 'BOOLECTOR', 'Z3', 'MathSAT', 'CVC4', 'YICES']","[0, 0]"
+./data/uclid/run-std-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.58618974 1.64836092 1.50826879 1.52228421 1.14912281 1.14912281
+ 1.13583815 0.         1.55737422 3.61199956 0.        ]",Z3,0.17198610305786133,unsat,"['Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'MathSAT']",[0.17198610305786133]
+./data/uclid/run-full-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0009.smt2,"[1.79812207 1.92622075 1.69772113 0.89227131 1.14782609 1.14782609
+ 1.13467049 0.         1.75411555 0.05820747 3.90106456]",CVC4,13.90270709991455,unsat,"['BOOLECTOR', 'CVC4', 'Z3', 'Bitwuzla', 'YICES', 'MathSAT']","[0, 13.90270709991455]"
+./data/uclid/run-std-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.69175247 0.63131244 0.71184392 1.50483311 1.14655172 1.14655172
+ 1.13352273 0.         0.72708316 1.70791163 0.        ]",CVC4,2.698704957962036,unsat,"['YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'MathSAT']","[0, 2.698704957962036]"
+./data/uclid/run-full-bdata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.32287492 1.31964013 1.41920055 0.88830187 1.14529914 1.14529914
+ 1.13239437 0.         1.29759446 0.04373368 3.69902663]",CVC4,10.093523025512695,unsat,"['CVC4', 'BOOLECTOR', 'Bitwuzla', 'Z3', 'MathSAT', 'YICES']",[10.093523025512695]
+./data/uclid/run-stall-udata-uintalu-amem-coninv-f7.ucl-property_correspondence-vobj-0005.smt2,"[0.91224468 0.88840161 0.91076926 0.88614645 1.1440678  1.1440678
+ 1.28069196 0.         0.93160214 0.02936698 0.        ]",CVC4,1.5040628910064697,unsat,"['CVC4', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'Z3', 'YICES']",[1.5040628910064697]
+./data/uclid/run-stall-bdata-thrualu-amem-coninv-f7.ucl-property_correspondence-vobj-0002.smt2,"[0.24846136 0.12131975 0.31681955 0.79567856 1.14285714 1.14285714
+ 1.128943   0.         0.31586806 0.00739573 0.71762295]",Z3,0.07137894630432129,unsat,"['Z3', 'YICES', 'Bitwuzla', 'CVC4', 'MathSAT', 'BOOLECTOR']",[0.07137894630432129]
+./data/uclid/run-std-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00095166 0.00011347 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Bitwuzla,0.15885186195373535,error,"['MathSAT', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR', 'Z3']","[0.15885186195373535, 0]"
+./data/uclid/run-std-idata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.14741744 1.14667593 1.11771714 1.53086119 1.15       1.15
+ 1.13611416 0.         1.15028379 2.70746921 0.        ]",MathSAT,60.0,error,"['YICES', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'CVC4']","[0, 60.0]"
+./data/uclid/run-stall-udata-uintalu-amem-coninv-f7.ucl-property_correspondence-vobj-0012.smt2,"[2.4670104  2.68138436 2.29748453 0.89646407 1.14876033 1.14876033
+ 1.28493747 0.         2.37504379 0.08146846 0.        ]",Bitwuzla,0,error,"['YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'Z3', 'MathSAT']","[0, 0]"
+./data/uclid/run-lf-idata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.57264431 1.66452417 1.4974951  1.49733019 1.14754098 1.14754098
+ 1.13268608 0.         1.54481729 3.63296658 0.        ]",CVC4,6.358254909515381,unsat,"['CVC4', 'BOOLECTOR', 'MathSAT', 'YICES', 'Z3', 'Bitwuzla']",[6.358254909515381]
+./data/uclid/run-full-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00094334 0.00011223 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.07647705078125,unsat,"['Z3', 'CVC4', 'YICES', 'Bitwuzla', 'MathSAT', 'BOOLECTOR']",[0.07647705078125]
+./data/uclid/run-full-bdata-uintalu-amem-coninv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.57738111 1.65874983 1.5028132  0.89871751 1.15447154 1.15447154
+ 1.13964687 0.         1.54978515 0.05156939 3.49802628]",CVC4,8.971282005310059,unsat,"['YICES', 'CVC4', 'MathSAT', 'BOOLECTOR', 'Z3', 'Bitwuzla']","[0, 8.971282005310059]"
+./data/uclid/run-lf-idata-uintalu-umem-coninv-f5.ucl-property_correspondence-vobj-0001.smt2,"[0.00094609 0.00011249 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.03795313835144043,unsat,"['Bitwuzla', 'Z3', 'MathSAT', 'CVC4', 'YICES', 'BOOLECTOR']","[0, 0.03795313835144043]"
+./data/uclid/run-nt-idata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[2.02050881 2.16868444 1.89980252 1.51208723 1.16129032 1.16129032
+ 1.14649681 0.         1.96208753 4.57165821 0.        ]",YICES,1,error,"['Z3', 'Bitwuzla', 'YICES', 'CVC4', 'MathSAT', 'BOOLECTOR']","[1, 0, 0]"
+./data/uclid/run-lf-bdata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.47045169 0.396072   0.54201916 0.88640056 1.16       1.16
+ 1.14533965 0.         0.52220437 0.01456628 1.37787676]",CVC4,0.9960708618164062,unsat,"['Bitwuzla', 'CVC4', 'Z3', 'MathSAT', 'YICES', 'BOOLECTOR']","[0, 0.9960708618164062]"
+./data/uclid/run-stall-bdata-thrualu-umem-coninv-f7.ucl-property_correspondence-vobj-0004.smt2,"[0.69441029 0.63788125 0.71568089 0.8959963  1.15873016 1.15873016
+ 1.2954071  0.         0.73018819 0.02199679 1.66444858]",CVC4,3.681702136993408,unsat,"['YICES', 'CVC4', 'MathSAT', 'Z3', 'BOOLECTOR', 'Bitwuzla']","[0, 3.681702136993408]"
+./data/uclid/run-full-udata-uintalu-umem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.5464569  1.47326472 1.50962492 0.90375962 1.15748031 1.15748031
+ 1.14189539 0.         1.50038275 0.05165922 0.        ]",CVC4,6.279313087463379,unsat,"['CVC4', 'BOOLECTOR', 'YICES', 'MathSAT', 'Bitwuzla', 'Z3']",[6.279313087463379]
+./data/uclid/run-full-bdata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.66696413 0.56672112 0.71456754 0.89721384 1.15625    1.15625
+ 1.14080164 0.         0.70658743 0.02228692 1.66823085]",CVC4,1.1378099918365479,unsat,"['YICES', 'CVC4', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'MathSAT']","[0, 1.1378099918365479]"
+./data/uclid/run-full-idata-fullalu-amem-noinv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.107656   1.03750924 1.11108085 1.53857175 1.15503876 1.15503876
+ 1.13972463 0.         1.10420448 2.70241498 0.        ]",Z3,0.1212010383605957,unsat,"['YICES', 'Z3', 'MathSAT', 'CVC4', 'BOOLECTOR', 'Bitwuzla']","[0, 0.1212010383605957]"
+./data/uclid/run-btfnt-bdata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.22647159 0.10965606 0.31843157 0.80560368 1.15384615 1.15384615
+ 1.13866397 0.         0.30940283 0.00739244 0.74371811]",CVC4,0.6555030345916748,unsat,"['CVC4', 'Z3', 'MathSAT', 'BOOLECTOR', 'YICES', 'Bitwuzla']",[0.6555030345916748]
+./data/uclid/run-btfnt-bdata-thrualu-amem-coninv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.47449889 0.39119347 0.5195233  0.88683261 1.15267176 1.15267176
+ 1.13761929 0.         0.5261324  0.01488198 1.21134562]",BOOLECTOR,0,error,"['YICES', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'CVC4', 'Z3']","[0, 0]"
+./data/uclid/run-btfnt-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0008.smt2,"[1.55656943 1.52777957 1.5147013  1.51762361 1.15151515 1.15151515
+ 1.13659023 0.         1.50894696 3.65507623 0.        ]",Z3,30.17140007019043,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR']","[30, 0.1714000701904297]"
+./data/uclid/run-nt-idata-thrualu-umem-noinv-f5.ucl-property_correspondence-vobj-0005.smt2,"[0.89213104 0.79788681 0.91703227 1.51338747 1.15037594 1.15037594
+ 1.13557645 0.         0.90968076 2.19037687 0.        ]",Z3,0.12102913856506348,unsat,"['Bitwuzla', 'Z3', 'BOOLECTOR', 'CVC4', 'YICES', 'MathSAT']","[0, 0.12102913856506348]"
+./data/uclid/run-btfnt-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0004.smt2,"[0.69820376 0.66040935 0.71885218 1.53698432 1.14925373 1.14925373
+ 1.1345776  0.         0.7335494  1.70381135 0.        ]",MathSAT,0.32204699516296387,sat,"['MathSAT', 'YICES', 'Z3', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.32204699516296387]
+./data/uclid/run-stall-idata-uintalu-umem-coninv-f7.ucl-property_correspondence-vobj-0010.smt2,"[2.02965294 2.17973708 1.90674995 1.52004129 1.14814815 1.14814815
+ 1.28348758 0.         1.96887424 4.46022857 0.        ]",CVC4,57.35225701332092,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'YICES']","[30, 27.352257013320923]"
+./data/uclid/run-nt-bdata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.44790579 0.35344889 0.5438724  0.87545507 1.14705882 1.14705882
+ 1.13152805 0.         0.50885544 0.01420442 1.41724236]",Z3,0.06994009017944336,unsat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'MathSAT', 'CVC4']",[0.06994009017944336]
+./data/uclid/run-lf-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0006.smt2,"[1.14192483 1.16207666 1.11772744 0.8901263  1.1459854  1.1459854
+ 1.13058089 0.         1.14480343 0.03573054 0.        ]",BOOLECTOR,0,error,"['YICES', 'BOOLECTOR', 'MathSAT', 'Z3', 'Bitwuzla', 'CVC4']","[0, 0]"
+./data/uclid/run-full-udata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.22722732 0.1077298  0.3226226  0.79745626 1.14492754 1.14492754
+ 1.12964728 0.         0.31015249 0.0071913  0.        ]",BOOLECTOR,30,error,"['MathSAT', 'BOOLECTOR', 'Z3', 'CVC4', 'Bitwuzla', 'YICES']","[30, 0]"
+./data/uclid/run-full-bdata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.36871902 1.42850165 1.31657385 0.89299589 1.14388489 1.14388489
+ 1.12872693 0.         1.35481344 0.04340902 3.15610797]",BOOLECTOR,0,error,"['Bitwuzla', 'BOOLECTOR', 'Z3', 'YICES', 'CVC4', 'MathSAT']","[0, 0]"
+./data/uclid/run-nt-idata-thrualu-amem-noinv-f5.ucl-property_correspondence-vobj-0003.smt2,"[0.45020285 0.33899991 0.51981447 1.52089939 1.14285714 1.14285714
+ 1.12781955 0.         0.51103698 1.22815731 0.        ]",Z3,0.07055401802062988,unsat,"['YICES', 'Z3', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'CVC4']","[0, 0.07055401802062988]"
+./data/uclid/run-lf-udata-thrualu-umem-coninv-f5.ucl-property_correspondence-vobj-0010.smt2,"[2.03409632 2.20095085 1.9134331  0.89239173 1.14184397 1.14184397
+ 1.12692487 0.         1.97153607 0.06539989 0.        ]",Z3,11.643916130065918,unsat,"['BOOLECTOR', 'Z3', 'MathSAT', 'CVC4', 'Bitwuzla', 'YICES']","[0, 11.643916130065918]"
+./data/uclid/run-stall-idata-thrualu-umem-coninv-f7.ucl-property_correspondence-vobj-0001.smt2,"[0.00095152 0.00011353 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.036435842514038086,unsat,"['Z3', 'CVC4', 'MathSAT', 'YICES', 'Bitwuzla', 'BOOLECTOR']",[0.036435842514038086]
+./data/uclid/run-stall-udata-uintalu-umem-coninv-f7.ucl-property_correspondence-vobj-0003.smt2,"[0.47634302 0.38336692 0.52491149 0.88159049 1.14788732 1.14788732
+ 1.28287037 0.         0.52776613 0.01471252 0.        ]",CVC4,1.9522719383239746,unsat,"['CVC4', 'MathSAT', 'BOOLECTOR', 'YICES', 'Z3', 'Bitwuzla']",[1.9522719383239746]
+./data/uclid/run-nt-idata-fullalu-umem-noinv-f5.ucl-property_correspondence-vobj-0002.smt2,"[0.2292271  0.11011502 0.32205152 1.5536814  1.14685315 1.14685315
+ 0.90607735 0.         0.31265693 0.76614859 0.        ]",CVC4,0.6671819686889648,unsat,"['YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'Z3']","[0, 0.6671819686889648]"
+./data/uclid/run-std-idata-fullalu-umem-coninv-f5.ucl-property_correspondence-vobj-0007.smt2,"[1.38078116 1.43614501 1.32789173 1.52147455 1.14583333 1.14583333
+ 1.13168724 0.         1.36577437 3.15518153 0.        ]",CVC4,12.159455060958862,unsat,"['CVC4', 'Bitwuzla', 'Z3', 'MathSAT', 'YICES', 'BOOLECTOR']",[12.159455060958862]

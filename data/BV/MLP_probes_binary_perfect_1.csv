@@ -1,0 +1,997 @@
+./data/BV/intersection-example-simple.proof-node110026.smt2,[1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 1.],YICES,0.17525982856750488,unsat,"['YICES', 'CVC4', 'MathSAT', 'Z3', 'Bitwuzla', 'BOOLECTOR']",[0.17525982856750488]
+./data/BV/intersection-example-simple.proof-node169339.smt2,"[1.         0.98795181 0.97142857 0.         0.         0.
+ 0.         0.         0.         0.         0.97142857]",MathSAT,0.41439008712768555,unsat,"['MathSAT', 'CVC4', 'Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR']",[0.41439008712768555]
+./data/BV/intersection-example-simple.proof-node493469.smt2,"[1.         1.04705882 1.05555556 0.         0.         0.
+ 0.         0.         0.         0.         1.05555556]",MathSAT,0.41349196434020996,unsat,"['MathSAT', 'YICES', 'Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[0.41349196434020996]
+./data/BV/intersection-example-simple.proof-node544861.smt2,"[1.         1.1978022  1.04109589 0.         0.         0.
+ 0.         0.         0.         0.         1.04109589]",MathSAT,0.3811461925506592,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'Bitwuzla', 'YICES', 'CVC4']",[0.3811461925506592]
+./data/BV/intersection-example-simple.proof-node236495.smt2,"[1.         1.06060606 0.98901099 0.         0.         0.
+ 0.         0.         0.         0.         0.98901099]",MathSAT,0.3843810558319092,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'YICES', 'CVC4']",[0.3843810558319092]
+./data/BV/intersection-example-simple.proof-node297519.smt2,"[1.         0.96       0.99082569 0.         0.         0.
+ 0.         0.         0.         0.         0.99082569]",MathSAT,0.43260717391967773,unsat,"['MathSAT', 'Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[0.43260717391967773]
+./data/BV/intersection-example-simple.proof-node684031.smt2,"[1.         0.94654088 1.0390625  0.         0.         0.
+ 0.         0.         0.         0.         1.0390625 ]",MathSAT,0.42193007469177246,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'CVC4']",[0.42193007469177246]
+./data/BV/intersection-example-simple.proof-node57616.smt2,"[1.         0.89385475 1.03401361 0.         0.         0.
+ 0.         0.         0.         0.         1.03401361]",MathSAT,0.42620396614074707,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'Bitwuzla', 'CVC4', 'YICES']",[0.42620396614074707]
+./data/BV/intersection-example-simple.proof-node550917.smt2,"[1.         0.90452261 0.98181818 0.         0.         0.
+ 0.         0.         0.         0.         0.98181818]",MathSAT,0.3789389133453369,unsat,"['MathSAT', 'Z3', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.3789389133453369]
+./data/BV/intersection-example-simple.proof-node215875.smt2,"[1.         1.13585746 1.0326087  0.         0.         0.
+ 0.         0.         0.         0.         1.0326087 ]",MathSAT,0.39061689376831055,unsat,"['MathSAT', 'CVC4', 'YICES', 'BOOLECTOR', 'Z3', 'Bitwuzla']",[0.39061689376831055]
+./data/BV/intersection-example-simple.proof-node561651.smt2,"[1.         0.92040816 0.93034826 0.         0.         0.
+ 0.         0.         0.         0.         0.93034826]",MathSAT,0.383134126663208,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'YICES', 'Z3', 'Bitwuzla']",[0.383134126663208]
+./data/BV/check_bvule_bvor_64bit.smt2,"[1.         0.13319879 0.1182266  0.         0.         0.
+ 0.         0.         0.         0.         0.1182266 ]",CVC4,1.2777860164642334,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'Z3']","[0.4323270320892334, 0.845458984375]"
+./data/BV/jain_6_true-unreach-call_true-no-overflow_false-termination.i_11.smt2,"[3.25       0.68355641 0.18932039 0.         0.         0.
+ 0.         0.         0.         0.         0.18932039]",CVC4,5.610492944717407,unsat,"['MathSAT', 'Z3', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'CVC4']","[0.41559290885925293, 1, 0, 1, 1, 2.1949000358581543]"
+./data/BV/intersection-example-simple.proof-node303896.smt2,"[0.82352941 1.07502207 1.125      0.         0.         0.
+ 0.         0.         0.         0.         1.125     ]",MathSAT,0.41312694549560547,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'YICES', 'CVC4']",[0.41312694549560547]
+./data/BV/intersection-example-simple.proof-node245151.smt2,"[0.83333333 1.22771475 1.17283951 0.         0.         0.
+ 0.         0.         0.         0.         1.17283951]",MathSAT,0.44295501708984375,unsat,"['MathSAT', 'CVC4', 'Z3', 'BOOLECTOR', 'Bitwuzla', 'YICES']",[0.44295501708984375]
+./data/BV/intersection-example-simple.proof-node219804.smt2,"[0.84210526 1.07634165 1.16030534 0.         0.         0.
+ 0.         0.         0.         0.         1.16030534]",MathSAT,0.4367401599884033,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'CVC4', 'Z3']",[0.4367401599884033]
+./data/BV/check_bvuge_bvashr0_64bit.smt2,"[0.85       0.14017991 0.12878788 0.         0.         0.
+ 0.         0.         0.         0.         0.12878788]",MathSAT,0.43306398391723633,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4', 'Z3']",[0.43306398391723633]
+./data/BV/intersection-example-simple.proof-node497535.smt2,"[0.85714286 1.27855153 1.20848057 0.         0.         0.
+ 0.         0.         0.         0.         1.20848057]",MathSAT,0.3852391242980957,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'CVC4', 'Z3', 'Bitwuzla']",[0.3852391242980957]
+./data/BV/check_bvsge_bvconcat1_2_64bit.smt2,"[0.86363636 0.17046239 0.1993007  0.         0.         0.
+ 0.         0.         0.         0.         0.1993007 ]",CVC4,1.7012019157409668,unsat,"['MathSAT', 'YICES', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'Z3']","[0.4383049011230469, 1, 0.2628970146179199]"
+./data/BV/intersection-example-simple.proof-node16683.smt2,"[0.86956522 1.09589041 1.18421053 0.         0.         0.
+ 0.         0.         0.         0.         1.18421053]",MathSAT,0.4091010093688965,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'Z3']",[0.4091010093688965]
+./data/BV/dccs-example-node6707-new.smt2,"[0.875      1.06625387 0.60383387 0.         0.         0.
+ 0.         0.         0.         0.         0.60383387]",MathSAT,0.4180448055267334,sat,"['MathSAT', 'YICES', 'Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[0.4180448055267334]
+./data/BV/intersection-example-simple.proof-node188949.smt2,"[0.88       1.22222222 1.19637462 0.         0.         0.
+ 0.         0.         0.         0.         1.19637462]",MathSAT,0.4224100112915039,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'YICES', 'CVC4']",[0.4224100112915039]
+./data/BV/intersection-example-simple.proof-node260460.smt2,"[0.88461538 1.24668142 1.24857143 0.         0.         0.
+ 0.         0.         0.         0.         1.24857143]",MathSAT,0.37795495986938477,unsat,"['MathSAT', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'YICES', 'Z3']",[0.37795495986938477]
+./data/BV/intersection-example-simple.proof-node193088.smt2,"[0.88888889 1.00476948 1.11171662 0.         0.         0.
+ 0.         0.         0.         0.         1.11171662]",MathSAT,0.4484260082244873,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'Z3', 'CVC4']",[0.4484260082244873]
+./data/BV/intersection-example-simple.proof-node548287.smt2,"[0.89285714 1.04113763 1.16883117 0.         0.         0.
+ 0.         0.         0.         0.         1.16883117]",MathSAT,0.40929698944091797,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'YICES']",[0.40929698944091797]
+./data/BV/intersection-example-simple.proof-node564296.smt2,"[0.89655172 1.12439261 1.22277228 0.         0.         0.
+ 0.         0.         0.         0.         1.22277228]",MathSAT,0.38205504417419434,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'YICES']",[0.38205504417419434]
+./data/BV/check_bvsge_bvurem0_64bit.smt2,"[0.9        0.20829315 0.13300493 0.         0.         0.
+ 0.         0.         0.         0.         0.13300493]",CVC4,60.439231872558594,timeout (57.0 s),"['MathSAT', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'YICES', 'CVC4']","[0.43923187255859375, 1, 1, 0, 1, 57]"
+./data/BV/intersection-example-simple.proof-node697602.smt2,"[0.90322581 1.08989805 1.18867925 0.         0.         0.
+ 0.         0.         0.         0.         1.18867925]",MathSAT,0.4259498119354248,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'YICES', 'Z3']",[0.4259498119354248]
+./data/BV/intersection-example-simple.proof-node180432.smt2,"[0.90625    1.09897459 1.18099548 0.         0.         0.
+ 0.         0.         0.         0.         1.18099548]",MathSAT,0.38042497634887695,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4', 'Z3']",[0.38042497634887695]
+./data/BV/check_bvule_bvconcat1_62_4bit.smt2,"[0.90909091 0.17287234 0.20224719 0.         0.         0.
+ 0.         0.         0.         0.         0.20224719]",Z3,0.41111111640930176,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR']","[0.38854002952575684, 0.022571086883544922]"
+./data/BV/check_bvule_bvshl0_4bit.smt2,"[0.91176471 0.15041906 0.13870246 0.         0.         0.
+ 0.         0.         0.         0.         0.13870246]",MathSAT,0.43019890785217285,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'Z3', 'BOOLECTOR']",[0.43019890785217285]
+./data/BV/intersection-example-simple.proof-node578305.smt2,"[0.91428571 1.35192226 1.23870968 0.         0.         0.
+ 0.         0.         0.         0.         1.23870968]",MathSAT,0.4290120601654053,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'Z3', 'CVC4', 'Bitwuzla']",[0.4290120601654053]
+./data/BV/intersection-example-simple.proof-node735707.smt2,"[0.91666667 1.19584691 1.29545455 0.         0.         0.
+ 0.         0.         0.         0.         1.29545455]",MathSAT,0.4332559108734131,unsat,"['MathSAT', 'YICES', 'Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla']",[0.4332559108734131]
+./data/BV/intersection-example-simple.proof-node145471.smt2,"[0.91891892 1.18899804 1.28429423 0.         0.         0.
+ 0.         0.         0.         0.         1.28429423]",MathSAT,0.3808000087738037,unsat,"['MathSAT', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'CVC4', 'Z3']",[0.3808000087738037]
+./data/BV/intersection-example-simple.proof-node394882.smt2,"[0.92105263 1.13117871 1.27394636 0.         0.         0.
+ 0.         0.         0.         0.         1.27394636]",MathSAT,0.3796501159667969,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'Z3', 'YICES', 'BOOLECTOR']",[0.3796501159667969]
+./data/BV/nested9_true-unreach-call.i_277.smt2,"[4.90909091 0.39262881 0.20571429 0.         0.         0.
+ 0.         0.         0.         0.         0.20571429]",Bitwuzla,0.765300989151001,unsat,"['MathSAT', 'BOOLECTOR', 'Bitwuzla', 'Z3', 'CVC4', 'YICES']","[0.44299793243408203, 0, 0.32230305671691895]"
+./data/BV/115.smt2,"[ 8.43859649  5.79701871  0.          0.          0.          0.
+  0.          0.         36.99999995  0.          0.        ]",Z3,0.5965621471405029,sat,"['MathSAT', 'Z3', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR']","[0.42717599868774414, 0.1693861484527588]"
+./data/BV/intersection-example-simple.proof-node19892.smt2,"[0.65517241 1.15682657 1.32720588 0.         0.         0.
+ 0.         0.         0.         0.         1.32720588]",MathSAT,0.4430251121520996,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'Z3', 'Bitwuzla', 'CVC4']",[0.4430251121520996]
+./data/BV/train_goal2-node5210.smt2,"[0.66101695 0.97061469 1.04651163 0.         0.         0.
+ 0.         0.         0.         0.         1.04651163]",MathSAT,0.38295793533325195,sat,"['MathSAT', 'CVC4', 'YICES', 'Bitwuzla', 'Z3', 'BOOLECTOR']",[0.38295793533325195]
+./data/BV/intersection-example-simple.proof-node543067.smt2,"[0.66666667 1.18708176 1.31487889 0.         0.         0.
+ 0.         0.         0.         0.         1.31487889]",MathSAT,0.4253230094909668,unsat,"['MathSAT', 'CVC4', 'YICES', 'Bitwuzla', 'Z3', 'BOOLECTOR']",[0.4253230094909668]
+./data/BV/intersection-example-simple.proof-node533523.smt2,"[0.67213115 1.14790724 1.30485762 0.         0.         0.
+ 0.         0.         0.         0.         1.30485762]",MathSAT,0.42466092109680176,unsat,"['MathSAT', 'YICES', 'Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[0.42466092109680176]
+./data/BV/intersection-example-simple.proof-node516719.smt2,"[0.67741935 1.12138728 1.29545455 0.         0.         0.
+ 0.         0.         0.         0.         1.29545455]",MathSAT,0.4328291416168213,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'Z3', 'YICES', 'BOOLECTOR']",[0.4328291416168213]
+./data/BV/check_bvule_bvudiv0_32bit.smt2,"[0.68253968 0.22371303 0.13915858 0.         0.         0.
+ 0.         0.         0.         0.         0.13915858]",Bitwuzla,5.663005828857422,unsat,"['MathSAT', 'BOOLECTOR', 'Bitwuzla', 'Z3', 'YICES', 'CVC4']","[0.4195899963378906, 0, 5.243415832519531]"
+./data/BV/intersection-example-simple.proof-node462517.smt2,"[0.6875     0.96625603 1.24528302 0.         0.         0.
+ 0.         0.         0.         0.         1.24528302]",MathSAT,0.3834049701690674,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4', 'Z3']",[0.3834049701690674]
+./data/BV/intersection-example-simple.proof-node365878.smt2,"[0.69230769 0.96698113 1.17151608 0.         0.         0.
+ 0.         0.         0.         0.         1.17151608]",MathSAT,0.4337148666381836,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'Z3', 'YICES']",[0.4337148666381836]
+./data/BV/intersection-example-onelane.proof-node12491.smt2,"[0.6969697  0.88666153 0.83007519 0.         0.         0.
+ 0.         0.         0.         0.         0.83007519]",MathSAT,0.38060808181762695,unsat,"['MathSAT', 'YICES', 'CVC4', 'BOOLECTOR', 'Z3', 'Bitwuzla']",[0.38060808181762695]
+./data/BV/intersection-example-simple.proof-node567392.smt2,"[0.70149254 1.0625471  1.30555556 0.         0.         0.
+ 0.         0.         0.         0.         1.30555556]",MathSAT,0.43202686309814453,unsat,"['MathSAT', 'Z3', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR']",[0.43202686309814453]
+./data/BV/intersection-example-simple.proof-node667589.smt2,"[0.70588235 1.08421311 1.2972973  0.         0.         0.
+ 0.         0.         0.         0.         1.2972973 ]",MathSAT,0.4440031051635742,unsat,"['MathSAT', 'Z3', 'CVC4', 'BOOLECTOR', 'YICES', 'Bitwuzla']",[0.4440031051635742]
+./data/BV/intersection-example-simple.proof-node612193.smt2,"[0.71014493 1.23145045 1.28947368 0.         0.         0.
+ 0.         0.         0.         0.         1.28947368]",MathSAT,0.36719489097595215,unsat,"['MathSAT', 'Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[0.36719489097595215]
+./data/BV/nested9_true-unreach-call.i_1107.smt2,"[4.         0.35646388 0.20689655 0.         0.         0.
+ 0.         0.         0.         0.         0.20689655]",Z3,0.4800381660461426,unsat,"['MathSAT', 'Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla']","[0.4426701068878174, 0.037368059158325195]"
+./data/BV/intersection-example-simple.proof-node624170.smt2,"[0.67105263 1.04469274 1.30241935 0.         0.         0.
+ 0.         0.         0.         0.         1.30241935]",MathSAT,0.3848729133605957,unsat,"['MathSAT', 'Z3', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'CVC4']",[0.3848729133605957]
+./data/BV/121.smt2,"[ 8.08888888  5.57605985  0.          0.          0.          0.
+  0.          0.         25.50943394  0.          0.        ]",CVC4,2.3445639610290527,sat,"['MathSAT', 'CVC4', 'Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla']","[0.4687190055847168, 1.875844955444336]"
+./data/BV/intersection-example-simple.proof-node651312.smt2,"[0.58241758 1.12123678 1.3197903  0.         0.         0.
+ 0.         0.         0.         0.         1.3197903 ]",MathSAT,0.4232301712036133,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'Z3']",[0.4232301712036133]
+./data/BV/intersection-example-simple.proof-node7067.smt2,"[0.58695652 0.9072     1.24455826 0.         0.         0.
+ 0.         0.         0.         0.         1.24455826]",MathSAT,0.38715100288391113,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'CVC4', 'Z3', 'Bitwuzla']",[0.38715100288391113]
+./data/BV/intersection-example-simple.proof-node538936.smt2,"[0.59139785 0.90873328 1.23904881 0.         0.         0.
+ 0.         0.         0.         0.         1.23904881]",MathSAT,0.42928194999694824,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR']",[0.42928194999694824]
+./data/BV/intersection-example-simple.proof-node673526.smt2,"[0.59574468 0.93152805 1.3007335  0.         0.         0.
+ 0.         0.         0.         0.         1.3007335 ]",MathSAT,0.42114710807800293,unsat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.42114710807800293]
+./data/BV/intersection-example-simple.proof-node675172.smt2,"[0.6        0.9326484  1.22727273 0.         0.         0.
+ 0.         0.         0.         0.         1.22727273]",MathSAT,0.4941720962524414,unsat,"['MathSAT', 'CVC4', 'YICES', 'BOOLECTOR', 'Z3', 'Bitwuzla']",[0.4941720962524414]
+./data/BV/NUM864=1.smt2,"[0.60416667 0.0551226  0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",MathSAT,0.36269283294677734,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'Z3', 'YICES', 'Bitwuzla']",[0.36269283294677734]
+./data/BV/intersection-example-simple.proof-node221331.smt2,"[0.60824742 0.94894333 1.24355972 0.         0.         0.
+ 0.         0.         0.         0.         1.24355972]",MathSAT,0.4430069923400879,unsat,"['MathSAT', 'CVC4', 'Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[0.4430069923400879]
+./data/BV/intersection-example-simple.proof-node598084.smt2,"[0.6122449  1.07988981 1.23853211 0.         0.         0.
+ 0.         0.         0.         0.         1.23853211]",MathSAT,0.43674588203430176,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'YICES', 'Z3']",[0.43674588203430176]
+./data/BV/intersection-example-simple.proof-node184534.smt2,"[0.61616162 0.94847225 1.23370787 0.         0.         0.
+ 0.         0.         0.         0.         1.23370787]",MathSAT,0.3713541030883789,unsat,"['MathSAT', 'CVC4', 'Z3', 'BOOLECTOR', 'YICES', 'Bitwuzla']",[0.3713541030883789]
+./data/BV/nested9_true-unreach-call.i_1784.smt2,"[3.54285714 0.31228638 0.20828667 0.         0.         0.
+ 0.         0.         0.         0.         0.20828667]",Bitwuzla,0.8214139938354492,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4', 'Z3']","[0.4381859302520752, 0.383228063583374]"
+./data/BV/intersection-example-simple.proof-node103516.smt2,"[0.59433962 0.94879518 1.24478595 0.         0.         0.
+ 0.         0.         0.         0.         1.24478595]",MathSAT,0.4290659427642822,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'YICES', 'CVC4', 'Bitwuzla']",[0.4290659427642822]
+./data/BV/intersection-example-simple.proof-node609448.smt2,"[0.59813084 1.15796799 1.30752688 0.         0.         0.
+ 0.         0.         0.         0.         1.30752688]",MathSAT,0.43074607849121094,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'YICES', 'Z3']",[0.43074607849121094]
+./data/BV/intersection-example-simple.proof-node538476.smt2,"[0.60185185 1.11149111 1.23417722 0.         0.         0.
+ 0.         0.         0.         0.         1.23417722]",MathSAT,0.36803507804870605,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'Z3', 'BOOLECTOR', 'CVC4']",[0.36803507804870605]
+./data/BV/intersection-example-simple.proof-node626220.smt2,"[0.60550459 0.97843666 1.22981366 0.         0.         0.
+ 0.         0.         0.         0.         1.22981366]",MathSAT,0.41803598403930664,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'Z3', 'CVC4']",[0.41803598403930664]
+./data/BV/intersection-example-simple.proof-node123892.smt2,"[0.60909091 0.95682498 1.22560976 0.         0.         0.
+ 0.         0.         0.         0.         1.22560976]",MathSAT,0.4379119873046875,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'Z3']",[0.4379119873046875]
+./data/BV/intersection-example-simple.proof-node443578.smt2,"[0.61261261 1.03417825 1.22155689 0.         0.         0.
+ 0.         0.         0.         0.         1.22155689]",MathSAT,0.43471789360046387,unsat,"['MathSAT', 'Z3', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR']",[0.43471789360046387]
+./data/BV/intersection-example-simple.proof-node397437.smt2,"[0.61607143 0.95694243 1.28403526 0.         0.         0.
+ 0.         0.         0.         0.         1.28403526]",MathSAT,0.4370121955871582,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'Z3', 'BOOLECTOR', 'YICES']",[0.4370121955871582]
+./data/BV/intersection-example-simple.proof-node408951.smt2,"[0.61946903 0.9025788  1.21270452 0.         0.         0.
+ 0.         0.         0.         0.         1.21270452]",MathSAT,0.43462109565734863,unsat,"['MathSAT', 'YICES', 'Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[0.43462109565734863]
+./data/BV/intersection-example-simple.proof-node380640.smt2,"[0.62280702 1.12345292 1.27504726 0.         0.         0.
+ 0.         0.         0.         0.         1.27504726]",MathSAT,0.44174718856811523,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'Z3', 'CVC4', 'Bitwuzla']",[0.44174718856811523]
+./data/BV/intersection-example-simple.proof-node186296.smt2,"[0.62608696 1.0996606  1.27019499 0.         0.         0.
+ 0.         0.         0.         0.         1.27019499]",MathSAT,0.3687000274658203,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'Z3', 'CVC4', 'BOOLECTOR']",[0.3687000274658203]
+./data/BV/check_bvsge_bvconcat0_34_32bit.smt2,"[0.62931034 0.23573735 0.20277778 0.         0.         0.
+ 0.         0.         0.         0.         0.20277778]",Bitwuzla,0.6505300998687744,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'CVC4', 'YICES', 'BOOLECTOR']","[0.37134408950805664, 0.2791860103607178]"
+./data/BV/intersection-example-simple.proof-node150858.smt2,"[0.63247863 0.89928604 1.21311475 0.         0.         0.
+ 0.         0.         0.         0.         1.21311475]",MathSAT,0.4294700622558594,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'Z3', 'CVC4']",[0.4294700622558594]
+./data/BV/jain_4_true-unreach-call_true-no-overflow.i_200.smt2,"[1.875      0.6438253  0.20435967 0.         0.         0.
+ 0.         0.         0.         0.         0.20435967]",CVC4,60.432583808898926,timeout (57.0 s),"['MathSAT', 'Bitwuzla', 'Z3', 'YICES', 'BOOLECTOR', 'CVC4']","[0.4325838088989258, 1, 1, 1, 0, 57]"
+./data/BV/intersection-example-simple.proof-node461809.smt2,"[0.62809917 0.89358535 1.22252011 0.         0.         0.
+ 0.         0.         0.         0.         1.22252011]",MathSAT,0.37136101722717285,unsat,"['MathSAT', 'CVC4', 'YICES', 'Z3', 'Bitwuzla', 'BOOLECTOR']",[0.37136101722717285]
+./data/BV/intersection-example-simple.proof-node686697.smt2,"[0.63114754 1.05123312 1.21899736 0.         0.         0.
+ 0.         0.         0.         0.         1.21899736]",MathSAT,0.43305492401123047,unsat,"['MathSAT', 'Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[0.43305492401123047]
+./data/BV/intersection-example-simple.proof-node350805.smt2,"[0.63414634 0.96128752 1.14904679 0.         0.         0.
+ 0.         0.         0.         0.         1.14904679]",MathSAT,0.4400029182434082,unsat,"['MathSAT', 'Z3', 'YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[0.4400029182434082]
+./data/BV/intersection-example-simple.proof-node291616.smt2,"[0.63709677 0.90583345 1.14688301 0.         0.         0.
+ 0.         0.         0.         0.         1.14688301]",MathSAT,0.4206550121307373,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'YICES', 'Z3', 'BOOLECTOR']",[0.4206550121307373]
+./data/BV/intersection-example-simple.proof-node705384.smt2,"[0.64       1.10812721 1.21110177 0.         0.         0.
+ 0.         0.         0.         0.         1.21110177]",MathSAT,0.4440948963165283,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'Bitwuzla', 'CVC4', 'YICES']",[0.4440948963165283]
+./data/BV/intersection-example-simple.proof-node537109.smt2,"[0.64285714 1.14005017 1.27400662 0.         0.         0.
+ 0.         0.         0.         0.         1.27400662]",MathSAT,0.3789560794830322,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'Z3', 'Bitwuzla', 'CVC4']",[0.3789560794830322]
+./data/BV/intersection-example-simple.proof-node127271.smt2,"[0.64566929 1.13810636 1.26976365 0.         0.         0.
+ 0.         0.         0.         0.         1.26976365]",MathSAT,0.4421961307525635,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'CVC4', 'Z3', 'Bitwuzla']",[0.4421961307525635]
+./data/BV/intersection-example-simple.proof-node355115.smt2,"[0.6484375  0.99171758 1.2        0.         0.         0.
+ 0.         0.         0.         0.         1.2       ]",MathSAT,0.4337499141693115,unsat,"['MathSAT', 'Z3', 'CVC4', 'BOOLECTOR', 'YICES', 'Bitwuzla']",[0.4337499141693115]
+./data/BV/intersection-example-simple.proof-node468504.smt2,"[0.65116279 0.94724124 1.19714964 0.         0.         0.
+ 0.         0.         0.         0.         1.19714964]",MathSAT,0.39017581939697266,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'CVC4', 'Z3', 'BOOLECTOR']",[0.39017581939697266]
+./data/BV/intersection-example-simple.proof-node463318.smt2,"[0.65384615 1.08151093 1.25975039 0.         0.         0.
+ 0.         0.         0.         0.         1.25975039]",MathSAT,0.44625306129455566,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'Z3', 'CVC4']",[0.44625306129455566]
+./data/BV/intersection-example-simple.proof-node738096.smt2,"[0.65648855 1.16930318 1.25595696 0.         0.         0.
+ 0.         0.         0.         0.         1.25595696]",MathSAT,0.41805386543273926,unsat,"['MathSAT', 'Z3', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.41805386543273926]
+./data/BV/intersection-example-simple.proof-node44393.smt2,"[0.65909091 0.90050459 1.18726308 0.         0.         0.
+ 0.         0.         0.         0.         1.18726308]",MathSAT,0.42899203300476074,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'Z3', 'YICES']",[0.42899203300476074]
+./data/BV/nested9_true-unreach-call.i_1875.smt2,"[3.82608695 0.30634348 0.19969743 0.         0.         0.
+ 0.         0.         0.         0.         0.19969743]",Bitwuzla,1.777052879333496,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'Z3', 'CVC4']","[0.4337949752807617, 0, 1, 0.3432579040527344]"
+./data/BV/vsl.proof-node2761.smt2,"[0.64028777 0.7960644  0.60180316 0.         0.         0.
+ 0.         0.         0.         0.         0.60180316]",MathSAT,0.43962693214416504,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'YICES', 'CVC4']",[0.43962693214416504]
+./data/BV/safety-lemma-node9082.smt2,"[0.64285714 1.07940917 1.00297177 0.         0.         0.
+ 0.         0.         0.         0.         1.00297177]",MathSAT,0.44028186798095703,sat,"['MathSAT', 'Z3', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR']",[0.44028186798095703]
+./data/BV/intersection-example-simple.proof-node463236.smt2,"[0.64539007 1.08968442 1.26666667 0.         0.         0.
+ 0.         0.         0.         0.         1.26666667]",MathSAT,0.41763901710510254,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'Z3', 'YICES', 'BOOLECTOR']",[0.41763901710510254]
+./data/BV/intersection-example-simple.proof-node517274.smt2,"[0.64788732 1.09982746 1.19739696 0.         0.         0.
+ 0.         0.         0.         0.         1.19739696]",MathSAT,0.4292738437652588,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'Bitwuzla', 'YICES', 'CVC4']",[0.4292738437652588]
+./data/BV/122.smt2,"[ 8.88535031  5.56060255  0.          0.          0.          0.
+  0.          0.         30.6075949   0.          0.        ]",CVC4,2.427003860473633,sat,"['MathSAT', 'CVC4', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'YICES']","[0.43122005462646484, 1.995783805847168]"
+./data/BV/intersection-example-simple.proof-node709783.smt2,"[0.59493671 0.90612807 1.27389444 0.         0.         0.
+ 0.         0.         0.         0.         1.27389444]",MathSAT,0.4218559265136719,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4']",[0.4218559265136719]
+./data/BV/179.smt2,"[3.47560975 1.59708902 0.         0.         0.         0.
+ 0.         0.         9.71590908 0.         0.        ]",YICES,0.8035531044006348,unsat,"['MathSAT', 'YICES', 'CVC4', 'BOOLECTOR', 'Z3', 'Bitwuzla']","[0.40971803665161133, 0.39383506774902344]"
+./data/BV/recHanoi03_true-unreach-call_true-termination.c_2175.smt2,"[1.7245509  0.237704   0.20498221 0.         0.         0.
+ 0.         0.         0.         0.         0.20498221]",YICES,0.6834368705749512,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'CVC4', 'Bitwuzla', 'Z3']","[0.438126802444458, 0, 0.24531006813049316]"
+./data/BV/intersection-example-onelane.proof-node21498.smt2,"[0.57738095 0.67218062 0.82145378 0.         0.         0.
+ 0.         0.         0.         0.         0.82145378]",MathSAT,0.42025303840637207,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'CVC4', 'Z3', 'Bitwuzla']",[0.42025303840637207]
+./data/BV/intersection-example-simple.proof-node586611.smt2,"[0.57988166 1.07251824 1.29665738 0.         0.         0.
+ 0.         0.         0.         0.         1.29665738]",MathSAT,0.43400096893310547,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'YICES', 'Z3']",[0.43400096893310547]
+./data/BV/intersection-example-onelane.proof-node54078.smt2,"[0.58235294 0.84633932 0.82044199 0.         0.         0.
+ 0.         0.         0.         0.         0.82044199]",MathSAT,0.4347198009490967,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'Z3', 'CVC4']",[0.4347198009490967]
+./data/BV/intersection-example-simple.proof-node277301.smt2,"[0.58479532 0.91225022 1.22783083 0.         0.         0.
+ 0.         0.         0.         0.         1.22783083]",MathSAT,0.41785693168640137,unsat,"['MathSAT', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'Z3', 'YICES']",[0.41785693168640137]
+./data/BV/intersection-example-simple.proof-node732476.smt2,"[0.5872093  0.90227101 1.22506739 0.         0.         0.
+ 0.         0.         0.         0.         1.22506739]",MathSAT,0.4461629390716553,unsat,"['MathSAT', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'Z3']",[0.4461629390716553]
+./data/BV/intersection-example-simple.proof-node417076.smt2,"[0.58959538 1.02163026 1.22237017 0.         0.         0.
+ 0.         0.         0.         0.         1.22237017]",MathSAT,0.41254305839538574,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'Z3', 'CVC4']",[0.41254305839538574]
+./data/BV/check_bvugt_bvneg_4bit.smt2,"[0.59195402 0.13153134 0.06852961 0.         0.         0.
+ 0.         0.         0.         0.         0.06852961]",Z3,0.40704798698425293,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'Bitwuzla', 'CVC4', 'YICES']","[0.36918091773986816, 0, 0.037867069244384766]"
+./data/BV/intersection-example-simple.proof-node648124.smt2,"[0.59428571 0.97575374 1.29829172 0.         0.         0.
+ 0.         0.         0.         0.         1.29829172]",MathSAT,0.44385194778442383,unsat,"['MathSAT', 'CVC4', 'Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR']",[0.44385194778442383]
+./data/BV/check_eq_bvand_32bit.smt2,"[0.59659091 0.13265951 0.13779528 0.         0.         0.
+ 0.         0.         0.         0.         0.13779528]",CVC4,0.7751030921936035,unsat,"['MathSAT', 'CVC4', 'BOOLECTOR', 'Z3', 'Bitwuzla', 'YICES']","[0.39256906509399414, 0.3825340270996094]"
+./data/BV/jain_7_true-unreach-call_true-no-overflow.i_307.smt2,"[1.77653631 0.66541117 0.20825147 0.         0.         0.
+ 0.         0.         0.         0.         0.20825147]",CVC4,7.831013917922974,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'Z3', 'CVC4']","[0.5376729965209961, 1, 1, 0, 1, 4.2933409214019775]"
+./data/BV/intersection-example-simple.proof-node606020.smt2,"[0.59444444 0.88815107 1.24660194 0.         0.         0.
+ 0.         0.         0.         0.         1.24660194]",MathSAT,0.42728090286254883,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'CVC4', 'Z3', 'Bitwuzla']",[0.42728090286254883]
+./data/BV/intersection-example-simple.proof-node290989.smt2,"[0.59668508 0.87804878 1.243762   0.         0.         0.
+ 0.         0.         0.         0.         1.243762  ]",MathSAT,0.43004608154296875,unsat,"['MathSAT', 'CVC4', 'BOOLECTOR', 'Z3', 'Bitwuzla', 'YICES']",[0.43004608154296875]
+./data/BV/intersection-example-onelane.proof-node53901.smt2,"[0.5989011  0.71321951 0.83047619 0.         0.         0.
+ 0.         0.         0.         0.         0.83047619]",MathSAT,0.4195380210876465,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR', 'Z3']",[0.4195380210876465]
+./data/BV/nested9_true-unreach-call.i_1703.smt2,"[4.07407407 0.39221679 0.20912548 0.         0.         0.
+ 0.         0.         0.         0.         0.20912548]",CVC4,7.835844993591309,unsat,"['MathSAT', 'YICES', 'CVC4', 'Z3', 'Bitwuzla', 'BOOLECTOR']","[0.42641210556030273, 1, 6.409432888031006]"
+./data/BV/intersection-example-simple.proof-node564092.smt2,"[0.58421053 0.99737506 1.32060113 0.         0.         0.
+ 0.         0.         0.         0.         1.32060113]",MathSAT,0.44042110443115234,unsat,"['MathSAT', 'CVC4', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.44042110443115234]
+./data/BV/intersection-example-simple.proof-node710070.smt2,"[0.58638743 0.9862904  1.24829721 0.         0.         0.
+ 0.         0.         0.         0.         1.24829721]",MathSAT,0.3667471408843994,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'YICES', 'Z3']",[0.3667471408843994]
+./data/BV/intersection-example-simple.proof-node140416.smt2,"[0.58854167 1.10850178 1.31395349 0.         0.         0.
+ 0.         0.         0.         0.         1.31395349]",MathSAT,0.4369971752166748,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'Z3', 'BOOLECTOR']",[0.4369971752166748]
+./data/BV/water_tank-node12581.smt2,"[0.59067357 0.43885105 0.27838828 0.         0.         0.
+ 0.         0.         0.         0.         0.27838828]",MathSAT,0.3981311321258545,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'CVC4', 'YICES']",[0.3981311321258545]
+./data/BV/intersection-example-simple.proof-node211931.smt2,"[0.5927835  0.95683242 1.25       0.         0.         0.
+ 0.         0.         0.         0.         1.25      ]",MathSAT,0.40899205207824707,unsat,"['MathSAT', 'CVC4', 'Z3', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.40899205207824707]
+./data/BV/vsl.proof-node1377.smt2,"[0.59487179 0.66608273 0.55769231 0.         0.         0.
+ 0.         0.         0.         0.         0.55769231]",MathSAT,0.4342811107635498,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR']",[0.4342811107635498]
+./data/BV/NUM868=1.smt2,"[0.59693878 0.0682813  0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",MathSAT,0.4206991195678711,sat,"['MathSAT', 'YICES', 'CVC4', 'BOOLECTOR', 'Z3', 'Bitwuzla']",[0.4206991195678711]
+./data/BV/check_bvsle_bvnot_32bit.smt2,"[0.59898477 0.1146633  0.07087087 0.         0.         0.
+ 0.         0.         0.         0.         0.07087087]",MathSAT,0.444256067276001,unsat,"['MathSAT', 'Z3', 'YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[0.444256067276001]
+./data/BV/intersection-example-simple.proof-node99986.smt2,"[0.6010101  0.88377701 1.27272727 0.         0.         0.
+ 0.         0.         0.         0.         1.27272727]",MathSAT,0.4302811622619629,unsat,"['MathSAT', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'YICES', 'Z3']",[0.4302811622619629]
+./data/BV/intersection-example-simple.proof-node478851.smt2,"[0.60301508 0.94162679 1.26984127 0.         0.         0.
+ 0.         0.         0.         0.         1.26984127]",MathSAT,0.437481164932251,unsat,"['MathSAT', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'CVC4', 'Z3']",[0.437481164932251]
+./data/BV/check_bvslt_bvand_64bit.smt2,"[0.605      0.16188838 0.14210217 0.         0.         0.
+ 0.         0.         0.         0.         0.14210217]",CVC4,2.1208362579345703,unsat,"['MathSAT', 'CVC4', 'YICES', 'Z3', 'Bitwuzla', 'BOOLECTOR']","[0.37857604026794434, 1.742260217666626]"
+./data/BV/nested9_true-unreach-call.i_703.smt2,"[4.69230769 0.34877073 0.21453693 0.         0.         0.
+ 0.         0.         0.         0.         0.21453693]",CVC4,1.7334370613098145,unsat,"['MathSAT', 'YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'Z3']","[0.44467997550964355, 1, 0.2887570858001709]"
+./data/BV/intersection-example-simple.proof-node444857.smt2,"[0.58851675 1.10350364 1.28422274 0.         0.         0.
+ 0.         0.         0.         0.         1.28422274]",MathSAT,0.4288661479949951,unsat,"['MathSAT', 'CVC4', 'YICES', 'Z3', 'Bitwuzla', 'BOOLECTOR']",[0.4288661479949951]
+./data/BV/intersection-example-simple.proof-node695988.smt2,"[0.59047619 1.03352688 1.35169248 0.         0.         0.
+ 0.         0.         0.         0.         1.35169248]",MathSAT,0.42273998260498047,unsat,"['MathSAT', 'Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.42273998260498047]
+./data/BV/intersection-example-simple.proof-node458799.smt2,"[0.59241706 0.88339223 1.27768313 0.         0.         0.
+ 0.         0.         0.         0.         1.27768313]",MathSAT,0.4381449222564697,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'YICES', 'CVC4']",[0.4381449222564697]
+./data/BV/water_tank-node14879.smt2,"[0.59433962 0.47855489 0.28555241 0.         0.         0.
+ 0.         0.         0.         0.         0.28555241]",MathSAT,0.4380640983581543,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'Z3', 'CVC4']",[0.4380640983581543]
+./data/BV/intersection-example-simple.proof-node340997.smt2,"[0.59624413 1.03849688 1.28210881 0.         0.         0.
+ 0.         0.         0.         0.         1.28210881]",MathSAT,0.42962002754211426,unsat,"['MathSAT', 'Z3', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR']",[0.42962002754211426]
+./data/BV/check_eq_bvlshr1_32bit.smt2,"[0.59813084 1.6370068  0.14341737 0.         0.         0.
+ 0.         0.         0.         0.         0.14341737]",Z3,0.6407949924468994,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES']","[0.4216301441192627, 0.21916484832763672]"
+./data/BV/check_bvslt_bvudiv0_64bit.smt2,"[0.6        0.25690233 0.14437605 0.         0.         0.
+ 0.         0.         0.         0.         0.14437605]",Bitwuzla,12.583631992340088,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'Z3']","[0.414578914642334, 1, 11.169053077697754]"
+./data/BV/intersection-example-simple.proof-node158163.smt2,"[0.60185185 0.99263385 1.29639889 0.         0.         0.
+ 0.         0.         0.         0.         1.29639889]",MathSAT,0.4161989688873291,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'Z3']",[0.4161989688873291]
+./data/BV/intersection-example-onelane.proof-node22852.smt2,"[0.60368664 0.81860382 0.86516236 0.         0.         0.
+ 0.         0.         0.         0.         0.86516236]",MathSAT,0.43416309356689453,unsat,"['MathSAT', 'Z3', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.43416309356689453]
+./data/BV/intersection-example-simple.proof-node662534.smt2,"[0.60550459 1.17950986 1.36601307 0.         0.         0.
+ 0.         0.         0.         0.         1.36601307]",MathSAT,0.3791661262512207,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'CVC4', 'YICES']",[0.3791661262512207]
+./data/BV/check_eq_bvshl0_32bit.smt2,"[0.60730594 0.15279251 0.14472252 0.         0.         0.
+ 0.         0.         0.         0.         0.14472252]",Z3,0.5125319957733154,unsat,"['MathSAT', 'Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES']","[0.3934628963470459, 0.11906909942626953]"
+./data/BV/intersection-example-simple.proof-node470770.smt2,"[0.60909091 1.01069988 1.29956897 0.         0.         0.
+ 0.         0.         0.         0.         1.29956897]",MathSAT,0.37565112113952637,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'CVC4']",[0.37565112113952637]
+./data/BV/intersection-example-simple.proof-node256814.smt2,"[0.61085973 1.01061978 1.368      0.         0.         0.
+ 0.         0.         0.         0.         1.368     ]",MathSAT,0.42498302459716797,unsat,"['MathSAT', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'Z3', 'YICES']",[0.42498302459716797]
+./data/BV/intersection-example-simple.proof-node9305.smt2,"[0.61261261 1.13871385 1.29318542 0.         0.         0.
+ 0.         0.         0.         0.         1.29318542]",MathSAT,0.42081689834594727,unsat,"['MathSAT', 'YICES', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'Z3']",[0.42081689834594727]
+./data/BV/intersection-example-simple.proof-node730048.smt2,"[0.61434978 1.27697965 1.36140167 0.         0.         0.
+ 0.         0.         0.         0.         1.36140167]",MathSAT,0.43193912506103516,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'Z3', 'YICES']",[0.43193912506103516]
+./data/BV/intersection-example-simple.proof-node63493.smt2,"[0.61607143 0.9609375  1.35784568 0.         0.         0.
+ 0.         0.         0.         0.         1.35784568]",MathSAT,0.3760218620300293,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES']",[0.3760218620300293]
+./data/BV/intersection-example-simple.proof-node313524.smt2,"[0.61777778 1.22843195 1.35435897 0.         0.         0.
+ 0.         0.         0.         0.         1.35435897]",MathSAT,0.3791348934173584,unsat,"['MathSAT', 'CVC4', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.3791348934173584]
+./data/BV/intersection-example-simple.proof-node152733.smt2,"[0.61946903 0.97124707 1.2804878  0.         0.         0.
+ 0.         0.         0.         0.         1.2804878 ]",MathSAT,0.43355703353881836,unsat,"['MathSAT', 'YICES', 'CVC4', 'Z3', 'Bitwuzla', 'BOOLECTOR']",[0.43355703353881836]
+./data/BV/intersection-example-simple.proof-node101581.smt2,"[0.62114537 1.00630705 1.34826371 0.         0.         0.
+ 0.         0.         0.         0.         1.34826371]",MathSAT,0.4383361339569092,unsat,"['MathSAT', 'Z3', 'YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[0.4383361339569092]
+./data/BV/intersection-example-simple.proof-node717628.smt2,"[0.62280702 1.16872428 1.27481297 0.         0.         0.
+ 0.         0.         0.         0.         1.27481297]",MathSAT,0.42946696281433105,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'YICES', 'Z3']",[0.42946696281433105]
+./data/BV/intersection-example-simple.proof-node448376.smt2,"[0.62445415 1.10943242 1.3423913  0.         0.         0.
+ 0.         0.         0.         0.         1.3423913 ]",MathSAT,0.37074899673461914,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'YICES', 'Z3', 'BOOLECTOR']",[0.37074899673461914]
+./data/BV/intersection-example-simple.proof-node658965.smt2,"[0.62608696 1.15489307 1.26934378 0.         0.         0.
+ 0.         0.         0.         0.         1.26934378]",MathSAT,0.42096900939941406,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'YICES']",[0.42096900939941406]
+./data/BV/jain_1_true-unreach-call_true-no-overflow.i_363.smt2,"[1.86695279 0.19941752 0.07097406 0.         0.         0.
+ 0.         0.         0.         0.         0.07097406]",CVC4,3.0332798957824707,unsat,"['MathSAT', 'YICES', 'Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla']","[0.4344019889831543, 1, 1, 0.5988779067993164]"
+./data/BV/intersection-example-simple.proof-node721782.smt2,"[0.62393162 1.07861559 1.34529583 0.         0.         0.
+ 0.         0.         0.         0.         1.34529583]",MathSAT,0.3899531364440918,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'Z3']",[0.3899531364440918]
+./data/BV/intersection-example-onelane.proof-node25235.smt2,"[0.62553191 0.81001437 0.85053038 0.         0.         0.
+ 0.         0.         0.         0.         0.85053038]",MathSAT,0.3822441101074219,sat,"['MathSAT', 'Z3', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR']",[0.3822441101074219]
+./data/BV/intersection-example-simple.proof-node135357.smt2,"[0.62711864 1.17255585 1.27342256 0.         0.         0.
+ 0.         0.         0.         0.         1.27342256]",MathSAT,0.43822693824768066,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'CVC4']",[0.43822693824768066]
+./data/BV/Primes_true-unreach-call.c_798.smt2,"[1.87029289 0.32980237 0.21336516 0.         0.         0.
+ 0.         0.         1.6741573  0.         0.21336516]",Bitwuzla,1.6850767135620117,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'Z3']","[0.4411628246307373, 1, 0.24391388893127441]"
+./data/BV/ARI382=1.smt2,"[0.625      0.05926511 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",MathSAT,0.4351191520690918,unsat,"['MathSAT', 'Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES']",[0.4351191520690918]
+./data/BV/check_bvule_bvand_4bit.smt2,"[0.62655602 0.13113848 0.14401526 0.         0.         0.
+ 0.         0.         0.         0.         0.14401526]",MathSAT,0.4255101680755615,unsat,"['MathSAT', 'Z3', 'YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[0.4255101680755615]
+./data/BV/intersection-example-simple.proof-node724051.smt2,"[0.62809917 1.03693249 1.36483932 0.         0.         0.
+ 0.         0.         0.         0.         1.36483932]",MathSAT,0.38670897483825684,unsat,"['MathSAT', 'YICES', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'Z3']",[0.38670897483825684]
+./data/BV/check_bvsle_bvconcat0_4_4bit.smt2,"[0.62962963 0.23956784 0.21661161 0.         0.         0.
+ 0.         0.         0.         0.         0.21661161]",CVC4,0.6471500396728516,unsat,"['MathSAT', 'CVC4', 'YICES', 'BOOLECTOR', 'Z3', 'Bitwuzla']","[0.4169750213623047, 0.23017501831054688]"
+./data/BV/intersection-example-simple.proof-node627493.smt2,"[0.63114754 1.23190432 1.36856876 0.         0.         0.
+ 0.         0.         0.         0.         1.36856876]",MathSAT,0.417802095413208,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'CVC4', 'Z3']",[0.417802095413208]
+./data/BV/intersection-example-simple.proof-node331833.smt2,"[0.63265306 1.19451295 1.29406308 0.         0.         0.
+ 0.         0.         0.         0.         1.29406308]",MathSAT,0.38002800941467285,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'CVC4', 'YICES']",[0.38002800941467285]
+./data/BV/intersection-example-simple.proof-node395086.smt2,"[0.63414634 1.02710152 1.36275862 0.         0.         0.
+ 0.         0.         0.         0.         1.36275862]",MathSAT,0.4252288341522217,unsat,"['MathSAT', 'YICES', 'Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla']",[0.4252288341522217]
+./data/BV/intersection-example-simple.proof-node337826.smt2,"[0.63562753 1.03878622 1.28864569 0.         0.         0.
+ 0.         0.         0.         0.         1.28864569]",MathSAT,0.43581080436706543,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'CVC4', 'YICES']",[0.43581080436706543]
+./data/BV/intersection-example-onelane.proof-node46832.smt2,"[0.63709677 0.93173055 0.85986395 0.         0.         0.
+ 0.         0.         0.         0.         0.85986395]",MathSAT,0.4221508502960205,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'Z3', 'CVC4', 'Bitwuzla']",[0.4221508502960205]
+./data/BV/intersection-example-simple.proof-node388424.smt2,"[0.63855422 0.97963784 1.28744939 0.         0.         0.
+ 0.         0.         0.         0.         1.28744939]",MathSAT,0.42908716201782227,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'CVC4', 'Z3']",[0.42908716201782227]
+./data/BV/intersection-example-simple.proof-node709258.smt2,"[0.64      1.0035093 1.3559322 0.        0.        0.        0.
+ 0.        0.        0.        1.3559322]",MathSAT,0.42666101455688477,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'CVC4', 'YICES', 'BOOLECTOR']",[0.42666101455688477]
+./data/BV/intersection-example-simple.proof-node586060.smt2,"[0.64143426 1.16952042 1.28230088 0.         0.         0.
+ 0.         0.         0.         0.         1.28230088]",MathSAT,1.0816409587860107,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'Z3', 'CVC4']",[1.0816409587860107]
+./data/BV/intersection-example-simple.proof-node635054.smt2,"[0.64285714 1.09725392 1.35059236 0.         0.         0.
+ 0.         0.         0.         0.         1.35059236]",MathSAT,0.4178040027618408,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'YICES', 'Z3', 'Bitwuzla']",[0.4178040027618408]
+./data/BV/intersection-example-simple.proof-node716545.smt2,"[0.64426877 1.03738113 1.34769365 0.         0.         0.
+ 0.         0.         0.         0.         1.34769365]",MathSAT,0.43084287643432617,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'Z3', 'YICES', 'BOOLECTOR']",[0.43084287643432617]
+./data/BV/intersection-example-simple.proof-node200629.smt2,"[0.64566929 1.02529805 1.34484247 0.         0.         0.
+ 0.         0.         0.         0.         1.34484247]",MathSAT,0.436413049697876,unsat,"['MathSAT', 'Z3', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR']",[0.436413049697876]
+./data/BV/intersection-example-simple.proof-node398865.smt2,"[0.64705882 0.98959462 1.34203767 0.         0.         0.
+ 0.         0.         0.         0.         1.34203767]",MathSAT,0.43581604957580566,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'CVC4']",[0.43581604957580566]
+./data/BV/intersection-example-simple.proof-node140070.smt2,"[0.6484375  1.16725264 1.2693288  0.         0.         0.
+ 0.         0.         0.         0.         1.2693288 ]",MathSAT,0.432589054107666,unsat,"['MathSAT', 'CVC4', 'BOOLECTOR', 'Z3', 'Bitwuzla', 'YICES']",[0.432589054107666]
+./data/BV/check_eq_bvudiv1_4bit.smt2,"[0.64980545 0.25125376 0.1417657  0.         0.         0.
+ 0.         0.         0.         0.         0.1417657 ]",YICES,0.662736177444458,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'CVC4', 'Z3']","[0.37550806999206543, 0, 0.2872281074523926]"
+./data/BV/jain_2_true-unreach-call_true-no-overflow.i_228.smt2,"[1.2972973  0.44415863 0.14249364 0.         0.         0.
+ 0.         0.         0.         0.         0.14249364]",CVC4,6.074397802352905,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR', 'Z3']","[0.4264979362487793, 1, 4.647899866104126]"
+./data/BV/intersection-example-simple.proof-node55390.smt2,"[0.65       0.94862868 1.28030303 0.         0.         0.
+ 0.         0.         0.         0.         1.28030303]",MathSAT,0.42765188217163086,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'YICES', 'Bitwuzla', 'CVC4']",[0.42765188217163086]
+./data/BV/bouncing-ball-simple-node5587.smt2,"[0.651341   0.78152627 0.42821159 0.         0.         0.
+ 0.         0.         0.         0.         0.42821159]",MathSAT,0.4071199893951416,sat,"['MathSAT', 'Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.4071199893951416]
+./data/BV/intersection-example-onelane.proof-node10267.smt2,"[0.65267176 0.73457746 0.85714286 0.         0.         0.
+ 0.         0.         0.         0.         0.85714286]",MathSAT,0.4371340274810791,unsat,"['MathSAT', 'Z3', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'YICES']",[0.4371340274810791]
+./data/BV/intersection-example-simple.proof-node80003.smt2,"[0.6539924  0.97556194 1.35433071 0.         0.         0.
+ 0.         0.         0.         0.         1.35433071]",MathSAT,0.4417099952697754,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR', 'Z3']",[0.4417099952697754]
+./data/BV/check_bvult_bvnot_32bit.smt2,"[0.65530303 0.13315141 0.07166529 0.         0.         0.
+ 0.         0.         0.         0.         0.07166529]",CVC4,0.7241041660308838,unsat,"['MathSAT', 'CVC4', 'YICES', 'Z3', 'BOOLECTOR', 'Bitwuzla']","[0.41094207763671875, 0.31316208839416504]"
+./data/BV/intersection-example-simple.proof-node263439.smt2,"[0.65660377 1.13693869 1.28782895 0.         0.         0.
+ 0.         0.         0.         0.         1.28782895]",MathSAT,0.35954904556274414,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'Z3', 'CVC4', 'BOOLECTOR']",[0.35954904556274414]
+./data/BV/intersection-example-simple.proof-node197625.smt2,"[0.65789474 0.97981613 1.28571429 0.         0.         0.
+ 0.         0.         0.         0.         1.28571429]",MathSAT,0.3699648380279541,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'Z3', 'YICES', 'BOOLECTOR']",[0.3699648380279541]
+./data/BV/intersection-example-simple.proof-node184320.smt2,"[0.65917603 1.04006047 1.28363047 0.         0.         0.
+ 0.         0.         0.         0.         1.28363047]",MathSAT,0.40793800354003906,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'Z3', 'BOOLECTOR', 'YICES']",[0.40793800354003906]
+./data/BV/check_bvult_bvadd_64bit.smt2,"[0.66044776 0.14582904 0.14331984 0.         0.         0.
+ 0.         0.         0.         0.         0.14331984]",Bitwuzla,0.9441070556640625,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'Z3', 'BOOLECTOR', 'CVC4']","[0.4489870071411133, 0.4951200485229492]"
+./data/BV/intersection-example-simple.proof-node548277.smt2,"[0.66171004 0.97234551 1.21672698 0.         0.         0.
+ 0.         0.         0.         0.         1.21672698]",MathSAT,0.4249730110168457,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'CVC4', 'Z3', 'Bitwuzla']",[0.4249730110168457]
+./data/BV/intersection-example-onelane.proof-node13832.smt2,"[0.66296296 0.71823993 0.85954382 0.         0.         0.
+ 0.         0.         0.         0.         0.85954382]",MathSAT,0.4063999652862549,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'Z3', 'CVC4', 'Bitwuzla']",[0.4063999652862549]
+./data/BV/intersection-example-simple.proof-node478489.smt2,"[0.66420664 1.19173085 1.35822081 0.         0.         0.
+ 0.         0.         0.         0.         1.35822081]",MathSAT,0.41362595558166504,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'CVC4', 'YICES', 'Bitwuzla']",[0.41362595558166504]
+./data/BV/intersection-example-simple.proof-node389285.smt2,"[0.66544118 0.99717818 1.28470032 0.         0.         0.
+ 0.         0.         0.         0.         1.28470032]",MathSAT,0.44382190704345703,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES', 'Z3']",[0.44382190704345703]
+./data/BV/intersection-example-simple.proof-node639790.smt2,"[0.66666667 1.13013287 1.35342466 0.         0.         0.
+ 0.         0.         0.         0.         1.35342466]",MathSAT,0.42238616943359375,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES']",[0.42238616943359375]
+./data/BV/intersection-example-simple.proof-node138944.smt2,"[0.66788321 1.20171133 1.35081585 0.         0.         0.
+ 0.         0.         0.         0.         1.35081585]",MathSAT,0.4390239715576172,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR']",[0.4390239715576172]
+./data/BV/intersection-example-simple.proof-node78597.smt2,"[0.66909091 0.97123252 1.27777778 0.         0.         0.
+ 0.         0.         0.         0.         1.27777778]",MathSAT,0.4419221878051758,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'CVC4', 'Z3', 'Bitwuzla']",[0.4419221878051758]
+./data/BV/intersection-example-simple.proof-node412353.smt2,"[0.67028985 1.03175645 1.3462275  0.         0.         0.
+ 0.         0.         0.         0.         1.3462275 ]",MathSAT,0.3719301223754883,unsat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.3719301223754883]
+./data/BV/check_bvugt_bvor_32bit.smt2,"[0.67148014 0.1585158  0.1423651  0.         0.         0.
+ 0.         0.         0.         0.         0.1423651 ]",Z3,0.41803598403930664,unsat,"['MathSAT', 'Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES']","[0.3798210620880127, 0.038214921951293945]"
+./data/BV/intersection-example-simple.proof-node128430.smt2,"[0.67266187 1.21792367 1.27936146 0.         0.         0.
+ 0.         0.         0.         0.         1.27936146]",MathSAT,0.38716793060302734,unsat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.38716793060302734]
+./data/BV/ARI362=1.smt2,"[0.67383512 0.08567151 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",MathSAT,0.39104676246643066,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'Z3', 'YICES', 'BOOLECTOR']",[0.39104676246643066]
+./data/BV/intersection-example-simple.proof-node66243.smt2,"[0.675      1.16168478 1.35509434 0.         0.         0.
+ 0.         0.         0.         0.         1.35509434]",MathSAT,0.461169958114624,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES']",[0.461169958114624]
+./data/BV/intersection-example-simple.proof-node313310.smt2,"[0.67615658 1.28205128 1.3525665  0.         0.         0.
+ 0.         0.         0.         0.         1.3525665 ]",MathSAT,0.3834998607635498,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'Z3']",[0.3834998607635498]
+./data/BV/intersection-example-simple.proof-node620906.smt2,"[0.67730496 1.08619808 1.3500744  0.         0.         0.
+ 0.         0.         0.         0.         1.3500744 ]",MathSAT,0.3688499927520752,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR', 'Z3']",[0.3688499927520752]
+./data/BV/water_tank-node9350.smt2,"[0.67844523 0.44064771 0.28528975 0.         0.         0.
+ 0.         0.         0.         0.         0.28528975]",MathSAT,0.478956937789917,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR']",[0.478956937789917]
+./data/BV/intersection-example-simple.proof-node313636.smt2,"[0.67957746 1.28332595 1.3526374  0.         0.         0.
+ 0.         0.         0.         0.         1.3526374 ]",MathSAT,0.3699798583984375,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'YICES', 'CVC4']",[0.3699798583984375]
+./data/BV/intersection-example-simple.proof-node177438.smt2,"[0.68070175 1.03867473 1.35018315 0.         0.         0.
+ 0.         0.         0.         0.         1.35018315]",MathSAT,0.4405841827392578,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'Z3', 'Bitwuzla', 'CVC4']",[0.4405841827392578]
+./data/BV/intersection-example-simple.proof-node727288.smt2,"[0.68181818 1.26908636 1.34776282 0.         0.         0.
+ 0.         0.         0.         0.         1.34776282]",MathSAT,0.4183778762817383,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'Z3', 'BOOLECTOR']",[0.4183778762817383]
+./data/BV/intersection-example-simple.proof-node220783.smt2,"[0.68292683 1.04917216 1.27502711 0.         0.         0.
+ 0.         0.         0.         0.         1.27502711]",MathSAT,0.4136810302734375,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'Z3']",[0.4136810302734375]
+./data/BV/intersection-example-simple.proof-node584977.smt2,"[0.68402778 1.20649551 1.34350323 0.         0.         0.
+ 0.         0.         0.         0.         1.34350323]",MathSAT,0.3885331153869629,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR']",[0.3885331153869629]
+./data/BV/intersection-example-simple.proof-node399685.smt2,"[0.68512111 1.18103554 1.27104137 0.         0.         0.
+ 0.         0.         0.         0.         1.27104137]",MathSAT,0.4258871078491211,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'Z3', 'Bitwuzla', 'CVC4']",[0.4258871078491211]
+./data/BV/intersection-example-simple.proof-node690498.smt2,"[0.6862069  1.28873412 1.3393553  0.         0.         0.
+ 0.         0.         0.         0.         1.3393553 ]",MathSAT,0.42995595932006836,unsat,"['MathSAT', 'YICES', 'Z3', 'Bitwuzla', 'CVC4', 'BOOLECTOR']",[0.42995595932006836]
+./data/BV/intersection-example-simple.proof-node462242.smt2,"[0.68728522 0.91224229 1.1971831  0.         0.         0.
+ 0.         0.         0.         0.         1.1971831 ]",MathSAT,0.427095890045166,unsat,"['MathSAT', 'YICES', 'Z3', 'BOOLECTOR', 'Bitwuzla', 'CVC4']",[0.427095890045166]
+./data/BV/intersection-example-simple.proof-node81352.smt2,"[0.68835616 0.98529412 1.33578174 0.         0.         0.
+ 0.         0.         0.         0.         1.33578174]",MathSAT,0.4393770694732666,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'CVC4', 'Bitwuzla', 'YICES']",[0.4393770694732666]
+./data/BV/intersection-example-simple.proof-node565668.smt2,"[0.68941979 1.08216457 1.33356498 0.         0.         0.
+ 0.         0.         0.         0.         1.33356498]",MathSAT,0.4289259910583496,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'Z3', 'CVC4', 'BOOLECTOR']",[0.4289259910583496]
+./data/BV/intersection-example-simple.proof-node275203.smt2,"[0.69047619 1.0212613  1.26174033 0.         0.         0.
+ 0.         0.         0.         0.         1.26174033]",MathSAT,0.41307997703552246,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'Z3']",[0.41307997703552246]
+./data/BV/dynamic_reaction_to_static_bounds.proof-node839.smt2,"[0.69152542 0.52401434 0.49190493 0.         0.         0.
+ 0.         0.         0.         0.         0.49190493]",MathSAT,0.4285590648651123,sat,"['MathSAT', 'YICES', 'CVC4', 'Bitwuzla', 'Z3', 'BOOLECTOR']",[0.4285590648651123]
+./data/BV/intersection-example-simple.proof-node525212.smt2,"[0.69256757 1.04778319 1.263266   0.         0.         0.
+ 0.         0.         0.         0.         1.263266  ]",MathSAT,0.36318111419677734,unsat,"['MathSAT', 'YICES', 'Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[0.36318111419677734]
+./data/BV/intersection-example-simple.proof-node144406.smt2,"[0.69360269 1.04754021 1.26165362 0.         0.         0.
+ 0.         0.         0.         0.         1.26165362]",MathSAT,0.44068098068237305,unsat,"['MathSAT', 'CVC4', 'YICES', 'BOOLECTOR', 'Z3', 'Bitwuzla']",[0.44068098068237305]
+./data/BV/intersection-example-simple.proof-node13794.smt2,"[0.69463087 0.96245071 1.19046008 0.         0.         0.
+ 0.         0.         0.         0.         1.19046008]",MathSAT,0.4439730644226074,unsat,"['MathSAT', 'CVC4', 'Z3', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.4439730644226074]
+./data/BV/intersection-example-simple.proof-node20131.smt2,"[0.69565217 1.20491516 1.32840336 0.         0.         0.
+ 0.         0.         0.         0.         1.32840336]",MathSAT,0.4125387668609619,unsat,"['MathSAT', 'Z3', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR']",[0.4125387668609619]
+./data/BV/intersection-example-simple.proof-node503827.smt2,"[0.69666667 1.04646018 1.32631931 0.         0.         0.
+ 0.         0.         0.         0.         1.32631931]",MathSAT,0.43999600410461426,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'Z3', 'Bitwuzla', 'CVC4']",[0.43999600410461426]
+./data/BV/intersection-example-simple.proof-node239973.smt2,"[0.69767442 1.02201622 1.25498008 0.         0.         0.
+ 0.         0.         0.         0.         1.25498008]",MathSAT,0.43767714500427246,unsat,"['MathSAT', 'Z3', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.43767714500427246]
+./data/BV/ARI590=1.smt2,"[0.6986755  0.12217719 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",MathSAT,0.3921060562133789,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'CVC4', 'Z3', 'Bitwuzla']",[0.3921060562133789]
+./data/BV/water_tank-node18158.smt2,"[0.69966997 0.48989024 0.28116711 0.         0.         0.
+ 0.         0.         0.         0.         0.28116711]",MathSAT,0.3828129768371582,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'CVC4']",[0.3828129768371582]
+./data/BV/intersection-example-simple.proof-node367444.smt2,"[0.70065789 1.00425483 1.19386746 0.         0.         0.
+ 0.         0.         0.         0.         1.19386746]",MathSAT,0.42138099670410156,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'Z3', 'CVC4', 'Bitwuzla']",[0.42138099670410156]
+./data/BV/intersection-example-simple.proof-node136638.smt2,"[0.70163934 1.23557995 1.33224115 0.         0.         0.
+ 0.         0.         0.         0.         1.33224115]",MathSAT,0.42665696144104004,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'CVC4', 'YICES', 'BOOLECTOR']",[0.42665696144104004]
+./data/BV/intersection-example-simple.proof-node152529.smt2,"[0.70261438 1.01530496 1.26058632 0.         0.         0.
+ 0.         0.         0.         0.         1.26058632]",MathSAT,0.42461204528808594,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'CVC4', 'Z3', 'Bitwuzla']",[0.42461204528808594]
+./data/BV/intersection-example-simple.proof-node110474.smt2,"[0.70358306 1.03957873 1.3285853  0.         0.         0.
+ 0.         0.         0.         0.         1.3285853 ]",MathSAT,0.4174981117248535,unsat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.4174981117248535]
+./data/BV/check_bvuge_bvlshr1_64bit.smt2,"[0.70454545 0.13507243 0.14040764 0.         0.         0.
+ 0.         0.         0.         0.         0.14040764]",CVC4,3.197110891342163,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'YICES', 'Z3']","[0.41347289085388184, 0, 2.7836380004882812]"
+./data/BV/intersection-example-simple.proof-node113583.smt2,"[0.70550162 1.09239345 1.3318328  0.         0.         0.
+ 0.         0.         0.         0.         1.3318328 ]",MathSAT,0.37814998626708984,unsat,"['MathSAT', 'YICES', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'Z3']",[0.37814998626708984]
+./data/BV/143.smt2,"[ 4.85126582  1.82194305  0.          0.          0.          0.
+  0.          0.         29.76699023  0.          0.        ]",Bitwuzla,30.91566014289856,sat,"['Bitwuzla', 'CVC4', 'YICES', 'Z3', 'BOOLECTOR', 'MathSAT']",[30.91566014289856]
+./data/BV/NUM869=1.smt2,"[0.69400631 0.07367716 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",MathSAT,0.37708187103271484,sat,"['MathSAT', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'Z3']",[0.37708187103271484]
+./data/BV/ETCS-essentials-live-range2.proof-node577.smt2,"[0.69496855 0.29565217 0.42554557 0.         0.         0.
+ 0.         0.         0.         0.         0.42554557]",MathSAT,0.3772289752960205,sat,"['MathSAT', 'Bitwuzla', 'YICES', 'CVC4', 'Z3', 'BOOLECTOR']",[0.3772289752960205]
+./data/BV/intersection-example-simple.proof-node409710.smt2,"[0.69592476 1.01009877 1.34545455 0.         0.         0.
+ 0.         0.         0.         0.         1.34545455]",MathSAT,0.42459893226623535,unsat,"['MathSAT', 'Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'CVC4']",[0.42459893226623535]
+./data/BV/020.smt2,"[ 8.08459214  3.12331765  0.          0.          0.          0.
+  0.          0.         52.85925917  0.          0.        ]",CVC4,51.12105107307434,unsat,"['Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES', 'MathSAT', 'Z3']","[50, 0, 1.1210510730743408]"
+./data/BV/intersection-example-simple.proof-node684306.smt2,"[0.67469879 1.2067258  1.34939759 0.         0.         0.
+ 0.         0.         0.         0.         1.34939759]",MathSAT,0.4180760383605957,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'Z3', 'Bitwuzla', 'YICES']",[0.4180760383605957]
+./data/BV/intersection-example-simple.proof-node100190.smt2,"[0.67567568 0.93882085 1.27679697 0.         0.         0.
+ 0.         0.         0.         0.         1.27679697]",MathSAT,0.42670392990112305,unsat,"['MathSAT', 'Z3', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR']",[0.42670392990112305]
+./data/BV/intersection-example-simple.proof-node425551.smt2,"[0.67664671 1.20595052 1.34565967 0.         0.         0.
+ 0.         0.         0.         0.         1.34565967]",MathSAT,0.42633891105651855,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'YICES', 'Z3', 'Bitwuzla']",[0.42633891105651855]
+./data/BV/intersection-example-simple.proof-node681947.smt2,"[0.67761194 0.97461493 1.34361371 0.         0.         0.
+ 0.         0.         0.         0.         1.34361371]",MathSAT,0.4400961399078369,unsat,"['MathSAT', 'YICES', 'CVC4', 'Z3', 'Bitwuzla', 'BOOLECTOR']",[0.4400961399078369]
+./data/BV/nested9_true-unreach-call.i_447.smt2,"[2.69026548 0.34210385 0.21288515 0.         0.         0.
+ 0.         0.         0.         0.         0.21288515]",MathSAT,0.44346117973327637,unsat,"['MathSAT', 'CVC4', 'YICES', 'Z3', 'Bitwuzla', 'BOOLECTOR']",[0.44346117973327637]
+./data/BV/intersection-example-simple.proof-node497953.smt2,"[0.67352941 1.24489687 1.34622525 0.         0.         0.
+ 0.         0.         0.         0.         1.34622525]",MathSAT,0.4335808753967285,unsat,"['MathSAT', 'CVC4', 'BOOLECTOR', 'Z3', 'Bitwuzla', 'YICES']",[0.4335808753967285]
+./data/BV/intersection-example-simple.proof-node712749.smt2,"[0.6744868  1.04939254 1.34420178 0.         0.         0.
+ 0.         0.         0.         0.         1.34420178]",MathSAT,0.4184889793395996,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'CVC4']",[0.4184889793395996]
+./data/BV/check_bvult_bvand_4bit.smt2,"[0.6754386  0.14696994 0.14202275 0.         0.         0.
+ 0.         0.         0.         0.         0.14202275]",Bitwuzla,0.7222728729248047,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'Z3', 'BOOLECTOR', 'YICES']","[0.3880770206451416, 0.3341958522796631]"
+./data/BV/jain_2_true-unreach-call_true-no-overflow_false-termination.i_9.smt2,"[2.0173913  0.47873016 0.14254992 0.         0.         0.
+ 0.         0.         0.         0.         0.14254992]",YICES,60.40006399154663,timeout (57.0 s),"['MathSAT', 'BOOLECTOR', 'Bitwuzla', 'Z3', 'CVC4', 'YICES']","[0.40006399154663086, 0, 1, 1, 1, 57]"
+./data/BV/intersection-example-simple.proof-node389397.smt2,"[0.6734104  1.01875362 1.3521686  0.         0.         0.
+ 0.         0.         0.         0.         1.3521686 ]",MathSAT,0.43906116485595703,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'Z3', 'YICES', 'BOOLECTOR']",[0.43906116485595703]
+./data/BV/intersection-example-simple.proof-node613970.smt2,"[0.67435158 1.27500393 1.35013665 0.         0.         0.
+ 0.         0.         0.         0.         1.35013665]",MathSAT,0.42597293853759766,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'Z3', 'YICES', 'Bitwuzla']",[0.42597293853759766]
+./data/BV/check_bvsle_bvadd_32bit.smt2,"[0.67528736 0.13535449 0.14264036 0.         0.         0.
+ 0.         0.         0.         0.         0.14264036]",MathSAT,0.42328691482543945,unsat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4']",[0.42328691482543945]
+./data/BV/intersection-example-simple.proof-node172099.smt2,"[0.67621776 0.99671516 1.35304768 0.         0.         0.
+ 0.         0.         0.         0.         1.35304768]",MathSAT,0.4337189197540283,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'CVC4', 'Z3', 'Bitwuzla']",[0.4337189197540283]
+./data/BV/intersection-example-simple.proof-node462599.smt2,"[0.67714286 1.02123352 1.3510351  0.         0.         0.
+ 0.         0.         0.         0.         1.3510351 ]",MathSAT,0.4101090431213379,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'Z3', 'BOOLECTOR']",[0.4101090431213379]
+./data/BV/jain_1_true-unreach-call_true-no-overflow.i_243.smt2,"[3.35211267 0.32082124 0.21402878 0.         0.         0.
+ 0.         0.         0.         0.         0.21402878]",CVC4,2.1610889434814453,unsat,"['MathSAT', 'Z3', 'CVC4', 'BOOLECTOR', 'YICES', 'Bitwuzla']","[0.421475887298584, 1, 0.7396130561828613]"
+./data/BV/intersection-example-simple.proof-node185007.smt2,"[0.67134831 1.19592468 1.28264758 0.         0.         0.
+ 0.         0.         0.         0.         1.28264758]",MathSAT,0.38686704635620117,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES', 'Z3']",[0.38686704635620117]
+./data/BV/intersection-example-simple.proof-node192767.smt2,"[0.67226891 1.02321759 1.28113879 0.         0.         0.
+ 0.         0.         0.         0.         1.28113879]",MathSAT,0.416658878326416,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'YICES', 'CVC4', 'BOOLECTOR']",[0.416658878326416]
+./data/BV/intersection-example-simple.proof-node378179.smt2,"[0.67318436 1.09674285 1.27964602 0.         0.         0.
+ 0.         0.         0.         0.         1.27964602]",MathSAT,0.4249739646911621,unsat,"['MathSAT', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'YICES', 'Z3']",[0.4249739646911621]
+./data/BV/intersection-example-simple.proof-node270758.smt2,"[0.67409471 0.98589398 1.20751394 0.         0.         0.
+ 0.         0.         0.         0.         1.20751394]",MathSAT,0.44504284858703613,unsat,"['MathSAT', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'YICES', 'Z3']",[0.44504284858703613]
+./data/BV/intersection-example-simple.proof-node230060.smt2,"[0.675      1.25568671 1.34763573 0.         0.         0.
+ 0.         0.         0.         0.         1.34763573]",MathSAT,0.44382619857788086,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'Z3', 'Bitwuzla', 'CVC4']",[0.44382619857788086]
+./data/BV/intersection-example-simple.proof-node722235.smt2,"[0.67590028 1.13196511 1.34571843 0.         0.         0.
+ 0.         0.         0.         0.         1.34571843]",MathSAT,0.4143369197845459,unsat,"['MathSAT', 'Z3', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'YICES']",[0.4143369197845459]
+./data/BV/jain_7_true-unreach-call_true-no-overflow_false-termination.i_17.smt2,"[2.01923077 0.77586207 0.21316705 0.         0.         0.
+ 0.         0.         0.         0.         0.21316705]",CVC4,10.660267114639282,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'Z3']","[0.39180803298950195, 10.26845908164978]"
+./data/BV/intersection-example-simple.proof-node163347.smt2,"[0.6739726  1.20588235 1.3481396  0.         0.         0.
+ 0.         0.         0.         0.         1.3481396 ]",MathSAT,0.4775989055633545,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'CVC4', 'YICES']",[0.4775989055633545]
+./data/BV/intersection-example-simple.proof-node416546.smt2,"[0.67486339 1.19264274 1.27575323 0.         0.         0.
+ 0.         0.         0.         0.         1.27575323]",MathSAT,0.4394040107727051,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'CVC4', 'BOOLECTOR', 'YICES']",[0.4394040107727051]
+./data/BV/intersection-example-simple.proof-node718814.smt2,"[0.67574932 1.02042435 1.27433628 0.         0.         0.
+ 0.         0.         0.         0.         1.27433628]",MathSAT,0.43918919563293457,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'YICES', 'Bitwuzla', 'CVC4']",[0.43918919563293457]
+./data/BV/intersection-example-simple.proof-node677547.smt2,"[0.67663043 1.03258294 1.34327087 0.         0.         0.
+ 0.         0.         0.         0.         1.34327087]",MathSAT,0.4289989471435547,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'YICES', 'CVC4', 'Bitwuzla']",[0.4289989471435547]
+./data/BV/intersection-example-simple.proof-node575685.smt2,"[0.67750677 1.04468807 1.27118644 0.         0.         0.
+ 0.         0.         0.         0.         1.27118644]",MathSAT,0.37169408798217773,unsat,"['MathSAT', 'Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES']",[0.37169408798217773]
+./data/BV/intersection-example-simple.proof-node610894.smt2,"[0.67837838 1.13013263 1.33998314 0.         0.         0.
+ 0.         0.         0.         0.         1.33998314]",MathSAT,0.37395215034484863,unsat,"['MathSAT', 'Z3', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'CVC4']",[0.37395215034484863]
+./data/BV/check_bvslt_bvashr0_4bit.smt2,"[0.67924528 0.20948655 0.14153328 0.         0.         0.
+ 0.         0.         0.         0.         0.14153328]",Z3,0.40087294578552246,unsat,"['MathSAT', 'Z3', 'CVC4', 'BOOLECTOR', 'YICES', 'Bitwuzla']","[0.38057398796081543, 0.02029895782470703]"
+./data/BV/intersection-example-simple.proof-node183305.smt2,"[0.68010753 1.05950526 1.27242246 0.         0.         0.
+ 0.         0.         0.         0.         1.27242246]",MathSAT,0.3972752094268799,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'CVC4', 'YICES']",[0.3972752094268799]
+./data/BV/intersection-example-simple.proof-node687803.smt2,"[0.68096515 1.01018527 1.27105922 0.         0.         0.
+ 0.         0.         0.         0.         1.27105922]",MathSAT,0.42806291580200195,unsat,"['MathSAT', 'Z3', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'CVC4']",[0.42806291580200195]
+./data/BV/intersection-example-simple.proof-node42766.smt2,"[0.68181818 0.98560247 1.26970954 0.         0.         0.
+ 0.         0.         0.         0.         1.26970954]",MathSAT,0.4329688549041748,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'Z3', 'CVC4', 'BOOLECTOR']",[0.4329688549041748]
+./data/BV/intersection-example-simple.proof-node724736.smt2,"[0.68266667 1.14511087 1.33847001 0.         0.         0.
+ 0.         0.         0.         0.         1.33847001]",MathSAT,0.4430088996887207,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'Z3', 'CVC4']",[0.4430088996887207]
+./data/BV/intersection-example-simple.proof-node735651.smt2,"[0.68351064 0.98509894 1.26670318 0.         0.         0.
+ 0.         0.         0.         0.         1.26670318]",MathSAT,0.4302341938018799,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'Z3']",[0.4302341938018799]
+./data/BV/intersection-example-simple.proof-node572319.smt2,"[0.68435013 1.07099914 1.33533097 0.         0.         0.
+ 0.         0.         0.         0.         1.33533097]",MathSAT,0.42575883865356445,unsat,"['MathSAT', 'CVC4', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'Z3']",[0.42575883865356445]
+./data/BV/intersection-example-simple.proof-node207465.smt2,"[0.68518518 1.03393214 1.26375712 0.         0.         0.
+ 0.         0.         0.         0.         1.26375712]",MathSAT,0.43721890449523926,unsat,"['MathSAT', 'YICES', 'Z3', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.43721890449523926]
+./data/BV/intersection-example-simple.proof-node694055.smt2,"[0.68601583 1.08282063 1.2624764  0.         0.         0.
+ 0.         0.         0.         0.         1.2624764 ]",MathSAT,0.4299280643463135,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'Z3']",[0.4299280643463135]
+./data/BV/nested9_true-unreach-call.i_1795.smt2,"[4.73316062 0.43160879 0.21105121 0.         0.         0.
+ 0.         0.         0.         0.         0.21105121]",Z3,1.5469391345977783,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'Z3', 'CVC4', 'Bitwuzla']","[0.4745509624481201, 0, 1, 0.0723881721496582]"
+./data/BV/intersection-example-simple.proof-node324063.smt2,"[0.67700258 1.28111336 1.33494234 0.         0.         0.
+ 0.         0.         0.         0.         1.33494234]",MathSAT,0.4330329895019531,unsat,"['MathSAT', 'YICES', 'Z3', 'BOOLECTOR', 'Bitwuzla', 'CVC4']",[0.4330329895019531]
+./data/BV/intersection-example-simple.proof-node431090.smt2,"[0.67783505 1.01006979 1.3332444  0.         0.         0.
+ 0.         0.         0.         0.         1.3332444 ]",MathSAT,0.4342060089111328,unsat,"['MathSAT', 'YICES', 'CVC4', 'Z3', 'Bitwuzla', 'BOOLECTOR']",[0.4342060089111328]
+./data/BV/intersection-example-simple.proof-node320096.smt2,"[0.67866324 1.10815727 1.33156358 0.         0.         0.
+ 0.         0.         0.         0.         1.33156358]",MathSAT,0.3927769660949707,unsat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4']",[0.3927769660949707]
+./data/BV/intersection-example-onelane.proof-node52415.smt2,"[0.67948718 0.8132236  0.84149246 0.         0.         0.
+ 0.         0.         0.         0.         0.84149246]",MathSAT,0.44481587409973145,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'Z3', 'BOOLECTOR']",[0.44481587409973145]
+./data/BV/nested9_true-unreach-call.i_1785.smt2,"[3.36708861 0.35819094 0.21099947 0.         0.         0.
+ 0.         0.         0.         0.         0.21099947]",CVC4,1.1392319202423096,sat,"['MathSAT', 'CVC4', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'YICES']","[0.4352538585662842, 0.7039780616760254]"
+./data/BV/check_bvuge_bvshl0_4bit.smt2,"[0.67424242 0.17345708 0.14112051 0.         0.         0.
+ 0.         0.         0.         0.         0.14112051]",CVC4,0.7530126571655273,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'Z3']","[0.4298398494720459, 0.32317280769348145]"
+./data/BV/intersection-example-simple.proof-node319291.smt2,"[0.67506297 1.10226905 1.26880589 0.         0.         0.
+ 0.         0.         0.         0.         1.26880589]",MathSAT,0.4234130382537842,unsat,"['MathSAT', 'YICES', 'Z3', 'Bitwuzla', 'CVC4', 'BOOLECTOR']",[0.4234130382537842]
+./data/BV/jain_7_true-unreach-call_true-no-overflow.i_277.smt2,"[1.34837093 0.42199972 0.21208936 0.         0.         0.
+ 0.         0.         0.         0.         0.21208936]",Z3,0.6240451335906982,unsat,"['MathSAT', 'Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES']","[0.585590124130249, 0.03845500946044922]"
+./data/BV/water_tank-node19175.smt2,"[0.675      0.49739787 0.28353899 0.         0.         0.
+ 0.         0.         0.         0.         0.28353899]",MathSAT,0.37470102310180664,unsat,"['MathSAT', 'Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.37470102310180664]
+./data/BV/intersection-example-simple.proof-node176032.smt2,"[0.67581047 1.0443639  1.27462765 0.         0.         0.
+ 0.         0.         0.         0.         1.27462765]",MathSAT,0.4241509437561035,unsat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4']",[0.4241509437561035]
+./data/BV/intersection-example-simple.proof-node390918.smt2,"[0.67661691 1.01942502 1.20291363 0.         0.         0.
+ 0.         0.         0.         0.         1.20291363]",MathSAT,0.4062190055847168,unsat,"['MathSAT', 'YICES', 'CVC4', 'Z3', 'BOOLECTOR', 'Bitwuzla']",[0.4062190055847168]
+./data/BV/intersection-example-simple.proof-node178787.smt2,"[0.67741935 1.05650155 1.3427388  0.         0.         0.
+ 0.         0.         0.         0.         1.3427388 ]",MathSAT,0.4419529438018799,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'CVC4']",[0.4419529438018799]
+./data/BV/intersection-example-simple.proof-node414173.smt2,"[0.67821782 1.20475046 1.34106131 0.         0.         0.
+ 0.         0.         0.         0.         1.34106131]",MathSAT,0.4414341449737549,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'Z3', 'CVC4']",[0.4414341449737549]
+./data/BV/check_bvslt_bvshl1_64bit.smt2,"[0.67901235 0.22419494 0.14160659 0.         0.         0.
+ 0.         0.         0.         0.         0.14160659]",Z3,0.8016538619995117,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'YICES']","[0.3820018768310547, 0.41965198516845703]"
+./data/BV/intersection-example-simple.proof-node113723.smt2,"[0.67980296 1.09568277 1.27319323 0.         0.         0.
+ 0.         0.         0.         0.         1.27319323]",MathSAT,0.36618804931640625,unsat,"['MathSAT', 'Z3', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR']",[0.36618804931640625]
+./data/BV/intersection-example-simple.proof-node549491.smt2,"[0.68058968 1.07050735 1.34225963 0.         0.         0.
+ 0.         0.         0.         0.         1.34225963]",MathSAT,0.38004088401794434,unsat,"['MathSAT', 'Z3', 'BOOLECTOR', 'YICES', 'CVC4', 'Bitwuzla']",[0.38004088401794434]
+./data/BV/intersection-example-simple.proof-node284606.smt2,"[0.68137255 1.21891638 1.27037319 0.         0.         0.
+ 0.         0.         0.         0.         1.27037319]",MathSAT,0.41741299629211426,unsat,"['MathSAT', 'CVC4', 'BOOLECTOR', 'Z3', 'Bitwuzla', 'YICES']",[0.41741299629211426]
+./data/BV/intersection-example-simple.proof-node104870.smt2,"[0.68215159 1.1065508  1.33931278 0.         0.         0.
+ 0.         0.         0.         0.         1.33931278]",MathSAT,0.434952974319458,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'Z3', 'Bitwuzla', 'CVC4']",[0.434952974319458]
+./data/BV/intersection-example-simple.proof-node193438.smt2,"[0.68292683 0.96989075 1.19748428 0.         0.         0.
+ 0.         0.         0.         0.         1.19748428]",MathSAT,0.43124914169311523,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR', 'Z3']",[0.43124914169311523]
+./data/BV/check_eq_bvashr0_32bit.smt2,"[0.6836983  0.29917487 0.14131255 0.         0.         0.
+ 0.         0.         0.         0.         0.14131255]",Z3,1.5528450012207031,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'Z3', 'CVC4', 'Bitwuzla']","[0.3827331066131592, 1, 0, 0.17011189460754395]"
+./data/BV/jain_7_true-unreach-call_true-no-overflow_false-termination.i_5.smt2,"[2.71807229 0.5618276  0.21256281 0.         0.         0.
+ 0.         0.         0.         0.         0.21256281]",CVC4,3.485145092010498,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'Z3']","[0.44344401359558105, 1, 1, 1.041701078414917]"
+./data/BV/check_ne_bvurem1_64bit.smt2,"[0.68028846 0.20032739 0.14213963 0.         0.         0.
+ 0.         0.         0.         0.         0.14213963]",Bitwuzla,25.227547883987427,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'Z3', 'YICES']","[0.4261319637298584, 24.80141592025757]"
+./data/BV/138.smt2,"[12.40459769 19.87672811  0.          0.          0.          0.
+  0.          0.         47.33333325  0.          0.        ]",Z3,0.6619541645050049,unsat,"['MathSAT', 'Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES']","[0.543194055557251, 0.1187601089477539]"
+./data/BV/check_bvsge_bvlshr0_32bit.smt2,"[0.65366972 0.19921056 0.14307229 0.         0.         0.
+ 0.         0.         0.         0.         0.14307229]",Z3,0.4176781177520752,unsat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4']","[0.3797290325164795, 0.0379490852355957]"
+./data/BV/intersection-example-onelane.proof-node50541.smt2,"[0.65446224 0.73892717 0.78748436 0.         0.         0.
+ 0.         0.         0.         0.         0.78748436]",MathSAT,0.39171695709228516,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'Z3', 'Bitwuzla', 'CVC4']",[0.39171695709228516]
+./data/BV/intersection-example-simple.proof-node725775.smt2,"[0.65525114 1.05540574 1.35849527 0.         0.         0.
+ 0.         0.         0.         0.         1.35849527]",MathSAT,0.44153690338134766,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR']",[0.44153690338134766]
+./data/BV/intersection-example-simple.proof-node693286.smt2,"[0.65603645 1.04352074 1.35680635 0.         0.         0.
+ 0.         0.         0.         0.         1.35680635]",MathSAT,0.3833630084991455,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'Z3', 'YICES']",[0.3833630084991455]
+./data/BV/intersection-example-simple.proof-node306260.smt2,"[0.65681818 1.02       1.28412738 0.         0.         0.
+ 0.         0.         0.         0.         1.28412738]",MathSAT,0.4297349452972412,unsat,"['MathSAT', 'Z3', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.4297349452972412]
+./data/BV/bouncing-ball-simple-node5963.smt2,"[0.65759637 0.75099134 0.42888834 0.         0.         0.
+ 0.         0.         0.         0.         0.42888834]",MathSAT,0.43003201484680176,sat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4']",[0.43003201484680176]
+./data/BV/intersection-example-simple.proof-node451459.smt2,"[0.65837104 0.92723753 1.21428571 0.         0.         0.
+ 0.         0.         0.         0.         1.21428571]",MathSAT,0.40926384925842285,unsat,"['MathSAT', 'Z3', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'CVC4']",[0.40926384925842285]
+./data/BV/intersection-example-simple.proof-node622454.smt2,"[0.65914221 0.97427239 1.28445748 0.         0.         0.
+ 0.         0.         0.         0.         1.28445748]",MathSAT,0.43205690383911133,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'YICES', 'Z3']",[0.43205690383911133]
+./data/BV/check_bvugt_bvconcat1_2_64bit.smt2,"[0.65990991 0.2236192  0.21465201 0.         0.         0.
+ 0.         0.         0.         0.         0.21465201]",CVC4,1.8542730808258057,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'YICES', 'Bitwuzla', 'Z3']","[0.4408740997314453, 0, 1.4133989810943604]"
+./data/BV/nested9_true-unreach-call.i_1379.smt2,"[3.92       0.31851376 0.21522694 0.         0.         0.
+ 0.         0.         0.         0.         0.21522694]",CVC4,0.7196781635284424,unsat,"['MathSAT', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'Z3']","[0.4328470230102539, 0.2868311405181885]"
+./data/BV/intersection-example-simple.proof-node668969.smt2,"[0.654102   1.17896251 1.29008746 0.         0.         0.
+ 0.         0.         0.         0.         1.29008746]",MathSAT,0.42513513565063477,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'YICES', 'BOOLECTOR', 'CVC4']",[0.42513513565063477]
+./data/BV/intersection-example-simple.proof-node692583.smt2,"[0.65486726 1.04910199 1.36009674 0.         0.         0.
+ 0.         0.         0.         0.         1.36009674]",MathSAT,0.39679884910583496,unsat,"['MathSAT', 'CVC4', 'YICES', 'Z3', 'Bitwuzla', 'BOOLECTOR']",[0.39679884910583496]
+./data/BV/check_bvuge_bvconcat0_32_32bit.smt2,"[0.65562914 0.20093123 0.21532141 0.         0.         0.
+ 0.         0.         0.         0.         0.21532141]",Bitwuzla,0.7117569446563721,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'YICES', 'CVC4']","[0.37876391410827637, 0.3329930305480957]"
+./data/BV/intersection-example-simple.proof-node694585.smt2,"[0.65638766 1.19299219 1.36203993 0.         0.         0.
+ 0.         0.         0.         0.         1.36203993]",MathSAT,0.4334750175476074,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4', 'Z3']",[0.4334750175476074]
+./data/BV/jain_7_true-unreach-call_true-no-overflow.i_306.smt2,"[3.9        0.83909091 0.35920231 0.         0.         0.
+ 0.         0.         0.         0.         0.35920231]",CVC4,8.319889068603516,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'Z3']","[0.5276379585266113, 1, 1, 0, 5.792251110076904]"
+./data/BV/check_bvsge_bvudiv0_64bit.smt2,"[0.65075922 0.29615005 0.14409222 0.         0.         0.
+ 0.         0.         0.         0.         0.14409222]",Z3,60.43100905418396,timeout (57.0 s),"['MathSAT', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'Z3']","[0.43100905418395996, 1, 1, 0, 1, 57]"
+./data/BV/check_bvsgt_bvlshr1_4bit.smt2,"[0.65151515 0.23752219 0.14450312 0.         0.         0.
+ 0.         0.         0.         0.         0.14450312]",Bitwuzla,0.7060551643371582,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR', 'Z3']","[0.43409299850463867, 0.27196216583251953]"
+./data/BV/check_bvule_bvlshr0_32bit.smt2,"[0.65226782 0.13101436 0.14491363 0.         0.         0.
+ 0.         0.         0.         0.         0.14491363]",MathSAT,0.3746521472930908,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'YICES', 'CVC4']",[0.3746521472930908]
+./data/BV/magnetic_field-node88936.smt2,"[0.65301724 0.90547342 0.94211911 0.         0.         0.
+ 0.         0.         0.         0.         0.94211911]",MathSAT,0.36673617362976074,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'Z3']",[0.36673617362976074]
+./data/BV/intersection-example-simple.proof-node483838.smt2,"[0.65376344 1.01265823 1.30316742 0.         0.         0.
+ 0.         0.         0.         0.         1.30316742]",MathSAT,0.3913881778717041,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR']",[0.3913881778717041]
+./data/BV/intersection-example-simple.proof-node341929.smt2,"[0.65450644 1.20247482 1.30187337 0.         0.         0.
+ 0.         0.         0.         0.         1.30187337]",MathSAT,0.43840694427490234,unsat,"['MathSAT', 'CVC4', 'Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR']",[0.43840694427490234]
+./data/BV/sum02_true-unreach-call_true-no-overflow.i_415.smt2,"[5.79789473 0.65555253 0.36238749 0.         0.         0.
+ 0.         0.         0.         0.         0.36238749]",CVC4,15.290936708450317,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'CVC4', 'Bitwuzla', 'YICES']","[0.4213109016418457, 0, 1, 13.869625806808472]"
+./data/BV/check_bvslt_bvudiv0_32bit.smt2,"[0.64495798 0.2628527  0.14535985 0.         0.         0.
+ 0.         0.         0.         0.         0.14535985]",Bitwuzla,3.5532398223876953,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'CVC4', 'BOOLECTOR', 'YICES']","[0.41350388526916504, 3.1397359371185303]"
+./data/BV/intersection-example-simple.proof-node476004.smt2,"[0.64570231 0.94405215 1.23461448 0.         0.         0.
+ 0.         0.         0.         0.         1.23461448]",MathSAT,0.43022918701171875,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'CVC4', 'Bitwuzla', 'YICES']",[0.43022918701171875]
+./data/BV/intersection-example-simple.proof-node208621.smt2,"[0.64644351 1.00378993 1.30594036 0.         0.         0.
+ 0.         0.         0.         0.         1.30594036]",MathSAT,0.422421932220459,unsat,"['MathSAT', 'Z3', 'YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[0.422421932220459]
+./data/BV/intersection-example-simple.proof-node299301.smt2,"[0.64718163 1.09903661 1.37681159 0.         0.         0.
+ 0.         0.         0.         0.         1.37681159]",MathSAT,0.44360995292663574,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'Z3', 'Bitwuzla', 'YICES']",[0.44360995292663574]
+./data/BV/intersection-example-simple.proof-node698351.smt2,"[0.64791667 1.01536393 1.30307263 0.         0.         0.
+ 0.         0.         0.         0.         1.30307263]",MathSAT,0.42966604232788086,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'CVC4', 'Z3']",[0.42966604232788086]
+./data/BV/intersection-example-simple.proof-node463643.smt2,"[0.64864865 0.90812301 1.30180807 0.         0.         0.
+ 0.         0.         0.         0.         1.30180807]",MathSAT,0.4331190586090088,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'CVC4']",[0.4331190586090088]
+./data/BV/Primes_true-unreach-call.c_237.smt2,"[1.94008264 0.17970604 0.21751216 0.         0.         0.
+ 0.         0.         0.         0.         0.21751216]",CVC4,0.7027487754821777,unsat,"['MathSAT', 'CVC4', 'BOOLECTOR', 'Z3', 'YICES', 'Bitwuzla']","[0.4181499481201172, 0.28459882736206055]"
+./data/BV/intersection-example-simple.proof-node38887.smt2,"[0.64742268 1.12570557 1.30380623 0.         0.         0.
+ 0.         0.         0.         0.         1.30380623]",MathSAT,0.3721311092376709,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'Z3', 'Bitwuzla', 'CVC4']",[0.3721311092376709]
+./data/BV/intersection-example-simple.proof-node496547.smt2,"[0.64814815 1.07753706 1.37459807 0.         0.         0.
+ 0.         0.         0.         0.         1.37459807]",MathSAT,0.3804781436920166,unsat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4']",[0.3804781436920166]
+./data/BV/intersection-example-simple.proof-node257680.smt2,"[0.64887064 1.01761697 1.3010064  0.         0.         0.
+ 0.         0.         0.         0.         1.3010064 ]",MathSAT,0.3918328285217285,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'CVC4', 'Z3']",[0.3918328285217285]
+./data/BV/intersection-example-simple.proof-node151933.smt2,"[0.64959016 0.99369288 1.37166932 0.         0.         0.
+ 0.         0.         0.         0.         1.37166932]",MathSAT,0.4256629943847656,unsat,"['MathSAT', 'YICES', 'CVC4', 'Bitwuzla', 'Z3', 'BOOLECTOR']",[0.4256629943847656]
+./data/BV/binary_driver-2007-10-09-node13792.smt2,"[0.65030675 0.94596528 0.9386921  0.         0.         0.
+ 0.         0.         0.         0.         0.9386921 ]",MathSAT,0.43724799156188965,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'Z3', 'BOOLECTOR']",[0.43724799156188965]
+./data/BV/intersection-example-simple.proof-node219371.smt2,"[0.65102041 1.05355601 1.29850746 0.         0.         0.
+ 0.         0.         0.         0.         1.29850746]",MathSAT,0.381633996963501,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'Z3']",[0.381633996963501]
+./data/BV/intersection-example-simple.proof-node266666.smt2,"[0.65173116 0.94596617 1.22550124 0.         0.         0.
+ 0.         0.         0.         0.         1.22550124]",MathSAT,0.4272000789642334,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'Z3', 'BOOLECTOR', 'CVC4']",[0.4272000789642334]
+./data/BV/intersection-example-simple.proof-node147055.smt2,"[0.65243902 1.17284319 1.2963877  0.         0.         0.
+ 0.         0.         0.         0.         1.2963877 ]",MathSAT,0.41838598251342773,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'YICES', 'Bitwuzla', 'Z3']",[0.41838598251342773]
+./data/BV/intersection-example-simple.proof-node468833.smt2,"[0.65314402 1.05299145 1.3668454  0.         0.         0.
+ 0.         0.         0.         0.         1.3668454 ]",MathSAT,0.4179651737213135,unsat,"['MathSAT', 'CVC4', 'Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR']",[0.4179651737213135]
+./data/BV/intersection-example-simple.proof-node123135.smt2,"[0.65384615 1.06474314 1.36529477 0.         0.         0.
+ 0.         0.         0.         0.         1.36529477]",MathSAT,0.4172937870025635,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'YICES']",[0.4172937870025635]
+./data/BV/intersection-example-simple.proof-node285375.smt2,"[0.65454545 1.18370359 1.3637572  0.         0.         0.
+ 0.         0.         0.         0.         1.3637572 ]",MathSAT,0.44258809089660645,unsat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4']",[0.44258809089660645]
+./data/BV/intersection-example-simple.proof-node95541.smt2,"[0.65524194 0.90895709 1.21937762 0.         0.         0.
+ 0.         0.         0.         0.         1.21937762]",MathSAT,0.4049849510192871,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'YICES', 'Z3', 'Bitwuzla']",[0.4049849510192871]
+./data/BV/intersection-example-simple.proof-node720106.smt2,"[0.65593561 1.06422624 1.36131868 0.         0.         0.
+ 0.         0.         0.         0.         1.36131868]",MathSAT,0.43755197525024414,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'Z3']",[0.43755197525024414]
+./data/BV/intersection-example-simple.proof-node647345.smt2,"[0.65662651 1.06401726 1.35981615 0.         0.         0.
+ 0.         0.         0.         0.         1.35981615]",MathSAT,0.4380331039428711,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'Z3']",[0.4380331039428711]
+./data/BV/intersection-example-simple.proof-node334511.smt2,"[0.65731463 1.21862024 1.35832607 0.         0.         0.
+ 0.         0.         0.         0.         1.35832607]",MathSAT,0.39731597900390625,unsat,"['MathSAT', 'BOOLECTOR', 'Bitwuzla', 'Z3', 'YICES', 'CVC4']",[0.39731597900390625]
+./data/BV/intersection-example-simple.proof-node29597.smt2,"[0.658      1.17022358 1.35684827 0.         0.         0.
+ 0.         0.         0.         0.         1.35684827]",MathSAT,0.4326629638671875,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'YICES', 'Bitwuzla', 'CVC4']",[0.4326629638671875]
+./data/BV/check_bvugt_bvconcat1_34_32bit.smt2,"[0.65868263 0.22741286 0.21475054 0.         0.         0.
+ 0.         0.         0.         0.         0.21475054]",Z3,0.4389050006866455,unsat,"['MathSAT', 'Z3', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR']","[0.3692600727081299, 0.06964492797851562]"
+./data/BV/recHanoi03_true-unreach-call_true-termination.c_278.smt2,"[1.31610338 0.38372641 0.21526122 0.         0.         0.
+ 0.         0.         0.         0.         0.21526122]",CVC4,1.4026808738708496,unsat,"['MathSAT', 'CVC4', 'Z3', 'BOOLECTOR', 'Bitwuzla', 'YICES']","[0.41655707359313965, 0.98612380027771]"
+./data/BV/nested9_true-unreach-call.i_173.smt2,"[3.26771653 0.32442997 0.21577123 0.         0.         0.
+ 0.         0.         0.         0.         0.21577123]",CVC4,2.237161874771118,unsat,"['CVC4', 'BOOLECTOR', 'MathSAT', 'YICES', 'Z3', 'Bitwuzla']",[2.237161874771118]
+./data/BV/intersection-example-simple.proof-node719419.smt2,"[0.65422397 1.24871998 1.36504854 0.         0.         0.
+ 0.         0.         0.         0.         1.36504854]",MathSAT,0.43622612953186035,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'Z3']",[0.43622612953186035]
+./data/BV/intersection-example-simple.proof-node616694.smt2,"[0.65490196 1.34338864 1.36355823 0.         0.         0.
+ 0.         0.         0.         0.         1.36355823]",MathSAT,0.5176019668579102,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'Z3', 'BOOLECTOR']",[0.5176019668579102]
+./data/BV/intersection-example-simple.proof-node216886.smt2,"[0.6555773  1.22262774 1.36208003 0.         0.         0.
+ 0.         0.         0.         0.         1.36208003]",MathSAT,0.36543703079223633,unsat,"['MathSAT', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'Z3', 'YICES']",[0.36543703079223633]
+./data/BV/intersection-example-onelane.proof-node43987.smt2,"[0.65625    0.83946035 0.860619   0.         0.         0.
+ 0.         0.         0.         0.         0.860619  ]",MathSAT,0.39145398139953613,unsat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.39145398139953613]
+./data/BV/intersection-example-simple.proof-node114380.smt2,"[0.65692008 1.06710072 1.36118197 0.         0.         0.
+ 0.         0.         0.         0.         1.36118197]",MathSAT,0.38617992401123047,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES']",[0.38617992401123047]
+./data/BV/intersection-example-simple.proof-node432325.smt2,"[0.65758755 0.97126437 1.2884371  0.         0.         0.
+ 0.         0.         0.         0.         1.2884371 ]",MathSAT,0.43791913986206055,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'Z3']",[0.43791913986206055]
+./data/BV/intersection-example-simple.proof-node124641.smt2,"[0.65825243 1.031124   1.28734177 0.         0.         0.
+ 0.         0.         0.         0.         1.28734177]",MathSAT,0.4305589199066162,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'Z3', 'YICES', 'BOOLECTOR']",[0.4305589199066162]
+./data/BV/intersection-example-simple.proof-node635507.smt2,"[0.65891473 1.10272862 1.35742803 0.         0.         0.
+ 0.         0.         0.         0.         1.35742803]",MathSAT,0.43257904052734375,unsat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.43257904052734375]
+./data/BV/intersection-example-simple.proof-node197421.smt2,"[0.65957447 0.97096355 1.28490685 0.         0.         0.
+ 0.         0.         0.         0.         1.28490685]",MathSAT,0.4506402015686035,unsat,"['MathSAT', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'Z3', 'CVC4']",[0.4506402015686035]
+./data/BV/intersection-example-simple.proof-node90501.smt2,"[0.66023166 1.15026451 1.35487907 0.         0.         0.
+ 0.         0.         0.         0.         1.35487907]",MathSAT,0.37938499450683594,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'YICES']",[0.37938499450683594]
+./data/BV/check_bvugt_bvashr0_32bit.smt2,"[0.66088632 0.15614932 0.14297624 0.         0.         0.
+ 0.         0.         0.         0.         0.14297624]",Bitwuzla,0.8582019805908203,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4', 'Z3']","[0.4324469566345215, 0.42575502395629883]"
+./data/BV/intersection-example-simple.proof-node208275.smt2,"[0.66153846 1.00893855 1.28571429 0.         0.         0.
+ 0.         0.         0.         0.         1.28571429]",MathSAT,0.4377570152282715,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'Z3', 'BOOLECTOR']",[0.4377570152282715]
+./data/BV/intersection-example-simple.proof-node545924.smt2,"[0.6621881  1.04483587 1.3557394  0.         0.         0.
+ 0.         0.         0.         0.         1.3557394 ]",MathSAT,0.43633198738098145,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'YICES', 'Z3', 'Bitwuzla']",[0.43633198738098145]
+./data/BV/intersection-example-simple.proof-node252840.smt2,"[0.66283525 0.99680666 1.2833299  0.         0.         0.
+ 0.         0.         0.         0.         1.2833299 ]",MathSAT,0.41535496711730957,unsat,"['MathSAT', 'YICES', 'Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla']",[0.41535496711730957]
+./data/BV/intersection-example-simple.proof-node257150.smt2,"[0.66347992 1.02076484 1.2822829  0.         0.         0.
+ 0.         0.         0.         0.         1.2822829 ]",MathSAT,0.4399728775024414,unsat,"['MathSAT', 'YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'Z3']",[0.4399728775024414]
+./data/BV/intersection-example-simple.proof-node597152.smt2,"[0.66412214 1.03267658 1.28124361 0.         0.         0.
+ 0.         0.         0.         0.         1.28124361]",MathSAT,0.4396810531616211,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'Z3', 'YICES', 'BOOLECTOR']",[0.4396810531616211]
+./data/BV/intersection-example-simple.proof-node217655.smt2,"[0.6647619  1.18813618 1.35105949 0.         0.         0.
+ 0.         0.         0.         0.         1.35105949]",MathSAT,0.42458295822143555,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'Z3', 'BOOLECTOR', 'YICES']",[0.42458295822143555]
+./data/BV/intersection-example-simple.proof-node691225.smt2,"[0.66539924 0.97218888 1.3497057  0.         0.         0.
+ 0.         0.         0.         0.         1.3497057 ]",MathSAT,0.3912389278411865,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'CVC4', 'Z3', 'BOOLECTOR']",[0.3912389278411865]
+./data/BV/intersection-example-onelane.proof-node5581.smt2,"[0.66603416 0.90043098 0.85280421 0.         0.         0.
+ 0.         0.         0.         0.         0.85280421]",MathSAT,0.4400370121002197,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'Z3', 'BOOLECTOR', 'YICES']",[0.4400370121002197]
+./data/BV/intersection-example-simple.proof-node303784.smt2,"[0.66666667 1.05633611 1.34893102 0.         0.         0.
+ 0.         0.         0.         0.         1.34893102]",MathSAT,0.4261951446533203,unsat,"['MathSAT', 'CVC4', 'BOOLECTOR', 'YICES', 'Z3', 'Bitwuzla']",[0.4261951446533203]
+./data/BV/intersection-example-simple.proof-node144202.smt2,"[0.66729679 1.0202659  1.27692926 0.         0.         0.
+ 0.         0.         0.         0.         1.27692926]",MathSAT,0.4454050064086914,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'Z3', 'CVC4', 'BOOLECTOR']",[0.4454050064086914]
+./data/BV/intersection-example-simple.proof-node589535.smt2,"[0.66792453 1.1637633  1.27593112 0.         0.         0.
+ 0.         0.         0.         0.         1.27593112]",MathSAT,0.4408237934112549,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR']",[0.4408237934112549]
+./data/BV/intersection-example-simple.proof-node560967.smt2,"[0.66854991 1.0077729  1.3455017  0.         0.         0.
+ 0.         0.         0.         0.         1.3455017 ]",MathSAT,0.436816930770874,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'Z3', 'CVC4']",[0.436816930770874]
+./data/BV/intersection-example-simple.proof-node611979.smt2,"[0.66917293 1.25879778 1.34419714 0.         0.         0.
+ 0.         0.         0.         0.         1.34419714]",MathSAT,0.4329068660736084,unsat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.4329068660736084]
+./data/BV/check_bvugt_bvudiv0_4bit.smt2,"[0.66979362 0.2042609  0.14183552 0.         0.         0.
+ 0.         0.         0.         0.         0.14183552]",YICES,0.6482059955596924,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'Z3', 'CVC4', 'Bitwuzla']","[0.42218995094299316, 0.22601604461669922]"
+./data/BV/intersection-example-onelane.proof-node24127.smt2,"[0.67041198 0.76947877 0.85136742 0.         0.         0.
+ 0.         0.         0.         0.         0.85136742]",MathSAT,0.43764805793762207,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'CVC4', 'BOOLECTOR', 'YICES']",[0.43764805793762207]
+./data/BV/intersection-example-simple.proof-node251602.smt2,"[0.67102804 0.98593342 1.20541181 0.         0.         0.
+ 0.         0.         0.         0.         1.20541181]",MathSAT,0.47579193115234375,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'Z3', 'CVC4', 'Bitwuzla']",[0.47579193115234375]
+./data/BV/intersection-example-simple.proof-node153837.smt2,"[0.67164179 0.99796266 1.2753395  0.         0.         0.
+ 0.         0.         0.         0.         1.2753395 ]",MathSAT,0.44284820556640625,unsat,"['MathSAT', 'CVC4', 'Z3', 'BOOLECTOR', 'YICES', 'Bitwuzla']",[0.44284820556640625]
+./data/BV/intersection-example-simple.proof-node171228.smt2,"[0.67225326 0.96199327 1.20380541 0.         0.         0.
+ 0.         0.         0.         0.         1.20380541]",MathSAT,0.423969030380249,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'YICES']",[0.423969030380249]
+./data/BV/intersection-example-simple.proof-node262426.smt2,"[0.67286245 1.17786115 1.34414696 0.         0.         0.
+ 0.         0.         0.         0.         1.34414696]",MathSAT,0.3817939758300781,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'YICES']",[0.3817939758300781]
+./data/BV/intersection-example-simple.proof-node172886.smt2,"[0.67346939 0.96162125 1.27244401 0.         0.         0.
+ 0.         0.         0.         0.         1.27244401]",MathSAT,0.4454169273376465,unsat,"['MathSAT', 'Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.4454169273376465]
+./data/BV/intersection-example-simple.proof-node556608.smt2,"[0.67407407 1.21333333 1.34187039 0.         0.         0.
+ 0.         0.         0.         0.         1.34187039]",MathSAT,0.4373641014099121,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'Bitwuzla', 'YICES', 'CVC4']",[0.4373641014099121]
+./data/BV/intersection-example-simple.proof-node691028.smt2,"[0.67467652 1.02106302 1.27030162 0.         0.         0.
+ 0.         0.         0.         0.         1.27030162]",MathSAT,0.43616223335266113,unsat,"['MathSAT', 'YICES', 'CVC4', 'Bitwuzla', 'Z3', 'BOOLECTOR']",[0.43616223335266113]
+./data/BV/148.smt2,"[ 6.64246824  3.06970824  0.          0.          0.          0.
+  0.          0.         29.1136363   0.          0.        ]",CVC4,1.9205310344696045,unsat,"['CVC4', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'Z3']",[1.9205310344696045]
+./data/BV/intersection-example-simple.proof-node41086.smt2,"[0.66485507 1.13430068 1.27283237 0.         0.         0.
+ 0.         0.         0.         0.         1.27283237]",MathSAT,0.43988704681396484,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'Bitwuzla', 'YICES', 'CVC4']",[0.43988704681396484]
+./data/BV/intersection-example-onelane.proof-node42701.smt2,"[0.66546112 0.86000844 0.84890427 0.         0.         0.
+ 0.         0.         0.         0.         0.84890427]",MathSAT,0.42322206497192383,unsat,"['MathSAT', 'CVC4', 'YICES', 'Z3', 'BOOLECTOR', 'Bitwuzla']",[0.42322206497192383]
+./data/BV/intersection-example-simple.proof-node282085.smt2,"[0.66606498 0.99142173 1.27241379 0.         0.         0.
+ 0.         0.         0.         0.         1.27241379]",MathSAT,0.4300727844238281,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'CVC4']",[0.4300727844238281]
+./data/BV/intersection-example-simple.proof-node360762.smt2,"[0.66666667 1.19385648 1.27147766 0.         0.         0.
+ 0.         0.         0.         0.         1.27147766]",MathSAT,0.43852806091308594,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'CVC4', 'YICES', 'Bitwuzla']",[0.43852806091308594]
+./data/BV/check_bvugt_bvneg_32bit.smt2,"[0.66726619 0.14359437 0.07081504 0.         0.         0.
+ 0.         0.         0.         0.         0.07081504]",CVC4,0.7502098083496094,unsat,"['MathSAT', 'CVC4', 'BOOLECTOR', 'YICES', 'Z3', 'Bitwuzla']","[0.42891693115234375, 0.3212928771972656]"
+./data/BV/intersection-example-simple.proof-node471682.smt2,"[0.66786355 1.02901254 1.27373026 0.         0.         0.
+ 0.         0.         0.         0.         1.27373026]",MathSAT,0.43916797637939453,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'YICES']",[0.43916797637939453]
+./data/BV/intersection-example-simple.proof-node657363.smt2,"[0.66845878 1.18397512 1.27279621 0.         0.         0.
+ 0.         0.         0.         0.         1.27279621]",MathSAT,0.3971710205078125,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'YICES', 'Bitwuzla', 'Z3']",[0.3971710205078125]
+./data/BV/intersection-example-simple.proof-node607765.smt2,"[0.66905188 1.09996483 1.34227427 0.         0.         0.
+ 0.         0.         0.         0.         1.34227427]",MathSAT,0.3725850582122803,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'CVC4', 'Z3']",[0.3725850582122803]
+./data/BV/check_bvsgt_bvshl1_32bit.smt2,"[0.66964286 1.68273821 0.14161631 0.         0.         0.
+ 0.         0.         0.         0.         0.14161631]",CVC4,6.241789102554321,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'Z3', 'YICES', 'Bitwuzla']","[0.44138407707214355, 0, 5.800405025482178]"
+./data/BV/intersection-example-simple.proof-node83695.smt2,"[0.67023173 0.97866938 1.34412041 0.         0.         0.
+ 0.         0.         0.         0.         1.34412041]",MathSAT,0.4357118606567383,unsat,"['MathSAT', 'YICES', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'Z3']",[0.4357118606567383]
+./data/BV/NUM918=1.smt2,"[0.6708185  0.09570957 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",MathSAT,0.3926379680633545,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'YICES', 'CVC4', 'BOOLECTOR']",[0.3926379680633545]
+./data/BV/intersection-example-simple.proof-node734291.smt2,"[0.6714032  1.18382841 1.34645669 0.         0.         0.
+ 0.         0.         0.         0.         1.34645669]",MathSAT,0.3874340057373047,unsat,"['MathSAT', 'YICES', 'CVC4', 'Bitwuzla', 'Z3', 'BOOLECTOR']",[0.3874340057373047]
+./data/BV/intersection-example-simple.proof-node55278.smt2,"[0.67198582 0.93287892 1.204074   0.         0.         0.
+ 0.         0.         0.         0.         1.204074  ]",MathSAT,0.43418383598327637,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'Z3']",[0.43418383598327637]
+./data/BV/check_bvult_bvor_4bit.smt2,"[0.67256637 0.1318612  0.14197646 0.         0.         0.
+ 0.         0.         0.         0.         0.14197646]",Bitwuzla,0.7248880863189697,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'Z3', 'CVC4', 'BOOLECTOR']","[0.440000057220459, 0.28488802909851074]"
+./data/BV/intersection-example-simple.proof-node259497.smt2,"[0.67314488 1.15033338 1.2768572  0.         0.         0.
+ 0.         0.         0.         0.         1.2768572 ]",MathSAT,0.4349708557128906,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'Z3']",[0.4349708557128906]
+./data/BV/check_bvult_bvurem0_32bit.smt2,"[0.67372134 0.16812323 0.14219244 0.         0.         0.
+ 0.         0.         0.         0.         0.14219244]",Bitwuzla,2.1586389541625977,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'YICES', 'CVC4', 'BOOLECTOR']","[0.42072200775146484, 1.7379169464111328]"
+./data/BV/intersection-example-simple.proof-node403377.smt2,"[0.67429577 0.90089384 1.278798   0.         0.         0.
+ 0.         0.         0.         0.         1.278798  ]",MathSAT,0.44280004501342773,unsat,"['MathSAT', 'CVC4', 'Z3', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.44280004501342773]
+./data/BV/water_tank-node10186.smt2,"[0.67486819 0.48112764 0.28470806 0.         0.         0.
+ 0.         0.         0.         0.         0.28470806]",MathSAT,0.44310998916625977,unsat,"['MathSAT', 'Z3', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'CVC4']",[0.44310998916625977]
+./data/BV/intersection-example-simple.proof-node171574.smt2,"[0.6754386  0.96234963 1.35112671 0.         0.         0.
+ 0.         0.         0.         0.         1.35112671]",MathSAT,0.4218251705169678,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'CVC4', 'YICES']",[0.4218251705169678]
+./data/BV/intersection-example-simple.proof-node734000.smt2,"[0.676007   0.96244351 1.34989877 0.         0.         0.
+ 0.         0.         0.         0.         1.34989877]",MathSAT,0.4363069534301758,unsat,"['MathSAT', 'CVC4', 'Z3', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.4363069534301758]
+./data/BV/069.smt2,"[11.82682512  4.60047427  0.          0.          0.          0.
+  0.          0.         59.53846143  0.          0.        ]",CVC4,3.146559953689575,sat,"['CVC4', 'Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'MathSAT']",[3.146559953689575]
+./data/BV/check_bvuge_bvmul_64bit.smt2,"[0.65762712 0.16721564 0.14277829 0.         0.         0.
+ 0.         0.         0.         0.         0.14277829]",YICES,60.444000005722046,timeout (57.0 s),"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'Z3', 'YICES']","[0.4440000057220459, 1, 0, 1, 1, 57]"
+./data/BV/intersection-example-simple.proof-node400516.smt2,"[0.65820643 1.26519591 1.35515218 0.         0.         0.
+ 0.         0.         0.         0.         1.35515218]",MathSAT,0.446260929107666,unsat,"['MathSAT', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'CVC4', 'Z3']",[0.446260929107666]
+./data/BV/intersection-example-simple.proof-node391949.smt2,"[0.65878378 1.00260138 1.28289474 0.         0.         0.
+ 0.         0.         0.         0.         1.28289474]",MathSAT,0.4292268753051758,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'CVC4', 'YICES']",[0.4292268753051758]
+./data/BV/jain_2_true-unreach-call_true-no-overflow.i_225.smt2,"[1.31649832 0.45419252 0.14285714 0.         0.         0.
+ 0.         0.         0.         0.         0.14285714]",CVC4,6.2595531940460205,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'Z3']","[0.4258730411529541, 1, 0, 1, 3.8336801528930664]"
+./data/BV/intersection-example-simple.proof-node398432.smt2,"[0.65882353 0.98014941 1.28477786 0.         0.         0.
+ 0.         0.         0.         0.         1.28477786]",MathSAT,0.42793703079223633,unsat,"['MathSAT', 'Z3', 'YICES', 'CVC4', 'BOOLECTOR', 'Bitwuzla']",[0.42793703079223633]
+./data/BV/intersection-example-simple.proof-node553061.smt2,"[0.65939597 1.02788845 1.35492651 0.         0.         0.
+ 0.         0.         0.         0.         1.35492651]",MathSAT,0.4216010570526123,unsat,"['MathSAT', 'CVC4', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.4216010570526123]
+./data/BV/intersection-example-simple.proof-node622752.smt2,"[0.6599665  0.99205194 1.28269126 0.         0.         0.
+ 0.         0.         0.         0.         1.28269126]",MathSAT,0.44295310974121094,unsat,"['MathSAT', 'Z3', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'YICES']",[0.44295310974121094]
+./data/BV/intersection-example-simple.proof-node535942.smt2,"[0.66053512 1.01591576 1.28177393 0.         0.         0.
+ 0.         0.         0.         0.         1.28177393]",MathSAT,0.44225287437438965,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'Z3', 'BOOLECTOR', 'CVC4']",[0.44225287437438965]
+./data/BV/intersection-example-simple.proof-node218096.smt2,"[0.66110184 1.01587493 1.28086253 0.         0.         0.
+ 0.         0.         0.         0.         1.28086253]",MathSAT,0.3841218948364258,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'Z3', 'CVC4', 'BOOLECTOR']",[0.3841218948364258]
+./data/BV/intersection-example-simple.proof-node172211.smt2,"[0.66166667 0.96814692 1.27995701 0.         0.         0.
+ 0.         0.         0.         0.         1.27995701]",MathSAT,0.43388795852661133,unsat,"['MathSAT', 'CVC4', 'YICES', 'Z3', 'Bitwuzla', 'BOOLECTOR']",[0.43388795852661133]
+./data/BV/intersection-example-simple.proof-node99416.smt2,"[0.66222962 0.90859391 1.27905731 0.         0.         0.
+ 0.         0.         0.         0.         1.27905731]",MathSAT,0.4284660816192627,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'Z3']",[0.4284660816192627]
+./data/BV/intersection-example-simple.proof-node47263.smt2,"[0.6627907  0.98037336 1.27816337 0.         0.         0.
+ 0.         0.         0.         0.         1.27816337]",MathSAT,0.4408411979675293,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'Z3', 'CVC4', 'BOOLECTOR']",[0.4408411979675293]
+./data/BV/intersection-example-simple.proof-node237397.smt2,"[0.66334992 1.18307839 1.34799574 0.         0.         0.
+ 0.         0.         0.         0.         1.34799574]",MathSAT,0.39182496070861816,unsat,"['MathSAT', 'Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES']",[0.39182496070861816]
+./data/BV/check_bvult_bvnot_4bit.smt2,"[0.66390728 0.13173849 0.0711119  0.         0.         0.
+ 0.         0.         0.         0.         0.0711119 ]",YICES,0.7753448486328125,unsat,"['MathSAT', 'YICES', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'Z3']","[0.4759349822998047, 0.2994098663330078]"
+./data/BV/intersection-example-simple.proof-node580706.smt2,"[0.66446281 1.22090219 1.34994698 0.         0.         0.
+ 0.         0.         0.         0.         1.34994698]",MathSAT,0.42102909088134766,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR', 'Z3']",[0.42102909088134766]
+./data/BV/intersection-example-simple.proof-node366448.smt2,"[0.6650165  0.99349531 1.34877576 0.         0.         0.
+ 0.         0.         0.         0.         1.34877576]",MathSAT,0.40517711639404297,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'CVC4', 'Bitwuzla', 'Z3']",[0.40517711639404297]
+./data/BV/nested9_true-unreach-call.i_573.smt2,"[2.64918033 0.23984802 0.21338028 0.         0.         0.
+ 0.         0.         0.         0.         0.21338028]",CVC4,0.2906360626220703,unsat,"['CVC4', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'Z3', 'YICES']",[0.2906360626220703]
+./data/BV/dccs-example-node6708-new.smt2,"[0.66284779 0.92358952 0.64071014 0.         0.         0.
+ 0.         0.         0.         0.         0.64071014]",MathSAT,0.3770599365234375,sat,"['MathSAT', 'YICES', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'Z3']",[0.3770599365234375]
+./data/BV/intersection-example-simple.proof-node357452.smt2,"[0.66339869 1.1988779  1.28053268 0.         0.         0.
+ 0.         0.         0.         0.         1.28053268]",MathSAT,0.4176139831542969,unsat,"['MathSAT', 'Z3', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'YICES']",[0.4176139831542969]
+./data/BV/intersection-example-simple.proof-node160241.smt2,"[0.6639478  1.01899853 1.27965065 0.         0.         0.
+ 0.         0.         0.         0.         1.27965065]",MathSAT,0.37883710861206055,unsat,"['MathSAT', 'Z3', 'YICES', 'CVC4', 'BOOLECTOR', 'Bitwuzla']",[0.37883710861206055]
+./data/BV/intersection-example-simple.proof-node703350.smt2,"[0.66449511 1.21018472 1.34958217 0.         0.         0.
+ 0.         0.         0.         0.         1.34958217]",MathSAT,0.38770508766174316,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'Z3', 'YICES']",[0.38770508766174316]
+./data/BV/intersection-example-simple.proof-node405951.smt2,"[0.66504065 0.91083306 1.27768136 0.         0.         0.
+ 0.         0.         0.         0.         1.27768136]",MathSAT,0.43227100372314453,unsat,"['MathSAT', 'YICES', 'Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[0.43227100372314453]
+./data/BV/intersection-example-simple.proof-node451958.smt2,"[0.66558442 0.97082554 1.27681661 0.         0.         0.
+ 0.         0.         0.         0.         1.27681661]",MathSAT,0.433042049407959,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'YICES']",[0.433042049407959]
+./data/BV/intersection-example-simple.proof-node151408.smt2,"[0.66612642 0.99480913 1.34661148 0.         0.         0.
+ 0.         0.         0.         0.         1.34661148]",MathSAT,0.41551804542541504,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR', 'Z3']",[0.41551804542541504]
+./data/BV/intersection-example-simple.proof-node192563.smt2,"[0.66666667 0.95894795 1.2042641  0.         0.         0.
+ 0.         0.         0.         0.         1.2042641 ]",MathSAT,0.42649316787719727,unsat,"['MathSAT', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'YICES', 'Z3']",[0.42649316787719727]
+./data/BV/check_ne_bvconcat0_64_64bit.smt2,"[0.66720517 0.15614821 0.21292318 0.         0.         0.
+ 0.         0.         0.         0.         0.21292318]",MathSAT,0.43508291244506836,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4', 'Z3']",[0.43508291244506836]
+./data/BV/intersection-example-simple.proof-node737898.smt2,"[0.66774194 1.03289817 1.27668323 0.         0.         0.
+ 0.         0.         0.         0.         1.27668323]",MathSAT,0.438568115234375,unsat,"['MathSAT', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'CVC4', 'Z3']",[0.438568115234375]
+./data/BV/intersection-example-simple.proof-node176144.smt2,"[0.66827697 0.99687437 1.20515887 0.         0.         0.
+ 0.         0.         0.         0.         1.20515887]",MathSAT,0.4304509162902832,unsat,"['MathSAT', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'Z3', 'YICES']",[0.4304509162902832]
+./data/BV/intersection-example-simple.proof-node601673.smt2,"[0.66881029 0.96093321 1.20456481 0.         0.         0.
+ 0.         0.         0.         0.         1.20456481]",MathSAT,0.4217960834503174,unsat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.4217960834503174]
+./data/BV/intersection-example-simple.proof-node654856.smt2,"[0.66934189 1.22452857 1.34516129 0.         0.         0.
+ 0.         0.         0.         0.         1.34516129]",MathSAT,0.3761899471282959,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'Z3', 'YICES']",[0.3761899471282959]
+./data/BV/intersection-example-simple.proof-node435555.smt2,"[0.66987179 1.17601125 1.34405145 0.         0.         0.
+ 0.         0.         0.         0.         1.34405145]",MathSAT,0.3745110034942627,unsat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.3745110034942627]
+./data/BV/intersection-example-simple.proof-node13906.smt2,"[0.6704     0.96010082 1.27248186 0.         0.         0.
+ 0.         0.         0.         0.         1.27248186]",MathSAT,0.4249289035797119,unsat,"['MathSAT', 'Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[0.4249289035797119]
+./data/BV/intersection-example-simple.proof-node2545.smt2,"[0.67092652 0.98414059 1.34207871 0.         0.         0.
+ 0.         0.         0.         0.         1.34207871]",MathSAT,0.4262111186981201,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'Z3']",[0.4262111186981201]
+./data/BV/intersection-example-simple.proof-node404749.smt2,"[0.67145136 0.98417767 1.3409891  0.         0.         0.
+ 0.         0.         0.         0.         1.3409891 ]",MathSAT,0.4291110038757324,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES']",[0.4291110038757324]
+./data/BV/jain_2_true-unreach-call_true-no-overflow.i_464.smt2,"[1.3418124  0.64865788 0.14144461 0.         0.         0.
+ 0.         0.         0.         0.         0.14144461]",CVC4,9.743571043014526,unsat,"['MathSAT', 'Z3', 'BOOLECTOR', 'CVC4', 'YICES', 'Bitwuzla']","[0.43930792808532715, 1, 0, 8.3042631149292]"
+./data/BV/intersection-example-onelane.proof-node6814.smt2,"[0.67142857 0.69720651 0.8489714  0.         0.         0.
+ 0.         0.         0.         0.         0.8489714 ]",MathSAT,0.4228689670562744,unsat,"['MathSAT', 'YICES', 'CVC4', 'Bitwuzla', 'Z3', 'BOOLECTOR']",[0.4228689670562744]
+./data/BV/intersection-example-simple.proof-node173902.smt2,"[0.67194929 0.96175111 1.27263632 0.         0.         0.
+ 0.         0.         0.         0.         1.27263632]",MathSAT,0.44304919242858887,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'Z3', 'CVC4']",[0.44304919242858887]
+./data/BV/intersection-example-simple.proof-node44189.smt2,"[0.67246835 0.96183768 1.27182045 0.         0.         0.
+ 0.         0.         0.         0.         1.27182045]",MathSAT,0.43750810623168945,unsat,"['MathSAT', 'CVC4', 'BOOLECTOR', 'Z3', 'YICES', 'Bitwuzla']",[0.43750810623168945]
+./data/BV/intersection-example-simple.proof-node673088.smt2,"[0.67298578 0.99791149 1.20059682 0.         0.         0.
+ 0.         0.         0.         0.         1.20059682]",MathSAT,0.4296538829803467,unsat,"['MathSAT', 'CVC4', 'Z3', 'BOOLECTOR', 'YICES', 'Bitwuzla']",[0.4296538829803467]
+./data/BV/intersection-example-simple.proof-node314181.smt2,"[0.67350158 1.26164279 1.34077012 0.         0.         0.
+ 0.         0.         0.         0.         1.34077012]",MathSAT,0.38092517852783203,unsat,"['MathSAT', 'CVC4', 'Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[0.38092517852783203]
+./data/BV/intersection-example-simple.proof-node621676.smt2,"[0.67401575 1.02127898 1.26940188 0.         0.         0.
+ 0.         0.         0.         0.         1.26940188]",MathSAT,0.41782093048095703,unsat,"['MathSAT', 'Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'CVC4']",[0.41782093048095703]
+./data/BV/binary_driver-2007-10-09-node14896.smt2,"[0.6745283  0.82936875 0.98734177 0.         0.         0.
+ 0.         0.         0.         0.         0.98734177]",MathSAT,0.4273719787597656,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'Z3', 'YICES', 'BOOLECTOR']",[0.4273719787597656]
+./data/BV/intersection-example-simple.proof-node254500.smt2,"[0.67503925 0.99765193 1.26864448 0.         0.         0.
+ 0.         0.         0.         0.         1.26864448]",MathSAT,0.39766383171081543,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'YICES', 'BOOLECTOR', 'CVC4']",[0.39766383171081543]
+./data/BV/check_bvule_bvlshr0_64bit.smt2,"[0.67554859 0.13248568 0.14124201 0.         0.         0.
+ 0.         0.         0.         0.         0.14124201]",MathSAT,0.44301891326904297,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'YICES', 'Z3']",[0.44301891326904297]
+./data/BV/ETCS-d-braking-node1346.smt2,"[0.67605634 0.66294643 0.35363458 0.         0.         0.
+ 0.         0.         0.         0.         0.35363458]",MathSAT,0.4374198913574219,sat,"['MathSAT', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'Z3']",[0.4374198913574219]
+./data/BV/intersection-example-simple.proof-node465124.smt2,"[0.6765625  0.92827909 1.34274523 0.         0.         0.
+ 0.         0.         0.         0.         1.34274523]",MathSAT,0.43284106254577637,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'CVC4', 'Z3', 'Bitwuzla']",[0.43284106254577637]
+./data/BV/intersection-example-simple.proof-node625337.smt2,"[0.67706708 1.07276565 1.34168565 0.         0.         0.
+ 0.         0.         0.         0.         1.34168565]",MathSAT,0.4498019218444824,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'YICES']",[0.4498019218444824]
+./data/BV/intersection-example-simple.proof-node106836.smt2,"[0.67757009 1.06056408 1.27027904 0.         0.         0.
+ 0.         0.         0.         0.         1.27027904]",MathSAT,0.4430980682373047,unsat,"['MathSAT', 'YICES', 'CVC4', 'Bitwuzla', 'Z3', 'BOOLECTOR']",[0.4430980682373047]
+./data/BV/intersection-example-simple.proof-node556496.smt2,"[0.67807154 1.21663213 1.33980268 0.         0.         0.
+ 0.         0.         0.         0.         1.33980268]",MathSAT,0.36277103424072266,unsat,"['MathSAT', 'YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'Z3']",[0.36277103424072266]
+./data/BV/intersection-example-simple.proof-node49561.smt2,"[0.67857143 1.18000716 1.33876169 0.         0.         0.
+ 0.         0.         0.         0.         1.33876169]",MathSAT,0.37875795364379883,unsat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.37875795364379883]
+./data/BV/bouncing-ball-inv-node6621.smt2,"[0.67906977 0.84316476 0.63468041 0.         0.         0.
+ 0.         0.         0.         0.         0.63468041]",MathSAT,0.4396979808807373,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'Bitwuzla', 'YICES', 'CVC4']",[0.4396979808807373]
+./data/BV/check_bvult_bvudiv1_4bit.smt2,"[0.67956656 0.2413215  0.14131659 0.         0.         0.
+ 0.         0.         0.         0.         0.14131659]",Z3,0.45741915702819824,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'YICES', 'CVC4', 'Bitwuzla']","[0.4378681182861328, 0, 0.01955103874206543]"
+./data/BV/check_bvslt_bvconcat0_62_4bit.smt2,"[0.68006182 0.24173832 0.21235521 0.         0.         0.
+ 0.         0.         0.         0.         0.21235521]",YICES,0.6657960414886475,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'Z3', 'CVC4', 'BOOLECTOR']","[0.43300795555114746, 0.2327880859375]"
+./data/BV/intersection-example-simple.proof-node436668.smt2,"[0.68055556 1.13581938 1.27333975 0.         0.         0.
+ 0.         0.         0.         0.         1.27333975]",MathSAT,0.43860697746276855,unsat,"['MathSAT', 'Z3', 'YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[0.43860697746276855]
+./data/BV/107.smt2,"[ 4.72366412  2.27710843  0.          0.          0.          0.
+  0.          0.         50.78297863  0.          0.        ]",CVC4,0.7307219505310059,unsat,"['CVC4', 'MathSAT', 'Bitwuzla', 'Z3', 'YICES', 'BOOLECTOR']",[0.7307219505310059]
+./data/BV/jain_2_true-unreach-call_true-no-overflow.i_435.smt2,"[1.34855403 0.54272957 0.14207826 0.         0.         0.
+ 0.         0.         0.         0.         0.14207826]",CVC4,6.977211952209473,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'YICES', 'CVC4']","[0.44105100631713867, 1, 1, 0, 1, 3.536160945892334]"
+./data/BV/check_bvuge_bvlshr0_64bit.smt2,"[0.67477204 0.15708687 0.14235332 0.         0.         0.
+ 0.         0.         0.         0.         0.14235332]",Z3,1.3439419269561768,unsat,"['MathSAT', 'BOOLECTOR', 'Z3', 'YICES', 'Bitwuzla', 'CVC4']","[0.4221470355987549, 0, 0.9217948913574219]"
+./data/BV/intersection-example-simple.proof-node689818.smt2,"[0.67526555 1.31617507 1.35128656 0.         0.         0.
+ 0.         0.         0.         0.         1.35128656]",MathSAT,0.37250781059265137,unsat,"['MathSAT', 'Z3', 'BOOLECTOR', 'CVC4', 'YICES', 'Bitwuzla']",[0.37250781059265137]
+./data/BV/intersection-example-simple.proof-node66579.smt2,"[0.67575758 1.13470647 1.27936255 0.         0.         0.
+ 0.         0.         0.         0.         1.27936255]",MathSAT,0.43851494789123535,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'CVC4']",[0.43851494789123535]
+./data/BV/recHanoi03_true-unreach-call_true-termination.c_2715.smt2,"[1.35045317 0.37473633 0.21360306 0.         0.         0.
+ 0.         0.         0.         0.         0.21360306]",Z3,0.48010921478271484,unsat,"['MathSAT', 'Z3', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR']","[0.4425690174102783, 0.03754019737243652]"
+./data/BV/check_bvsge_bvconcat0_64_64bit.smt2,"[0.67571644 0.25427714 0.21397867 0.         0.         0.
+ 0.         0.         0.         0.         0.21397867]",Bitwuzla,0.8889467716217041,unsat,"['MathSAT', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR', 'Z3']","[0.3923068046569824, 0.4966399669647217]"
+./data/BV/intersection-example-simple.proof-node131862.smt2,"[0.67620482 1.23441417 1.35412698 0.         0.         0.
+ 0.         0.         0.         0.         1.35412698]",MathSAT,0.4209630489349365,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'Z3', 'CVC4', 'BOOLECTOR']",[0.4209630489349365]
+./data/BV/intersection-example-simple.proof-node722439.smt2,"[0.67669173 1.11311268 1.35306219 0.         0.         0.
+ 0.         0.         0.         0.         1.35306219]",MathSAT,0.4199981689453125,unsat,"['MathSAT', 'CVC4', 'Z3', 'BOOLECTOR', 'YICES', 'Bitwuzla']",[0.4199981689453125]
+./data/BV/intersection-example-simple.proof-node11938.smt2,"[0.67717718 0.98006653 1.35200379 0.         0.         0.
+ 0.         0.         0.         0.         1.35200379]",MathSAT,0.37868714332580566,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'Z3']",[0.37868714332580566]
+./data/BV/jain_6_true-unreach-call_true-no-overflow_false-termination.i_5.smt2,"[2.69850746 0.54503068 0.2138464  0.         0.         0.
+ 0.         0.         0.         0.         0.2138464 ]",CVC4,1.793562889099121,unsat,"['CVC4', 'YICES', 'Z3', 'MathSAT', 'BOOLECTOR', 'Bitwuzla']",[1.793562889099121]
+./data/BV/intersection-example-simple.proof-node293483.smt2,"[0.67511177 0.95692283 1.21122995 0.         0.         0.
+ 0.         0.         0.         0.         1.21122995]",MathSAT,0.432034969329834,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'Z3', 'CVC4', 'BOOLECTOR']",[0.432034969329834]
+./data/BV/intersection-example-simple.proof-node404555.smt2,"[0.67559524 0.99327641 1.35267367 0.         0.         0.
+ 0.         0.         0.         0.         1.35267367]",MathSAT,0.4788048267364502,unsat,"['MathSAT', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'Z3', 'CVC4']",[0.4788048267364502]
+./data/BV/intersection-example-simple.proof-node277871.smt2,"[0.67607727 1.02954878 1.28068804 0.         0.         0.
+ 0.         0.         0.         0.         1.28068804]",MathSAT,0.44614100456237793,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'YICES', 'Z3', 'BOOLECTOR']",[0.44614100456237793]
+./data/BV/intersection-example-simple.proof-node518125.smt2,"[0.67655786 1.17444639 1.2799002  0.         0.         0.
+ 0.         0.         0.         0.         1.2799002 ]",MathSAT,0.43471288681030273,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES']",[0.43471288681030273]
+./data/BV/intersection-example-simple.proof-node659748.smt2,"[0.67703704 1.22228107 1.34996891 0.         0.         0.
+ 0.         0.         0.         0.         1.34996891]",MathSAT,0.4399681091308594,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'YICES', 'BOOLECTOR', 'CVC4']",[0.4399681091308594]
+./data/BV/023.smt2,"[10.6049204   4.47959933  0.          0.          0.          0.
+  0.          0.         54.89138567  0.          0.        ]",CVC4,3.4890170097351074,sat,"['CVC4', 'MathSAT', 'Z3', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[3.4890170097351074]
+./data/BV/intersection-example-simple.proof-node515522.smt2,"[0.6632948  1.17649213 1.28093023 0.         0.         0.
+ 0.         0.         0.         0.         1.28093023]",MathSAT,0.441540002822876,unsat,"['MathSAT', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'CVC4', 'Z3']",[0.441540002822876]
+./data/BV/Primes_true-unreach-call.c_657.smt2,"[1.32564841 0.36065231 0.21385402 0.         0.         0.
+ 0.         0.         0.         0.         0.21385402]",YICES,1.6608331203460693,sat,"['MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'Z3', 'BOOLECTOR']","[0.41535210609436035, 1.245481014251709]"
+./data/BV/intersection-example-simple.proof-node52380.smt2,"[0.66330935 0.91382368 1.28233658 0.         0.         0.
+ 0.         0.         0.         0.         1.28233658]",MathSAT,0.49759697914123535,unsat,"['MathSAT', 'Z3', 'YICES', 'CVC4', 'BOOLECTOR', 'Bitwuzla']",[0.49759697914123535]
+./data/BV/intersection-example-simple.proof-node529901.smt2,"[0.6637931  0.96199896 1.2815534  0.         0.         0.
+ 0.         0.         0.         0.         1.2815534 ]",MathSAT,0.4385039806365967,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'Z3']",[0.4385039806365967]
+./data/BV/128.smt2,"[ 9.12957746  4.38087504  0.          0.          0.          0.
+  0.          0.         41.08532417  0.          0.        ]",CVC4,2.083686113357544,unsat,"['CVC4', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'Z3']",[2.083686113357544]
+./data/BV/water_tank-node12555.smt2,"[0.65260197 0.4422007  0.2858463  0.         0.         0.
+ 0.         0.         0.         0.         0.2858463 ]",MathSAT,0.37517690658569336,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'Z3']",[0.37517690658569336]
+./data/BV/intersection-example-simple.proof-node157387.smt2,"[0.65308989 0.94427165 1.21428571 0.         0.         0.
+ 0.         0.         0.         0.         1.21428571]",MathSAT,0.43480396270751953,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4']",[0.43480396270751953]
+./data/BV/dccs-example-node6707.smt2,"[0.65357644 0.98017186 0.64335021 0.         0.         0.
+ 0.         0.         0.         0.         0.64335021]",MathSAT,0.4817969799041748,sat,"['MathSAT', 'CVC4', 'YICES', 'Bitwuzla', 'Z3', 'BOOLECTOR']",[0.4817969799041748]
+./data/BV/intersection-example-simple.proof-node587662.smt2,"[0.65406162 1.13523541 1.28591097 0.         0.         0.
+ 0.         0.         0.         0.         1.28591097]",MathSAT,0.4412238597869873,unsat,"['MathSAT', 'CVC4', 'Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[0.4412238597869873]
+./data/BV/intersection-example-simple.proof-node36088.smt2,"[0.65454545 1.12298974 1.28512586 0.         0.         0.
+ 0.         0.         0.         0.         1.28512586]",MathSAT,0.4068779945373535,unsat,"['MathSAT', 'CVC4', 'BOOLECTOR', 'YICES', 'Z3', 'Bitwuzla']",[0.4068779945373535]
+./data/BV/intersection-example-simple.proof-node291850.smt2,"[0.65502793 0.94390238 1.28434505 0.         0.         0.
+ 0.         0.         0.         0.         1.28434505]",MathSAT,0.43353986740112305,unsat,"['MathSAT', 'CVC4', 'Z3', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.43353986740112305]
+./data/BV/check_bvule_bvurem1_64bit.smt2,"[0.65550907 0.16757073 0.14296578 0.         0.         0.
+ 0.         0.         0.         0.         0.14296578]",MathSAT,4.377104997634888,unsat,"['MathSAT', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'Z3']",[4.377104997634888]
+./data/BV/check_bvuge_bvlshr1_4bit.smt2,"[0.65598886 0.1319059  0.1432264  0.         0.         0.
+ 0.         0.         0.         0.         0.1432264 ]",Z3,0.3910698890686035,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR']","[0.37060093879699707, 0.020468950271606445]"
+./data/BV/intersection-example-simple.proof-node681626.smt2,"[0.65646732 0.95939834 1.35961189 0.         0.         0.
+ 0.         0.         0.         0.         1.35961189]",MathSAT,0.43846702575683594,unsat,"['MathSAT', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'Z3', 'YICES']",[0.43846702575683594]
+./data/BV/intersection-example-simple.proof-node695403.smt2,"[0.65694444 0.99538551 1.28726943 0.         0.         0.
+ 0.         0.         0.         0.         1.28726943]",MathSAT,0.41805505752563477,unsat,"['MathSAT', 'YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'Z3']",[0.41805505752563477]
+./data/BV/intersection-example-simple.proof-node176791.smt2,"[0.65742025 1.01932905 1.35775667 0.         0.         0.
+ 0.         0.         0.         0.         1.35775667]",MathSAT,0.43851709365844727,unsat,"['MathSAT', 'CVC4', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.43851709365844727]
+./data/BV/intersection-example-simple.proof-node391030.smt2,"[0.65789474 0.99535459 1.28552097 0.         0.         0.
+ 0.         0.         0.         0.         1.28552097]",MathSAT,0.43627190589904785,unsat,"['MathSAT', 'YICES', 'BOOLECTOR', 'Z3', 'Bitwuzla', 'CVC4']",[0.43627190589904785]
+./data/BV/intersection-example-simple.proof-node676430.smt2,"[0.65836791 1.01929763 1.28475034 0.         0.         0.
+ 0.         0.         0.         0.         1.28475034]",MathSAT,0.4222710132598877,unsat,"['MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4', 'Z3']",[0.4222710132598877]
+./data/BV/jain_7_true-unreach-call_true-no-overflow.i_383.smt2,"[1.31586207 0.48019329 0.21447842 0.         0.         0.
+ 0.         0.         0.         0.         0.21447842]",CVC4,6.860831022262573,unsat,"['MathSAT', 'Z3', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR']","[0.4142439365386963, 1, 5.446587085723877]"
+./data/BV/intersection-example-simple.proof-node686334.smt2,"[0.6584022  1.15209641 1.35734569 0.         0.         0.
+ 0.         0.         0.         0.         1.35734569]",MathSAT,0.3800220489501953,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'YICES', 'CVC4']",[0.3800220489501953]
+./data/BV/intersection-example-simple.proof-node603645.smt2,"[0.65887208 0.98411505 1.21392367 0.         0.         0.
+ 0.         0.         0.         0.         1.21392367]",MathSAT,0.43779587745666504,unsat,"['MathSAT', 'YICES', 'CVC4', 'Z3', 'BOOLECTOR', 'Bitwuzla']",[0.43779587745666504]
+./data/BV/intersection-example-simple.proof-node392708.smt2,"[0.65934066 0.99612452 1.2133829  0.         0.         0.
+ 0.         0.         0.         0.         1.2133829 ]",MathSAT,0.4348759651184082,unsat,"['MathSAT', 'YICES', 'Z3', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.4348759651184082]
+./data/BV/intersection-example-simple.proof-node427730.smt2,"[0.65980796 0.99613254 1.35513049 0.         0.         0.
+ 0.         0.         0.         0.         1.35513049]",MathSAT,0.4301280975341797,unsat,"['MathSAT', 'Bitwuzla', 'Z3', 'BOOLECTOR', 'CVC4', 'YICES']",[0.4301280975341797]
+./data/BV/intersection-example-simple.proof-node210818.smt2,"[0.66027397 1.06799114 1.35413278 0.         0.         0.
+ 0.         0.         0.         0.         1.35413278]",MathSAT,0.43349719047546387,unsat,"['MathSAT', 'BOOLECTOR', 'CVC4', 'YICES', 'Bitwuzla', 'Z3']",[0.43349719047546387]
+./data/BV/intersection-example-simple.proof-node440938.smt2,"[0.66073871 1.27127356 1.35314067 0.         0.         0.
+ 0.         0.         0.         0.         1.35314067]",MathSAT,0.4331181049346924,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4']",[0.4331181049346924]
+./data/BV/intersection-example-simple.proof-node669173.smt2,"[0.66120219 1.21077921 1.28117647 0.         0.         0.
+ 0.         0.         0.         0.         1.28117647]",MathSAT,0.43591880798339844,unsat,"['MathSAT', 'Z3', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR']",[0.43591880798339844]
+./data/BV/intersection-example-simple.proof-node351731.smt2,"[0.66166439 1.03089471 1.28043414 0.         0.         0.
+ 0.         0.         0.         0.         1.28043414]",MathSAT,0.4302089214324951,unsat,"['MathSAT', 'Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'CVC4']",[0.4302089214324951]
+./data/BV/check_bvult_bvashr0_32bit.smt2,"[0.66212534 0.14409962 0.14252199 0.         0.         0.
+ 0.         0.         0.         0.         0.14252199]",CVC4,1.0606868267059326,unsat,"['MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'Z3', 'YICES']","[0.3981587886810303, 0.6625280380249023]"
+./data/BV/jain_2_true-unreach-call_true-no-overflow_false-termination.i_10.smt2,"[1.98236092 0.49285415 0.14277338 0.         0.         0.
+ 0.         0.         0.         0.         0.14277338]",YICES,60.441736936569214,timeout (3.0 s),"['CVC4', 'BOOLECTOR', 'MathSAT', 'Z3', 'Bitwuzla', 'YICES']","[55, 0, 0.44173693656921387, 1, 1, 3]"
+./data/BV/intersection-example-simple.proof-node140882.smt2,"[0.66124661 1.18959913 1.3553574  0.         0.         0.
+ 0.         0.         0.         0.         1.3553574 ]",MathSAT,0.42562294006347656,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'YICES']",[0.42562294006347656]
+./data/BV/intersection-example-simple.proof-node160928.smt2,"[0.66170501 1.03331859 1.35437318 0.         0.         0.
+ 0.         0.         0.         0.         1.35437318]",MathSAT,0.42060112953186035,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'YICES']",[0.42060112953186035]
+./data/BV/intersection-example-simple.proof-node86681.smt2,"[0.66216216 0.98528691 1.28234952 0.         0.         0.
+ 0.         0.         0.         0.         1.28234952]",MathSAT,0.42478179931640625,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'Z3']",[0.42478179931640625]
+./data/BV/intersection-example-simple.proof-node554693.smt2,"[0.66261808 1.0332795  1.35261708 0.         0.         0.
+ 0.         0.         0.         0.         1.35261708]",MathSAT,0.4178299903869629,unsat,"['MathSAT', 'Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.4178299903869629]
+./data/BV/intersection-example-simple.proof-node146851.smt2,"[0.66307278 1.16505139 1.28069414 0.         0.         0.
+ 0.         0.         0.         0.         1.28069414]",MathSAT,0.4232759475708008,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4']",[0.4232759475708008]
+./data/BV/intersection-example-simple.proof-node26275.smt2,"[0.66352624 0.99690591 1.35087972 0.         0.         0.
+ 0.         0.         0.         0.         1.35087972]",MathSAT,0.36830902099609375,unsat,"['MathSAT', 'YICES', 'Bitwuzla', 'Z3', 'CVC4', 'BOOLECTOR']",[0.36830902099609375]
+./data/BV/intersection-example-simple.proof-node674535.smt2,"[0.66397849 1.02088449 1.20817149 0.         0.         0.
+ 0.         0.         0.         0.         1.20817149]",MathSAT,0.431394100189209,unsat,"['MathSAT', 'Z3', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR']",[0.431394100189209]
+./data/BV/intersection-example-simple.proof-node394318.smt2,"[0.66442953 0.9609085  1.34935438 0.         0.         0.
+ 0.         0.         0.         0.         1.34935438]",MathSAT,0.42182207107543945,unsat,"['MathSAT', 'Z3', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR']",[0.42182207107543945]
+./data/BV/check_bvult_bvconcat0_32_32bit.smt2,"[0.66487936 0.19249521 0.21339452 0.         0.         0.
+ 0.         0.         0.         0.         0.21339452]",CVC4,0.8694381713867188,unsat,"['MathSAT', 'CVC4', 'Z3', 'Bitwuzla', 'YICES', 'BOOLECTOR']","[0.43368005752563477, 0.435758113861084]"
+./data/BV/intersection-example-simple.proof-node676458.smt2,"[0.66532798 0.99857177 1.27964526 0.         0.         0.
+ 0.         0.         0.         0.         1.27964526]",MathSAT,0.38952183723449707,unsat,"['MathSAT', 'CVC4', 'BOOLECTOR', 'Z3', 'YICES', 'Bitwuzla']",[0.38952183723449707]
+./data/BV/intersection-example-simple.proof-node345166.smt2,"[0.6657754  0.97455969 1.20804795 0.         0.         0.
+ 0.         0.         0.         0.         1.20804795]",MathSAT,0.4375491142272949,unsat,"['MathSAT', 'CVC4', 'Z3', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.4375491142272949]
+./data/BV/check_bvsgt_bvurem1_64bit.smt2,"[0.66622163 0.27712851 0.14236805 0.         0.         0.
+ 0.         0.         0.         0.         0.14236805]",YICES,60.446560859680176,timeout (57.0 s),"['MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'Z3', 'YICES']","[0.4465608596801758, 0, 1, 1, 1, 57]"

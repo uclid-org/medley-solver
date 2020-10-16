@@ -1,7 +1,7 @@
 total=0
 
-for seed in 1; do
-    for learner in knearest linear MLP thompson exp3a; do
+for seed in 1; do #1; do
+    for learner in thompson knearest MLP linear exp3a; do
         if [ $learner = exp3a ]
         then
             learnconfig="exp3 --gamma 0.07"
@@ -14,13 +14,13 @@ for seed in 1; do
         else 
             learnconfig=$learner
         fi
-        for feature in probes; do
-            for reward in binary; do
-                val=$(scripts/ordermisses.py ./$1/ ${learner}_${feature}_${reward}_perfect_${seed})
-                total=$total+$val
+        for feature in probes; do #probes bow; do
+            for reward in binary; do # binary exp; do
+                val=$(scripts/timemissedop.py ./$1/ ${learner}_${feature}_${reward}_${2}_${seed})
+                total=$(( total + val ))
             done 
         done 
     done 
 done 
 
-echo \($total\)/5
+echo $total/5

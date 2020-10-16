@@ -39,7 +39,7 @@ with open("%s/%s/%s.csv"%(path, dataset, learner)) as csvfile:
 
 
         for (a, b) in list(zipped)[:1]:
-            if b > 0 and a in cols and row[0] in cols[a] and cols[a][row[0]] >= 60 and b < 60:
+            if b >= 60 and a in cols and row[0] in cols[a] and cols[a][row[0]] >= 60:
                 # print(",".join([str(a), str(cols[a][row[0]]), str(b), str(row[0])]))
                 # benefit += 60 - b
                 benefit += 1
