@@ -3,3 +3,5 @@
 /build
 /dist
 medleysolver.egg-info
+*.smt2
+.DS_STORE

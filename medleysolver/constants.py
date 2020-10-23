@@ -203,3 +203,7 @@ keyword_list = [
 def is_solved(foo):
     return foo == SAT_RESULT or foo == UNSAT_RESULT
 
+
+def is_error(foo):
+    return foo == UNKNOWN_RESULT or foo == ERROR_RESULT
+

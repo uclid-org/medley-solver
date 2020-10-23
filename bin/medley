@@ -5,7 +5,7 @@ import glob
 import dill
 from medleysolver.runner import execute
 from medleysolver.constants import SOLVERS
-from medleysolver.timers import Exponential, Constant
+from medleysolver.timers import Exponential, Constant, NearestExponential, PerfectTimer, SGD
 from medleysolver.classifiers import *
 
 def main():
@@ -21,6 +21,30 @@ def main():
         help="pass in csv file for results",
         type=str
     )
+    global_parser.add_argument(
+        "--extra",
+        "-e",
+        help="extra time to first? Add to last if not",
+        type=bool,
+        default=True,
+    )
+    global_parser.add_argument(
+        "--kind",
+        help="configurations for neighbor and thompson",
+        type=str,
+        default="full",
+        # single means only pick first solver and do random for the rest.
+        # greedy means thompson with means instead of sampling
+        choices=["full", "single", "greedy"] 
+    )
+
+    global_parser.add_argument(
+        "--reward",
+        help="the kind of reward to give",
+        type=str,
+        default="bump",
+        choices=["binary", "bump", "exp"] 
+    )
 
     global_parser.add_argument(
         "--classifier",
@@ -28,7 +52,7 @@ def main():
         help="select mechanism for choosing orderings of solvers",
         type=str,
         default="neighbor",
-        choices=["neighbor", "random", "MLP", "thompson", "linear", "preset", "exp3", "knearest"]
+        choices=["neighbor", "random", "MLP", "thompson", "linear", "preset", "exp3", "knearest", "perfect"]
     )
 
     global_parser.add_argument(
@@ -45,7 +69,7 @@ def main():
         help="choose how timeout is distributed amongst solvers",
         type=str,
         default="expo",
-        choices=["expo", "const"]
+        choices=["expo", "const", "nearest", "perfect", "sgd"]
     )
 
     global_parser.add_argument(
@@ -126,6 +150,13 @@ def main():
     )
 
     global_parser.add_argument(
+        "--time_k",
+        help="set k value for knearest neighbor",
+        type=int,
+        default=40
+    )
+
+    global_parser.add_argument(
         "--feature_setting",
         "-f",
         help="choose how queries are featurized",
@@ -146,11 +177,10 @@ def main():
     if not args.output.endswith(".csv"):
         global_parser.error("The output file needs to be a csv file.")
 
-    if args.seed:
-        np.random.seed(args.seed)
+    np.random.seed(args.seed)
     
     problems = glob.glob(args.input + "/**.smt2", recursive=True)
-    problems = [p for p in problems if p.endswith(".smt2")]
+    problems = sorted([p for p in problems if p.endswith(".smt2")])
     
     np.random.shuffle(problems)
     if args.sample:
@@ -164,26 +194,36 @@ def main():
         if not args.set_const:
             args.set_const = args.timeout // len(SOLVERS)
         timeout_manager = Constant(args.set_const)
+    elif args.timeout_manager == "nearest":
+        if not args.set_lambda:
+            args.set_lambda = 1 / (args.timeout / len(SOLVERS))
+        timeout_manager = NearestExponential(args.set_lambda, args.confidence, args.timeout)
+    elif args.timeout_manager == "perfect":
+        timeout_manager = PerfectTimer()
+    elif args.timeout_manager == "sgd":
+        timeout_manager = SGD()
     else:
         raise RuntimeError("timeout_manager not properly set")
 
     if args.classifier == "neighbor":
-        classifier = NearestNeighbor(args.epsilon, args.epsilon_decay)
+        classifier = NearestNeighbor(args.epsilon, args.epsilon_decay, args.kind, args.time_k)
     elif args.classifier == "random":
-        classifier = Random()
+        classifier = Random(args.time_k)
     elif args.classifier == "MLP":
-        classifier = MLP()
+        classifier = MLP(args.time_k)
     elif args.classifier == "thompson":
-        classifier = Thompson()
+        classifier = Thompson(args.kind, args.time_k)
     elif args.classifier == "linear":
-        classifier = LinearBandit()
+        classifier = LinearBandit(args.time_k)
     elif args.classifier == "preset":
         classifier = Preset(args.preset)
         timeout_manager = Constant(args.timeout)
     elif args.classifier == "exp3":
-        classifier = Exp3(args.gamma)
+        classifier = Exp3(args.gamma, args.time_k)
     elif args.classifier == "knearest":
-        classifier = KNearest(args.k, args.epsilon, args.epsilon_decay)
+        classifier = KNearest(args.k, args.epsilon, args.epsilon_decay, args.time_k)
+    elif args.classifier == "perfect":
+        classifier = PerfectSelector(args.time_k)
     else:
         raise RuntimeError("classifier not properly set")
     
@@ -191,7 +231,7 @@ def main():
         with open(args.load_classifier, "rb") as f:
             classifier = dill.load(f)
     
-    execute(problems, args.output, classifier, timeout_manager, args.timeout, args.feature_setting)
+    execute(problems, args.output, classifier, timeout_manager, args.timeout, args.feature_setting, args.extra, args.reward)
 
     if args.save_classifier:
         classifier.save(args.save_classifier)

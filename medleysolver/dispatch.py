@@ -1,48 +1,36 @@
 import os, sys, subprocess, datetime
 from medleysolver.constants import SAT_RESULT, UNSAT_RESULT, UNKNOWN_RESULT, TIMEOUT_RESULT, ERROR_RESULT, Result, is_solved
 
+import csv 
+
 def run_problem(solver, invocation, problem, timeout):
-    # pass the problem to the command
-    command = "%s %s" %(invocation, problem)
-    # get start time
-    start = datetime.datetime.now().timestamp()
-    # run command
-    process = subprocess.Popen(
-        command,
-        shell      = True,
-        stdout     = subprocess.PIPE,
-        stderr     = subprocess.PIPE,
-        preexec_fn = os.setsid
-    )
-    # wait for it to complete
+    instance = problem.split("/")[-1]
+    directory = problem[:-len(instance)]
+
     try:
-        process.wait(timeout=timeout)
-    # if it times out ...
-    except subprocess.TimeoutExpired:
-        # kill it
-        # print('TIMED OUT:', repr(command), '... killing', process.pid, file=sys.stderr)
-        try:
-            os.killpg(os.getpgid(process.pid), signal.SIGINT)
-        except:
-            pass
-        # set timeout result
-        elapsed = timeout
-        output  = TIMEOUT_RESULT % timeout
-    # if it completes in time ...
-    else:
-        # measure run time
-        end     = datetime.datetime.now().timestamp()
-        elapsed = end - start
-        # get result
-        stdout = process.stdout.read().decode("utf-8", "ignore")
-        stderr = process.stderr.read().decode("utf-8", "ignore")
-        output = output2result(problem, stdout + stderr)
-    # make result
-    result = Result(
-        problem  = problem.split("/", 2)[-1],
-        result   = output,
-        elapsed  = elapsed
-    )
+        with open(directory+"/"+solver+".csv") as csvfile:
+            results = list(csv.reader(csvfile))
+            results = list(filter(lambda s: s[0] == problem, results))
+            assert(len(results) == 1)
+            output = results[0][4]
+            output = output2result(problem, output)
+            elapsed = float(results[0][3])
+
+        if elapsed >= timeout:
+            output = TIMEOUT_RESULT % timeout
+            elapsed = timeout
+
+        result = Result(
+            problem  = problem.split("/", 2)[-1],
+            result   = output,
+            elapsed  = elapsed
+        )
+    except:
+        result = Result(
+            problem  = problem.split("/", 2)[-1],
+            result   = ERROR_RESULT,
+            elapsed  = 0.1 # penalty: simulating time it would have taken to run and fail
+        )
     return result
 
 def output2result(problem, output):

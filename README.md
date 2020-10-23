@@ -27,3 +27,17 @@ Documentation for usage is available by running:
 ```
     medley -h
 ```
+
+
+## Getting Data
+```
+sh runmedley.sh QF_ABV; ./process.py QF_ABV > qfabv.csv
+```
+where QF_ABV is a folder containing queries and CSV files for individual solvers.
+Every CSV should be sorted by the name of the query and the names should use relative paths.
+
+```
+./ordermisses.py Sage2 nearest
+./timemisses.py Sage2 nearest
+```
+will print all the times the CSV file nearest.csv messed up the order or messed up the time allocation.

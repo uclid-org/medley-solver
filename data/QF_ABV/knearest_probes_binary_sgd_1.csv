@@ -1,0 +1,1006 @@
+./data/QF_ABV/try3_sameret_functions_dwp_csplit.re_node_set_remove_at.il.dwp.smt2,[1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 1.],YICES,0.15656590461730957,sat,"['YICES', 'Z3', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'CVC4']",[0.15656590461730957]
+./data/QF_ABV/try3_true_functions_dwp_expr.set_quoting_style.il.dwp.smt2,"[1.         0.28224917 0.27972028 0.         0.         0.
+ 0.         0.         0.         0.         0.27067669]",Z3,0.08247995376586914,sat,"['Z3', 'YICES', 'MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.08247995376586914]
+./data/QF_ABV/egt-1328.smt2,"[2.66666667 0.23756345 0.02083333 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08353590965270996,unsat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'YICES', 'CVC4']",[0.08353590965270996]
+./data/QF_ABV/egt-1930.smt2,"[2.5        0.44724977 0.02758621 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.23385882377624512,sat,"['Z3', 'YICES', 'BOOLECTOR', 'MathSAT', 'CVC4', 'Bitwuzla']",[0.23385882377624512]
+./data/QF_ABV/try5_small_noof_functions_fse-bfs_tac.optimize_subexps.il.fse-bfs.smt2,"[0.10204082 2.597487   0.23026316 0.         0.         0.
+ 0.         0.         0.         0.         0.21582734]",Z3,0.588752031326294,sat,"['Z3', 'YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'MathSAT']",[0.588752031326294]
+./data/QF_ABV/try5_small_noof_functions_wp_test.one_argument.il.wp.smt2,"[0.12       0.28948454 0.11612903 0.         0.         0.
+ 0.         0.         0.         0.         0.08510638]",CVC4,0.09800219535827637,sat,"['CVC4', 'BOOLECTOR', 'MathSAT', 'YICES', 'Z3', 'Bitwuzla']",[0.09800219535827637]
+./data/QF_ABV/try3_sameret_functions_dwp_date.close_stdout_set_file_name.il.dwp.smt2,"[0.1372549  0.4811828  0.83522727 0.         0.         0.
+ 0.         0.         0.         0.         0.79245283]",Z3,0.08413100242614746,sat,"['Z3', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'MathSAT']",[0.08413100242614746]
+./data/QF_ABV/egt-0690.smt2,"[1.41935484 0.18018018 0.04519774 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09113407135009766,unsat,"['Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'MathSAT', 'Bitwuzla']",[0.09113407135009766]
+./data/QF_ABV/egt-7198.smt2,"[2.51162791 0.34752797 0.0505618  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",BOOLECTOR,0.14134693145751953,sat,"['BOOLECTOR', 'Z3', 'CVC4', 'MathSAT', 'YICES', 'Bitwuzla']",[0.14134693145751953]
+./data/QF_ABV/egt-2518.smt2,"[1.96261682 0.34494774 0.05586592 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",YICES,0.0899040699005127,sat,"['YICES', 'CVC4', 'MathSAT', 'Z3', 'Bitwuzla', 'BOOLECTOR']",[0.0899040699005127]
+./data/QF_ABV/try3_sameret_functions_dwp_shuf.set_quoting_style.il.dwp.smt2,"[0.10185185 1.26518656 2.36403509 0.         0.         0.
+ 0.         0.         0.         0.         2.42647059]",Z3,0.08397603034973145,sat,"['Z3', 'YICES', 'CVC4', 'BOOLECTOR', 'MathSAT', 'Bitwuzla']",[0.08397603034973145]
+./data/QF_ABV/egt-4539.smt2,"[1.5483871  0.32753449 0.05240175 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08990311622619629,unsat,"['Z3', 'YICES', 'CVC4', 'BOOLECTOR', 'MathSAT', 'Bitwuzla']",[0.08990311622619629]
+./data/QF_ABV/egt-3084.smt2,"[2.03401361 0.38591385 0.05652174 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08325791358947754,sat,"['Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'MathSAT']",[0.08325791358947754]
+./data/QF_ABV/egt-1890.smt2,"[2.17241379 0.45720721 0.06060606 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.185560941696167,sat,"['Z3', 'YICES', 'CVC4', 'BOOLECTOR', 'MathSAT', 'Bitwuzla']",[0.185560941696167]
+./data/QF_ABV/try3_sameret_functions_dwp_csplit.rpl_re_set_registers.il.dwp.smt2,"[0.08571429 2.48120301 4.65671642 0.         0.         0.
+ 0.         0.         0.         0.         4.6969697 ]",Z3,0.24535489082336426,sat,"['Z3', 'YICES', 'CVC4', 'MathSAT', 'BOOLECTOR', 'Bitwuzla']",[0.24535489082336426]
+./data/QF_ABV/egt-5162.smt2,"[1.92964824 0.4600639  0.04761905 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13452506065368652,sat,"['Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'CVC4']",[0.13452506065368652]
+./data/QF_ABV/try5_small_difret_functions_wp_sha512sum.set_quoting_style.il.wp.smt2,"[0.085      0.60968097 0.15044248 0.         0.         0.
+ 0.         0.         0.         0.         0.11371237]",CVC4,0.2978630065917969,sat,"['CVC4', 'BOOLECTOR', 'Z3', 'YICES', 'MathSAT', 'Bitwuzla']",[0.2978630065917969]
+./data/QF_ABV/try3_noof_functions_dwp_od.simple_strtoul.il.dwp.smt2,"[0.08955224 3.35183527 5.98818898 0.         0.         0.
+ 0.         0.         0.         0.         6.32537961]",Z3,0.134537935256958,sat,"['Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'MathSAT']",[0.134537935256958]
+./data/QF_ABV/egt-3740.smt2,"[1.71945701 0.39964943 0.03732809 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.052613019943237305,sat,"['Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'CVC4']",[0.052613019943237305]
+./data/QF_ABV/egt-3909.smt2,"[0.61403509 0.13233502 0.03921569 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.07992386817932129,unsat,"['Z3', 'CVC4', 'YICES', 'Bitwuzla', 'MathSAT', 'BOOLECTOR']",[0.07992386817932129]
+./data/QF_ABV/try3_noof_functions_dwp_sleep.set_char_quoting.il.dwp.smt2,"[0.09170306 4.36280866 4.74810319 0.         0.         0.
+ 0.         0.         0.         0.         4.99834711]",Z3,0.18402695655822754,sat,"['Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'MathSAT']",[0.18402695655822754]
+./data/QF_ABV/try3_sameret_functions_dwp_df.set_char_quoting.il.dwp.smt2,"[0.09565217 2.90312537 3.22020725 0.         0.         0.
+ 0.         0.         0.         0.         3.30617978]",Z3,0.2342510223388672,sat,"['Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'MathSAT']",[0.2342510223388672]
+./data/QF_ABV/try3_sameret_functions_dwp_df.close_stdout_set_file_name.il.dwp.smt2,"[0.0995671  0.48264947 0.60907945 0.         0.         0.
+ 0.         0.         0.         0.         0.56712329]",Z3,0.0505070686340332,sat,"['Z3', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'MathSAT']",[0.0505070686340332]
+./data/QF_ABV/try5_small_true_functions_flanagansaxe_vdir.get_type_indicator.il.flanagansaxe.smt2,"[ 0.10344828  6.51003845 10.67226891  0.          0.          0.
+  0.          0.          0.          0.         11.12711242]",Z3,0.08273601531982422,sat,"['Z3', 'YICES', 'MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.08273601531982422]
+./data/QF_ABV/egt-1854.smt2,"[2.16535433 0.2138743  0.01749475 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13903594017028809,sat,"['Z3', 'BOOLECTOR', 'YICES', 'CVC4', 'MathSAT', 'Bitwuzla']",[0.13903594017028809]
+./data/QF_ABV/try5_small_difret_functions_dwp_df.set_char_quoting.il.dwp.smt2,"[0.10196078 3.1167437  2.6327044  0.         0.         0.
+ 0.         0.         0.         0.         2.65831135]",Z3,0.48386287689208984,sat,"['Z3', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'MathSAT']",[0.48386287689208984]
+./data/QF_ABV/egt-0844.smt2,"[1.40520446 0.15211268 0.01697046 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08634209632873535,sat,"['Z3', 'YICES', 'MathSAT', 'Bitwuzla', 'CVC4', 'BOOLECTOR']",[0.08634209632873535]
+./data/QF_ABV/try3_true_functions_dwp_nl.re_string_translate_buffer.il.dwp.smt2,"[0.1037037  1.06040939 1.42004773 0.         0.         0.
+ 0.         0.         0.         0.         1.40350877]",Z3,0.18881702423095703,sat,"['Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'MathSAT']",[0.18881702423095703]
+./data/QF_ABV/egt-4636.smt2,"[0.93548387 0.09072165 0.01729278 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08981800079345703,sat,"['Z3', 'CVC4', 'YICES', 'MathSAT', 'Bitwuzla', 'BOOLECTOR']",[0.08981800079345703]
+./data/QF_ABV/egt-5657.smt2,"[2.82467532 0.28311853 0.01787843 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13232111930847168,sat,"['Z3', 'YICES', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'CVC4']",[0.13232111930847168]
+./data/QF_ABV/egt-4852.smt2,"[2.24096386 0.25979468 0.01846337 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09870600700378418,sat,"['Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'MathSAT', 'Bitwuzla']",[0.09870600700378418]
+./data/QF_ABV/try3_sameret_functions_dwp_cut.compare_ranges.il.dwp.smt2,"[0.0960961  0.68880689 0.74461896 0.         0.         0.
+ 0.         0.         0.         0.         0.74418605]",Z3,0.050987958908081055,sat,"['Z3', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'MathSAT']",[0.050987958908081055]
+./data/QF_ABV/egt-6887.smt2,"[1.42241379 0.14592829 0.01918605 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05008697509765625,sat,"['Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'MathSAT', 'Bitwuzla']",[0.05008697509765625]
+./data/QF_ABV/try5_small_noof_functions_dwp_mv.hash_table_ok.il.dwp.smt2,"[0.0974212  3.73866182 4.89099054 0.         0.         0.
+ 0.         0.         0.         0.         5.03441084]",Z3,0.1847219467163086,sat,"['Z3', 'YICES', 'CVC4', 'Bitwuzla', 'MathSAT', 'BOOLECTOR']",[0.1847219467163086]
+./data/QF_ABV/try4_difret_functions_disjunctions_df.set_quoting_style.il.disjunctions_1.smt2,"[0.1        0.27961317 0.05218688 0.         0.         0.
+ 0.         0.         0.         0.         0.03645833]",Z3,0.08429598808288574,sat,"['Z3', 'CVC4', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'YICES']",[0.08429598808288574]
+./data/QF_ABV/egt-3348.smt2,"[1.38461538 0.15502392 0.01788376 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.6048259735107422,unsat,"['Z3', 'YICES', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'CVC4']",[0.6048259735107422]
+./data/QF_ABV/ft-out-2006-03-02--18_03_59-test0002.smt2,"[21.67804323  3.23328421  0.03672457  0.          0.          0.
+  0.          0.          0.          0.          0.        ]",Z3,0.049574851989746094,unsat,"['Z3', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'MathSAT', 'CVC4']",[0.049574851989746094]
+./data/QF_ABV/a64test0001.smt2,"[0.08626561 0.02072991 0.01884921 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05194592475891113,sat,"['Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'MathSAT', 'Bitwuzla']",[0.05194592475891113]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_cut.hash_get_n_entries.il.flanagansaxe.smt2,"[0.04421769 0.36462387 0.47770701 0.         0.         0.
+ 0.         0.         0.         0.         0.46165723]",Z3,0.08389401435852051,sat,"['Z3', 'CVC4', 'MathSAT', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.08389401435852051]
+./data/QF_ABV/try4_difret_functions_disjunctions_vdir.strmode.il.disjunctions_9.smt2,"[0.04530011 1.3069162  0.07823961 0.         0.         0.
+ 0.         0.         0.         0.         0.06166495]",Z3,0.13380098342895508,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'YICES']",[0.13380098342895508]
+./data/QF_ABV/try3_sameret_functions_dwp_tac.re_node_set_remove_at.il.dwp.smt2,"[0.04638009 1.60432992 2.32610701 0.         0.         0.
+ 0.         0.         0.         0.         2.28772441]",Z3,0.38456010818481445,sat,"['Z3', 'YICES', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'CVC4']",[0.38456010818481445]
+./data/QF_ABV/try5_small_difret_functions_wp_mkdir.set_quoting_style.il.wp.smt2,"[0.04745763 0.34108913 0.05803777 0.         0.         0.
+ 0.         0.         0.         0.         0.0407174 ]",Z3,0.1384110450744629,sat,"['Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'MathSAT']",[0.1384110450744629]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_ln.set_char_quoting.il.flanagansaxe.smt2,"[0.04853273 3.23530225 3.29221608 0.         0.         0.
+ 0.         0.         0.         0.         3.36237712]",Z3,0.7422800064086914,sat,"['Z3', 'YICES', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'CVC4']",[0.7422800064086914]
+./data/QF_ABV/egt-6130.smt2,"[0.63626251 0.1031487  0.01870748 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05157184600830078,unsat,"['Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'MathSAT', 'Bitwuzla']",[0.05157184600830078]
+./data/QF_ABV/try3_sameret_functions_fse-bfs_fmt.close_stdout_set_file_name.il.fse-bfs.smt2,"[0.05       0.22024517 0.05732484 0.         0.         0.
+ 0.         0.         0.         0.         0.04017857]",Z3,0.051412105560302734,sat,"['Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'MathSAT', 'Bitwuzla']",[0.051412105560302734]
+./data/QF_ABV/try3_sameret_functions_fse-bfs_df.set_quoting_style.il.fse-bfs.smt2,"[0.05105438 0.37357652 0.05852417 0.         0.         0.
+ 0.         0.         0.         0.         0.04103479]",Z3,0.0847928524017334,sat,"['Z3', 'CVC4', 'MathSAT', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[0.0847928524017334]
+./data/QF_ABV/try3_noof_functions_dwp_tac.rpl_re_set_registers.il.dwp.smt2,"[0.05210643 0.45821727 0.64868256 0.         0.         0.
+ 0.         0.         0.         0.         0.62059859]",Z3,0.0823521614074707,sat,"['Z3', 'CVC4', 'MathSAT', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[0.0823521614074707]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_tac.get_quoting_style.il.flanagansaxe.smt2,"[0.05315615 0.73055482 1.04091653 0.         0.         0.
+ 0.         0.         0.         0.         1.05380973]",Z3,0.08257293701171875,sat,"['Z3', 'CVC4', 'YICES', 'MathSAT', 'BOOLECTOR', 'Bitwuzla']",[0.08257293701171875]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_kill.set_char_quoting.il.flanagansaxe.smt2,"[0.05420354 3.49137081 3.56904401 0.         0.         0.
+ 0.         0.         0.         0.         3.63252292]",Z3,0.13351702690124512,sat,"['Z3', 'BOOLECTOR', 'MathSAT', 'CVC4', 'Bitwuzla', 'YICES']",[0.13351702690124512]
+./data/QF_ABV/egt-2728.smt2,"[1.24056095 0.21887657 0.01896094 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.14377498626708984,sat,"['Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'CVC4']",[0.14377498626708984]
+./data/QF_ABV/egt-4480.smt2,"[0.65175719 0.14978585 0.01933283 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.057933807373046875,sat,"['Z3', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'MathSAT']",[0.057933807373046875]
+./data/QF_ABV/egt-6141.smt2,"[0.81761006 0.12695829 0.01970443 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05167794227600098,unsat,"['Z3', 'Bitwuzla', 'MathSAT', 'YICES', 'BOOLECTOR', 'CVC4']",[0.05167794227600098]
+./data/QF_ABV/arbiter_array_data_integrity_n4q8w8d8b10.smt2,"[34.16871508 13.75936973 15.98835671  0.          0.          0.
+  0.          0.         53.          0.         15.74110395]",Z3,2.0943429470062256,unsat,"['Z3', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'CVC4', 'YICES']",[2.0943429470062256]
+./data/QF_ABV/try5_small_difret_functions_fse-bfs_echo.set_quoting_style.il.fse-bfs.smt2,"[0.02010424 0.29287148 0.04283448 0.         0.         0.
+ 0.         0.         0.         0.         0.03024363]",Z3,0.1404869556427002,sat,"['Z3', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'MathSAT']",[0.1404869556427002]
+./data/QF_ABV/try5_small_noof_functions_dwp_true.set_char_quoting.il.dwp.smt2,"[0.02046892 2.37478139 2.08471127 0.         0.         0.
+ 0.         0.         0.         0.         2.13189771]",Z3,0.2384960651397705,sat,"['Z3', 'YICES', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'CVC4']",[0.2384960651397705]
+./data/QF_ABV/egt-1792.smt2,"[0.35207101 0.13134636 0.01424212 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08977699279785156,unsat,"['Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'MathSAT', 'Bitwuzla']",[0.08977699279785156]
+./data/QF_ABV/try3_sameret_functions_fse-bfs_readlink.cycle_check_init.il.fse-bfs.smt2,"[0.02107209 0.19983468 0.04345616 0.         0.         0.
+ 0.         0.         0.         0.         0.0306699 ]",Z3,0.08375287055969238,sat,"['Z3', 'CVC4', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'YICES']",[0.08375287055969238]
+./data/QF_ABV/try3_noof_functions_dwp_vdir.xstrcoll_ctime.il.dwp.smt2,"[0.02143385 1.0805035  1.36724566 0.         0.         0.
+ 0.         0.         0.         0.         1.37115839]",Z3,0.34093713760375977,sat,"['Z3', 'YICES', 'CVC4', 'MathSAT', 'Bitwuzla', 'BOOLECTOR']",[0.34093713760375977]
+./data/QF_ABV/egt-0123.smt2,"[0.73211679 0.2497911  0.01463657 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.2939901351928711,sat,"['Z3', 'CVC4', 'Bitwuzla', 'YICES', 'MathSAT', 'BOOLECTOR']",[0.2939901351928711]
+./data/QF_ABV/try4_difret_functions_disjunctions_pr.close_stdout_set_file_name.il.disjunctions_0.smt2,"[0.02188982 0.17995001 0.04462072 0.         0.         0.
+ 0.         0.         0.         0.         0.03150433]",Z3,0.08432888984680176,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'MathSAT']",[0.08432888984680176]
+./data/QF_ABV/try4_difret_functions_disjunctions_fmt.set_other_indent.il.disjunctions_3.smt2,"[0.02224654 0.2647994  0.06042595 0.         0.         0.
+ 0.         0.         0.         0.         0.0480063 ]",Z3,0.08416008949279785,sat,"['Z3', 'CVC4', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.08416008949279785]
+./data/QF_ABV/egt-2446.smt2,"[0.33732318 0.1146437  0.01535033 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0833888053894043,unsat,"['Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'MathSAT']",[0.0833888053894043]
+./data/QF_ABV/egt-7489.smt2,"[0.29566787 0.12666979 0.01559406 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08718085289001465,sat,"['Z3', 'CVC4', 'YICES', 'MathSAT', 'BOOLECTOR', 'Bitwuzla']",[0.08718085289001465]
+./data/QF_ABV/try4_true_functions_dwp_rmdir.set_quoting_style.il.dwp.smt2,"[0.02309636 0.22483875 0.31527094 0.         0.         0.
+ 0.         0.         0.         0.         0.30078329]",Z3,0.052063941955566406,sat,"['Z3', 'CVC4', 'MathSAT', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.052063941955566406]
+./data/QF_ABV/try5_small_difret_functions_dwp_printenv.get_quoting_style.il.dwp.smt2,"[0.02344877 0.48340961 0.61844352 0.         0.         0.
+ 0.         0.         0.         0.         0.62192914]",Z3,13.571454048156738,unsat,"['Z3', 'CVC4', 'YICES', 'MathSAT', 'Bitwuzla', 'BOOLECTOR']",[13.571454048156738]
+./data/QF_ABV/try3_sameret_functions_dwp_join.set_quoting_style.il.dwp.smt2,"[0.02380094 0.66389795 0.77965284 0.         0.         0.
+ 0.         0.         0.         0.         0.75920245]",Z3,1.1286430358886719,sat,"['Z3', 'CVC4', 'Bitwuzla', 'MathSAT', 'YICES', 'BOOLECTOR']",[1.1286430358886719]
+./data/QF_ABV/try5_small_difret_functions_dwp_shred.quoting_options_from_style.il.dwp.smt2,"[0.02415285 1.58935812 1.80741262 0.         0.         0.
+ 0.         0.         0.         0.         1.68626962]",Z3,0.05092501640319824,unsat,"['Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'MathSAT', 'Bitwuzla']",[0.05092501640319824]
+./data/QF_ABV/try3_true_functions_dwp_expr.get_quoting_style.il.dwp.smt2,"[0.0245045  0.2283915  0.31753444 0.         0.         0.
+ 0.         0.         0.         0.         0.30364674]",Z3,0.051197052001953125,sat,"['Z3', 'CVC4', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'YICES']",[0.051197052001953125]
+./data/QF_ABV/try3_noof_functions_dwp_.set_quoting_style.il.dwp.smt2,"[0.02485591 0.25794055 0.35261324 0.         0.         0.
+ 0.         0.         0.         0.         0.34065663]",Z3,0.04033398628234863,sat,"['Z3', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'MathSAT']",[0.04033398628234863]
+./data/QF_ABV/egt-4473.smt2,"[0.30129125 0.1223904  0.01625639 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.050253868103027344,sat,"['Z3', 'CVC4', 'Bitwuzla', 'MathSAT', 'YICES', 'BOOLECTOR']",[0.050253868103027344]
+./data/QF_ABV/try3_sameret_functions_dwp_stty.bkm_scale.il.dwp.smt2,"[0.02545715 0.72802645 0.95967927 0.         0.         0.
+ 0.         0.         0.         0.         0.91691033]",Z3,0.18830299377441406,sat,"['Z3', 'YICES', 'Bitwuzla', 'CVC4', 'MathSAT', 'BOOLECTOR']",[0.18830299377441406]
+./data/QF_ABV/try3_sameret_functions_dwp_su.get_quoting_style.il.dwp.smt2,"[0.02580645 0.47294281 0.60517946 0.         0.         0.
+ 0.         0.         0.         0.         0.60884272]",Z3,0.05131387710571289,sat,"['Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'CVC4']",[0.05131387710571289]
+./data/QF_ABV/egt-3915.smt2,"[0.18269575 0.08045417 0.0165796  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05615401268005371,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'MathSAT', 'YICES']",[0.05615401268005371]
+./data/QF_ABV/egt-0593.smt2,"[0.70750708 0.21936011 0.01680291 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.4212050437927246,sat,"['Z3', 'Bitwuzla', 'MathSAT', 'CVC4', 'BOOLECTOR', 'YICES']",[0.4212050437927246]
+./data/QF_ABV/egt-2835.smt2,"[0.36997886 0.13583144 0.01702611 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.052023887634277344,unsat,"['Z3', 'CVC4', 'YICES', 'MathSAT', 'BOOLECTOR', 'Bitwuzla']",[0.052023887634277344]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_fold.set_quoting_style.il.flanagansaxe.smt2,"[0.02676999 0.43370194 0.65001125 0.         0.         0.
+ 0.         0.         0.         0.         0.65532934]",Z3,0.08311200141906738,sat,"['Z3', 'YICES', 'CVC4', 'Bitwuzla', 'MathSAT', 'BOOLECTOR']",[0.08311200141906738]
+./data/QF_ABV/unconstrained06.smt2,"[2.71126761e-02 1.03986486e+01 3.69495434e+01 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 3.81369681e+01]",Z3,1.0352017879486084,sat,"['Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'MathSAT']",[1.0352017879486084]
+./data/QF_ABV/try5_small_difret_functions_fse-bfs_vdir.get_type_indicator.il.fse-bfs.smt2,"[0.02745512 2.06722904 0.07298246 0.         0.         0.
+ 0.         0.         0.         0.         0.06594999]",Z3,0.08328795433044434,unsat,"['Z3', 'CVC4', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'YICES']",[0.08328795433044434]
+./data/QF_ABV/egt-7231.smt2,"[0.68911375 0.19018706 0.00923869 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13370299339294434,unsat,"['Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'CVC4']",[0.13370299339294434]
+./data/QF_ABV/egt-3578.smt2,"[0.41652204 0.14800638 0.00935454 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05215001106262207,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'YICES', 'MathSAT']",[0.05215001106262207]
+./data/QF_ABV/egt-7562.smt2,"[0.47515528 0.15472779 0.00947036 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.14076805114746094,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'MathSAT']",[0.14076805114746094]
+./data/QF_ABV/egt-3033.smt2,"[0.61780822 0.16847412 0.00958616 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08385705947875977,unsat,"['Z3', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'MathSAT']",[0.08385705947875977]
+./data/QF_ABV/egt-5133.smt2,"[0.78833107 0.26286897 0.00970193 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.132918119430542,sat,"['Z3', 'MathSAT', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR']",[0.132918119430542]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_tac.find_subexp_node.il.flanagansaxe.smt2,"[0.02848423 2.78811137 2.4960871  0.         0.         0.
+ 0.         0.         0.         0.         2.50996016]",Z3,0.18013405799865723,sat,"['Z3', 'Bitwuzla', 'YICES', 'MathSAT', 'BOOLECTOR', 'CVC4']",[0.18013405799865723]
+./data/QF_ABV/egt-4487.smt2,"[0.43016194 0.15760305 0.00963937 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05735206604003906,sat,"['Z3', 'CVC4', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'YICES']",[0.05735206604003906]
+./data/QF_ABV/egt-6473.smt2,"[1.1733777  0.30381906 0.00975167 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.2344529628753662,sat,"['Z3', 'YICES', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'CVC4']",[0.2344529628753662]
+./data/QF_ABV/try5_small_noof_functions_dwp_pr.get_quoting_style.il.dwp.smt2,"[0.02894212 0.2518625  0.21649135 0.         0.         0.
+ 0.         0.         0.         0.         0.20341361]",Z3,0.05243420600891113,sat,"['Z3', 'CVC4', 'Bitwuzla', 'MathSAT', 'YICES', 'BOOLECTOR']",[0.05243420600891113]
+./data/QF_ABV/try3_noof_functions_dwp_cut.hash_string.il.dwp.smt2,"[0.02926505 0.90452624 0.82823529 0.         0.         0.
+ 0.         0.         0.         0.         0.81538105]",Z3,0.08222699165344238,sat,"['Z3', 'Bitwuzla', 'CVC4', 'MathSAT', 'YICES', 'BOOLECTOR']",[0.08222699165344238]
+./data/QF_ABV/try5_small_true_functions_flanagansaxe_od.simple_strtoul.il.flanagansaxe.smt2,"[0.02958777 1.53862209 1.60589724 0.         0.         0.
+ 0.         0.         0.         0.         1.5894665 ]",Z3,0.0832371711730957,sat,"['Z3', 'YICES', 'Bitwuzla', 'MathSAT', 'CVC4', 'BOOLECTOR']",[0.0832371711730957]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_users.set_char_quoting.il.flanagansaxe.smt2,"[0.02991027 2.80370088 1.74776136 0.         0.         0.
+ 0.         0.         0.         0.         1.75663618]",Z3,0.13400602340698242,sat,"['Z3', 'MathSAT', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR']",[0.13400602340698242]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_vdir.get_type_indicator.il.flanagansaxe.smt2,"[0.03023256 6.6101617  6.72794485 0.         0.         0.
+ 0.         0.         0.         0.         6.9033189 ]",Z3,0.18265485763549805,sat,"['Z3', 'CVC4', 'MathSAT', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.18265485763549805]
+./data/QF_ABV/try5_small_noof_functions_wp_comm.set_char_quoting.il.wp.smt2,"[0.03055463 2.09004149 0.09182553 0.         0.         0.
+ 0.         0.         0.         0.         0.08526413]",Z3,0.1831960678100586,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'YICES']",[0.1831960678100586]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_tail.set_char_quoting.il.flanagansaxe.smt2,"[0.03087649 2.70691913 1.74870238 0.         0.         0.
+ 0.         0.         0.         0.         1.74780236]",Z3,0.18276000022888184,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'YICES', 'Bitwuzla', 'MathSAT']",[0.18276000022888184]
+./data/QF_ABV/b217test0002.smt2,"[0.15578389 0.056769   0.01840791 0.         0.         0.
+ 0.         0.         0.         0.         0.00949687]",Z3,0.06338787078857422,sat,"['Z3', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'YICES', 'CVC4']",[0.06338787078857422]
+./data/QF_ABV/try5_small_difret_functions_fse-bfs_printenv.close_stdout_set_file_name.il.fse-bfs.smt2,"[0.0314778  0.1718075  0.02789742 0.         0.         0.
+ 0.         0.         0.         0.         0.01919192]",Z3,0.051583051681518555,sat,"['Z3', 'MathSAT', 'CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[0.051583051681518555]
+./data/QF_ABV/com.galois.ecc.P384ECC64.field_dbl4.short.smt2,"[37.5045427   8.86813788 14.80652372  0.          0.          0.
+  0.          0.          2.46153846  0.         15.11489362]",Z3,0.2920060157775879,unsat,"['Z3', 'BOOLECTOR', 'MathSAT', 'YICES', 'CVC4', 'Bitwuzla']",[0.2920060157775879]
+./data/QF_ABV/egt-5312.smt2,"[0.54527203 0.16630506 0.0080298  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13886094093322754,sat,"['Z3', 'MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'YICES']",[0.13886094093322754]
+./data/QF_ABV/egt-2559.smt2,"[0.23552974 0.10693988 0.00811191 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09025192260742188,sat,"['Z3', 'YICES', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'CVC4']",[0.09025192260742188]
+./data/QF_ABV/egt-6432.smt2,"[0.76728935 0.25591063 0.00819401 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.28356385231018066,sat,"['Z3', 'MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'YICES']",[0.28356385231018066]
+./data/QF_ABV/egt-2916.smt2,"[0.61228521 0.18860238 0.00827609 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.18358898162841797,sat,"['Z3', 'MathSAT', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.18358898162841797]
+./data/QF_ABV/egt-7063.smt2,"[0.39740311 0.14912241 0.00835816 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13907289505004883,sat,"['Z3', 'CVC4', 'Bitwuzla', 'MathSAT', 'YICES', 'BOOLECTOR']",[0.13907289505004883]
+./data/QF_ABV/try5_small_noof_functions_dwp_cat.set_char_quoting.il.dwp.smt2,"[0.02006294 2.26296018 1.24237718 0.         0.         0.
+ 0.         0.         0.         0.         1.23490836]",Z3,0.1840360164642334,sat,"['Z3', 'CVC4', 'Bitwuzla', 'MathSAT', 'YICES', 'BOOLECTOR']",[0.1840360164642334]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_true.set_char_quoting.il.flanagansaxe.smt2,"[0.02025565 2.41964209 1.49359542 0.         0.         0.
+ 0.         0.         0.         0.         1.49349573]",Z3,0.13349699974060059,sat,"['Z3', 'MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR']",[0.13349699974060059]
+./data/QF_ABV/egt-1711.smt2,"[0.26520204 0.09864904 0.00837764 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08249711990356445,unsat,"['Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'YICES']",[0.08249711990356445]
+./data/QF_ABV/try5_small_difret_functions_dwp_mv.quoting_options_from_style.il.dwp.smt2,"[0.02059227 1.34227664 0.96376407 0.         0.         0.
+ 0.         0.         0.         0.         0.87140509]",Z3,0.05414605140686035,unsat,"['Z3', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'MathSAT', 'CVC4']",[0.05414605140686035]
+./data/QF_ABV/egt-2253.smt2,"[0.31091122 0.1231807  0.0084597  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.14046907424926758,sat,"['Z3', 'MathSAT', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4']",[0.14046907424926758]
+./data/QF_ABV/try5_small_difret_functions_dwp_mknod.set_char_quoting.il.dwp.smt2,"[0.02091887 2.38400466 1.35741864 0.         0.         0.
+ 0.         0.         0.         0.         1.34563895]",Z3,0.33966708183288574,sat,"['Z3', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'MathSAT', 'YICES']",[0.33966708183288574]
+./data/QF_ABV/egt-7187.smt2,"[0.52529183 0.16137467 0.0085093  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.04173588752746582,unsat,"['Z3', 'YICES', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'CVC4']",[0.04173588752746582]
+./data/QF_ABV/egt-5809.smt2,"[0.65345194 0.21372254 0.00858741 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.2341620922088623,sat,"['Z3', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'MathSAT', 'YICES']",[0.2341620922088623]
+./data/QF_ABV/egt-2727.smt2,"[0.4871005  0.16379655 0.00866551 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.1401829719543457,sat,"['Z3', 'YICES', 'Bitwuzla', 'CVC4', 'MathSAT', 'BOOLECTOR']",[0.1401829719543457]
+./data/QF_ABV/try3_true_functions_dwp_test.set_char_quoting.il.dwp.smt2,"[0.0213667  0.42838896 0.43549906 0.         0.         0.
+ 0.         0.         0.         0.         0.42167798]",Z3,0.050653934478759766,sat,"['Z3', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR', 'MathSAT']",[0.050653934478759766]
+./data/QF_ABV/try5_small_difret_functions_dwp_sync.close_stdout_set_file_name.il.dwp.smt2,"[0.02155504 0.27620222 0.18425382 0.         0.         0.
+ 0.         0.         0.         0.         0.16271186]",Z3,0.08245682716369629,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'MathSAT']",[0.08245682716369629]
+./data/QF_ABV/try5_small_difret_functions_fse-bfs_stty.set_quoting_style.il.fse-bfs.smt2,"[0.02174331 0.27952331 0.02655075 0.         0.         0.
+ 0.         0.         0.         0.         0.01823757]",Z3,0.13389301300048828,sat,"['Z3', 'CVC4', 'YICES', 'MathSAT', 'Bitwuzla', 'BOOLECTOR']",[0.13389301300048828]
+./data/QF_ABV/try5_small_true_functions_dwp_vdir.hash_get_entries.il.dwp.smt2,"[0.02193151 1.81529151 1.50660793 0.         0.         0.
+ 0.         0.         0.         0.         1.46212061]",Z3,0.4350559711456299,sat,"['Z3', 'YICES', 'Bitwuzla', 'MathSAT', 'CVC4', 'BOOLECTOR']",[0.4350559711456299]
+./data/QF_ABV/egt-7465.smt2,"[0.22081413 0.10044343 0.00888717 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.050691843032836914,unsat,"['Z3', 'CVC4', 'MathSAT', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.050691843032836914]
+./data/QF_ABV/egt-4902.smt2,"[0.44376435 0.17897632 0.00896376 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09157490730285645,sat,"['Z3', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'MathSAT', 'YICES']",[0.09157490730285645]
+./data/QF_ABV/try5_small_difret_functions_wp_vdir.close_stdout_set_file_name.il.wp.smt2,"[0.02237522 0.16615533 0.02711681 0.         0.         0.
+ 0.         0.         0.         0.         0.01863799]",Z3,0.05176091194152832,sat,"['Z3', 'MathSAT', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR']",[0.05176091194152832]
+./data/QF_ABV/egt-0133.smt2,"[0.06766055 0.04582831 0.01822957 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08391094207763672,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'YICES']",[0.08391094207763672]
+./data/QF_ABV/egt-1037.smt2,"[0.20435031 0.07008057 0.00919132 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05261397361755371,sat,"['Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'MathSAT']",[0.05261397361755371]
+./data/QF_ABV/try5_small_difret_functions_fse-bfs_kill.close_stdout_set_file_name.il.fse-bfs.smt2,"[0.02289203 0.17321109 0.02779923 0.         0.         0.
+ 0.         0.         0.         0.         0.01911285]",Z3,0.052403926849365234,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'YICES', 'Bitwuzla', 'MathSAT']",[0.052403926849365234]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_nl.calc_next.il.flanagansaxe.smt2,"[0.02307839 1.31170514 1.25752713 0.         0.         0.
+ 0.         0.         0.         0.         1.24929067]",Z3,0.0837709903717041,sat,"['Z3', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'MathSAT']",[0.0837709903717041]
+./data/QF_ABV/egt-1047.smt2,"[0.27859182 0.11118596 0.00932223 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0515439510345459,unsat,"['Z3', 'YICES', 'MathSAT', 'Bitwuzla', 'CVC4', 'BOOLECTOR']",[0.0515439510345459]
+./data/QF_ABV/egt-4362.smt2,"[0.44311718 0.14117787 0.00939792 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.03934001922607422,unsat,"['Z3', 'YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'MathSAT']",[0.03934001922607422]
+./data/QF_ABV/try3_noof_functions_dwp_date.get_quoting_style.il.dwp.smt2,"[0.02350711 0.23349706 0.20808543 0.         0.         0.
+ 0.         0.         0.         0.         0.19515266]",Z3,0.05193686485290527,sat,"['Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'MathSAT']",[0.05193686485290527]
+./data/QF_ABV/egt-3484.smt2,"[0.40154951 0.16274329 0.00953398 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08980798721313477,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'MathSAT']",[0.08980798721313477]
+./data/QF_ABV/try3_noof_functions_dwp_pr.hold_file.il.dwp.smt2,"[0.02380503 1.62582756 1.45340772 0.         0.         0.
+ 0.         0.         0.         0.         1.42145803]",Z3,3.2419369220733643,sat,"['Z3', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'YICES', 'MathSAT']",[3.2419369220733643]
+./data/QF_ABV/wchains014ue.smt2,"[0.02398942 0.50411813 0.1434596  0.         0.         0.
+ 0.         0.         0.         0.         0.13818295]",Z3,21.698052883148193,unsat,"['Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'YICES']",[21.698052883148193]
+./data/QF_ABV/try3_true_functions_dwp_fold.set_quoting_style.il.dwp.smt2,"[0.02417375 0.21149105 0.19249568 0.         0.         0.
+ 0.         0.         0.         0.         0.17881257]",Z3,0.05062508583068848,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'YICES', 'MathSAT', 'Bitwuzla']",[0.05062508583068848]
+./data/QF_ABV/egt-2284.smt2,"[0.07304643 0.02330834 0.00969925 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08197188377380371,sat,"['Z3', 'MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR']",[0.08197188377380371]
+./data/QF_ABV/egt-1274.smt2,"[0.31820749 0.10561473 0.0097737  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05178022384643555,unsat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES', 'MathSAT']",[0.05178022384643555]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_.set_char_quoting.il.flanagansaxe.smt2,"[0.02466114 2.70176436 1.7491284  0.         0.         0.
+ 0.         0.         0.         0.         1.75535988]",Z3,0.13955402374267578,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'MathSAT', 'YICES']",[0.13955402374267578]
+./data/QF_ABV/egt-2568.smt2,"[0.37169138 0.13656149 0.00979083 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08281493186950684,sat,"['Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'MathSAT']",[0.08281493186950684]
+./data/QF_ABV/try5_small_noof_functions_dwp_tac.peek_token_bracket.il.dwp.smt2,"[0.02496246 5.94089216 5.87444169 0.         0.         0.
+ 0.         0.         0.         0.         5.99992688]",Z3,0.43662190437316895,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'MathSAT']",[0.43662190437316895]
+./data/QF_ABV/egt-2314.smt2,"[0.20089955 0.07425343 0.0094995  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08222413063049316,sat,"['Z3', 'BOOLECTOR', 'MathSAT', 'YICES', 'CVC4', 'Bitwuzla']",[0.08222413063049316]
+./data/QF_ABV/try5_small_difret_functions_dwp_cat.get_quoting_style.il.dwp.smt2,"[0.02529511 0.44251135 0.37221633 0.         0.         0.
+ 0.         0.         0.         0.         0.36422634]",Z3,10.011784076690674,unsat,"['Z3', 'MathSAT', 'YICES', 'CVC4', 'BOOLECTOR', 'Bitwuzla']",[10.011784076690674]
+./data/QF_ABV/try3_sameret_functions_dwp_sum.close_stdout_set_file_name.il.dwp.smt2,"[0.02547771 0.29166717 0.20160949 0.         0.         0.
+ 0.         0.         0.         0.         0.17826973]",Z3,0.09194588661193848,sat,"['Z3', 'CVC4', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'YICES']",[0.09194588661193848]
+./data/QF_ABV/try5_small_noof_functions_dwp_vdir.hash_table_ok.il.dwp.smt2,"[0.02566024 2.91732039 2.73905223 0.         0.         0.
+ 0.         0.         0.         0.         2.77597032]",Z3,0.24141383171081543,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'MathSAT', 'YICES']",[0.24141383171081543]
+./data/QF_ABV/try5_small_noof_functions_dwp_who.set_quoting_style.il.dwp.smt2,"[0.0258427  0.23101236 0.20971196 0.         0.         0.
+ 0.         0.         0.         0.         0.19663722]",Z3,0.040843963623046875,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'MathSAT']",[0.040843963623046875]
+./data/QF_ABV/try5_small_difret_functions_dwp_expr.re_string_construct_common.il.dwp.smt2,"[0.02602509 1.84006007 1.66018291 0.         0.         0.
+ 0.         0.         0.         0.         1.55695667]",Z3,1.7377839088439941,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'YICES']",[1.7377839088439941]
+./data/QF_ABV/egt-6544.smt2,"[1.2469846  0.3243019  0.00955436 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.3844490051269531,unsat,"['Z3', 'Bitwuzla', 'MathSAT', 'CVC4', 'YICES', 'BOOLECTOR']",[0.3844490051269531]
+./data/QF_ABV/egt-3661.smt2,"[0.44339623 0.15420303 0.00962195 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.07888197898864746,sat,"['Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'CVC4']",[0.07888197898864746]
+./data/QF_ABV/egt-2822.smt2,"[0.28835149 0.09474944 0.00968953 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.03595900535583496,unsat,"['Z3', 'CVC4', 'MathSAT', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[0.03595900535583496]
+./data/QF_ABV/egt-6855.smt2,"[0.44736842 0.13477231 0.0097571  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09057784080505371,sat,"['Z3', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'CVC4', 'MathSAT']",[0.09057784080505371]
+./data/QF_ABV/try3_noof_functions_dwp_pwd.get_quoting_style.il.dwp.smt2,"[0.02649494 0.23628498 0.21583322 0.         0.         0.
+ 0.         0.         0.         0.         0.20260288]",Z3,0.09061884880065918,sat,"['Z3', 'CVC4', 'Bitwuzla', 'MathSAT', 'YICES', 'BOOLECTOR']",[0.09061884880065918]
+./data/QF_ABV/egt-5732.smt2,"[0.39908257 0.121357   0.00987806 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05807995796203613,unsat,"['Z3', 'Bitwuzla', 'MathSAT', 'CVC4', 'YICES', 'BOOLECTOR']",[0.05807995796203613]
+./data/QF_ABV/try3_sameret_functions_fse-bfs_hostname.set_quoting_style.il.fse-bfs.smt2,"[0.02678408 0.2990126  0.02983245 0.         0.         0.
+ 0.         0.         0.         0.         0.02053879]",Z3,0.08363103866577148,sat,"['Z3', 'BOOLECTOR', 'YICES', 'MathSAT', 'Bitwuzla', 'CVC4']",[0.08363103866577148]
+./data/QF_ABV/egt-5457.smt2,"[0.26918147 0.09412626 0.01001158 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05267190933227539,unsat,"['Z3', 'Bitwuzla', 'MathSAT', 'CVC4', 'YICES', 'BOOLECTOR']",[0.05267190933227539]
+./data/QF_ABV/egt-2574.smt2,"[0.45929171 0.14370245 0.010079   0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.1406872272491455,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'MathSAT', 'YICES', 'Bitwuzla']",[0.1406872272491455]
+./data/QF_ABV/egt-3166.smt2,"[0.21728035 0.06635001 0.01014641 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08327698707580566,sat,"['Z3', 'YICES', 'CVC4', 'MathSAT', 'BOOLECTOR', 'Bitwuzla']",[0.08327698707580566]
+./data/QF_ABV/egt-0343.smt2,"[0.84284937 0.24963808 0.02042623 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0824129581451416,unsat,"['Z3', 'YICES', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'CVC4']",[0.0824129581451416]
+./data/QF_ABV/com.galois.ecc.P384ECC64.mod_sub2.short.smt2,"[57.60683856 15.65893928 28.25608811  0.          0.          0.
+  0.          0.          2.28787879  0.         28.98994032]",Z3,2.38850998878479,unsat,"['Z3', 'MathSAT', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[2.38850998878479]
+./data/QF_ABV/egt-1740.smt2,"[0.25517627 0.12103517 0.0084122  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08433985710144043,unsat,"['Z3', 'MathSAT', 'YICES', 'CVC4', 'BOOLECTOR', 'Bitwuzla']",[0.08433985710144043]
+./data/QF_ABV/try3_noof_functions_dwp_vdir.rev_strcmp_atime.il.dwp.smt2,"[0.01712175 1.03322822 0.80020921 0.         0.         0.
+ 0.         0.         0.         0.         0.77862595]",Z3,0.3346371650695801,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'YICES', 'MathSAT']",[0.3346371650695801]
+./data/QF_ABV/egt-1010.smt2,"[0.32674484 0.13105719 0.00847784 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08628606796264648,sat,"['Z3', 'MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.08628606796264648]
+./data/QF_ABV/try4_difret_functions_disjunctions_vdir.strmode.il.disjunctions_52.smt2,"[0.01730683 1.14876008 0.03412406 0.         0.         0.
+ 0.         0.         0.         0.         0.02628901]",Z3,0.18386197090148926,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'MathSAT']",[0.18386197090148926]
+./data/QF_ABV/egt-7542.smt2,"[0.19136835 0.11130204 0.00858558 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08821606636047363,unsat,"['Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'CVC4']",[0.08821606636047363]
+./data/QF_ABV/egt-7112.smt2,"[0.48871595 0.19224168 0.00864014 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.14287805557250977,unsat,"['Z3', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'YICES', 'MathSAT']",[0.14287805557250977]
+./data/QF_ABV/egt-4621.smt2,"[0.45538189 0.17424432 0.0086947  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.18336915969848633,sat,"['Z3', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'MathSAT']",[0.18336915969848633]
+./data/QF_ABV/egt-2647.smt2,"[0.4744695  0.19582849 0.00874924 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13827109336853027,sat,"['Z3', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR', 'MathSAT']",[0.13827109336853027]
+./data/QF_ABV/try3_noof_functions_dwp_sha512sum.set_quoting_style.il.dwp.smt2,"[0.01768151 0.22877483 0.19345974 0.         0.         0.
+ 0.         0.         0.         0.         0.18070928]",Z3,0.05102705955505371,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'MathSAT']",[0.05102705955505371]
+./data/QF_ABV/egt-7151.smt2,"[0.42587898 0.16885413 0.0088481  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13417887687683105,unsat,"['Z3', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'YICES', 'CVC4']",[0.13417887687683105]
+./data/QF_ABV/try4_difret_functions_disjunctions_pr.cols_ready_to_print.il.disjunctions_4.smt2,"[0.01785321 0.49524511 0.04450305 0.         0.         0.
+ 0.         0.         0.         0.         0.03658537]",Z3,0.08305597305297852,unsat,"['Z3', 'CVC4', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'YICES']",[0.08305597305297852]
+./data/QF_ABV/try5_small_difret_functions_dwp_join.set_quoting_style.il.dwp.smt2,"[0.01796143 0.63057344 0.45545694 0.         0.         0.
+ 0.         0.         0.         0.         0.4313869 ]",Z3,2.0229909420013428,sat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES', 'MathSAT']",[2.0229909420013428]
+./data/QF_ABV/testcase4.stp.smt2,"[159.98901514 151.76264161 153.93693878   0.           0.
+   0.           0.           0.         162.45610365   0.
+ 154.19246169]",Z3,37.78247404098511,sat,"['Z3', 'MathSAT', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR']",[37.78247404098511]
+./data/QF_ABV/try5_small_difret_functions_wp_cksum.set_quoting_style.il.wp.smt2,"[0.00044468 0.01990428 0.00166409 0.         0.         0.
+ 0.         0.         0.         0.         0.00111124]",Z3,0.08378410339355469,sat,"['Z3', 'YICES', 'Bitwuzla', 'MathSAT', 'CVC4', 'BOOLECTOR']",[0.08378410339355469]
+./data/QF_ABV/egt-7566.smt2,"[0.00402624 0.00540532 0.00055806 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05128788948059082,sat,"['Z3', 'Bitwuzla', 'YICES', 'MathSAT', 'CVC4', 'BOOLECTOR']",[0.05128788948059082]
+./data/QF_ABV/egt-3329.smt2,"[0.00585051 0.00889788 0.00056142 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09586596488952637,sat,"['Z3', 'YICES', 'MathSAT', 'CVC4', 'BOOLECTOR', 'Bitwuzla']",[0.09586596488952637]
+./data/QF_ABV/egt-2322.smt2,"[0.00407451 0.00484841 0.00056478 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05223703384399414,unsat,"['Z3', 'CVC4', 'Bitwuzla', 'YICES', 'MathSAT', 'BOOLECTOR']",[0.05223703384399414]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_chgrp.i_ring_push.il.flanagansaxe.smt2,"[0.00045542 0.07725057 0.05622694 0.         0.         0.
+ 0.         0.         0.         0.         0.05404632]",Z3,0.08411192893981934,sat,"['Z3', 'YICES', 'MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[0.08411192893981934]
+./data/QF_ABV/egt-7705.smt2,"[0.00595524 0.00854993 0.00057131 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.07904291152954102,unsat,"['Z3', 'MathSAT', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.07904291152954102]
+./data/QF_ABV/egt-0514.smt2,"[0.00276469 0.0050588  0.00057467 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05179595947265625,unsat,"['Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'YICES']",[0.05179595947265625]
+./data/QF_ABV/egt-2505.smt2,"[0.00973246 0.01182969 0.00057802 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08370089530944824,unsat,"['Z3', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'CVC4']",[0.08370089530944824]
+./data/QF_ABV/try5_small_difret_functions_dwp_sha256sum.get_quoting_style.il.dwp.smt2,"[0.00046614 0.03492071 0.02267107 0.         0.         0.
+ 0.         0.         0.         0.         0.02154515]",Z3,14.672322988510132,unsat,"['Z3', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'MathSAT', 'YICES']",[14.672322988510132]
+./data/QF_ABV/egt-2155.smt2,"[0.00375063 0.00617518 0.00058467 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.03476715087890625,unsat,"['Z3', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'MathSAT']",[0.03476715087890625]
+./data/QF_ABV/egt-5106.smt2,"[0.01414454 0.02095849 0.00058803 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05135989189147949,unsat,"['Z3', 'CVC4', 'Bitwuzla', 'MathSAT', 'YICES', 'BOOLECTOR']",[0.05135989189147949]
+./data/QF_ABV/egt-4599.smt2,"[0.00711239 0.00936761 0.00059138 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.03658699989318848,unsat,"['Z3', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'CVC4', 'MathSAT']",[0.03658699989318848]
+./data/QF_ABV/egt-4433.smt2,"[0.01049016 0.01321435 0.00059474 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05140399932861328,unsat,"['Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'YICES']",[0.05140399932861328]
+./data/QF_ABV/egt-1961.smt2,"[0.00335657 0.00592065 0.0005981  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08292603492736816,unsat,"['Z3', 'Bitwuzla', 'MathSAT', 'CVC4', 'BOOLECTOR', 'YICES']",[0.08292603492736816]
+./data/QF_ABV/egt-6251.smt2,"[0.00626844 0.00912887 0.00060146 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.044114112854003906,unsat,"['Z3', 'MathSAT', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR']",[0.044114112854003906]
+./data/QF_ABV/egt-2543.smt2,"[0.00533353 0.00758305 0.00060482 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09297704696655273,unsat,"['Z3', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR', 'MathSAT']",[0.09297704696655273]
+./data/QF_ABV/egt-7823.smt2,"[0.00731311 0.01110264 0.00060817 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08396601676940918,sat,"['Z3', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES']",[0.08396601676940918]
+./data/QF_ABV/try5_small_difret_functions_fse-bfs_expr.close_stdout_set_file_name.il.fse-bfs.smt2,"[0.00049023 0.01452547 0.00183458 0.         0.         0.
+ 0.         0.         0.         0.         0.00122518]",Z3,0.08980488777160645,sat,"['Z3', 'MathSAT', 'YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[0.08980488777160645]
+./data/QF_ABV/try5_small_difret_functions_dwp_md5sum.set_quoting_style.il.dwp.smt2,"[0.00049293 0.0527261  0.03135393 0.         0.         0.
+ 0.         0.         0.         0.         0.02894537]",Z3,0.9940159320831299,sat,"['Z3', 'Bitwuzla', 'MathSAT', 'CVC4', 'BOOLECTOR', 'YICES']",[0.9940159320831299]
+./data/QF_ABV/egt-3273.smt2,"[0.00495606 0.00761198 0.00061814 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.054121971130371094,sat,"['Z3', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'MathSAT', 'YICES']",[0.054121971130371094]
+./data/QF_ABV/try4_true_functions_dwp_uniq.bkm_scale.il.dwp.smt2,"[0.0004983  0.03019848 0.02237129 0.         0.         0.
+ 0.         0.         0.         0.         0.01992072]",Z3,0.045996904373168945,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'YICES', 'MathSAT', 'Bitwuzla']",[0.045996904373168945]
+./data/QF_ABV/ex9_prime.smt2,"[0.00050099 0.14729558 0.00124956 0.         0.         0.
+ 0.         0.         0.         0.         0.00062589]",Z3,13.273065090179443,unsat,"['Z3', 'MathSAT', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR']",[13.273065090179443]
+./data/QF_ABV/egt-1717.smt2,"[0.00654765 0.00910839 0.00062814 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09068799018859863,unsat,"['Z3', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'CVC4', 'MathSAT']",[0.09068799018859863]
+./data/QF_ABV/egt-3095.smt2,"[0.01316442 0.01595419 0.00063149 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08381009101867676,unsat,"['Z3', 'CVC4', 'MathSAT', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.08381009101867676]
+./data/QF_ABV/com.galois.ecc.P384ECC64.field_red1.short.smt2,"[0.28715757 0.22803694 0.27512486 0.         0.         0.
+ 0.         0.         0.05390118 0.         0.25912422]",Z3,0.08725810050964355,unsat,"['Z3', 'YICES', 'CVC4', 'BOOLECTOR', 'MathSAT', 'Bitwuzla']",[0.08725810050964355]
+./data/QF_ABV/try5_small_difret_functions_dwp_readlink.set_char_quoting.il.dwp.smt2,"[0.00051093 0.2249158  0.10254708 0.         0.         0.
+ 0.         0.         0.         0.         0.09891114]",Z3,0.28430604934692383,sat,"['Z3', 'YICES', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'CVC4']",[0.28430604934692383]
+./data/QF_ABV/egt-6482.smt2,"[0.02362361 0.02741486 0.00064029 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.3406209945678711,sat,"['Z3', 'CVC4', 'MathSAT', 'BOOLECTOR', 'YICES', 'Bitwuzla']",[0.3406209945678711]
+./data/QF_ABV/egt-6964.smt2,"[0.01032436 0.01455538 0.00064364 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13445496559143066,sat,"['Z3', 'YICES', 'MathSAT', 'CVC4', 'BOOLECTOR', 'Bitwuzla']",[0.13445496559143066]
+./data/QF_ABV/wchains120se.smt2,"[0.00051891 0.29104779 0.07825417 0.         0.         0.
+ 0.         0.         0.         0.         0.07775413]",Z3,0.7895400524139404,sat,"['Z3', 'YICES', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'CVC4']",[0.7895400524139404]
+./data/QF_ABV/try3_sameret_functions_dwp_hostid.set_quoting_style.il.dwp.smt2,"[0.00052159 0.05316443 0.03184867 0.         0.         0.
+ 0.         0.         0.         0.         0.02930445]",Z3,0.13886809349060059,sat,"['Z3', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'CVC4', 'MathSAT']",[0.13886809349060059]
+./data/QF_ABV/egt-4203.smt2,"[0.00838813 0.01060116 0.00065332 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08448290824890137,sat,"['Z3', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'YICES']",[0.08448290824890137]
+./data/QF_ABV/try4_true_functions_dwp_logname.get_quoting_style.il.dwp.smt2,"[0.00052695 0.01842944 0.01313255 0.         0.         0.
+ 0.         0.         0.         0.         0.01184191]",Z3,0.09058594703674316,sat,"['Z3', 'Bitwuzla', 'MathSAT', 'YICES', 'BOOLECTOR', 'CVC4']",[0.09058594703674316]
+./data/QF_ABV/egt-5124.smt2,"[0.01482863 0.0217048  0.00065998 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05188798904418945,unsat,"['Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'MathSAT', 'Bitwuzla']",[0.05188798904418945]
+./data/QF_ABV/egt-7682.smt2,"[0.00585493 0.00887103 0.00066332 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08424997329711914,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'MathSAT', 'YICES', 'Bitwuzla']",[0.08424997329711914]
+./data/QF_ABV/egt-6736.smt2,"[0.01016362 0.01198449 0.00066667 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.062011003494262695,sat,"['Z3', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'MathSAT', 'CVC4']",[0.062011003494262695]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_nohup.set_quoting_style.il.flanagansaxe.smt2,"[0.00053761 0.06915975 0.04488135 0.         0.         0.
+ 0.         0.         0.         0.         0.04228358]",Z3,0.0842890739440918,sat,"['Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'MathSAT', 'Bitwuzla']",[0.0842890739440918]
+./data/QF_ABV/try5_small_difret_functions_dwp_chgrp.hash_get_n_buckets_used.il.dwp.smt2,"[0.0005403  0.0178544  0.0100978  0.         0.         0.
+ 0.         0.         0.         0.         0.00876843]",Z3,0.08234691619873047,unsat,"['Z3', 'BOOLECTOR', 'YICES', 'MathSAT', 'Bitwuzla', 'CVC4']",[0.08234691619873047]
+./data/QF_ABV/try5_small_noof_functions_dwp_tac.re_string_translate_buffer.il.dwp.smt2,"[0.00054299 0.11174968 0.0764196  0.         0.         0.
+ 0.         0.         0.         0.         0.07318129]",Z3,0.3342599868774414,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'MathSAT']",[0.3342599868774414]
+./data/QF_ABV/try3_true_functions_dwp_od.get_quoting_style.il.dwp.smt2,"[0.00054567 0.01906289 0.01359164 0.         0.         0.
+ 0.         0.         0.         0.         0.01225652]",Z3,0.0761268138885498,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'YICES', 'Bitwuzla', 'MathSAT']",[0.0761268138885498]
+./data/QF_ABV/egt-5830.smt2,"[0.00548347 0.0076325  0.00068293 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.050251007080078125,sat,"['Z3', 'MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR']",[0.050251007080078125]
+./data/QF_ABV/egt-2493.smt2,"[0.01102011 0.0142861  0.00068627 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08329606056213379,unsat,"['Z3', 'YICES', 'MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.08329606056213379]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_fmt.set_other_indent.il.flanagansaxe.smt2,"[0.00055369 0.19641132 0.15367066 0.         0.         0.
+ 0.         0.         0.         0.         0.15259362]",Z3,0.132918119430542,sat,"['Z3', 'MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.132918119430542]
+./data/QF_ABV/egt-3447.smt2,"[0.00667634 0.01046693 0.00069245 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.052436113357543945,sat,"['Z3', 'YICES', 'Bitwuzla', 'CVC4', 'MathSAT', 'BOOLECTOR']",[0.052436113357543945]
+./data/QF_ABV/egt-3246.smt2,"[0.00614936 0.00838318 0.00069579 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08257889747619629,sat,"['Z3', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'YICES', 'MathSAT']",[0.08257889747619629]
+./data/QF_ABV/egt-4640.smt2,"[0.00561706 0.00888256 0.00069913 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0538938045501709,sat,"['Z3', 'MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.0538938045501709]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_sum.quoting_options_from_style.il.flanagansaxe.smt2,"[0.00056439 0.16652035 0.10672266 0.         0.         0.
+ 0.         0.         0.         0.         0.09708998]",Z3,0.09057497978210449,sat,"['Z3', 'YICES', 'MathSAT', 'Bitwuzla', 'CVC4', 'BOOLECTOR']",[0.09057497978210449]
+./data/QF_ABV/egt-5288.smt2,"[0.01077396 0.01343982 0.00070546 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05409598350524902,unsat,"['Z3', 'BOOLECTOR', 'MathSAT', 'YICES', 'Bitwuzla', 'CVC4']",[0.05409598350524902]
+./data/QF_ABV/egt-0003.smt2,"[0.00113947 0.00217296 0.0007088  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08343100547790527,unsat,"['Z3', 'CVC4', 'MathSAT', 'BOOLECTOR', 'YICES', 'Bitwuzla']",[0.08343100547790527]
+./data/QF_ABV/try5_small_difret_functions_dwp_vdir.hash_table_ok.il.dwp.smt2,"[0.00057242 0.31718372 0.23332877 0.         0.         0.
+ 0.         0.         0.         0.         0.23024407]",Z3,0.1335010528564453,unsat,"['Z3', 'CVC4', 'BOOLECTOR', 'MathSAT', 'YICES', 'Bitwuzla']",[0.1335010528564453]
+./data/QF_ABV/egt-7160.smt2,"[0.01437673 0.01673801 0.00071471 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05106091499328613,unsat,"['Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'MathSAT']",[0.05106091499328613]
+./data/QF_ABV/egt-3173.smt2,"[0.00519968 0.0058148  0.00071804 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08307409286499023,sat,"['Z3', 'Bitwuzla', 'YICES', 'CVC4', 'MathSAT', 'BOOLECTOR']",[0.08307409286499023]
+./data/QF_ABV/egt-3593.smt2,"[0.00580414 0.00899922 0.00072138 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05088090896606445,unsat,"['Z3', 'MathSAT', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'CVC4']",[0.05088090896606445]
+./data/QF_ABV/egt-2920.smt2,"[0.01865764 0.02045903 0.00072472 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.19068408012390137,sat,"['Z3', 'BOOLECTOR', 'YICES', 'MathSAT', 'Bitwuzla', 'CVC4']",[0.19068408012390137]
+./data/QF_ABV/egt-1407.smt2,"[0.00527152 0.00908132 0.00072805 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05193901062011719,unsat,"['Z3', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'MathSAT', 'CVC4']",[0.05193901062011719]
+./data/QF_ABV/egt-2928.smt2,"[0.0041188  0.00464141 0.00073139 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08248686790466309,sat,"['Z3', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'YICES', 'CVC4']",[0.08248686790466309]
+./data/QF_ABV/blaster-concrete.stp.smt2,"[1.18216648e-03 1.42390145e+01 8.08175260e-03 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 7.36231632e-03]",Z3,60.0,error,"['Z3', 'MathSAT', 'CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[60.0]
+./data/QF_ABV/egt-0147.smt2,"[0.00356256 0.00679736 0.00147608 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.036988019943237305,sat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES', 'MathSAT']",[0.036988019943237305]
+./data/QF_ABV/egt-0079.smt2,"[0.01013914 0.01411054 0.00074138 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.47261595726013184,unsat,"['Z3', 'MathSAT', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4']",[0.47261595726013184]
+./data/QF_ABV/try5_small_difret_functions_wp_fmt.set_other_indent.il.wp.smt2,"[0.0005991  0.05668198 0.00297882 0.         0.         0.
+ 0.         0.         0.         0.         0.00223879]",Z3,0.28305912017822266,sat,"['Z3', 'YICES', 'Bitwuzla', 'CVC4', 'MathSAT', 'BOOLECTOR']",[0.28305912017822266]
+./data/QF_ABV/a21test0002.smt2,"[0.00120358 0.00214274 0.00149608 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05170297622680664,sat,"['Z3', 'CVC4', 'YICES', 'Bitwuzla', 'MathSAT', 'BOOLECTOR']",[0.05170297622680664]
+./data/QF_ABV/try4_difret_functions_disjunctions_mv.set_quoting_style.il.disjunctions_1.smt2,"[0.00060447 0.02044503 0.00225412 0.         0.         0.
+ 0.         0.         0.         0.         0.0015059 ]",Z3,0.08410787582397461,sat,"['Z3', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'YICES']",[0.08410787582397461]
+./data/QF_ABV/egt-2808.smt2,"[0.01274963 0.01559385 0.00075471 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.052101850509643555,sat,"['Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'YICES']",[0.052101850509643555]
+./data/QF_ABV/fifo32in10k08.smt2,"[6.09810153e-04 2.84870732e+00 1.06834583e-01 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 9.33978264e-02]",Z3,60.0,error,"['Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'MathSAT']",[60.0]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_cut.hash_compare_ints.il.flanagansaxe.smt2,"[0.00061249 0.04474882 0.03043713 0.         0.         0.
+ 0.         0.         0.         0.         0.02897804]",Z3,0.09081387519836426,sat,"['Z3', 'BOOLECTOR', 'MathSAT', 'YICES', 'Bitwuzla', 'CVC4']",[0.09081387519836426]
+./data/QF_ABV/try5_small_noof_functions_wp_date.yyerror.il.wp.smt2,"[0.00061518 0.00077225 0.         0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09120297431945801,sat,"['Z3', 'MathSAT', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.09120297431945801]
+./data/QF_ABV/try5_small_difret_functions_wp_pr.reset_status.il.wp.smt2,"[0.00061786 0.08544179 0.00307037 0.         0.         0.
+ 0.         0.         0.         0.         0.00230778]",Z3,0.2840840816497803,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'YICES']",[0.2840840816497803]
+./data/QF_ABV/try5_small_difret_functions_fse-bfs_su.set_quoting_style.il.fse-bfs.smt2,"[0.00062055 0.02818568 0.00231277 0.         0.         0.
+ 0.         0.         0.         0.         0.0015452 ]",Z3,0.08412408828735352,sat,"['Z3', 'MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR']",[0.08412408828735352]
+./data/QF_ABV/egt-2046.smt2,"[0.01371037 0.0153258  0.00077426 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.1337888240814209,sat,"['Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'MathSAT', 'Bitwuzla']",[0.1337888240814209]
+./data/QF_ABV/try3_sameret_functions_dwp_readlink.set_quoting_style.il.dwp.smt2,"[0.00062588 0.05856859 0.03809591 0.         0.         0.
+ 0.         0.         0.         0.         0.03506279]",Z3,0.08290696144104004,sat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4', 'MathSAT']",[0.08290696144104004]
+./data/QF_ABV/egt-7877.smt2,"[0.01068519 0.0137186  0.0007808  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13257098197937012,sat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES', 'MathSAT']",[0.13257098197937012]
+./data/QF_ABV/try5_small_noof_functions_dwp_md5sum.set_quoting_style.il.dwp.smt2,"[0.00063122 0.02264314 0.01724978 0.         0.         0.
+ 0.         0.         0.         0.         0.01571617]",Z3,0.0806429386138916,sat,"['Z3', 'BOOLECTOR', 'YICES', 'CVC4', 'MathSAT', 'Bitwuzla']",[0.0806429386138916]
+./data/QF_ABV/egt-0982.smt2,"[0.01014214 0.0117667  0.00078741 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08273100852966309,unsat,"['Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'YICES']",[0.08273100852966309]
+./data/QF_ABV/egt-3982.smt2,"[0.00827512 0.01181597 0.00079075 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05075383186340332,sat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'MathSAT', 'CVC4']",[0.05075383186340332]
+./data/QF_ABV/try3_noof_functions_dwp_tac.re_string_construct_common.il.dwp.smt2,"[0.00063923 0.14919138 0.11508666 0.         0.         0.
+ 0.         0.         0.         0.         0.10500456]",Z3,0.07995104789733887,sat,"['Z3', 'Bitwuzla', 'MathSAT', 'YICES', 'BOOLECTOR', 'CVC4']",[0.07995104789733887]
+./data/QF_ABV/try5_small_noof_functions_dwp_whoami.get_quoting_style.il.dwp.smt2,"[0.00064192 0.02300961 0.0175335  0.         0.         0.
+ 0.         0.         0.         0.         0.01597556]",Z3,0.050894975662231445,sat,"['Z3', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'CVC4', 'YICES']",[0.050894975662231445]
+./data/QF_ABV/egt-4479.smt2,"[0.00773497 0.01082535 0.00080031 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08373212814331055,unsat,"['Z3', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'CVC4', 'YICES']",[0.08373212814331055]
+./data/QF_ABV/egt-4532.smt2,"[0.01035582 0.01476344 0.00080364 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09055113792419434,sat,"['Z3', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'CVC4', 'YICES']",[0.09055113792419434]
+./data/QF_ABV/egt-7178.smt2,"[0.01624702 0.01742998 0.00080697 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13759994506835938,sat,"['Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'MathSAT']",[0.13759994506835938]
+./data/QF_ABV/egt-5772.smt2,"[0.01239813 0.01668301 0.00081031 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13268804550170898,sat,"['Z3', 'YICES', 'CVC4', 'MathSAT', 'BOOLECTOR', 'Bitwuzla']",[0.13268804550170898]
+./data/QF_ABV/egt-5152.smt2,"[0.01572422 0.02069148 0.00081364 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.1371159553527832,sat,"['Z3', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR', 'MathSAT']",[0.1371159553527832]
+./data/QF_ABV/try5_small_noof_functions_dwp_uptime.get_quoting_style.il.dwp.smt2,"[0.00065786 0.02357716 0.01797206 0.         0.         0.
+ 0.         0.         0.         0.         0.01637553]",Z3,0.08235812187194824,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'MathSAT', 'YICES']",[0.08235812187194824]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_nl.optimize_subexps.il.flanagansaxe.smt2,"[0.00066054 0.38644368 0.21144159 0.         0.         0.
+ 0.         0.         0.         0.         0.20946167]",Z3,0.18165802955627441,sat,"['Z3', 'MathSAT', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'CVC4']",[0.18165802955627441]
+./data/QF_ABV/egt-3809.smt2,"[0.00862166 0.01244638 0.00082287 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0829458236694336,unsat,"['Z3', 'BOOLECTOR', 'CVC4', 'YICES', 'Bitwuzla', 'MathSAT']",[0.0829458236694336]
+./data/QF_ABV/egt-7908.smt2,"[0.01265126 0.01582823 0.0008262  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.1343250274658203,sat,"['Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'MathSAT']",[0.1343250274658203]
+./data/QF_ABV/try5_small_difret_functions_wp_csplit.set_char_quoting.il.wp.smt2,"[0.00066854 0.23347766 0.00829502 0.         0.         0.
+ 0.         0.         0.         0.         0.0074827 ]",Z3,0.8357250690460205,sat,"['Z3', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4']",[0.8357250690460205]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_paste.set_quoting_style.il.flanagansaxe.smt2,"[0.00067122 0.03774909 0.03164367 0.         0.         0.
+ 0.         0.         0.         0.         0.03004737]",Z3,0.03720688819885254,sat,"['Z3', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR', 'MathSAT']",[0.03720688819885254]
+./data/QF_ABV/try4_difret_functions_disjunctions_fmt.set_other_indent.il.disjunctions_2.smt2,"[0.00067391 0.02795873 0.00250815 0.         0.         0.
+ 0.         0.         0.         0.         0.00167596]",Z3,0.0848701000213623,sat,"['Z3', 'YICES', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'CVC4']",[0.0848701000213623]
+./data/QF_ABV/try4_difret_functions_disjunctions_wc.set_quoting_style.il.disjunctions_1.smt2,"[0.00067659 0.02248791 0.00251812 0.         0.         0.
+ 0.         0.         0.         0.         0.00168263]",Z3,0.08501791954040527,sat,"['Z3', 'MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'YICES']",[0.08501791954040527]
+./data/QF_ABV/egt-1088.smt2,"[0.00883024 0.01154268 0.0008427  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13406896591186523,sat,"['Z3', 'BOOLECTOR', 'YICES', 'MathSAT', 'CVC4', 'Bitwuzla']",[0.13406896591186523]
+./data/QF_ABV/egt-4365.smt2,"[0.01295609 0.01499574 0.00084603 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13283991813659668,sat,"['Z3', 'YICES', 'MathSAT', 'CVC4', 'BOOLECTOR', 'Bitwuzla']",[0.13283991813659668]
+./data/QF_ABV/try5_small_noof_functions_dwp_seq.set_quoting_style.il.dwp.smt2,"[0.00068458 0.02446166 0.01868455 0.         0.         0.
+ 0.         0.         0.         0.         0.01702548]",Z3,0.08339381217956543,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'MathSAT']",[0.08339381217956543]
+./data/QF_ABV/try5_small_noof_functions_wp_csplit.optimize_subexps.il.wp.smt2,"[0.00068726 0.2052261  0.00596826 0.         0.         0.
+ 0.         0.         0.         0.         0.00512757]",Z3,0.29151010513305664,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'MathSAT', 'YICES', 'Bitwuzla']",[0.29151010513305664]
+./data/QF_ABV/try5_small_noof_functions_dwp_basename.get_quoting_style.il.dwp.smt2,"[0.00068995 0.02463139 0.01882928 0.         0.         0.
+ 0.         0.         0.         0.         0.01715753]",Z3,0.06259298324584961,sat,"['Z3', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'CVC4', 'MathSAT']",[0.06259298324584961]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_hostid.quoting_options_from_style.il.flanagansaxe.smt2,"[0.00069263 0.18713407 0.13053334 0.         0.         0.
+ 0.         0.         0.         0.         0.11879285]",Z3,0.08968114852905273,sat,"['Z3', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'MathSAT', 'CVC4']",[0.08968114852905273]
+./data/QF_ABV/try3_sameret_functions_dwp_vdir.strcmp_size.il.dwp.smt2,"[0.00069531 0.19672988 0.15164086 0.         0.         0.
+ 0.         0.         0.         0.         0.14509659]",Z3,3.1985130310058594,sat,"['Z3', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'MathSAT']",[3.1985130310058594]
+./data/QF_ABV/egt-4665.smt2,"[0.0097716  0.01357125 0.00086492 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05758810043334961,unsat,"['Z3', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES']",[0.05758810043334961]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_seq.close_stdout_set_file_name.il.flanagansaxe.smt2,"[0.00070065 0.04051474 0.02691286 0.         0.         0.
+ 0.         0.         0.         0.         0.02436723]",Z3,0.0787668228149414,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'MathSAT', 'Bitwuzla', 'YICES']",[0.0787668228149414]
+./data/QF_ABV/try4_difret_functions_disjunctions_vdir.get_type_indicator.il.disjunctions_102.smt2,"[0.00070334 0.0553836  0.00697168 0.         0.         0.
+ 0.         0.         0.         0.         0.006115  ]",Z3,0.05053305625915527,unsat,"['Z3', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'CVC4', 'YICES']",[0.05053305625915527]
+./data/QF_ABV/egt-6713.smt2,"[0.01341372 0.01442576 0.00087478 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,1.6220428943634033,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'YICES']",[1.6220428943634033]
+./data/QF_ABV/try5_small_noof_functions_fse-bfs_tac.mark_opt_subexp.il.fse-bfs.smt2,"[0.00070867 0.02454411 0.0026343  0.         0.         0.
+ 0.         0.         0.         0.         0.00176047]",Z3,0.08423089981079102,sat,"['Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'MathSAT']",[0.08423089981079102]
+./data/QF_ABV/egt-6683.smt2,"[0.01066985 0.01417886 0.00088142 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05182909965515137,sat,"['Z3', 'MathSAT', 'BOOLECTOR', 'CVC4', 'YICES', 'Bitwuzla']",[0.05182909965515137]
+./data/QF_ABV/egt-2686.smt2,"[0.01142363 0.01405371 0.00088475 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13261795043945312,sat,"['Z3', 'CVC4', 'MathSAT', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.13261795043945312]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_env.quoting_options_from_style.il.flanagansaxe.smt2,"[0.00071666 0.19324474 0.13491887 0.         0.         0.
+ 0.         0.         0.         0.         0.12279626]",Z3,0.08317804336547852,sat,"['Z3', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4']",[0.08317804336547852]
+./data/QF_ABV/egt-1437.smt2,"[0.00863184 0.01074575 0.00089095 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0345311164855957,unsat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'CVC4', 'YICES']",[0.0345311164855957]
+./data/QF_ABV/egt-6615.smt2,"[0.03392992 0.03540886 0.00089427 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.3912539482116699,sat,"['Z3', 'MathSAT', 'BOOLECTOR', 'CVC4', 'YICES', 'Bitwuzla']",[0.3912539482116699]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_id.set_char_quoting.il.flanagansaxe.smt2,"[0.00072459 0.29428608 0.16146984 0.         0.         0.
+ 0.         0.         0.         0.         0.15737777]",Z3,0.18352413177490234,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'MathSAT']",[0.18352413177490234]
+./data/QF_ABV/wchains090ue.smt2,"[0.00072728 0.34377681 0.08190955 0.         0.         0.
+ 0.         0.         0.         0.         0.08121256]",Z3,60.0,error,"['Z3', 'YICES', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'CVC4']",[60.0]
+./data/QF_ABV/egt-4116.smt2,"[0.01021906 0.01613621 0.00090342 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13327503204345703,sat,"['Z3', 'Bitwuzla', 'MathSAT', 'CVC4', 'YICES', 'BOOLECTOR']",[0.13327503204345703]
+./data/QF_ABV/egt-7236.smt2,"[0.01831418 0.01983354 0.00090674 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.02235698699951172,unsat,"['Z3', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'CVC4', 'MathSAT']",[0.02235698699951172]
+./data/QF_ABV/egt-4335.smt2,"[0.01249869 0.01442667 0.00091006 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08036017417907715,unsat,"['Z3', 'MathSAT', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR']",[0.08036017417907715]
+./data/QF_ABV/egt-7827.smt2,"[0.0118059  0.01539487 0.00091338 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,3.9379568099975586,sat,"['Z3', 'YICES', 'BOOLECTOR', 'MathSAT', 'CVC4', 'Bitwuzla']",[3.9379568099975586]
+./data/QF_ABV/egt-1168.smt2,"[0.00518377 0.00790914 0.0009167  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.03476309776306152,unsat,"['Z3', 'MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.03476309776306152]
+./data/QF_ABV/egt-2958.smt2,"[0.00222965 0.00258437 0.00092002 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09121990203857422,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'MathSAT']",[0.09121990203857422]
+./data/QF_ABV/try3_sameret_functions_dwp_nl.peek_token_bracket.il.dwp.smt2,"[0.0007459  0.65318654 0.62185799 0.         0.         0.
+ 0.         0.         0.         0.         0.60222942]",Z3,6.5499107837677,sat,"['Z3', 'BOOLECTOR', 'YICES', 'CVC4', 'Bitwuzla', 'MathSAT']",[6.5499107837677]
+./data/QF_ABV/egt-6059.smt2,"[0.00823413 0.01057276 0.00092458 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.051954030990600586,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'MathSAT', 'YICES']",[0.051954030990600586]
+./data/QF_ABV/egt-2872.smt2,"[0.00976578 0.01135481 0.00092789 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05040884017944336,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'YICES', 'MathSAT']",[0.05040884017944336]
+./data/QF_ABV/egt-4550.smt2,"[0.011308   0.01587788 0.0009312  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05946612358093262,unsat,"['Z3', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'CVC4', 'MathSAT']",[0.05946612358093262]
+./data/QF_ABV/egt-2270.smt2,"[0.01739956 0.02155664 0.00093451 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13321995735168457,unsat,"['Z3', 'BOOLECTOR', 'MathSAT', 'YICES', 'Bitwuzla', 'CVC4']",[0.13321995735168457]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_od.set_char_quoting.il.flanagansaxe.smt2,"[0.00075918 0.30685665 0.16870846 0.         0.         0.
+ 0.         0.         0.         0.         0.16445293]",Z3,0.1332249641418457,sat,"['Z3', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'YICES', 'CVC4']",[0.1332249641418457]
+./data/QF_ABV/egt-2401.smt2,"[0.01980713 0.02149578 0.00094058 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05199909210205078,sat,"['Z3', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'CVC4']",[0.05199909210205078]
+./data/QF_ABV/binarysearch32s256.smt2,"[0.00076449 0.32396029 0.00283164 0.         0.         0.
+ 0.         0.         0.         0.         0.00189273]",Z3,60.0,error,"['Z3', 'Bitwuzla', 'MathSAT', 'CVC4', 'YICES', 'BOOLECTOR']",[60.0]
+./data/QF_ABV/egt-0765.smt2,"[0.00690441 0.01005224 0.00094719 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05673098564147949,sat,"['Z3', 'MathSAT', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'YICES']",[0.05673098564147949]
+./data/QF_ABV/egt-2680.smt2,"[0.01077735 0.01427389 0.0009505  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08262801170349121,sat,"['Z3', 'YICES', 'CVC4', 'MathSAT', 'BOOLECTOR', 'Bitwuzla']",[0.08262801170349121]
+./data/QF_ABV/try5_small_difret_functions_wp_tail.set_char_quoting.il.wp.smt2,"[0.00077249 0.26655448 0.00953778 0.         0.         0.
+ 0.         0.         0.         0.         0.00860669]",Z3,0.9845809936523438,sat,"['Z3', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'MathSAT']",[0.9845809936523438]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_pwd.get_quoting_style.il.flanagansaxe.smt2,"[0.00077517 0.06584979 0.05071686 0.         0.         0.
+ 0.         0.         0.         0.         0.04893231]",Z3,0.08259391784667969,sat,"['Z3', 'Bitwuzla', 'YICES', 'MathSAT', 'CVC4', 'BOOLECTOR']",[0.08259391784667969]
+./data/QF_ABV/egt-6437.smt2,"[0.02411144 0.02727367 0.00096023 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.20178699493408203,sat,"['Z3', 'YICES', 'CVC4', 'BOOLECTOR', 'MathSAT', 'Bitwuzla']",[0.20178699493408203]
+./data/QF_ABV/egt-0517.smt2,"[0.00546319 0.00809445 0.00096354 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08431816101074219,unsat,"['Z3', 'BOOLECTOR', 'MathSAT', 'CVC4', 'YICES', 'Bitwuzla']",[0.08431816101074219]
+./data/QF_ABV/try3_noof_functions_dwp_date.set_char_quoting.il.dwp.smt2,"[0.00078314 0.29095115 0.14398946 0.         0.         0.
+ 0.         0.         0.         0.         0.13952933]",Z3,0.23385095596313477,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'MathSAT']",[0.23385095596313477]
+./data/QF_ABV/try5_small_difret_functions_dwp_tac.re_node_set_remove_at.il.dwp.smt2,"[0.00078582 0.18927523 0.14634881 0.         0.         0.
+ 0.         0.         0.         0.         0.13896895]",Z3,6.656913995742798,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'MathSAT', 'YICES']",[6.656913995742798]
+./data/QF_ABV/egt-1560.smt2,"[0.00630785 0.00796987 0.0009725  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08209490776062012,sat,"['Z3', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'MathSAT', 'YICES']",[0.08209490776062012]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_tail.set_quoting_style.il.flanagansaxe.smt2,"[0.00079116 0.04387931 0.03707611 0.         0.         0.
+ 0.         0.         0.         0.         0.03521979]",Z3,0.06060194969177246,sat,"['Z3', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR', 'MathSAT']",[0.06060194969177246]
+./data/QF_ABV/try5_small_noof_functions_wp_mv.hash_table_ok.il.wp.smt2,"[0.00079384 0.07081929 0.00587385 0.         0.         0.
+ 0.         0.         0.         0.         0.00490814]",Z3,0.18765687942504883,sat,"['Z3', 'CVC4', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'YICES']",[0.18765687942504883]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_pinky.set_quoting_style.il.flanagansaxe.smt2,"[0.00079652 0.09242586 0.06579835 0.         0.         0.
+ 0.         0.         0.         0.         0.06203851]",Z3,0.13080191612243652,sat,"['Z3', 'MathSAT', 'BOOLECTOR', 'YICES', 'CVC4', 'Bitwuzla']",[0.13080191612243652]
+./data/QF_ABV/egt-1343.smt2,"[0.01278668 0.01653818 0.00098537 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.1327528953552246,sat,"['Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'MathSAT']",[0.1327528953552246]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_tac.set_char_quoting.il.flanagansaxe.smt2,"[0.00080185 0.32224123 0.17785562 0.         0.         0.
+ 0.         0.         0.         0.         0.17338905]",Z3,0.13306283950805664,sat,"['Z3', 'MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.13306283950805664]
+./data/QF_ABV/try4_difret_functions_disjunctions_readlink.cycle_check_init.il.disjunctions_0.smt2,"[0.00080453 0.02454885 0.00297414 0.         0.         0.
+ 0.         0.         0.         0.         0.0019882 ]",Z3,0.09581804275512695,sat,"['Z3', 'Bitwuzla', 'MathSAT', 'CVC4', 'BOOLECTOR', 'YICES']",[0.09581804275512695]
+./data/QF_ABV/egt-0832.smt2,"[0.01049335 0.01469824 0.00099468 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08396100997924805,sat,"['Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'YICES']",[0.08396100997924805]
+./data/QF_ABV/egt-0932.smt2,"[0.00890822 0.01175734 0.00099798 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.06027817726135254,sat,"['Z3', 'MathSAT', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'CVC4']",[0.06027817726135254]
+./data/QF_ABV/egt-1826.smt2,"[0.01624952 0.01939263 0.00100129 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.18642115592956543,sat,"['Z3', 'YICES', 'MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.18642115592956543]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_csplit.bkm_scale.il.flanagansaxe.smt2,"[0.00081516 0.13773864 0.10845702 0.         0.         0.
+ 0.         0.         0.         0.         0.10271563]",Z3,0.13522982597351074,sat,"['Z3', 'YICES', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'CVC4']",[0.13522982597351074]
+./data/QF_ABV/try3_sameret_functions_dwp_cut.hash_get_n_buckets_used.il.dwp.smt2,"[0.00081783 0.02413638 0.01511228 0.         0.         0.
+ 0.         0.         0.         0.         0.01313371]",Z3,0.05074501037597656,sat,"['Z3', 'MathSAT', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR']",[0.05074501037597656]
+./data/QF_ABV/egt-6930.smt2,"[0.01230725 0.01755524 0.00101079 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.1336679458618164,sat,"['Z3', 'YICES', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'CVC4']",[0.1336679458618164]
+./data/QF_ABV/try5_small_true_functions_dwp_vdir.strcmp_ctime.il.dwp.smt2,"[0.00082316 0.12040684 0.0861733  0.         0.         0.
+ 0.         0.         0.         0.         0.08133124]",Z3,0.27006006240844727,sat,"['Z3', 'YICES', 'MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.27006006240844727]
+./data/QF_ABV/egt-1178.smt2,"[0.00660661 0.01157191 0.0010171  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08279109001159668,unsat,"['Z3', 'MathSAT', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'YICES']",[0.08279109001159668]
+./data/QF_ABV/try3_sameret_functions_dwp_chroot.close_stdout_set_file_name.il.dwp.smt2,"[0.0008285  0.03645354 0.02142701 0.         0.         0.
+ 0.         0.         0.         0.         0.01841765]",Z3,0.05087113380432129,sat,"['Z3', 'YICES', 'Bitwuzla', 'MathSAT', 'CVC4', 'BOOLECTOR']",[0.05087113380432129]
+./data/QF_ABV/egt-4826.smt2,"[0.02659567 0.03432031 0.00102363 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05194997787475586,sat,"['Z3', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'MathSAT', 'CVC4']",[0.05194997787475586]
+./data/QF_ABV/egt-6279.smt2,"[0.01083897 0.01537023 0.00102693 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.03490495681762695,unsat,"['Z3', 'YICES', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'CVC4']",[0.03490495681762695]
+./data/QF_ABV/try5_small_difret_functions_dwp_nl.re_string_construct_common.il.dwp.smt2,"[0.00083645 0.23543449 0.18018672 0.         0.         0.
+ 0.         0.         0.         0.         0.16418227]",Z3,1.4378268718719482,sat,"['Z3', 'YICES', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'CVC4']",[1.4378268718719482]
+./data/QF_ABV/try3_noof_functions_dwp_tail.bkm_scale.il.dwp.smt2,"[0.00083912 0.07953387 0.06196404 0.         0.         0.
+ 0.         0.         0.         0.         0.05799979]",Z3,0.14101600646972656,sat,"['Z3', 'CVC4', 'YICES', 'MathSAT', 'BOOLECTOR', 'Bitwuzla']",[0.14101600646972656]
+./data/QF_ABV/egt-0226.smt2,"[0.02020202 0.02562928 0.00207205 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09035491943359375,sat,"['Z3', 'YICES', 'Bitwuzla', 'MathSAT', 'CVC4', 'BOOLECTOR']",[0.09035491943359375]
+./data/QF_ABV/egt-7189.smt2,"[0.01942073 0.02176982 0.00103932 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.1334669589996338,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'MathSAT', 'YICES', 'Bitwuzla']",[0.1334669589996338]
+./data/QF_ABV/try3_sameret_functions_dwp_cut.hash_string.il.dwp.smt2,"[0.00084706 0.10749417 0.08964007 0.         0.         0.
+ 0.         0.         0.         0.         0.08571901]",Z3,0.08371996879577637,sat,"['Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'MathSAT']",[0.08371996879577637]
+./data/QF_ABV/egt-5471.smt2,"[0.00679776 0.00604862 0.00104562 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08275103569030762,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'YICES', 'MathSAT', 'Bitwuzla']",[0.08275103569030762]
+./data/QF_ABV/egt-3586.smt2,"[0.0127855  0.01820206 0.00104892 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09000492095947266,sat,"['Z3', 'MathSAT', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR']",[0.09000492095947266]
+./data/QF_ABV/egt-0347.smt2,"[0.02650425 0.02958991 0.00210442 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0505681037902832,unsat,"['Z3', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'YICES']",[0.0505681037902832]
+./data/QF_ABV/egt-5104.smt2,"[0.02572761 0.03409986 0.0010555  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08971714973449707,unsat,"['Z3', 'CVC4', 'YICES', 'Bitwuzla', 'MathSAT', 'BOOLECTOR']",[0.08971714973449707]
+./data/QF_ABV/egt-5744.smt2,"[0.01462387 0.01815794 0.0010588  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05699491500854492,sat,"['Z3', 'MathSAT', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.05699491500854492]
+./data/QF_ABV/egt-3557.smt2,"[0.01898285 0.02731944 0.00106209 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05109095573425293,unsat,"['Z3', 'CVC4', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.05109095573425293]
+./data/QF_ABV/try3_noof_functions_dwp_vdir.set_quoting_style.il.dwp.smt2,"[0.00086553 0.03037553 0.02343691 0.         0.         0.
+ 0.         0.         0.         0.         0.02136879]",Z3,0.05192399024963379,sat,"['Z3', 'Bitwuzla', 'CVC4', 'MathSAT', 'BOOLECTOR', 'YICES']",[0.05192399024963379]
+./data/QF_ABV/egt-3014.smt2,"[0.02344007 0.02450165 0.00106861 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08282613754272461,sat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES', 'MathSAT']",[0.08282613754272461]
+./data/QF_ABV/egt-6096.smt2,"[0.01567419 0.01987432 0.0010719  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05722308158874512,unsat,"['Z3', 'YICES', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'CVC4']",[0.05722308158874512]
+./data/QF_ABV/try5_small_noof_functions_dwp_vdir.set_exit_status.il.dwp.smt2,"[0.00087347 0.04586656 0.03870266 0.         0.         0.
+ 0.         0.         0.         0.         0.03666023]",Z3,0.08933091163635254,sat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES', 'MathSAT']",[0.08933091163635254]
+./data/QF_ABV/try5_small_difret_functions_wp_kill.set_char_quoting.il.wp.smt2,"[0.00087614 0.30006148 0.01078336 0.         0.         0.
+ 0.         0.         0.         0.         0.00973366]",Z3,0.5331668853759766,sat,"['Z3', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'YICES', 'CVC4']",[0.5331668853759766]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_hostid.set_quoting_style.il.flanagansaxe.smt2,"[0.00087882 0.04846835 0.04109693 0.         0.         0.
+ 0.         0.         0.         0.         0.03904904]",Z3,0.08858489990234375,sat,"['Z3', 'MathSAT', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES']",[0.08858489990234375]
+./data/QF_ABV/egt-6790.smt2,"[0.01586621 0.02009344 0.00108479 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08193397521972656,unsat,"['Z3', 'BOOLECTOR', 'MathSAT', 'CVC4', 'Bitwuzla', 'YICES']",[0.08193397521972656]
+./data/QF_ABV/egt-6244.smt2,"[0.0097252  0.012569   0.00108809 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0516209602355957,sat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'YICES', 'CVC4']",[0.0516209602355957]
+./data/QF_ABV/egt-1622.smt2,"[0.01596142 0.02130026 0.00109138 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13645505905151367,sat,"['Z3', 'MathSAT', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR']",[0.13645505905151367]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_fmt.set_char_quoting.il.flanagansaxe.smt2,"[0.00088942 0.3556229  0.19692486 0.         0.         0.
+ 0.         0.         0.         0.         0.19202549]",Z3,0.13619303703308105,sat,"['Z3', 'MathSAT', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.13619303703308105]
+./data/QF_ABV/wchains044se.smt2,"[0.0008921  0.16592309 0.04937218 0.         0.         0.
+ 0.         0.         0.         0.         0.04841908]",Z3,0.5338170528411865,sat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES', 'MathSAT']",[0.5338170528411865]
+./data/QF_ABV/try4_true_functions_dwp_stat.set_char_quoting.il.dwp.smt2,"[0.00089478 0.06152077 0.05501365 0.         0.         0.
+ 0.         0.         0.         0.         0.05186764]",Z3,0.0516660213470459,sat,"['Z3', 'MathSAT', 'BOOLECTOR', 'CVC4', 'YICES', 'Bitwuzla']",[0.0516660213470459]
+./data/QF_ABV/try4_true_functions_dwp_setuidgid.get_quoting_style.il.dwp.smt2,"[0.00089745 0.02810524 0.02206989 0.         0.         0.
+ 0.         0.         0.         0.         0.01992249]",Z3,0.08222484588623047,sat,"['Z3', 'CVC4', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.08222484588623047]
+./data/QF_ABV/egt-4977.smt2,"[0.01710162 0.0240031  0.00110678 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0508120059967041,unsat,"['Z3', 'Bitwuzla', 'YICES', 'MathSAT', 'BOOLECTOR', 'CVC4']",[0.0508120059967041]
+./data/QF_ABV/egt-2607.smt2,"[0.02166494 0.02429365 0.00111008 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0826730728149414,sat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'MathSAT', 'YICES']",[0.0826730728149414]
+./data/QF_ABV/egt-2993.smt2,"[0.01448553 0.01727664 0.00111337 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0897219181060791,sat,"['Z3', 'BOOLECTOR', 'YICES', 'MathSAT', 'CVC4', 'Bitwuzla']",[0.0897219181060791]
+./data/QF_ABV/grep0777.stp.smt2,"[1.81603900e-03 1.52745838e+01 6.69982542e-03 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 5.60001057e-03]",Z3,60.0,error,"['Z3', 'YICES', 'Bitwuzla', 'MathSAT', 'CVC4', 'BOOLECTOR']",[60.0]
+./data/QF_ABV/egt-3067.smt2,"[0.01183866 0.01255278 0.00111993 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05130505561828613,sat,"['Z3', 'YICES', 'CVC4', 'MathSAT', 'BOOLECTOR', 'Bitwuzla']",[0.05130505561828613]
+./data/QF_ABV/try5_small_difret_functions_dwp_logname.close_stdout_set_file_name.il.dwp.smt2,"[0.00091334 0.03840494 0.02358602 0.         0.         0.
+ 0.         0.         0.         0.         0.02027777]",Z3,0.09061503410339355,sat,"['Z3', 'Bitwuzla', 'MathSAT', 'YICES', 'BOOLECTOR', 'CVC4']",[0.09061503410339355]
+./data/QF_ABV/egt-4582.smt2,"[0.02656254 0.0239648  0.00112643 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13318800926208496,sat,"['Z3', 'CVC4', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.13318800926208496]
+./data/QF_ABV/try5_small_difret_functions_wp_pr.bkm_scale.il.wp.smt2,"[0.00091863 0.06930086 0.00790791 0.         0.         0.
+ 0.         0.         0.         0.         0.00679877]",Z3,0.48368191719055176,sat,"['Z3', 'Bitwuzla', 'MathSAT', 'YICES', 'BOOLECTOR', 'CVC4']",[0.48368191719055176]
+./data/QF_ABV/egt-1481.smt2,"[0.01197653 0.01441641 0.00113299 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09029912948608398,sat,"['Z3', 'CVC4', 'MathSAT', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.09029912948608398]
+./data/QF_ABV/egt-4700.smt2,"[0.01478256 0.02049938 0.00113628 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.1842958927154541,sat,"['Z3', 'CVC4', 'YICES', 'Bitwuzla', 'MathSAT', 'BOOLECTOR']",[0.1842958927154541]
+./data/QF_ABV/try3_sameret_functions_dwp_uniq.set_char_quoting.il.dwp.smt2,"[0.00092659 0.23831778 0.12872405 0.         0.         0.
+ 0.         0.         0.         0.         0.12226189]",Z3,0.27968406677246094,sat,"['Z3', 'MathSAT', 'CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[0.27968406677246094]
+./data/QF_ABV/egt-5371.smt2,"[0.01486758 0.01995221 0.00114244 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.050421953201293945,sat,"['Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'CVC4']",[0.050421953201293945]
+./data/QF_ABV/egt-5463.smt2,"[0.00838691 0.00848217 0.00114573 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05176687240600586,sat,"['Z3', 'MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.05176687240600586]
+./data/QF_ABV/try4_difret_functions_disjunctions_rmdir.close_stdout_set_file_name.il.disjunctions_0.smt2,"[0.00093455 0.023555   0.00344703 0.         0.         0.
+ 0.         0.         0.         0.         0.00230507]",Z3,0.058389902114868164,sat,"['Z3', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'MathSAT', 'YICES']",[0.058389902114868164]
+./data/QF_ABV/egt-4993.smt2,"[0.00843489 0.01071728 0.0011523  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08233308792114258,unsat,"['Z3', 'MathSAT', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'CVC4']",[0.08233308792114258]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_paste.close_stdout_set_file_name.il.flanagansaxe.smt2,"[0.00093988 0.05088066 0.03581963 0.         0.         0.
+ 0.         0.         0.         0.         0.03245289]",Z3,0.08251285552978516,sat,"['Z3', 'CVC4', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'YICES']",[0.08251285552978516]
+./data/QF_ABV/egt-2748.smt2,"[0.00565528 0.00593823 0.00115876 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08371901512145996,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'MathSAT']",[0.08371901512145996]
+./data/QF_ABV/egt-6280.smt2,"[0.0122875  0.0167617  0.00116205 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.052664995193481445,sat,"['Z3', 'MathSAT', 'YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[0.052664995193481445]
+./data/QF_ABV/egt-3376.smt2,"[0.01990415 0.0227794  0.00116534 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08465194702148438,sat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'MathSAT', 'CVC4']",[0.08465194702148438]
+./data/QF_ABV/try4_difret_functions_disjunctions_ptx.compare_words.il.disjunctions_10.smt2,"[0.00095049 0.10354289 0.00701163 0.         0.         0.
+ 0.         0.         0.         0.         0.0058611 ]",Z3,0.05223584175109863,unsat,"['Z3', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'YICES', 'CVC4']",[0.05223584175109863]
+./data/QF_ABV/try3_sameret_functions_fse-bfs_vdir.hash_table_ok.il.fse-bfs.smt2,"[0.00095317 0.04935348 0.00703124 0.         0.         0.
+ 0.         0.         0.         0.         0.00587752]",Z3,0.13623404502868652,sat,"['Z3', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR', 'MathSAT']",[0.13623404502868652]
+./data/QF_ABV/try4_true_functions_dwp_cut.hash_string.il.dwp.smt2,"[0.00095584 0.08491897 0.07519475 0.         0.         0.
+ 0.         0.         0.         0.         0.07071431]",Z3,0.14069700241088867,sat,"['Z3', 'Bitwuzla', 'MathSAT', 'YICES', 'BOOLECTOR', 'CVC4']",[0.14069700241088867]
+./data/QF_ABV/egt-1718.smt2,"[0.01246031 0.01609191 0.00117821 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08222007751464844,sat,"['Z3', 'MathSAT', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'CVC4']",[0.08222007751464844]
+./data/QF_ABV/egt-2570.smt2,"[0.01537794 0.01949764 0.00118149 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13309693336486816,unsat,"['Z3', 'MathSAT', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[0.13309693336486816]
+./data/QF_ABV/egt-5351.smt2,"[0.00771022 0.00988807 0.00118478 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.03901386260986328,unsat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'MathSAT', 'YICES']",[0.03901386260986328]
+./data/QF_ABV/egt-3669.smt2,"[0.01642899 0.02140728 0.00118807 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.052247047424316406,sat,"['Z3', 'MathSAT', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR']",[0.052247047424316406]
+./data/QF_ABV/egt-3924.smt2,"[0.00872158 0.01129785 0.00119135 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09053301811218262,unsat,"['Z3', 'MathSAT', 'BOOLECTOR', 'YICES', 'CVC4', 'Bitwuzla']",[0.09053301811218262]
+./data/QF_ABV/egt-5677.smt2,"[0.00874547 0.00747702 0.00119464 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.16505002975463867,unsat,"['Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'CVC4']",[0.16505002975463867]
+./data/QF_ABV/egt-4009.smt2,"[0.01753827 0.02521753 0.00119793 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08993101119995117,sat,"['Z3', 'Bitwuzla', 'MathSAT', 'CVC4', 'BOOLECTOR', 'YICES']",[0.08993101119995117]
+./data/QF_ABV/try3_sameret_functions_fse-bfs_vdir.dev_ino_compare.il.fse-bfs.smt2,"[0.00097702 0.05329954 0.006006   0.         0.         0.
+ 0.         0.         0.         0.         0.00481987]",Z3,0.08233809471130371,sat,"['Z3', 'MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.08233809471130371]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_od.quoting_options_from_style.il.flanagansaxe.smt2,"[0.0009797  0.24718996 0.18299097 0.         0.         0.
+ 0.         0.         0.         0.         0.16666502]",Z3,0.0833580493927002,sat,"['Z3', 'Bitwuzla', 'YICES', 'MathSAT', 'CVC4', 'BOOLECTOR']",[0.0833580493927002]
+./data/QF_ABV/calc2_sec2_bmc25.atlas.smt2,"[9.82370860e-04 4.84265879e+00 9.65716410e-03 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 6.52993927e-01 0.00000000e+00 0.00000000e+00]",Z3,60.0,error,"['Z3', 'BOOLECTOR', 'YICES', 'CVC4', 'MathSAT', 'Bitwuzla']",[60.0]
+./data/QF_ABV/egt-7729.smt2,"[0.02560946 0.02785304 0.00121043 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.1841750144958496,unsat,"['Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'CVC4']",[0.1841750144958496]
+./data/QF_ABV/egt-2583.smt2,"[0.01975206 0.02156971 0.00121372 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.1339268684387207,sat,"['Z3', 'Bitwuzla', 'MathSAT', 'CVC4', 'BOOLECTOR', 'YICES']",[0.1339268684387207]
+./data/QF_ABV/egt-5933.smt2,"[0.00792206 0.01183819 0.001217   0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05121302604675293,unsat,"['Z3', 'BOOLECTOR', 'YICES', 'MathSAT', 'CVC4', 'Bitwuzla']",[0.05121302604675293]
+./data/QF_ABV/egt-7078.smt2,"[0.02680729 0.026706   0.00122029 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05013394355773926,unsat,"['Z3', 'CVC4', 'MathSAT', 'YICES', 'Bitwuzla', 'BOOLECTOR']",[0.05013394355773926]
+./data/QF_ABV/egt-1649.smt2,"[0.02488681 0.02837792 0.00122357 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,1.644420862197876,sat,"['Z3', 'MathSAT', 'YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[1.644420862197876]
+./data/QF_ABV/try3_sameret_functions_dwp_cat.get_quoting_style.il.dwp.smt2,"[0.00099815 0.05873492 0.04538832 0.         0.         0.
+ 0.         0.         0.         0.         0.04307358]",Z3,0.5475161075592041,sat,"['Z3', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4']",[0.5475161075592041]
+./data/QF_ABV/try5_small_difret_functions_dwp_pathchk.close_stdout_set_file_name.il.dwp.smt2,"[0.00100082 0.04140412 0.02582822 0.         0.         0.
+ 0.         0.         0.         0.         0.0222102 ]",Z3,0.09099197387695312,sat,"['Z3', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'MathSAT', 'YICES']",[0.09099197387695312]
+./data/QF_ABV/try4_difret_functions_disjunctions_vdir.is_colored.il.disjunctions_2.smt2,"[0.00100349 0.04681366 0.00739908 0.         0.         0.
+ 0.         0.         0.         0.         0.00618589]",Z3,0.051711082458496094,unsat,"['Z3', 'MathSAT', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.051711082458496094]
+./data/QF_ABV/egt-0942.smt2,"[0.01207363 0.01502897 0.00123646 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0506901741027832,sat,"['Z3', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'MathSAT']",[0.0506901741027832]
+./data/QF_ABV/try5_small_true_functions_dwp_vdir.strmode.il.dwp.smt2,"[0.00100881 0.148776   0.15490536 0.         0.         0.
+ 0.         0.         0.         0.         0.15167974]",Z3,0.05672502517700195,sat,"['Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'MathSAT', 'Bitwuzla']",[0.05672502517700195]
+./data/QF_ABV/egt-0155.smt2,"[0.00809171 0.01138495 0.00248504 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0509488582611084,unsat,"['Z3', 'YICES', 'Bitwuzla', 'CVC4', 'MathSAT', 'BOOLECTOR']",[0.0509488582611084]
+./data/QF_ABV/try5_small_noof_functions_dwp_join.get_quoting_style.il.dwp.smt2,"[0.00101414 0.03331045 0.02740582 0.         0.         0.
+ 0.         0.         0.         0.         0.0249958 ]",Z3,0.051728010177612305,sat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'MathSAT', 'YICES']",[0.051728010177612305]
+./data/QF_ABV/try3_sameret_functions_fse-bfs_mkdir.close_stdout_set_file_name.il.fse-bfs.smt2,"[0.00101681 0.02498872 0.00374698 0.         0.         0.
+ 0.         0.         0.         0.         0.00250616]",Z3,0.05585980415344238,sat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES', 'MathSAT']",[0.05585980415344238]
+./data/QF_ABV/egt-2212.smt2,"[0.01223343 0.01498527 0.00125228 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0512239933013916,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'YICES', 'MathSAT']",[0.0512239933013916]
+./data/QF_ABV/egt-5591.smt2,"[0.00919893 0.01267659 0.00125556 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0580449104309082,unsat,"['Z3', 'BOOLECTOR', 'MathSAT', 'Bitwuzla', 'YICES', 'CVC4']",[0.0580449104309082]
+./data/QF_ABV/egt-2240.smt2,"[0.01229696 0.01506284 0.00125884 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08932900428771973,unsat,"['Z3', 'MathSAT', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'CVC4']",[0.08932900428771973]
+./data/QF_ABV/egt-7612.smt2,"[0.01335602 0.01628133 0.00126212 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09737992286682129,sat,"['Z3', 'YICES', 'CVC4', 'BOOLECTOR', 'MathSAT', 'Bitwuzla']",[0.09737992286682129]
+./data/QF_ABV/try5_small_true_functions_flanagansaxe_vdir.strcmp_ctime.il.flanagansaxe.smt2,"[0.00103006 0.20429308 0.18086875 0.         0.         0.
+ 0.         0.         0.         0.         0.17512055]",Z3,0.1392970085144043,sat,"['Z3', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'YICES', 'CVC4']",[0.1392970085144043]
+./data/QF_ABV/egt-3971.smt2,"[0.01239242 0.01611971 0.0012681  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08289194107055664,sat,"['Z3', 'BOOLECTOR', 'YICES', 'CVC4', 'MathSAT', 'Bitwuzla']",[0.08289194107055664]
+./data/QF_ABV/try5_small_noof_functions_dwp_csplit.calc_next.il.dwp.smt2,"[0.00103537 0.15679779 0.13090812 0.         0.         0.
+ 0.         0.         0.         0.         0.12496664]",Z3,0.2395780086517334,sat,"['Z3', 'YICES', 'CVC4', 'Bitwuzla', 'MathSAT', 'BOOLECTOR']",[0.2395780086517334]
+./data/QF_ABV/a255test0005.smt2,"[0.00726621 0.00500185 0.00254846 0.         0.         0.
+ 0.         0.         0.         0.         0.00127846]",Z3,0.09070897102355957,sat,"['Z3', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'CVC4', 'MathSAT']",[0.09070897102355957]
+./data/QF_ABV/egt-1436.smt2,"[0.01248806 0.01456608 0.00127751 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0844120979309082,sat,"['Z3', 'Bitwuzla', 'CVC4', 'MathSAT', 'YICES', 'BOOLECTOR']",[0.0844120979309082]
+./data/QF_ABV/egt-7577.smt2,"[0.01251976 0.01484236 0.00128079 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05141019821166992,sat,"['Z3', 'YICES', 'CVC4', 'MathSAT', 'Bitwuzla', 'BOOLECTOR']",[0.05141019821166992]
+./data/QF_ABV/egt-7317.smt2,"[0.02719382 0.02759883 0.00128407 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13281822204589844,sat,"['Z3', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'CVC4', 'YICES']",[0.13281822204589844]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_chgrp.get_quoting_style.il.flanagansaxe.smt2,"[0.00104859 0.05172294 0.0463392  0.         0.         0.
+ 0.         0.         0.         0.         0.04391086]",Z3,0.04306292533874512,sat,"['Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'MathSAT', 'Bitwuzla']",[0.04306292533874512]
+./data/QF_ABV/egt-7553.smt2,"[0.01471713 0.01929389 0.00129048 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08374381065368652,sat,"['Z3', 'MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR']",[0.08374381065368652]
+./data/QF_ABV/try3_sameret_functions_fse-bfs_paste.close_stdout_set_file_name.il.fse-bfs.smt2,"[0.0010539  0.02586955 0.00388125 0.         0.         0.
+ 0.         0.         0.         0.         0.00259615]",Z3,0.08380508422851562,sat,"['Z3', 'YICES', 'MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[0.08380508422851562]
+./data/QF_ABV/try4_true_functions_dwp_test.set_char_quoting.il.dwp.smt2,"[0.00105657 0.06809848 0.06484105 0.         0.         0.
+ 0.         0.         0.         0.         0.06115498]",Z3,0.052088022232055664,sat,"['Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'CVC4']",[0.052088022232055664]
+./data/QF_ABV/try3_sameret_functions_dwp_sha512sum.close_stdout_set_file_name.il.dwp.smt2,"[0.00105924 0.0434845  0.0273003  0.         0.         0.
+ 0.         0.         0.         0.         0.02347896]",Z3,0.05543184280395508,sat,"['Z3', 'MathSAT', 'CVC4', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[0.05543184280395508]
+./data/QF_ABV/egt-5042.smt2,"[0.02760786 0.03360618 0.00130329 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13402104377746582,sat,"['Z3', 'CVC4', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'YICES']",[0.13402104377746582]
+./data/QF_ABV/egt-3985.smt2,"[0.01383822 0.01806528 0.00130657 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.03597688674926758,unsat,"['Z3', 'YICES', 'CVC4', 'BOOLECTOR', 'MathSAT', 'Bitwuzla']",[0.03597688674926758]
+./data/QF_ABV/try5_small_noof_functions_dwp_wc.get_quoting_style.il.dwp.smt2,"[0.00106715 0.03499457 0.02881472 0.         0.         0.
+ 0.         0.         0.         0.         0.02628363]",Z3,0.08399605751037598,sat,"['Z3', 'YICES', 'Bitwuzla', 'CVC4', 'MathSAT', 'BOOLECTOR']",[0.08399605751037598]
+./data/QF_ABV/try3_sameret_functions_dwp_chgrp.bkm_scale.il.dwp.smt2,"[0.00106982 0.09737254 0.0774545  0.         0.         0.
+ 0.         0.         0.         0.         0.069814  ]",Z3,0.18303894996643066,sat,"['Z3', 'Bitwuzla', 'MathSAT', 'CVC4', 'BOOLECTOR', 'YICES']",[0.18303894996643066]
+./data/QF_ABV/egt-5285.smt2,"[0.01823161 0.01893218 0.00131607 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05447793006896973,sat,"['Z3', 'CVC4', 'YICES', 'MathSAT', 'BOOLECTOR', 'Bitwuzla']",[0.05447793006896973]
+./data/QF_ABV/egt-2181.smt2,"[0.011826   0.01725325 0.00131934 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08371615409851074,unsat,"['Z3', 'Bitwuzla', 'MathSAT', 'CVC4', 'YICES', 'BOOLECTOR']",[0.08371615409851074]
+./data/QF_ABV/try4_difret_functions_disjunctions_hostname.set_quoting_style.il.disjunctions_1.smt2,"[0.00107776 0.03286004 0.00396784 0.         0.         0.
+ 0.         0.         0.         0.         0.00265423]",Z3,0.09668302536010742,sat,"['Z3', 'CVC4', 'MathSAT', 'YICES', 'Bitwuzla', 'BOOLECTOR']",[0.09668302536010742]
+./data/QF_ABV/egt-7134.smt2,"[0.03024995 0.03021483 0.00132589 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,1.0068538188934326,sat,"['Z3', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'MathSAT']",[1.0068538188934326]
+./data/QF_ABV/try5_small_noof_functions_wp_md5sum.set_char_quoting.il.wp.smt2,"[0.00108303 0.32597151 0.01329128 0.         0.         0.
+ 0.         0.         0.         0.         0.01200296]",Z3,0.13422107696533203,sat,"['Z3', 'CVC4', 'Bitwuzla', 'YICES', 'MathSAT', 'BOOLECTOR']",[0.13422107696533203]
+./data/QF_ABV/egt-2479.smt2,"[0.02062727 0.02213205 0.00133241 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08394598960876465,unsat,"['Z3', 'Bitwuzla', 'CVC4', 'MathSAT', 'YICES', 'BOOLECTOR']",[0.08394598960876465]
+./data/QF_ABV/egt-7069.smt2,"[0.02394162 0.02567496 0.00133568 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13370704650878906,sat,"['Z3', 'BOOLECTOR', 'MathSAT', 'CVC4', 'YICES', 'Bitwuzla']",[0.13370704650878906]
+./data/QF_ABV/egt-3760.smt2,"[0.02618063 0.03423123 0.00133896 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.051271915435791016,unsat,"['Z3', 'YICES', 'CVC4', 'Bitwuzla', 'MathSAT', 'BOOLECTOR']",[0.051271915435791016]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_yes.get_quoting_style.il.flanagansaxe.smt2,"[0.00109353 0.08614538 0.07112647 0.         0.         0.
+ 0.         0.         0.         0.         0.06867703]",Z3,0.09008288383483887,sat,"['Z3', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES']",[0.09008288383483887]
+./data/QF_ABV/egt-7666.smt2,"[0.00657712 0.00878603 0.00134529 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08225607872009277,sat,"['Z3', 'CVC4', 'MathSAT', 'YICES', 'Bitwuzla', 'BOOLECTOR']",[0.08225607872009277]
+./data/QF_ABV/try3_noof_functions_dwp_factor.get_quoting_style.il.dwp.smt2,"[0.00109886 0.03598163 0.02966633 0.         0.         0.
+ 0.         0.         0.         0.         0.02706208]",Z3,0.06126594543457031,sat,"['Z3', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'MathSAT']",[0.06126594543457031]
+./data/QF_ABV/egt-3579.smt2,"[0.0165223  0.02194301 0.00135175 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08343195915222168,unsat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'YICES', 'CVC4']",[0.08343195915222168]
+./data/QF_ABV/egt-4518.smt2,"[0.01876987 0.02452312 0.00135502 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09092903137207031,unsat,"['Z3', 'MathSAT', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR']",[0.09092903137207031]
+./data/QF_ABV/egt-2348.smt2,"[0.01770777 0.018246   0.0013583  0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05143904685974121,sat,"['Z3', 'YICES', 'MathSAT', 'Bitwuzla', 'CVC4', 'BOOLECTOR']",[0.05143904685974121]
+./data/QF_ABV/try5_small_noof_functions_dwp_od.get_quoting_style.il.dwp.smt2,"[0.00110941 0.03632294 0.02995259 0.         0.         0.
+ 0.         0.         0.         0.         0.02732366]",Z3,0.08249807357788086,sat,"['Z3', 'CVC4', 'MathSAT', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[0.08249807357788086]
+./data/QF_ABV/egt-4158.smt2,"[0.02557625 0.02851533 0.00136476 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13971686363220215,unsat,"['Z3', 'CVC4', 'BOOLECTOR', 'MathSAT', 'YICES', 'Bitwuzla']",[0.13971686363220215]
+./data/QF_ABV/try4_difret_functions_disjunctions_sha224sum.set_quoting_style.il.disjunctions_1.smt2,"[0.00111468 0.03394059 0.00410407 0.         0.         0.
+ 0.         0.         0.         0.         0.00274552]",Z3,0.08523416519165039,sat,"['Z3', 'MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'YICES']",[0.08523416519165039]
+./data/QF_ABV/try5_small_difret_functions_dwp_mv.strmode.il.dwp.smt2,"[1.11735129e-03 1.16322200e+00 1.08053101e+00 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 1.05961778e+00]",Z3,1.7064931392669678,sat,"['Z3', 'CVC4', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'YICES']",[1.7064931392669678]
+./data/QF_ABV/matrixmultcomm07.smt2,"[0.00112002 0.60361064 0.00548406 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,5.754172086715698,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'YICES']",[5.754172086715698]
+./data/QF_ABV/egt-3287.smt2,"[0.01571713 0.01919491 0.00137428 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08604812622070312,unsat,"['Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'YICES']",[0.08604812622070312]
+./data/QF_ABV/egt-5411.smt2,"[0.0168792  0.02206141 0.00137755 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.03789401054382324,sat,"['Z3', 'MathSAT', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'CVC4']",[0.03789401054382324]
+./data/QF_ABV/egt-7644.smt2,"[0.02143002 0.02211266 0.00138082 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09604716300964355,sat,"['Z3', 'YICES', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'CVC4']",[0.09604716300964355]
+./data/QF_ABV/try5_small_true_functions_dwp_pathchk.component_len.il.dwp.smt2,"[0.00113057 0.09662788 0.0968641  0.         0.         0.
+ 0.         0.         0.         0.         0.09442956]",Z3,0.08284783363342285,sat,"['Z3', 'Bitwuzla', 'CVC4', 'MathSAT', 'BOOLECTOR', 'YICES']",[0.08284783363342285]
+./data/QF_ABV/egt-2787.smt2,"[0.01586474 0.01420512 0.00138704 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.058175086975097656,sat,"['Z3', 'CVC4', 'YICES', 'BOOLECTOR', 'MathSAT', 'Bitwuzla']",[0.058175086975097656]
+./data/QF_ABV/egt-4044.smt2,"[0.00795093 0.008543   0.00139031 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05697894096374512,unsat,"['Z3', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES']",[0.05697894096374512]
+./data/QF_ABV/swapmem020ue.smt2,"[0.00113852 0.26865993 0.00418069 0.         0.         0.
+ 0.         0.         0.         0.         0.00279702]",Z3,60.0,error,"['Z3', 'MathSAT', 'BOOLECTOR', 'CVC4', 'YICES', 'Bitwuzla']",[60.0]
+./data/QF_ABV/try5_small_difret_functions_dwp_stty.baud_to_value.il.dwp.smt2,"[0.00114119 0.19174441 0.16197144 0.         0.         0.
+ 0.         0.         0.         0.         0.15834381]",Z3,60.0,error,"['Z3', 'MathSAT', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[60.0]
+./data/QF_ABV/egt-6575.smt2,"[0.04460585 0.04530911 0.00139957 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.3336830139160156,unsat,"['Z3', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'YICES', 'CVC4']",[0.3336830139160156]
+./data/QF_ABV/try4_true_functions_dwp_shuf.set_char_quoting.il.dwp.smt2,"[0.00114641 0.07333003 0.07013058 0.         0.         0.
+ 0.         0.         0.         0.         0.06615809]",Z3,0.08222103118896484,sat,"['Z3', 'CVC4', 'Bitwuzla', 'MathSAT', 'YICES', 'BOOLECTOR']",[0.08222103118896484]
+./data/QF_ABV/egt-0418.smt2,"[0.01149051 0.01464738 0.00140588 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.03522992134094238,unsat,"['Z3', 'CVC4', 'Bitwuzla', 'MathSAT', 'YICES', 'BOOLECTOR']",[0.03522992134094238]
+./data/QF_ABV/egt-5456.smt2,"[0.01151692 0.01468094 0.00140914 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0341038703918457,unsat,"['Z3', 'BOOLECTOR', 'YICES', 'CVC4', 'MathSAT', 'Bitwuzla']",[0.0341038703918457]
+./data/QF_ABV/egt-1853.smt2,"[0.02539452 0.0262752  0.00141241 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13493990898132324,sat,"['Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'CVC4']",[0.13493990898132324]
+./data/QF_ABV/egt-0013.smt2,"[0.00578476 0.00684726 0.00141567 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08287596702575684,unsat,"['Z3', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'YICES', 'CVC4']",[0.08287596702575684]
+./data/QF_ABV/try3_noof_functions_dwp_tee.set_char_quoting.il.dwp.smt2,"[0.00115962 0.39716638 0.2113192  0.         0.         0.
+ 0.         0.         0.         0.         0.20496271]",Z3,0.23340511322021484,sat,"['Z3', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR', 'MathSAT']",[0.23340511322021484]
+./data/QF_ABV/try5_small_difret_functions_dwp_base64.set_quoting_style.il.dwp.smt2,"[0.00116229 0.10306441 0.07248531 0.         0.         0.
+ 0.         0.         0.         0.         0.06704136]",Z3,0.284088134765625,sat,"['Z3', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'MathSAT', 'YICES']",[0.284088134765625]
+./data/QF_ABV/egt-2892.smt2,"[0.02562767 0.02489685 0.00142454 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13837885856628418,sat,"['Z3', 'BOOLECTOR', 'YICES', 'CVC4', 'Bitwuzla', 'MathSAT']",[0.13837885856628418]
+./data/QF_ABV/try3_sameret_functions_fse-bfs_su.set_quoting_style.il.fse-bfs.smt2,"[0.00116756 0.04751353 0.00428339 0.         0.         0.
+ 0.         0.         0.         0.         0.00286592]",Z3,0.08352017402648926,sat,"['Z3', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'CVC4', 'YICES']",[0.08352017402648926]
+./data/QF_ABV/try3_sameret_functions_dwp_cut.hash_get_n_entries.il.dwp.smt2,"[0.00117023 0.03192321 0.02146491 0.         0.         0.
+ 0.         0.         0.         0.         0.01867032]",Z3,0.05091595649719238,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'MathSAT', 'YICES', 'Bitwuzla']",[0.05091595649719238]
+./data/QF_ABV/egt-0487.smt2,"[0.02462958 0.0274616  0.00143426 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08779597282409668,unsat,"['Z3', 'BOOLECTOR', 'YICES', 'CVC4', 'MathSAT', 'Bitwuzla']",[0.08779597282409668]
+./data/QF_ABV/egt-2233.smt2,"[0.01410565 0.01736892 0.00143752 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05225777626037598,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'MathSAT', 'YICES', 'Bitwuzla']",[0.05225777626037598]
+./data/QF_ABV/egt-1138.smt2,"[0.00589063 0.00642762 0.00144078 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05047297477722168,unsat,"['Z3', 'Bitwuzla', 'YICES', 'CVC4', 'MathSAT', 'BOOLECTOR']",[0.05047297477722168]
+./data/QF_ABV/run_00000.trace.cond_021552_0x7c80abe9_00.smt2,"[0.02951799 0.34492505 0.04042965 0.         0.         0.
+ 0.         0.         0.         0.         0.03912748]",Z3,0.19131994247436523,unsat,"['Z3', 'MathSAT', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR']",[0.19131994247436523]
+./data/QF_ABV/a259test0006.smt2,"[0.00591688 0.00430111 0.00289435 0.         0.         0.
+ 0.         0.         0.         0.         0.00145244]",Z3,0.09093809127807617,sat,"['Z3', 'MathSAT', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'CVC4']",[0.09093809127807617]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_df.get_quoting_style.il.flanagansaxe.smt2,"[0.00118604 0.05791913 0.0522097  0.         0.         0.
+ 0.         0.         0.         0.         0.04948892]",Z3,0.0821998119354248,sat,"['Z3', 'Bitwuzla', 'YICES', 'CVC4', 'MathSAT', 'BOOLECTOR']",[0.0821998119354248]
+./data/QF_ABV/egt-1354.smt2,"[0.00475481 0.00593988 0.00145353 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08369803428649902,sat,"['Z3', 'BOOLECTOR', 'YICES', 'MathSAT', 'CVC4', 'Bitwuzla']",[0.08369803428649902]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_join.bkm_scale.il.flanagansaxe.smt2,"[0.00119137 0.18582556 0.15727864 0.         0.         0.
+ 0.         0.         0.         0.         0.14908567]",Z3,0.1331648826599121,sat,"['Z3', 'YICES', 'MathSAT', 'CVC4', 'BOOLECTOR', 'Bitwuzla']",[0.1331648826599121]
+./data/QF_ABV/try5_small_difret_functions_dwp_seq.set_char_quoting.il.dwp.smt2,"[0.00119404 0.43549592 0.23486391 0.         0.         0.
+ 0.         0.         0.         0.         0.22694443]",Z3,0.33404111862182617,sat,"['Z3', 'Bitwuzla', 'CVC4', 'MathSAT', 'YICES', 'BOOLECTOR']",[0.33404111862182617]
+./data/QF_ABV/try5_small_noof_functions_wp_vdir.rev_strcmp_atime.il.wp.smt2,"[0.00119671 0.07083377 0.0087721  0.         0.         0.
+ 0.         0.         0.         0.         0.00733705]",Z3,0.33496999740600586,sat,"['Z3', 'YICES', 'BOOLECTOR', 'MathSAT', 'CVC4', 'Bitwuzla']",[0.33496999740600586]
+./data/QF_ABV/egt-0660.smt2,"[0.01079413 0.0146875  0.00146528 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08363914489746094,sat,"['Z3', 'MathSAT', 'Bitwuzla', 'YICES', 'CVC4', 'BOOLECTOR']",[0.08363914489746094]
+./data/QF_ABV/egt-3161.smt2,"[0.01923149 0.02180666 0.00146853 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08187603950500488,sat,"['Z3', 'CVC4', 'YICES', 'Bitwuzla', 'BOOLECTOR', 'MathSAT']",[0.08187603950500488]
+./data/QF_ABV/try5_small_difret_functions_wp_nl.initbuffer.il.wp.smt2,"[0.00120464 0.03359974 0.00441535 0.         0.         0.
+ 0.         0.         0.         0.         0.00295445]",Z3,0.08210897445678711,sat,"['Z3', 'CVC4', 'MathSAT', 'YICES', 'BOOLECTOR', 'Bitwuzla']",[0.08210897445678711]
+./data/QF_ABV/egt-3009.smt2,"[0.02414485 0.0262808  0.00147504 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0837409496307373,unsat,"['Z3', 'YICES', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'CVC4']",[0.0837409496307373]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_hostname.set_char_quoting.il.flanagansaxe.smt2,"[0.00120991 0.44759379 0.26593871 0.         0.         0.
+ 0.         0.         0.         0.         0.25951217]",Z3,0.1325972080230713,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'MathSAT']",[0.1325972080230713]
+./data/QF_ABV/egt-6154.smt2,"[0.01818799 0.01703064 0.00148069 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05011916160583496,sat,"['Z3', 'YICES', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'MathSAT']",[0.05011916160583496]
+./data/QF_ABV/egt-7621.smt2,"[0.01944242 0.02147182 0.00148395 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.07891011238098145,sat,"['Z3', 'CVC4', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'YICES']",[0.07891011238098145]
+./data/QF_ABV/egt-5860.smt2,"[0.01704887 0.01986284 0.00148721 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.035858869552612305,unsat,"['Z3', 'Bitwuzla', 'YICES', 'CVC4', 'MathSAT', 'BOOLECTOR']",[0.035858869552612305]
+./data/QF_ABV/try3_sameret_functions_dwp_mv.free_entry.il.dwp.smt2,"[0.00122044 0.06413383 0.0432195  0.         0.         0.
+ 0.         0.         0.         0.         0.03590168]",Z3,0.13396191596984863,sat,"['Z3', 'MathSAT', 'YICES', 'CVC4', 'BOOLECTOR', 'Bitwuzla']",[0.13396191596984863]
+./data/QF_ABV/try5_small_difret_functions_dwp_pr.set_char_quoting.il.dwp.smt2,"[0.00122311 0.44505359 0.24034159 0.         0.         0.
+ 0.         0.         0.         0.         0.23225456]",Z3,0.33380985260009766,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'MathSAT', 'YICES']",[0.33380985260009766]
+./data/QF_ABV/a235test0003.smt2,"[0.00245155 0.00776648 0.00149606 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05117487907409668,sat,"['Z3', 'MathSAT', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR']",[0.05117487907409668]
+./data/QF_ABV/try3_sameret_functions_dwp_fmt.same_para.il.dwp.smt2,"[0.00122844 0.14533684 0.11991424 0.         0.         0.
+ 0.         0.         0.         0.         0.11735692]",Z3,0.1417379379272461,sat,"['Z3', 'Bitwuzla', 'CVC4', 'YICES', 'MathSAT', 'BOOLECTOR']",[0.1417379379272461]
+./data/QF_ABV/egt-0260.smt2,"[0.03200671 0.03536613 0.00300435 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.040287017822265625,unsat,"['Z3', 'CVC4', 'BOOLECTOR', 'Bitwuzla', 'YICES', 'MathSAT']",[0.040287017822265625]
+./data/QF_ABV/try3_sameret_functions_dwp_mv.hash_string.il.dwp.smt2,"[0.00123369 0.14423803 0.12943116 0.         0.         0.
+ 0.         0.         0.         0.         0.12387841]",Z3,0.0837240219116211,sat,"['Z3', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4']",[0.0837240219116211]
+./data/QF_ABV/try3_sameret_functions_dwp_printenv.get_quoting_style.il.dwp.smt2,"[0.00123636 0.07156507 0.0557993  0.         0.         0.
+ 0.         0.         0.         0.         0.05298332]",Z3,0.05171990394592285,sat,"['Z3', 'MathSAT', 'CVC4', 'Bitwuzla', 'YICES', 'BOOLECTOR']",[0.05171990394592285]
+./data/QF_ABV/b6test0005.smt2,"[0.00123903 0.00308168 0.00151134 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05214285850524902,sat,"['Z3', 'YICES', 'BOOLECTOR', 'MathSAT', 'CVC4', 'Bitwuzla']",[0.05214285850524902]
+./data/QF_ABV/try5_small_true_functions_wp_vdir.initialize_ordering_vector.il.wp.smt2,"[0.0012417  0.02470528 0.00605832 0.         0.         0.
+ 0.         0.         0.         0.         0.004561  ]",Z3,0.08377385139465332,sat,"['Z3', 'YICES', 'MathSAT', 'CVC4', 'BOOLECTOR', 'Bitwuzla']",[0.08377385139465332]
+./data/QF_ABV/egt-3687.smt2,"[0.0223975  0.02841417 0.00151783 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08122897148132324,sat,"['Z3', 'BOOLECTOR', 'Bitwuzla', 'MathSAT', 'CVC4', 'YICES']",[0.08122897148132324]
+./data/QF_ABV/egt-2453.smt2,"[0.01870389 0.01888869 0.00152108 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0524599552154541,unsat,"['Z3', 'BOOLECTOR', 'MathSAT', 'YICES', 'Bitwuzla', 'CVC4']",[0.0524599552154541]
+./data/QF_ABV/try4_difret_functions_disjunctions_printf.close_stdout_set_file_name.il.disjunctions_0.smt2,"[0.00124959 0.03051065 0.00457298 0.         0.         0.
+ 0.         0.         0.         0.         0.00306026]",Z3,0.09046101570129395,sat,"['Z3', 'MathSAT', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4']",[0.09046101570129395]
+./data/QF_ABV/egt-7087.smt2,"[0.03380866 0.03368763 0.00152758 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09018492698669434,unsat,"['Z3', 'BOOLECTOR', 'MathSAT', 'CVC4', 'Bitwuzla', 'YICES']",[0.09018492698669434]
+./data/QF_ABV/egt-6145.smt2,"[0.01882188 0.0175883  0.00153083 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05077815055847168,sat,"['Z3', 'BOOLECTOR', 'YICES', 'Bitwuzla', 'MathSAT', 'CVC4']",[0.05077815055847168]
+./data/QF_ABV/egt-1959.smt2,"[0.00880207 0.01307679 0.00153408 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05932211875915527,unsat,"['Z3', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4']",[0.05932211875915527]
+./data/QF_ABV/egt-1372.smt2,"[0.00882059 0.01054038 0.00153733 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08228516578674316,sat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'MathSAT', 'CVC4']",[0.08228516578674316]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_chgrp.chopt_free.il.flanagansaxe.smt2,"[0.00126275 0.04652846 0.03543094 0.         0.         0.
+ 0.         0.         0.         0.         0.03247384]",Z3,0.05143284797668457,sat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'MathSAT', 'CVC4']",[0.05143284797668457]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_setuidgid.set_char_quoting.il.flanagansaxe.smt2,"[0.00126542 0.49549936 0.29621143 0.         0.         0.
+ 0.         0.         0.         0.         0.28805834]",Z3,0.18423891067504883,sat,"['Z3', 'BOOLECTOR', 'YICES', 'MathSAT', 'CVC4', 'Bitwuzla']",[0.18423891067504883]
+./data/QF_ABV/egt-4166.smt2,"[0.03423588 0.03521942 0.00154602 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13291096687316895,sat,"['Z3', 'CVC4', 'BOOLECTOR', 'MathSAT', 'YICES', 'Bitwuzla']",[0.13291096687316895]
+./data/QF_ABV/egt-7313.smt2,"[0.033035   0.03242196 0.00154927 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.051460981369018555,unsat,"['Z3', 'YICES', 'BOOLECTOR', 'MathSAT', 'CVC4', 'Bitwuzla']",[0.051460981369018555]
+./data/QF_ABV/try5_small_difret_functions_dwp_uniq.initbuffer.il.dwp.smt2,"[0.00127324 0.06583363 0.04501889 0.         0.         0.
+ 0.         0.         0.         0.         0.03740113]",Z3,0.08453702926635742,sat,"['Z3', 'YICES', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'MathSAT']",[0.08453702926635742]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_nice.bkm_scale.il.flanagansaxe.smt2,"[0.00127591 0.21423976 0.19748339 0.         0.         0.
+ 0.         0.         0.         0.         0.19200549]",Z3,0.1296839714050293,sat,"['Z3', 'MathSAT', 'Bitwuzla', 'YICES', 'BOOLECTOR', 'CVC4']",[0.1296839714050293]
+./data/QF_ABV/try5_small_difret_functions_flanagansaxe_cut.hash_reset_tuning.il.flanagansaxe.smt2,"[0.00127857 0.15577123 0.10282179 0.         0.         0.
+ 0.         0.         0.         0.         0.09227509]",Z3,0.13202595710754395,sat,"['Z3', 'CVC4', 'MathSAT', 'BOOLECTOR', 'YICES', 'Bitwuzla']",[0.13202595710754395]
+./data/QF_ABV/try4_difret_functions_disjunctions_tr.set_quoting_style.il.disjunctions_1.smt2,"[0.00128124 0.03844289 0.00468343 0.         0.         0.
+ 0.         0.         0.         0.         0.00313448]",Z3,0.05272698402404785,sat,"['Z3', 'YICES', 'MathSAT', 'CVC4', 'BOOLECTOR', 'Bitwuzla']",[0.05272698402404785]
+./data/QF_ABV/egt-7407.smt2,"[0.02310926 0.03012135 0.00156439 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0833280086517334,sat,"['Z3', 'MathSAT', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'YICES']",[0.0833280086517334]
+./data/QF_ABV/ft-out-2006-03-01--18_31_59-test0005.smt2,"[0.67832498 0.67702613 0.00313527 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13404297828674316,sat,"['Z3', 'MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'YICES']",[0.13404297828674316]
+./data/QF_ABV/egt-4834.smt2,"[0.03475654 0.0400752  0.00157088 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08356904983520508,sat,"['Z3', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'CVC4', 'YICES']",[0.08356904983520508]
+./data/QF_ABV/run_00007.trace.cond_014534_0x95026e6_00.smt2,"[0.00257987 0.20565048 0.02675877 0.         0.         0.
+ 0.         0.         0.         0.         0.02528348]",Z3,0.18887710571289062,sat,"['Z3', 'MathSAT', 'YICES', 'CVC4', 'Bitwuzla', 'BOOLECTOR']",[0.18887710571289062]
+./data/QF_ABV/try5_small_difret_functions_dwp_shred.set_quoting_style.il.dwp.smt2,"[0.0012926  0.11365002 0.08042882 0.         0.         0.
+ 0.         0.         0.         0.         0.07441224]",Z3,0.39655613899230957,sat,"['Z3', 'CVC4', 'Bitwuzla', 'BOOLECTOR', 'MathSAT', 'YICES']",[0.39655613899230957]
+./data/QF_ABV/egt-7017.smt2,"[0.01554267 0.01693606 0.00158028 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05209803581237793,sat,"['Z3', 'BOOLECTOR', 'MathSAT', 'CVC4', 'Bitwuzla', 'YICES']",[0.05209803581237793]
+./data/QF_ABV/egt-2092.smt2,"[0.0402312  0.03949804 0.00158353 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05046510696411133,unsat,"['Z3', 'MathSAT', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'CVC4']",[0.05046510696411133]
+./data/QF_ABV/try5_small_noof_functions_flanagansaxe_expr.find_subexp_node.il.flanagansaxe.smt2,"[0.00130044 0.39810502 0.34250399 0.         0.         0.
+ 0.         0.         0.         0.         0.33271678]",Z3,0.1335310935974121,sat,"['Z3', 'YICES', 'BOOLECTOR', 'MathSAT', 'CVC4', 'Bitwuzla']",[0.1335310935974121]
+./data/QF_ABV/egt-3366.smt2,"[0.02215181 0.02641717 0.00158891 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.14385700225830078,sat,"['Z3', 'Bitwuzla', 'MathSAT', 'YICES', 'CVC4', 'BOOLECTOR']",[0.14385700225830078]
+./data/QF_ABV/egt-3808.smt2,"[0.01697368 0.02205833 0.00159215 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.09036087989807129,sat,"['Z3', 'YICES', 'BOOLECTOR', 'MathSAT', 'CVC4', 'Bitwuzla']",[0.09036087989807129]
+./data/QF_ABV/try5_small_noof_functions_dwp_tail.set_char_quoting.il.dwp.smt2,"[0.00130833 0.44343444 0.23760019 0.         0.         0.
+ 0.         0.         0.         0.         0.23054124]",Z3,0.18259286880493164,sat,"['Z3', 'BOOLECTOR', 'CVC4', 'Bitwuzla', 'MathSAT', 'YICES']",[0.18259286880493164]
+./data/QF_ABV/try3_sameret_functions_fse-bfs_split.close_stdout_set_file_name.il.fse-bfs.smt2,"[0.00131099 0.03156778 0.00479359 0.         0.         0.
+ 0.         0.         0.         0.         0.00320846]",Z3,0.08286619186401367,sat,"['Z3', 'YICES', 'Bitwuzla', 'CVC4', 'BOOLECTOR', 'MathSAT']",[0.08286619186401367]
+./data/QF_ABV/egt-3539.smt2,"[0.0275852  0.03635926 0.00160111 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.05178093910217285,sat,"['Z3', 'YICES', 'Bitwuzla', 'CVC4', 'MathSAT', 'BOOLECTOR']",[0.05178093910217285]
+./data/QF_ABV/egt-5682.smt2,"[0.0131621  0.01362498 0.00160435 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08238101005554199,sat,"['Z3', 'MathSAT', 'BOOLECTOR', 'YICES', 'CVC4', 'Bitwuzla']",[0.08238101005554199]
+./data/QF_ABV/try5_small_difret_functions_dwp_tac.calc_next.il.dwp.smt2,"[0.00131887 0.36508493 0.28277543 0.         0.         0.
+ 0.         0.         0.         0.         0.2677812 ]",Z3,25.912867069244385,sat,"['Z3', 'YICES', 'MathSAT', 'BOOLECTOR', 'CVC4', 'Bitwuzla']",[25.912867069244385]
+./data/QF_ABV/egt-7430.smt2,"[0.01982224 0.02555574 0.00160992 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.0833442211151123,sat,"['Z3', 'MathSAT', 'BOOLECTOR', 'Bitwuzla', 'CVC4', 'YICES']",[0.0833442211151123]
+./data/QF_ABV/egt-2130.smt2,"[0.04236909 0.03989648 0.00161316 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.13257718086242676,unsat,"['Z3', 'MathSAT', 'Bitwuzla', 'CVC4', 'YICES', 'BOOLECTOR']",[0.13257718086242676]
+./data/QF_ABV/try5_small_difret_functions_dwp_unlink.quoting_options_from_style.il.dwp.smt2,"[0.00132669 0.26865393 0.18581728 0.         0.         0.
+ 0.         0.         0.         0.         0.16386062]",Z3,0.08212900161743164,unsat,"['Z3', 'Bitwuzla', 'BOOLECTOR', 'YICES', 'MathSAT', 'CVC4']",[0.08212900161743164]
+./data/QF_ABV/egt-6962.smt2,"[0.02525653 0.02987539 0.00161904 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08289408683776855,sat,"['Z3', 'YICES', 'Bitwuzla', 'MathSAT', 'BOOLECTOR', 'CVC4']",[0.08289408683776855]
+./data/QF_ABV/egt-0949.smt2,"[0.01598295 0.02095381 0.00162228 0.         0.         0.
+ 0.         0.         0.         0.         0.        ]",Z3,0.08400607109069824,unsat,"['Z3', 'BOOLECTOR', 'YICES', 'MathSAT', 'CVC4', 'Bitwuzla']",[0.08400607109069824]

@@ -7,6 +7,7 @@ class ExponentialDist:
         self.count = 0
         self.total = 0
         self.confidence = conf
+        self.naughtylist = False
         self.T = T
 
     def add_sample(self, sample):
@@ -17,7 +18,14 @@ class ExponentialDist:
     def add_timeout(self):
         self.add_sample(1/self.lamb + self.get_cutoff())
 
+    def add_error(self):
+        # punish for giving an error
+        # self.naughtylist = True
+        pass
+
     def get_cutoff(self):
+        # if self.naughtylist:
+        #     return 0
         return log(1 - self.confidence + np.exp(-1 * self.lamb * self.T)) / (-1 * self.lamb)
 
 class ThompsonDist(object):
@@ -35,10 +43,15 @@ class ThompsonDist(object):
     def estimated_probas(self):
         return [self._as[i] / (self._as[i] + self._bs[i]) for i in range(self.n)]
 
-    def get_choice(self):
-        samples = [np.random.beta(self._as[x], self._bs[x]) for x in range(self.n)]
-        i = max(range(self.n), key=lambda x: samples[x])
-        return i
+    def get_choice(self, kind="full"):
+        if kind == "full":
+            samples = [np.random.beta(self._as[x], self._bs[x]) for x in range(self.n)]
+            i = sorted(range(self.n), key=lambda x: samples[x], reverse=True)
+            return i
+        else:
+            samples = [self._as[x] / (self._as[x] + self._bs[x]) for x in range(self.n)]
+            i = sorted(range(self.n), key=lambda x: samples[x], reverse=True)
+            return i
 
     def get_ordering(self):
         samples = [np.random.beta(self._as[x], self._bs[x]) for x in range(self.n)]
