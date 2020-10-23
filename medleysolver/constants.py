@@ -1,13 +1,12 @@
 from collections import OrderedDict, namedtuple
 
 SOLVERS = OrderedDict({
-    "Z3"   : "z3",
+    "Z3"   : "~/tools/z3/bin/z3",
     "CVC4" : "~/tools/cvc4",
-    "BOOLECTOR" : "~/tools/boolector/boolector/bin/boolector",
-    "YICES": "~/bin/yices-smt2",
+    "BOOLECTOR" : "~/tools/boolector/build/bin/boolector",
+    "YICES": "~/tools/yices/bin/yices-smt2",
     "MathSAT": "~/tools/mathsat/bin/mathsat",
-#    "Vampire": "~/tools/vampire --input_syntax smtlib2 ",
-    "Bitwuzla": "~/tools/Bitwuzla/bin/bitwuzla",
+    "Bitwuzla": "~/tools/bitwuzla/bin/bitwuzla",
 })
 
 SAT_RESULT     = 'sat'

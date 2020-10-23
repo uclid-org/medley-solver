@@ -14,8 +14,9 @@ setup(
     packages     = find_packages(),
     install_requires = [
         'numpy',
-        'z3',
+        'z3-solver',
         'tqdm',
-        'dill'
+        'dill',
+        'sklearn',
     ],
 )
