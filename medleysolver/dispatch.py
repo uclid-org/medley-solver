@@ -10,7 +10,7 @@ def run_problem(solver, invocation, problem, timeout):
     try:
         with open(directory+"/"+solver+".csv") as csvfile:
             results = list(csv.reader(csvfile))
-            results = list(filter(lambda s: s[0] == problem, results))
+            results = list(filter(lambda s: s[0].endswith(problem), results))
             assert(len(results) == 1)
             output = results[0][4]
             output = output2result(problem, output)
