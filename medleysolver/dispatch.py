@@ -6,7 +6,7 @@ import csv
 def run_problem(solver, invocation, problem, timeout):
     instance = problem.split("/")[-1]
     directory = problem[:-len(instance)]
-
+    problem = os.path.basename(problem)
     try:
         with open(directory+"/"+solver+".csv") as csvfile:
             results = list(csv.reader(csvfile))
