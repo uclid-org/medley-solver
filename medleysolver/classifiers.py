@@ -164,6 +164,48 @@ class Thompson(ClassifierInterface):
         if is_solved(solved_prob.result):
             self.solved.append(solved_prob)
 
+class EpsilonGreedy(ClassifierInterface):
+    def __init__(self, time_k, epsilon):
+        self.epsilon=epsilon
+        self.counts=[0 for _ in SOLVERS]
+        self.values=[0.0 for _ in SOLVERS]
+        self.totals=[0.0 for _ in SOLVERS]
+        self.initialized=False
+        super(EpsilonGreedy, self).__init__(time_k)
+
+    def initialize(self):
+        # nothing to do here
+        return
+
+    def get_ordering(self, point, count, problem):
+        order = list(SOLVERS.keys())
+        explore = np.random.binomial(1, self.epsilon)       
+        if explore==1 and sum(self.values)>0:
+            # return list of solvers sorted by self.values
+            value_order = sorted(list(range(len(SOLVERS))), key=lambda x: self.values[x], reverse=True)  
+            order = [list(SOLVERS.keys())[int(choice)] for choice in value_order]
+            return order
+        else:
+            # shuffle to explore
+            np.random.shuffle(order)
+            return order
+
+    def update(self, solved_prob, rewards):
+        for i,r in enumerate(rewards):
+            if r > 0:
+                self.totals[i] += r
+                self.counts[i] += 1
+                self.values[i] = self.totals[i]/self.counts[i]
+            elif r == 0:
+                self.counts[i] += 1
+                self.values[i] = self.totals[i]/self.counts[i]
+            else:
+                pass          
+        if is_solved(solved_prob.result):
+            self.solved.append(solved_prob)
+      
+
+
 class LinearBandit(ClassifierInterface):
     def __init__(self, time_k, alpha=2.358):
         self.initialized = False
