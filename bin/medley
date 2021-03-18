@@ -159,10 +159,14 @@ def main():
     global_parser.add_argument(
         "--feature_setting",
         "-f",
-        help="choose how queries are featurized",
-        type=str,
-        choices=["bow", "probes", "both"], 
-        default="both"
+        help="file with features",
+        type=str
+    )
+
+    global_parser.add_argument(
+        "--features2use",
+        help="list of indices to use",
+        type=str
     )
 
     global_parser.add_argument(
@@ -231,7 +235,7 @@ def main():
         with open(args.load_classifier, "rb") as f:
             classifier = dill.load(f)
     
-    execute(problems, args.output, classifier, timeout_manager, args.timeout, args.feature_setting, args.extra, args.reward)
+    execute(problems, args.output, classifier, timeout_manager, args.timeout, args.feature_setting, args.extra, args.reward, args.features2use)
 
     if args.save_classifier:
         classifier.save(args.save_classifier)

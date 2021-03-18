@@ -6,13 +6,13 @@ from medleysolver.constants import SOLVERS, Result, Solved_Problem, SAT_RESULT, 
 from medleysolver.distributions import ExponentialDist
 from medleysolver.dispatch import run_problem
 
-def execute(problems, output, classifier, time_manager, timeout, feature_setting, extra_time_to_first, reward):
+def execute(problems, output, classifier, time_manager, timeout, feature_file, extra_time_to_first, reward, features2use):
     mean = 0
     writer = csv.writer(open(output, 'w'))
 
     for c, prob in tqdm.tqdm(enumerate(problems, 1)): 
         # start = time.time()
-        point = np.array(get_features(prob, feature_setting))
+        point = np.array(get_features(prob, feature_file, features2use))
         #normalizing point
         mean = (c - 1) / c * mean + 1 / c * point
         point = point / (mean+1e-9)
