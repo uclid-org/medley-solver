@@ -10,7 +10,9 @@ def run_problem(solver, invocation, problem, timeout):
     try:
         with open(directory+"/"+solver+".csv") as csvfile:
             results = list(csv.reader(csvfile))
-            results = list(filter(lambda s: s[0].endswith(problem), results))
+            results = list(filter(lambda s: os.path.basename(s[0]) == os.path.basename(problem), results))
+            if len(results) > 1:
+                results = results[:1]
             assert(len(results) == 1)
             output = results[0][4]
             output = output2result(problem, output)
@@ -26,6 +28,7 @@ def run_problem(solver, invocation, problem, timeout):
             elapsed  = elapsed
         )
     except:
+        print("File not found!!!", problem, directory, solver, directory+"/"+solver+".csv")
         result = Result(
             problem  = problem.split("/", 2)[-1],
             result   = ERROR_RESULT,

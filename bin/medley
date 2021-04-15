@@ -52,7 +52,7 @@ def main():
         help="select mechanism for choosing orderings of solvers",
         type=str,
         default="neighbor",
-        choices=["neighbor", "random", "MLP", "thompson", "linear", "preset", "exp3", "knearest", "perfect"]
+        choices=["neighbor", "random", "MLP", "thompson", "linear", "preset", "exp3", "knearest", "perfect", "greedy"]
     )
 
     global_parser.add_argument(
@@ -228,6 +228,8 @@ def main():
         classifier = KNearest(args.k, args.epsilon, args.epsilon_decay, args.time_k)
     elif args.classifier == "perfect":
         classifier = PerfectSelector(args.time_k)
+    elif args.classifier == "greedy":
+        classifier = EpsilonGreedy(args.time_k, args.epsilon)
     else:
         raise RuntimeError("classifier not properly set")
     

@@ -52,14 +52,23 @@ def get_syntactic_count_features(file_path):
 
 cache = {}
 def get_features(file_path, feature_setting, features2use, logic="",track=""):
-    if not "curr" in cache:
-        cache["curr"] = list(csv.reader(open(feature_setting, 'r')))
-    all_points = cache["curr"]
-    lookup = [f for f in all_points if os.path.basename(file_path) == os.path.basename(f[0])]
-    if len(lookup) != 1:
-        raise Exception("Error in finding features for", file_path)
-    row = lookup[0]
-    features = [float(row[i+1]) for i in json.loads(features2use)]
+    if feature_setting == "bow":
+        features = get_syntactic_count_features(file_path)
+    elif feature_setting == "probes":
+        g = z3.Goal()
+        g.add(z3.parse_smt2_file(file_path))
+        features = [z3.Probe(x)(g) for x in PROBES]
+    else:
+        if not "curr" in cache:
+            cache["curr"] = list(csv.reader(open(feature_setting, 'r')))
+        all_points = cache["curr"]
+        lookup = [f for f in all_points if os.path.basename(file_path) == os.path.basename(f[0])]
+        if len(lookup) < 1:
+            raise Exception("Error in finding features for", file_path, lookup)
+        row = lookup[-1]
+        features = [float(row[i+1]) if row[i+1] != 'nan' else 0 for i in range(len(row) - 1)]
+        if features2use:
+            features = [features[i] for i in json.loads(features2use)]
     return features
 
 def get_check_sat(file_path):

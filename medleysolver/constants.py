@@ -6,7 +6,8 @@ SOLVERS = OrderedDict({
     "BOOLECTOR" : "~/tools/boolector/build/bin/boolector",
     "YICES": "~/tools/yices/bin/yices-smt2",
     "MathSAT": "~/tools/mathsat/bin/mathsat",
-    "Bitwuzla": "~/tools/bitwuzla/bin/bitwuzla",
+    "Bitwuzla": "",
+
 })
 
 SAT_RESULT     = 'sat'

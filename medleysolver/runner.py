@@ -64,8 +64,8 @@ def apply_ordering(problem, order, timeout, time_manager, extra_time_to_first, t
             reward = 1 + ((1 - res.elapsed / timeout) ** 4) if is_solved(res.result) else 0
         elif reward == "exp":
             reward = (1 - res.elapsed / timeout) ** 4 if is_solved(res.result) else 0
-
-        rewards[list(SOLVERS.keys()).index(solver)] = reward
+        if i == 0 or reward > 0:
+            rewards[list(SOLVERS.keys()).index(solver)] = reward
         time_spent.append(res.elapsed)
 
         elapsed += res.elapsed
